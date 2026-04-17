@@ -1,0 +1,42 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Typography: IBM Plex for an engineered, clean look */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+body {
+  background-color: #18181b; /* Deep obsidian grey, not flat dead black */
+  color: #e4e4e7; /* Soft off-white to prevent eye strain */
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* Crisp white to establish visual hierarchy */
+}
+
+/* The Orange Accents */
+a {
+  color: #ff7518; /* Sharp, deliberate orange that cuts through the grey */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #ff9b52;
+  text-decoration: underline;
+}
+
+/* Minimalist Code Blocks */
+code, pre {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #27272a; /* Slightly elevated grey to distinguish from the background */
+  color: #ff7518; 
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+pre code {
+  color: #e4e4e7; /* Keeps multi-line code blocks readable, reserving orange for inline */
+  padding: 0;
+}
