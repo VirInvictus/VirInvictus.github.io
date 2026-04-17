@@ -18,7 +18,7 @@ My work focuses on building high-performance, native tools for collectors and po
 *   **[Hermitage](https://github.com/VirInvictus/Hermitage)** – A visually immersive, local-first media sanctuary for Calibre. Built with GTK 4 and Libadwaita, it transforms book browsing into a cinematic gallery experience with high-performance thumbnailing and dynamic color quantization.
 *   **[Lattice](https://github.com/VirInvictus/Lattice)** – A comprehensive toolkit for music collectors. It provides ASCII library visualization, parallel integrity verification for various audio formats, and robust metadata auditing via a unified CLI/TUI interface.
 *   **[Framework](https://github.com/VirInvictus/Framework)** – A native GNOME document viewer engineered for speed. Utilizing MuPDF and DjVuLibre, it offers a "SumatraPDF-like" high-velocity experience for PDF and DjVu files with a modern libadwaita UI.
-*   **[deadbeef-cui](https://github.com/VirInvictus/deadbeef-cui)** – A C++ GTK plugin for the DeaDBeeF music player, bringing faceted browsing and multi-pane filtering to the Linux desktop, inspired by foobar2000’s Columns UI.
+*   **[deadbeef-cui](https://github.com/VirInvictus/deadbeef-cui)** – A C GTK plugin for the DeaDBeeF music player, bringing faceted browsing and multi-pane filtering to the Linux desktop, inspired by foobar2000’s Columns UI.
 
 This space is a collection of my thoughts, code, and the various projects I’m currently cultivating. Thanks for stopping by.
 
