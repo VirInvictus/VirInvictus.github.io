@@ -21,3 +21,13 @@ My work focuses on building high-performance, native tools for collectors and po
 *   **[deadbeef-cui](https://github.com/VirInvictus/deadbeef-cui)** – A C++ GTK plugin for the DeaDBeeF music player, bringing faceted browsing and multi-pane filtering to the Linux desktop, inspired by foobar2000’s Columns UI.
 
 This space is a collection of my thoughts, code, and the various projects I’m currently cultivating. Thanks for stopping by.
+
+### Recent Blog Posts
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> 
+      <span style="color: #a1a1aa; font-size: 0.9em; margin-left: 10px;">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </li>
+  {% endfor %}
+</ul>
