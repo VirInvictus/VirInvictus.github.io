@@ -1,15 +1,15 @@
 # A Second Cup
 
-Welcome to my digital garden. I am a Computer Science student currently pursuing my Bachelor’s degree, driven by a deep-seated obsession with curation, organization, and the elegant systems that power our world.
+This is where I'll post observations and thoughts about programming as I pure my Bachelor's degree in computer science. I obsess over curation and organization wih a passion and have a ntural interest in well-built systems, in general.
 
 ### Who I Am
-My approach to coding is shaped by a commitment to clarity and precision. I believe that software should be as well-structured as a well-loved library. Whether I’m architecting a system or refining a codebase, I strive for an equilibrium between professional rigor and humble curiosity.
+I'm a sous-chef turned programmer after embracing a life-long obsession with the craft. Software should matter. Good software should be maintained and cared. I am a thirty-something Canadian who spent my life working in restaurants and mining camps while reading Kernighan's C Programming Language in my bedroom at night.
 
 ### Beyond the Terminal
 When I’m not writing code, you’ll likely find me immersed in other forms of world-building:
-*   **Reading:** I have a profound love for fantasy novels—I'm drawn to stories that explore complex systems and expansive lore.
-*   **Collecting:** I am an avid collector of TTRPGs, valuing the intricate mechanics and collaborative storytelling they offer.
-*   **Music & Literature:** These aren't just hobbies; they are obsessions that fuel my creativity and provide a constant rhythm to my work.
+*   **Reading:** I try to read about 10-20 books per year. My primary obsessions are grimdark fantasy, cyberpunk, and anything horror! Follow me on GoodReads or BookWyrm for my reviews.
+*   **Collecting:** I am an avid collector of TTRPGs, obsessing over their well-built systems, beautiful art, and the concepts kept behind their front pages.
+*   **Music & Literature:** Music has been one of the most important things in my life since I was a teenager. My favourite genres are hip hop, post-hardcore, and mid-'00s-mid '10s emo.
 
 ### Projects
 My work focuses on building high-performance, native tools for collectors and power users.
@@ -19,6 +19,7 @@ My work focuses on building high-performance, native tools for collectors and po
 *   **[Lattice](https://github.com/VirInvictus/Lattice)** – A comprehensive toolkit for music collectors. It provides ASCII library visualization, parallel integrity verification for various audio formats, and robust metadata auditing via a unified CLI/TUI interface.
 *   **[Framework](https://github.com/VirInvictus/Framework)** – A native GNOME document viewer engineered for speed. Utilizing MuPDF and DjVuLibre, it offers a "SumatraPDF-like" high-velocity experience for PDF and DjVu files with a modern libadwaita UI.
 *   **[deadbeef-cui](https://github.com/VirInvictus/deadbeef-cui)** – A C GTK plugin for the DeaDBeeF music player, bringing faceted browsing and multi-pane filtering to the Linux desktop, inspired by foobar2000’s Columns UI.
+*   **Viaduct** (still under intense development) - A rust-based port of the NetNewsWire RSS reader for MacOS. Built for Gnome/GTK.
 
 This space is a collection of my thoughts, code, and the various projects I’m currently cultivating. Thanks for stopping by.
 
