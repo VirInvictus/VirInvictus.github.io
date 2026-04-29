@@ -47,8 +47,8 @@ When I'm not writing code, you'll likely find me immersed in other forms of worl
 - **Reading:** I try to read 10–20 books a year. My primary obsessions are grimdark fantasy, cyberpunk, and anything horror. Authors I return to: **Joe Abercrombie, Brandon Sanderson, Morgan Housel, Terry Pratchett**. Follow me on GoodReads or BookWyrm for reviews.
 - **Collecting:** I'm an avid collector of TTRPGs — obsessing over their well-built systems, beautiful art, and the concepts kept behind their front pages.
 - **Music:** Has been one of the most important things in my life since I was a teenager. Favourite genres: hip-hop, post-hardcore, and mid-'00s-to-mid-'10s emo. On rotation: **Brand New, 50 Cent, Ka, Ólafur Arnalds, Self Defense Family**.
-- **Food:** Chefs I've followed (and one place I sat down at): **David Chang**, the crew at **Joe Beef** (ate there myself — a high point), **Danny Bowien** (Mission Chinese), **Daniel Patterson** (Coi).
-- **Games that took the most hours:** Dark Souls 3, RimWorld, Hollow Knight, Dwarf Fortress.
+- **Food:** Chefs I've followed (and one place I sat down at): **David Chang**, **David McMillan** & **Frédéric Morin** at **Joe Beef** (ate there myself — a high point), **Danny Bowien** (Mission Chinese), **Daniel Patterson** (Coi).
+- **Games that still own my soul:** Dark Souls 3, RimWorld, Hollow Knight, Dwarf Fortress.
 
 This space is a collection of my thoughts, code, and the various projects I'm currently cultivating. Thanks for stopping by.
 
