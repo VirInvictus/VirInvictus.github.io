@@ -30,9 +30,9 @@ A toolkit for music collectors who keep the filesystem as the source of truth. L
 
 #### [Framework](https://github.com/VirInvictus/Framework) — *C, Meson, GTK4, MuPDF*
 
-A native GNOME document viewer for PDF and DjVu. Designed to fill the gap between feature-heavy clients (Okular) and bare MuPDF wrappers — a SumatraPDF-shaped experience for Linux. Two-tier cache separates parsed page objects from rendered Cairo surfaces, parallel rendering across MuPDF instances, and a *velocity engine* that throttles render jobs by scroll speed so fast-scrolling never queues stale work. HiDPI-aware on Wayland. Strictly a viewer — no annotations, no library, no conversion.
+A native GNOME document viewer for PDF and DjVu. Designed to fill the gap between feature-heavy clients (Okular) and bare MuPDF wrappers — a SumatraPDF-shaped experience for Linux. Three-tier cache (persistent thumbnails, parsed page handles, rendered Cairo surfaces) with parallel rendering across MuPDF instances and a *velocity engine* that throttles render jobs by scroll speed so fast-scrolling never queues stale work. HiDPI-aware on Wayland. Strictly a viewer — no annotations, no library, no conversion.
 
-#### [deadbeef-cui](https://github.com/VirInvictus/deadbeef-cui) — *C/C++, GTK3*
+#### [deadbeef-cui](https://github.com/VirInvictus/deadbeef-cui) — *C, GTK3*
 
 A faceted-browser plugin for the [DeaDBeeF](https://deadbeef.sourceforge.io/) music player, bringing foobar2000-style Columns UI / Facets to Linux. 1–5 dynamic filter columns with hierarchical narrowing, full DeaDBeeF title-formatting support, multi-select aggregation, and an in-pane search bar. Targets a dedicated "Library Viewer" playlist so it never touches the user's curated playlists. Built natively against `DB_mediasource_t`. Considered effectively complete.
 
