@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<p class="terminal__cmd"><span class="prompt-user">bdkl@fedora</span><span class="prompt-sep">:</span><span class="prompt-path">~/_posts</span><span class="prompt-dollar">$</span> cat {{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md</p>
+<header class="post__header">
+  <h1>{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+</header>
+{{ content }}
+
+<p class="post__back"><a href="{{ '/' | relative_url }}">cd ..</a></p>
