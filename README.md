@@ -2,6 +2,7 @@
 layout: default
 title: A Second Cup
 description: Brandon LaRocque — sous-chef turned programmer. Notes and projects on building native Linux desktop software.
+permalink: /
 ---
 
 Last login: {{ site.time | date: "%a %b %e %H:%M:%S %Y" }} on tty1
