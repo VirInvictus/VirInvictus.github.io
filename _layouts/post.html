@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-<p class="terminal__cmd"><span class="prompt-user">bdkl@fedora</span><span class="prompt-sep">:</span><span class="prompt-path">~/_posts</span><span class="prompt-dollar">$</span> cat {{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md</p>
-<header class="post__header">
-  <h1>{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-</header>
-{{ content }}
-
-<p class="post__back"><a href="{{ '/' | relative_url }}">cd ..</a></p>
+<article class="post">
+  <header class="post__header">
+    <p class="post__chapter">From the marginalia</p>
+    <h1>{{ page.title }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time>
+  </header>
+  {{ content }}
+  <p class="post__back"><a href="{{ '/' | relative_url }}">← Return to the codex</a></p>
+</article>
