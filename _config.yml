@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Vir Invictus
-description: Brandon LaRocque — sous-chef turned programmer. A working notebook on native Linux software, libraries, and the long obsession of building things by hand.
+description: Brandon LaRocque. Programmer, curator, former chef. Native Linux desktop work in Rust and C, local-first by default.
 
 # Internal docs — not pages
 exclude:

@@ -15,7 +15,7 @@ The minimal theme is still set in `_config.yml` as a fallback, but **all layouts
 - `_config.yml` — `theme: jekyll-theme-minimal`, `title: Vir Invictus`, site description. The title threads through the `<title>` tag and the colophon footer.
 - `README.md` — the landing page. Front matter `layout: default`. Structured as:
   1. **Masthead** (`<header class="masthead">`) — framed `VIR · INVICTVS` lockup with `Ex libris Brandon LaRocque` beneath.
-  2. **Sigils strip** (`<p class="sigils">`) — six identity tokens: *curator · shadow librarian · coder · gamer · father · former chef* — bracketed by `❦` ornaments.
+  2. **Sigils strip** (`<p class="sigils">`) — three identity tokens: *programmer · curator · former chef* — bracketed by `❦` ornaments. Tight on purpose; the page is positioned for technical readers / employers, so the strip reads as a clean role-statement rather than a personality list.
   3. **§ I. On the Author** — long-form personal prose, opens with a `.dropcap` paragraph.
   4. **§ II. The Collection** — numbered codex entries, one per project. Each entry uses `<div class="codex-entry">` with a left-column `codex-num` (`No. 001`) and a `codex-body` containing `### Title`, `<p class="codex-meta">` (stack + status), prose, and a `codex-link` paragraph.
   5. **§ III. Marginalia** — interests as a `<dl class="marginalia">` definition list.
