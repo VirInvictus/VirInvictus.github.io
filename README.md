@@ -44,11 +44,13 @@ Eight native Linux desktop projects. Local-first by default; the throughline is 
   <span class="codex-num">No. 001</span>
   <div class="codex-body" markdown="1">
 ### Atrium
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.6.7</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.6.17</span></p>
 
 The native GNOME task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, all in a fast GTK4 surface that does not require Emacs to operate. **Simple Mode** for *what am I doing right now*: six canonical lists, no defer dates, Things 3 calm. **Builder Mode** for the days the system has to do the work: Forecast, Review, Perspectives, repeating tasks, sequential projects, an always-visible Inspector pane. Same data, two surfaces, no migration. Flipping modes is a UI re-render; the schema is the OmniFocus superset on day one.
 
-Local-first SQLite at `$XDG_DATA_HOME/atrium/atrium.db`. Single-writer worker thread, WAL mode, read-only connection pool. FTS5-backed search using a hand-written **Calibre-style expression grammar**: `tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match. Four crates in the Rust workspace: `atrium-core`, `atrium-search`, `atrium-cli`, and the `atrium` binary. Every non-GUI surface stays headless and testable. 375 tests, a regression gate that runs fmt + clippy + tests + a 1K-fixture smoke + a cold-start sanity check. **Phase 16, the Things 3 importer, is what comes next.**
+Local-first SQLite at `$XDG_DATA_HOME/atrium/atrium.db`. Single-writer worker thread, WAL mode, read-only connection pool. FTS5-backed search using a hand-written **Calibre-style expression grammar**: `tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match. Four crates in the Rust workspace: `atrium-core`, `atrium-search`, `atrium-cli`, and the `atrium` binary. Every non-GUI surface stays headless and testable. The regression gate runs fmt + clippy + tests + a 1K-fixture smoke + a cold-start sanity check on every push.
+
+The v0.6.x line has been a polish series on top of the dual-mode foundation: a kanban Perspective renderer with drag-drop column reorganisation, an Agenda canonical page, FTS5 bm25 + recency ranking on bare-text searches, a SQL-translation evaluator that pushes most expressions to SQLite at query time, sidebar reorganisation so Agenda / Forecast / Review join the canonical lists at the top tier, and tap-to-open across every list, kanban, agenda, and forecast row. **Phase 16, the Things 3 importer, is what comes next.**
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Atrium">github.com/VirInvictus/Atrium →</a></p>
   </div>
@@ -58,11 +60,15 @@ Local-first SQLite at `$XDG_DATA_HOME/atrium/atrium.db`. Single-writer worker th
   <span class="codex-num">No. 002</span>
   <div class="codex-body" markdown="1">
 ### Viaduct
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> <span class="status">active</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v2.7.0</span></p>
 
 A Linux port of Brent Simmons' [NetNewsWire](https://netnewswire.com/) RSS reader. A Cargo workspace split between a headless `viaduct-core` (database, network, parser, models) and a `viaduct` GTK binary, making the architectural boundary a *compile error* rather than a code-review rule. Idles at **100–300 MB** versus ~600 MB for the closest Linux competitor on the same OPML, with a hard **500 MB** ceiling enforced by an in-tree `mem_check` harness.
 
-Single-writer SQLite worker on tokio. OPML on disk as the source of truth, byte-for-byte compatible with NetNewsWire. FTS5 full-text search. Exactly one neutered WebKit instance for the article pane: JS, WebGL, WebRTC, DevTools, and LocalStorage all off; strict CSP; every image routed through a custom `viaduct-img://` URI scheme so the WebView never reaches the public internet directly. Ships all eight NetNewsWire article themes plus an Adwaita variant; the accent color from the selected theme propagates across the GTK chrome.
+Single-writer SQLite worker on tokio. OPML on disk as the source of truth, byte-for-byte compatible with NetNewsWire. FTS5 full-text search. Three databases (articles, feed-settings, sync), all in WAL mode. Local + Inoreader accounts; Inoreader sync is a port of NetNewsWire's ReaderAPI engine. NetNewsWire-faithful parsing of RSS 2.0, RDF, Atom, JSON Feed, and RSS-in-JSON, with the permissive `RSDateParser` ported across.
+
+Exactly one neutered WebKit instance for the article pane: JS, WebGL, WebRTC, DevTools, and LocalStorage all off; strict CSP; every image routed through a custom `viaduct-img://` URI scheme so the WebView never reaches the public internet directly. Ships all eight NetNewsWire article themes plus an Adwaita variant; the accent colour from the selected theme propagates across the GTK chrome (sidebar selection, focus rings, switches), beating GNOME's system-accent integration.
+
+The v2.x line has built up the surface around the port: **Custom Smart Feeds** (rule-driven persistent saved searches, the first viaduct-original feature), an **Activity Log** dialog backed by a 500-entry refresh-event ring buffer, a **Send to** menu for the article pane (Email Link, Pocket, Instapaper, Copy URL with Title), a **first-launch welcome dialog** with a curated suggested-feed list, OPML import/export, Reader View, and adaptive `AdwBreakpoint` layout that collapses the three-pane split at 900sp / 600sp into mobile-style stacks. The v2.0 architectural plan (modular widget decomposition, dedicated `ArticleRenderer` GObject, expanded reactive properties) was informed by a careful read of [NewsFlash](https://gitlab.com/news-flash/news_flash_gtk), credited in the project's README.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Viaduct">github.com/VirInvictus/Viaduct →</a></p>
   </div>
@@ -72,11 +78,13 @@ Single-writer SQLite worker on tokio. OPML on disk as the source of truth, byte-
   <span class="codex-num">No. 003</span>
   <div class="codex-body" markdown="1">
 ### Hermitage
-<p class="codex-meta">Python 3.14 <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Libadwaita <span class="stack-sep">·</span> <span class="status">active</span></p>
+<p class="codex-meta">Python 3.13+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Libadwaita <span class="stack-sep">·</span> <span class="status">active · v0.15.0</span></p>
 
 A local-first, native gallery for Calibre libraries. Built for the single user who wants a modern desktop experience without Docker containers or a web auth layer. Reads `metadata.db` in `mode=ro` and turns a 4,000+ item library into a cinematic gallery: edge-to-edge cover grid with median-cut colour quantization for per-book accent tinting, a sliding hero-banner detail sidebar (the *Codex*), and a recursive tag-hierarchy genre browser that turns dot-separated Calibre tags (`Fic.Fantasy.Grimdark`) into a navigable tree.
 
 Native support for Calibre's Virtual Libraries, the full Calibre search-query language in the search bar (`Ctrl+F`), and a 512-entry texture LRU plus three-tier colour cache to keep scrolling smooth on integrated graphics. Ships with `hermitage-verify`, a standalone CLI that audits library integrity, cover presence, and format resolution. Zero telemetry, zero network calls, zero accounts.
+
+A Flatpak manifest landed at v0.15.0 against the GNOME 50 platform: 8 MB installable, sandboxed `--filesystem=home`, arbitrary library paths reachable via the GNOME file-chooser portal. Brandon's app icon shipped at v0.14.0: a Fraunces-inspired serif H monogram on a deep aubergine card with a warm candlelight glow.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Hermitage">github.com/VirInvictus/Hermitage →</a></p>
   </div>
@@ -86,11 +94,17 @@ Native support for Calibre's Virtual Libraries, the full Calibre search-query la
   <span class="codex-num">No. 004</span>
   <div class="codex-body" markdown="1">
 ### Lattice
-<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status">active</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status">active · v4.3.4</span></p>
 
-A toolkit for music collectors who keep the filesystem as the source of truth. Library tree visualization with artist / album / track / rating / genre, parallel FLAC / MP3 / Opus / WAV / WMA integrity verification (shells out to `flac -t` and `ffmpeg`), embedded cover-art extraction with format-priority ranking (FLAC → Opus → M4A → MP3), tag and bitrate audits, duplicate detection across formats and directories, smart `.m3u` playlist generation from dynamic rules (e.g. `rating >= 4`), and a token-efficient `--ai-library` export designed to fit a 4,000-album collection inside an LLM context window.
+A toolkit for music collectors who keep the filesystem as the source of truth. Library tree visualization with artist / album / track / rating / genre. Parallel FLAC / MP3 / Opus / WAV / WMA integrity verification, shelling out to `flac -t` and `ffmpeg`. Embedded cover-art extraction with format-priority ranking (FLAC → Opus → M4A → MP3) and an art-quality audit against a configurable resolution floor. Tag, bitrate, and duplicate audits. Smart `.m3u` playlist generation from dynamic rules (`rating >= 4 and genre == 'Jazz'`). Per-genre **wings**: one library file per genre tag, like Calibre virtual libraries for music. A token-efficient `--ai-library` export sized to fit a 4,000-album collection inside an LLM context window. Configurable directory layout (`{genre}/{artist}/{album}` or whatever your library uses), so the tools don't fight you about your shelving.
 
-Ships with `retag.py`, a companion that abstracts away the ID3 / Vorbis / iTunes-atom multi-genre chaos for safe directory-wide retagging. Bare `lattice` launches a full-screen curses TUI with colour-coded section groups.
+The package itself is read-only by design: it reads tags, decodes audio, writes reports. Two destructive companions live alongside it at the repo root, deliberately outside the package boundary so the read-only contract holds.
+
+`retag.py` is the universal genre rewriter. It abstracts the ID3 / Vorbis / iTunes-atom multi-genre chaos and cleanly consumes the absolute paths from `--all-wings --paths` for safe, bulk directory-level retagging.
+
+`cleaner.py` (added 2026-05-04) is the fragmented-album-folder consolidator. When import metadata varies across sources, the same album can land in two sibling folders, with no track overlap, separated only by a curly vs straight apostrophe, an en-dash vs a hyphen, or a casing variant. `cleaner.py` walks the library, finds folders whose names normalize to the same key (curly→straight quotes, dash variants→ASCII hyphen, NFKC, lowercase, strip), picks the larger as canonical, and merges the rest in via `shutil.move`. Filesystem operations only, no audio bytes touched. Audio collisions where sizes differ keep both copies under a `.from-fragment` suffix, never auto-deleted. `--dry-run` previews every move; per-file logging to `<directory>/cleanup.log` is on by default. Idempotent on re-run.
+
+Bare `lattice` launches a full-screen curses TUI with colour-coded section groups (Library, Integrity, Artwork, Metadata, Statistics, Settings).
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Lattice">github.com/VirInvictus/Lattice →</a></p>
   </div>
@@ -100,11 +114,13 @@ Ships with `retag.py`, a companion that abstracts away the ID3 / Vorbis / iTunes
   <span class="codex-num">No. 005</span>
   <div class="codex-body" markdown="1">
 ### Framework
-<p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> <span class="status status--wip">wip</span></p>
+<p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status">active · v0.65.0</span></p>
 
-A native GNOME document viewer for **PDF, DjVu, CBZ, CBR, XPS, EPUB, FB2, and MOBI**. Designed to fill the gap between feature-heavy clients (Okular) and bare MuPDF wrappers; a SumatraPDF-shaped experience for Linux. Three-tier cache (persistent thumbnails, parsed page handles, rendered Cairo surfaces) with bytes-aware eviction, parallel rendering across eight independent MuPDF instances, and a zero-copy MuPDF→Cairo pipeline.
+A native GNOME document viewer for **PDF, DjVu, CBZ, CBR, XPS, EPUB, FB2, and MOBI**. Designed to fill the gap between feature-heavy clients (Okular) and bare MuPDF wrappers; a SumatraPDF-shaped experience for Linux. Three-tier cache (persistent thumbnails, parsed page handles, rendered Cairo surfaces) with bytes-aware eviction (default 512 MB, tunable), parallel rendering across eight independent MuPDF instances, and a zero-copy MuPDF→Cairo pipeline that constructs the MuPDF pixmap *around* the Cairo surface buffer.
 
-A *velocity engine* throttles render-job dispatch by scroll speed so fast-scrolling never queues stale work, and a `g_thread_pool` sort function reorders the queue by `last_view_time` so the viewport always wins. Manga (RTL), Webtoon (zero-gap continuous strip), and facing-pages comic layouts, all live-toggleable. `GFileMonitor` auto-reload: recompile a LaTeX or Typst doc and the viewer refreshes with scroll position preserved. Strictly a viewer: no annotations, no library, no conversion.
+A *velocity engine* throttles render-job dispatch by scroll speed so fast-scrolling never queues stale work; a `g_thread_pool` sort function reorders the queue by `last_view_time` so the viewport always wins; mid-render `fz_cookie` abort lets workers bail in milliseconds. Manga (RTL), Webtoon (zero-gap continuous strip), and facing-pages comic layouts, all live-toggleable, with both aspect-ratio and filename-based double-spread detection for scanlation rips. Async progressive search with cached structured text (332 ms cold → 48 ms warm on a 901-page textbook). Smart text selection: double-click selects a word, triple-click selects a line, drag follows reading order across line wraps. Magnifying loupe (F7) for circular zoom-around-cursor. `GFileMonitor` auto-reload: recompile a LaTeX or Typst doc and the viewer refreshes with scroll position preserved.
+
+The v0.40+ line added a Foliate-style reflow architecture for EPUB / MOBI / FB2 with a `GListModel` of structurally-typed blocks, EPUB OPF spine walker, FB2 walker, MOBI / KF7 / KF8 / AZW3 parser including HuffDic decompression. Process-scoped Linux **Landlock LSM** sandbox at startup drops filesystem `EXECUTE` and `MAKE_*` rights so a malicious document exploiting MuPDF / DjVuLibre / libarchive into RCE cannot escalate to spawning a shell. Strictly a viewer: no annotations, no library, no conversion. Every borrowed pattern (SumatraPDF, zathura-pdf-mupdf, Sioyek, YACReader, Foliate, MComix, Komikku, Plato) is named and attributed in the README with upstream `file:line`.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Framework">github.com/VirInvictus/Framework →</a></p>
   </div>
@@ -114,11 +130,11 @@ A *velocity engine* throttles render-job dispatch by scroll speed so fast-scroll
   <span class="codex-num">No. 006</span>
   <div class="codex-body" markdown="1">
 ### CalibreQuarry
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v2.6.0</span></p>
 
-A CLI toolkit for power users of Calibre. Zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Ships a hand-written recursive-descent parser at **100% parity with Calibre's internal search-expression syntax** (validated by an automated test suite); the same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` CLI mode.
+A CLI toolkit for power users of Calibre. Zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Ships a hand-written recursive-descent parser at **100% parity with Calibre's internal search-expression syntax**, validated by an automated test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` CLI mode (with full author / `vl:` / boolean / parens / `=`-prefix exact-match support).
 
-Catalog generation grouped by author, library statistics, audit reports (untagged, unrated, coverless, series gaps), `--all-wings` to emit a separate catalog for every virtual library, JSON / CSV export. Auto-snapshots the database when Calibre holds a write lock. Installs as `cquarry`. Considered complete software, fully tested on Fedora 43 against Calibre 9.7.
+Catalog generation grouped by author. `--all-wings` emits a separate catalog for every virtual library. Library statistics with format breakdown, rating distribution, tag taxonomy, top authors, top tags. **Extended audit** modes: untagged, unrated, coverless, series-gap, duplicate-title-and-author, low-resolution covers (parses on-disk JPEGs without external libraries), legacy-format migration flags. **Extended analytics** modes: `author` (per-author breakdowns), `pace` (added-per-month trend), `tags` (hierarchical taxonomy tree), `overlap` (virtual library wing overlap). `--tags` is a flat alphabetized tag dump with book counts, dropping in for `calibredb list_categories -r tags`. JSON / CSV / AI exports. Custom-column extraction. Auto-snapshots the database when Calibre holds a write lock. Installs as `cquarry`. Considered complete software, fully tested on Fedora 43 against Calibre 9.7.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/CalibreQuarry">github.com/VirInvictus/CalibreQuarry →</a></p>
   </div>
@@ -128,9 +144,11 @@ Catalog generation grouped by author, library statistics, audit reports (untagge
   <span class="codex-num">No. 007</span>
   <div class="codex-body" markdown="1">
 ### deadbeef-cui
-<p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.2.3</span></p>
+<p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.3.0</span></p>
 
-A faceted-browser plugin for the [DeaDBeeF](https://deadbeef.sourceforge.io/) music player, bringing foobar2000-style Columns UI / Facets to Linux. 1–5 dynamic filter columns with hierarchical narrowing, full DeaDBeeF title-formatting support, multi-select aggregation across genres and artists via Ctrl/Shift-click, and an in-pane search bar (`Ctrl+Shift+F`). Targets a dedicated "Library Viewer" playlist so it never touches the user's curated playlists. Built natively against `DB_mediasource_t`. Effectively complete; fixes only.
+A faceted-browser plugin for the [DeaDBeeF](https://deadbeef.sourceforge.io/) music player, bringing foobar2000-style Columns UI / Facets to Linux. 1–5 dynamic filter columns with hierarchical narrowing, full DeaDBeeF title-formatting support, multi-select aggregation across genres and artists via Ctrl/Shift-click, an in-pane search bar (`Ctrl+Shift+F`), and a settings dialog with per-instance configuration (column titles, formats, split tags) so multiple Facet Browsers can coexist in one layout with different settings.
+
+The v1.3.0 release wired in the standard DeaDBeeF track context menu: right-clicking any facet row exposes Play Next / Play Later / Properties / Convert / Reload metadata and any other plugin-contributed track actions, alongside the facet-specific items. Tracks can be dragged out of facet rows onto playlist tabs, using the same `DDB_PLAYITEM_POINTERLIST` payload format the GTKUI medialib widget uses. A new "Send to new playlist `<row name>`" item names the destination playlist after the right-clicked tag. Targets a dedicated "Library Viewer" playlist so the plugin never touches the user's curated playlists. Built natively against `DB_mediasource_t`. Effectively complete; fixes only from here.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/deadbeef-cui">github.com/VirInvictus/deadbeef-cui →</a></p>
   </div>
@@ -189,3 +207,14 @@ A working notebook. Notes, post-mortems, and the occasional manifesto.
   </li>
 {% endfor %}
 </ul>
+
+<p class="ornament ornament--fleuron">❦</p>
+
+## V. Support
+{: #support}
+
+If any of this is useful to you and you'd like to chip in:
+
+```
+bc1qkge6zr45tzqfwfmvma2ylumt6mg7wlwmhr05yv
+```
