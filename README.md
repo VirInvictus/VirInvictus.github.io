@@ -191,13 +191,13 @@ Off-screen taste. Most of the projects above trace back to one collection or ano
 
 <dl class="marginalia">
   <dt>Reading</dt>
-  <dd>10–20 books a year. Grimdark fantasy, cyberpunk, horror. Authors I return to: <strong>Joe Abercrombie</strong>, <strong>Brandon Sanderson</strong>, <strong>Morgan Housel</strong>, <strong>Terry Pratchett</strong>.</dd>
+  <dd>10–20 books a year. Grimdark fantasy, cyberpunk, horror. Authors I return to: <strong>Joe Abercrombie</strong>, <strong>Brandon Sanderson</strong>, <strong>Morgan Housel</strong>, <strong>Terry Pratchett</strong>. Shelf at <a href="https://www.goodreads.com/user/show/125925803-brandon-larocque">Goodreads</a>.</dd>
 
   <dt>Collecting</dt>
   <dd>TTRPGs. The Calibre library runs deep here: OSR (Old School Essentials, Carcosa, Mothership), Forged in the Dark (Blades in the Dark and its extended family), World of Darkness, Shadowrun, the classic AD&D and Dark Sun lines. Drawn less to the play and more to the engineering — games that keep real ideas behind their front pages.</dd>
 
   <dt>Music</dt>
-  <dd>Hip-hop, emo, orgcore. The collection runs into four figures across 86 genre wings: abstract rap (<strong>Aesop Rock</strong>, <strong>Armand Hammer</strong>, <strong>Earl Sweatshirt</strong>), hardcore hip-hop (the Griselda family, <strong>Ka</strong>, <strong>Billy Woods</strong>), emo and post-hardcore (<strong>Brand New</strong>, <strong>The Menzingers</strong>, <strong>Self Defense Family</strong>, <strong>Drug Church</strong>), orgcore (<strong>Jeff Rosenstock</strong>, <strong>Propagandhi</strong>, <strong>Jawbreaker</strong>). Neoclassical at the edges where the math works the same way: <strong>Ólafur Arnalds</strong>, <strong>Nils Frahm</strong>, <strong>Ryuichi Sakamoto</strong>.</dd>
+  <dd>Hip-hop, emo, orgcore. The collection runs into four figures across 86 genre wings: abstract rap (<strong>Aesop Rock</strong>, <strong>Armand Hammer</strong>, <strong>Earl Sweatshirt</strong>), hardcore hip-hop (the Griselda family, <strong>Ka</strong>, <strong>Billy Woods</strong>), emo and post-hardcore (<strong>Brand New</strong>, <strong>The Menzingers</strong>, <strong>Self Defense Family</strong>, <strong>Drug Church</strong>), orgcore (<strong>Jeff Rosenstock</strong>, <strong>Propagandhi</strong>, <strong>Jawbreaker</strong>). Neoclassical at the edges where the math works the same way: <strong>Ólafur Arnalds</strong>, <strong>Nils Frahm</strong>, <strong>Ryuichi Sakamoto</strong>. Scrobbles at <a href="https://www.last.fm/user/bdkl__">Last.fm</a>.</dd>
 
   <dt>Food</dt>
   <dd>Chefs I follow (and one place I sat down at): <strong>David Chang</strong>; <strong>David McMillan & Frédéric Morin</strong> at <strong>Joe Beef</strong> (ate there myself, a high point); <strong>Danny Bowien</strong> (Mission Chinese); <strong>Daniel Patterson</strong> (Coi).</dd>
@@ -227,7 +227,7 @@ A working notebook. Notes, post-mortems, and the occasional manifesto.
 ## V. Support
 {: #support}
 
-The projects live at [github.com/VirInvictus](https://github.com/VirInvictus). Professional profile at [linkedin.com/in/bdkl](https://www.linkedin.com/in/bdkl/).
+The projects live at [github.com/VirInvictus](https://github.com/VirInvictus). On Mastodon at [@Bdkl@mastodon.social](https://mastodon.social/@Bdkl). Professional profile at [linkedin.com/in/bdkl](https://www.linkedin.com/in/bdkl/).
 
 If any of this is useful to you and you'd like to chip in:
 
