@@ -38,19 +38,19 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Eight native Linux desktop projects. Local-first by default; the throughline is curation. Atrium is the largest and most active piece; the rest sort by current state.
+Nine projects. Native Linux desktop software and one Emacs theme. Local-first by default; the throughline is curation. Atrium is the largest and most active piece; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
   <div class="codex-body" markdown="1">
 ### Atrium
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.6.17</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.21.0</span></p>
 
-The native GNOME task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, all in a fast GTK4 surface that does not require Emacs to operate. **Simple Mode** for *what am I doing right now*: six canonical lists, no defer dates, Things 3 calm. **Builder Mode** for the days the system has to do the work: Forecast, Review, Perspectives, repeating tasks, sequential projects, an always-visible Inspector pane. Same data, two surfaces, no migration. Flipping modes is a UI re-render; the schema is the OmniFocus superset on day one.
+The native GNOME task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, all in a fast GTK4 surface that does not require Emacs to operate. **Simple Mode** for *what am I doing right now*: six canonical lists, no defer dates, Things 3 calm. **Builder Mode** for the days the system has to do the work: Forecast, Agenda, Kanban, Calendar Month View, Review, Perspectives, repeating tasks, sequential projects, an always-visible Inspector pane. Same data, two surfaces, no migration. Flipping modes is a UI re-render; the schema is the OmniFocus superset on day one.
 
-Local-first SQLite at `$XDG_DATA_HOME/atrium/atrium.db`. Single-writer worker thread, WAL mode, read-only connection pool. FTS5-backed search using a hand-written **Calibre-style expression grammar**: `tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match. Four crates in the Rust workspace: `atrium-core`, `atrium-search`, `atrium-cli`, and the `atrium` binary. Every non-GUI surface stays headless and testable. The regression gate runs fmt + clippy + tests + a 1K-fixture smoke + a cold-start sanity check on every push.
+Local-first SQLite at `$XDG_DATA_HOME/atrium/atrium.db`. Single-writer worker thread, WAL mode, read-only connection pool. FTS5-backed search using a hand-written **Calibre-style expression grammar**: `tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match. Five crates in the Rust workspace: `atrium-core`, `atrium-search`, `atrium-cli`, `atrium-inline`, and the `atrium` binary. `atrium-inline` is the extracted inline-syntax engine — `#tag`, `@today`, `@deadline`, `!priority` with tab-completion — decoupled from the UI so the parser is tested headlessly. 888 tests across the workspace, 13 migrations, a 1K-fixture smoke and cold-start sanity check on every push.
 
-The v0.6.x line has been a polish series on top of the dual-mode foundation: a kanban Perspective renderer with drag-drop column reorganisation, an Agenda canonical page, FTS5 bm25 + recency ranking on bare-text searches, a SQL-translation evaluator that pushes most expressions to SQLite at query time, sidebar reorganisation so Agenda / Forecast / Review join the canonical lists at the top tier, and tap-to-open across every list, kanban, agenda, and forecast row. **Phase 16, the Things 3 importer, is what comes next.**
+The current shipping surface covers CLOCK time-tracking that round-trips to Org `:LOGBOOK:` drawers; Quick Entry templates with org-capture-style `:LETTER ` activation; custom TODO keyword sequences that round-trip through `#+TODO:` declarations; DEADLINE warning windows; statistics cookies for checkbox groups; a Todoist CSV importer built on stdlib parsers; system-notification reminders; and an in-app preferences dialog. A Flatpak manifest ships alongside the native build.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Atrium">github.com/VirInvictus/Atrium →</a></p>
   </div>
@@ -68,7 +68,7 @@ Single-writer SQLite worker on tokio. OPML on disk as the source of truth, byte-
 
 Exactly one neutered WebKit instance for the article pane: JS, WebGL, WebRTC, DevTools, and LocalStorage all off; strict CSP; every image routed through a custom `viaduct-img://` URI scheme so the WebView never reaches the public internet directly. Ships all eight NetNewsWire article themes plus an Adwaita variant; the accent colour from the selected theme propagates across the GTK chrome (sidebar selection, focus rings, switches), beating GNOME's system-accent integration.
 
-The v2.x line has built up the surface around the port: **Custom Smart Feeds** (rule-driven persistent saved searches, the first viaduct-original feature), an **Activity Log** dialog backed by a 500-entry refresh-event ring buffer, a **Send to** menu for the article pane (Email Link, Pocket, Instapaper, Copy URL with Title), a **first-launch welcome dialog** with a curated suggested-feed list, OPML import/export, Reader View, and adaptive `AdwBreakpoint` layout that collapses the three-pane split at 900sp / 600sp into mobile-style stacks. The v2.0 architectural plan (modular widget decomposition, dedicated `ArticleRenderer` GObject, expanded reactive properties) was informed by a careful read of [NewsFlash](https://gitlab.com/news-flash/news_flash_gtk), credited in the project's README.
+The v2.x line has built up the surface around the port: **Custom Smart Feeds** (rule-driven persistent saved searches, the first viaduct-original feature), an **Activity Log** dialog backed by a 500-entry refresh-event ring buffer, a **Send to** menu for the article pane (Email Link, Pocket, Instapaper, Copy URL with Title), a **first-launch welcome dialog** with a curated suggested-feed list, OPML import/export, Reader View, and adaptive `AdwBreakpoint` layout that collapses the three-pane split at 900sp / 600sp into mobile-style stacks. The v2.0 architectural plan (modular widget decomposition, dedicated `ArticleRenderer` GObject, expanded reactive properties) was informed by a careful read of [NewsFlash](https://gitlab.com/news-flash/news_flash_gtk), credited in the project's README. A background-daemon mode runs Viaduct as an XDG autostart agent and re-summons the window from a system tray icon via D-Bus, without a fresh startup sequence. A Flatpak manifest ships alongside the native build.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Viaduct">github.com/VirInvictus/Viaduct →</a></p>
   </div>
@@ -78,7 +78,7 @@ The v2.x line has built up the surface around the port: **Custom Smart Feeds** (
   <span class="codex-num">No. 003</span>
   <div class="codex-body" markdown="1">
 ### Hermitage
-<p class="codex-meta">Python 3.13+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Libadwaita <span class="stack-sep">·</span> <span class="status">active · v0.15.0</span></p>
+<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Libadwaita <span class="stack-sep">·</span> <span class="status">active · v0.15.0</span></p>
 
 A local-first, native gallery for Calibre libraries. Built for the single user who wants a modern desktop experience without Docker containers or a web auth layer. Reads `metadata.db` in `mode=ro` and turns a 4,000+ item library into a cinematic gallery: edge-to-edge cover grid with median-cut colour quantization for per-book accent tinting, a sliding hero-banner detail sidebar (the *Codex*), and a recursive tag-hierarchy genre browser that turns dot-separated Calibre tags (`Fic.Fantasy.Grimdark`) into a navigable tree.
 
@@ -114,13 +114,13 @@ Bare `lattice` launches a full-screen curses TUI with colour-coded section group
   <span class="codex-num">No. 005</span>
   <div class="codex-body" markdown="1">
 ### Framework
-<p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status">active · v0.65.0</span></p>
+<p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status">active · v0.21.0</span></p>
 
 A native GNOME document viewer for **PDF, DjVu, CBZ, CBR, XPS, EPUB, FB2, and MOBI**. Designed to fill the gap between feature-heavy clients (Okular) and bare MuPDF wrappers; a SumatraPDF-shaped experience for Linux. Three-tier cache (persistent thumbnails, parsed page handles, rendered Cairo surfaces) with bytes-aware eviction (default 512 MB, tunable), parallel rendering across eight independent MuPDF instances, and a zero-copy MuPDF→Cairo pipeline that constructs the MuPDF pixmap *around* the Cairo surface buffer.
 
 A *velocity engine* throttles render-job dispatch by scroll speed so fast-scrolling never queues stale work; a `g_thread_pool` sort function reorders the queue by `last_view_time` so the viewport always wins; mid-render `fz_cookie` abort lets workers bail in milliseconds. Manga (RTL), Webtoon (zero-gap continuous strip), and facing-pages comic layouts, all live-toggleable, with both aspect-ratio and filename-based double-spread detection for scanlation rips. Async progressive search with cached structured text (332 ms cold → 48 ms warm on a 901-page textbook). Smart text selection: double-click selects a word, triple-click selects a line, drag follows reading order across line wraps. Magnifying loupe (F7) for circular zoom-around-cursor. `GFileMonitor` auto-reload: recompile a LaTeX or Typst doc and the viewer refreshes with scroll position preserved.
 
-The v0.40+ line added a Foliate-style reflow architecture for EPUB / MOBI / FB2 with a `GListModel` of structurally-typed blocks, EPUB OPF spine walker, FB2 walker, MOBI / KF7 / KF8 / AZW3 parser including HuffDic decompression. Process-scoped Linux **Landlock LSM** sandbox at startup drops filesystem `EXECUTE` and `MAKE_*` rights so a malicious document exploiting MuPDF / DjVuLibre / libarchive into RCE cannot escalate to spawning a shell. Strictly a viewer: no annotations, no library, no conversion. Every borrowed pattern (SumatraPDF, zathura-pdf-mupdf, Sioyek, YACReader, Foliate, MComix, Komikku, Plato) is named and attributed in the README with upstream `file:line`.
+The v0.40+ line added a Foliate-style reflow architecture for EPUB / MOBI / FB2 with a `GListModel` of structurally-typed blocks, EPUB OPF spine walker, FB2 walker, MOBI / KF7 / KF8 / AZW3 parser including HuffDic decompression. Process-scoped Linux **Landlock LSM** sandbox at startup drops filesystem `EXECUTE` and `MAKE_*` rights so a malicious document exploiting MuPDF / DjVuLibre / libarchive into RCE cannot escalate to spawning a shell. Strictly a viewer: no annotations, no library, no conversion. Every borrowed pattern (SumatraPDF, zathura-pdf-mupdf, Sioyek, YACReader, Foliate, MComix, Komikku, Plato) is named and attributed in the README with upstream `file:line`. A Flatpak manifest ships alongside the native build.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Framework">github.com/VirInvictus/Framework →</a></p>
   </div>
@@ -168,6 +168,20 @@ Lethal *Cairn*-derived combat math: attacks hit automatically, HP is low, damage
   </div>
 </div>
 
+<div class="codex-entry">
+  <span class="codex-num">No. 009</span>
+  <div class="codex-body" markdown="1">
+### kanagawa-dragon-nvim-emacs
+<p class="codex-meta">Emacs Lisp <span class="stack-sep">·</span> <span class="status status--wip">wip · v0.1.x</span></p>
+
+A faithful Emacs port of the Dragon variant from [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim). Not a repackaging of the existing `kanagawa-themes` package — the existing package has the palette right but covers too few faces to hold up in practice. This one maps the full set: every Emacs 29+ tree-sitter `font-lock-*` face, all Doom-specific surfaces (`doom-modeline-*`, `solaire-mode`, `doom-dashboard-*`), org-mode faces, magit, company, corfu, and the rest of the usual zoo. Implemented as a vanilla `deftheme` with no `doom-themes` macro dependency, so it works in stock Emacs and in Doom alike.
+
+An ERT test suite checks palette byte-for-byte parity against the upstream nvim theme and validates representative face attributes. The acceptance criterion is visual: `sample.java` in Doom at `treesit-font-lock-level 4` should match the same file in nvim with `:colorscheme kanagawa-dragon`.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/kanagawa-dragon-nvim-emacs">github.com/VirInvictus/kanagawa-dragon-nvim-emacs →</a></p>
+  </div>
+</div>
+
 <p class="ornament ornament--asterism">⁂</p>
 
 ## III. Marginalia
@@ -180,10 +194,10 @@ Off-screen taste. Most of the projects above trace back to one collection or ano
   <dd>10–20 books a year. Grimdark fantasy, cyberpunk, horror. Authors I return to: <strong>Joe Abercrombie</strong>, <strong>Brandon Sanderson</strong>, <strong>Morgan Housel</strong>, <strong>Terry Pratchett</strong>.</dd>
 
   <dt>Collecting</dt>
-  <dd>TTRPGs, mostly. Obsessing over their well-built systems, beautiful art, and the concepts kept behind their front pages.</dd>
+  <dd>TTRPGs. The Calibre library runs deep here: OSR (Old School Essentials, Carcosa, Mothership), Forged in the Dark (Blades in the Dark and its extended family), World of Darkness, Shadowrun, the classic AD&D and Dark Sun lines. Drawn less to the play and more to the engineering — games that keep real ideas behind their front pages.</dd>
 
   <dt>Music</dt>
-  <dd>Hip-hop, post-hardcore, mid-'00s-to-mid-'10s emo. On rotation: <strong>Brand New</strong>, <strong>50 Cent</strong>, <strong>Ka</strong>, <strong>Ólafur Arnalds</strong>, <strong>Self Defense Family</strong>.</dd>
+  <dd>Hip-hop, emo, orgcore. The collection runs into four figures across 86 genre wings: abstract rap (<strong>Aesop Rock</strong>, <strong>Armand Hammer</strong>, <strong>Earl Sweatshirt</strong>), hardcore hip-hop (the Griselda family, <strong>Ka</strong>, <strong>Billy Woods</strong>), emo and post-hardcore (<strong>Brand New</strong>, <strong>The Menzingers</strong>, <strong>Self Defense Family</strong>, <strong>Drug Church</strong>), orgcore (<strong>Jeff Rosenstock</strong>, <strong>Propagandhi</strong>, <strong>Jawbreaker</strong>). Neoclassical at the edges where the math works the same way: <strong>Ólafur Arnalds</strong>, <strong>Nils Frahm</strong>, <strong>Ryuichi Sakamoto</strong>.</dd>
 
   <dt>Food</dt>
   <dd>Chefs I follow (and one place I sat down at): <strong>David Chang</strong>; <strong>David McMillan & Frédéric Morin</strong> at <strong>Joe Beef</strong> (ate there myself, a high point); <strong>Danny Bowien</strong> (Mission Chinese); <strong>Daniel Patterson</strong> (Coi).</dd>
@@ -212,6 +226,8 @@ A working notebook. Notes, post-mortems, and the occasional manifesto.
 
 ## V. Support
 {: #support}
+
+The projects live at [github.com/VirInvictus](https://github.com/VirInvictus). Professional profile at [linkedin.com/in/bdkl](https://www.linkedin.com/in/bdkl/).
 
 If any of this is useful to you and you'd like to chip in:
 
