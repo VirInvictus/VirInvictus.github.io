@@ -38,7 +38,7 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Nine projects. Native Linux desktop software and one Emacs theme. Local-first by default; the throughline is curation. Atrium is the largest and most active piece; the rest sort by current state.
+Nine projects, mostly native Linux desktop software, with one Emacs theme on the side. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
@@ -211,7 +211,7 @@ Off-screen taste. Most of the projects above trace back to one collection or ano
 ## IV. Writing
 {: #writing}
 
-A working notebook. Notes, post-mortems, and the occasional manifesto.
+A working notebook. Notes, post-mortems, the occasional manifesto, and once in a while a *What I Use*.
 
 <ul class="post-list">
 {% for post in site.posts %}
