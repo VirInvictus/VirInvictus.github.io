@@ -38,7 +38,7 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Nine projects, mostly native Linux desktop software, with one Emacs theme on the side. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
+Thirteen projects. Native Linux desktop software at the centre, with game-design work and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
@@ -60,7 +60,7 @@ The current shipping surface covers CLOCK time-tracking that round-trips to Org 
   <span class="codex-num">No. 002</span>
   <div class="codex-body" markdown="1">
 ### Viaduct
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v2.7.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v2.8.1</span></p>
 
 A Linux port of Brent Simmons' [NetNewsWire](https://netnewswire.com/) RSS reader. A Cargo workspace split between a headless `viaduct-core` (database, network, parser, models) and a `viaduct` GTK binary, making the architectural boundary a *compile error* rather than a code-review rule. Idles at **100–300 MB** versus ~600 MB for the closest Linux competitor on the same OPML, with a hard **500 MB** ceiling enforced by an in-tree `mem_check` harness.
 
@@ -94,7 +94,7 @@ A Flatpak manifest landed at v0.15.0 against the GNOME 50 platform: 8 MB install
   <span class="codex-num">No. 004</span>
   <div class="codex-body" markdown="1">
 ### Lattice
-<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status">active · v4.3.4</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status">active · v4.6.0</span></p>
 
 A toolkit for music collectors who keep the filesystem as the source of truth. Library tree visualization with artist / album / track / rating / genre. Parallel FLAC / MP3 / Opus / WAV / WMA integrity verification, shelling out to `flac -t` and `ffmpeg`. Embedded cover-art extraction with format-priority ranking (FLAC → Opus → M4A → MP3) and an art-quality audit against a configurable resolution floor. Tag, bitrate, and duplicate audits. Smart `.m3u` playlist generation from dynamic rules (`rating >= 4 and genre == 'Jazz'`). Per-genre **wings**: one library file per genre tag, like Calibre virtual libraries for music. A token-efficient `--ai-library` export sized to fit a 4,000-album collection inside an LLM context window. Configurable directory layout (`{genre}/{artist}/{album}` or whatever your library uses), so the tools don't fight you about your shelving.
 
@@ -114,7 +114,7 @@ Bare `lattice` launches a full-screen curses TUI with colour-coded section group
   <span class="codex-num">No. 005</span>
   <div class="codex-body" markdown="1">
 ### Framework
-<p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status">active · v0.21.0</span></p>
+<p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status">active · v0.67.0</span></p>
 
 A native GNOME document viewer for **PDF, DjVu, CBZ, CBR, XPS, EPUB, FB2, and MOBI**. Designed to fill the gap between feature-heavy clients (Okular) and bare MuPDF wrappers; a SumatraPDF-shaped experience for Linux. Three-tier cache (persistent thumbnails, parsed page handles, rendered Cairo surfaces) with bytes-aware eviction (default 512 MB, tunable), parallel rendering across eight independent MuPDF instances, and a zero-copy MuPDF→Cairo pipeline that constructs the MuPDF pixmap *around* the Cairo surface buffer.
 
@@ -130,7 +130,7 @@ The v0.40+ line added a Foliate-style reflow architecture for EPUB / MOBI / FB2 
   <span class="codex-num">No. 006</span>
   <div class="codex-body" markdown="1">
 ### CalibreQuarry
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v2.6.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.0.0</span></p>
 
 A CLI toolkit for power users of Calibre. Zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Ships a hand-written recursive-descent parser at **100% parity with Calibre's internal search-expression syntax**, validated by an automated test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` CLI mode (with full author / `vl:` / boolean / parens / `=`-prefix exact-match support).
 
@@ -157,6 +157,34 @@ The v1.3.0 release wired in the standard DeaDBeeF track context menu: right-clic
 <div class="codex-entry">
   <span class="codex-num">No. 008</span>
   <div class="codex-body" markdown="1">
+### Belfry
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--design">design · v0.0.2</span></p>
+
+A native GNOME 50 podcast client: Overcast's audio engine and Castro's triage model on a filesystem you can `ls`. Smart Speed and Voice Boost are built from ffmpeg filter chains (`silenceremove`, `acompressor`, `equalizer`, `loudnorm`, `rubberband`) calibrated against Overcast; the Castro **Inbox → Queue → Played** flow is the daily metaphor. The library is filesystem-canonical: a user with `find`, `grep`, and `mpv` can play their shows without Belfry running, and deleting the database triggers a rescan rather than data loss.
+
+The same single-writer SQLite worker on tokio that Viaduct and Atrium use feeds four concurrent producers here (fetch loop, playback-position persistence, listening-session recorder, user edits). Four crates: `belfry-core`, `belfry-search`, `belfry-cli`, `belfry`. Calibre's library-as-database UX sits on top of Castro's triage states: a filter-expression grammar, sortable columns, multi-select bulk actions, saved Perspectives, Wings-style virtual collections. Per-show overrides govern every setting that touches playback, so a four-hour history episode and a twenty-five-minute tech show keep independent rules. GPL-3, forced by librubberband in the Smart Speed chain. Phase 1 has landed the SQLite worker, read pool, and fixtures; no UI yet, with Flathub planned for 1.0.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/Belfry">github.com/VirInvictus/Belfry →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 009</span>
+  <div class="codex-body" markdown="1">
+### Conservatory
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--design">design · v0.0.0</span></p>
+
+A native GNOME library manager that *owns and organizes* your music and podcasts on disk, presented through a foobar2000 Columns UI browse surface, played through a libmpv daily-driver engine that runs both media types from a single queue. Designed as **Calibre for audio**.
+
+Absorbs the Belfry podcast client, converging the podcast engine (Smart Speed, Voice Boost) and triage model with a massive faceted music browser. The database is truth; the on-disk tree is a rendered template; moving an album re-renders the filesystem. Features a Calibre-shaped search expression language, multi-select bulk actions, and embedded-tag write-back so files stay portable. The build is intentionally deferred behind Atrium shipping milestones.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/Conservatory">github.com/VirInvictus/Conservatory →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 010</span>
+  <div class="codex-body" markdown="1">
 ### project-void
 <p class="codex-meta">Godot 4 <span class="stack-sep">·</span> Lua <span class="stack-sep">·</span> Ink <span class="stack-sep">·</span> Tiled <span class="stack-sep">·</span> <span class="status status--design">design</span></p>
 
@@ -169,10 +197,38 @@ Lethal *Cairn*-derived combat math: attacks hit automatically, HP is low, damage
 </div>
 
 <div class="codex-entry">
-  <span class="codex-num">No. 009</span>
+  <span class="codex-num">No. 011</span>
+  <div class="codex-body" markdown="1">
+### project-yeschef
+<p class="codex-meta">Godot 4 <span class="stack-sep">·</span> Lua <span class="stack-sep">·</span> Ink <span class="stack-sep">·</span> TOML <span class="stack-sep">·</span> <span class="status status--design">design</span></p>
+
+*YES CHEF* (working title): a single-player, character-driven grand-strategy restaurant simulation in the lineage of *Crusader Kings 3* and *Victoria 3*, pointed at the most volatile small business there is. You play the General Manager. You do not cook. You hire, fire, schedule, invest, negotiate, and hold the room together while the restaurant tries to kill itself around you. People are the system: every mechanic flows through characters with stats, traits, opinions, and agendas, and the food is what comes out of the humans who make it.
+
+There is no win condition. The player declares an ambition (Michelin star, neighborhood institution, empire, or simply survival) and the simulation generates the matching challenge and failure modes. Each new game procedurally generates a city with its own demographics, regulatory climate, competitive landscape, and geography; rival restaurants each run their own GM and trajectory, opening, thriving, poaching your staff, collapsing, and retaliating. Data-driven on Godot 4 with Lua, Ink, and TOML, so event packs, trait packs, and city templates ship as drop-in content for modders. The former chef's project. Pre-development: skeleton and design docs, no engine code yet.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/project-yeschef">github.com/VirInvictus/project-yeschef →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 012</span>
+  <div class="codex-body" markdown="1">
+### opends
+<p class="codex-meta">Reverse engineering <span class="stack-sep">·</span> DOSBox <span class="stack-sep">·</span> <span class="status status--design">design</span></p>
+
+An open community toolkit and bugfix-patch project for SSI's *Dark Sun* CRPGs, *Shattered Lands* (1993) and *Wake of the Ravager* (1994). Tools first, patches second: a GFF reader/writer, a GPL bytecode disassembler, a dialog extractor, a save inspector, and a region viewer, each shipping independently with its own README, tagged release, and MIT license. The *darkfix* patches are distributed as zips you apply to a GOG install; the game still launches under DOSBox, but the bugs you used to hit, you do not.
+
+The hard problem is the engine's embedded scripting language, a GPL bytecode VM with no public spec, and the sheer volume of game logic written in it. Two decades of full-reimplementation attempts have all stalled there. OpenDS goes at it sideways: ship the artifacts built on the way to an engine (disassemblers, chunk editors, format docs, patches) as standalone tools, each useful on its own. It stands on the deepest prior reverse-engineering work, paulofthewest and the dsoageofheroes org for the GFF layout and the 129-entry GPL opcode catalogue, and keeps a per-feature manifest mapping each tool to the upstream file it came from. Phase 0: documentation and extraction.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/opends">github.com/VirInvictus/opends →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 013</span>
   <div class="codex-body" markdown="1">
 ### kanagawa-dragon-nvim-emacs
-<p class="codex-meta">Emacs Lisp <span class="stack-sep">·</span> <span class="status status--wip">wip · v0.1.x</span></p>
+<p class="codex-meta">Emacs Lisp <span class="stack-sep">·</span> <span class="status status--wip">wip · v0.1.2</span></p>
 
 A faithful Emacs port of the Dragon variant from [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim). Not a repackaging of the existing `kanagawa-themes` package — the existing package has the palette right but covers too few faces to hold up in practice. This one maps the full set: every Emacs 29+ tree-sitter `font-lock-*` face, all Doom-specific surfaces (`doom-modeline-*`, `solaire-mode`, `doom-dashboard-*`), org-mode faces, magit, company, corfu, and the rest of the usual zoo. Implemented as a vanilla `deftheme` with no `doom-themes` macro dependency, so it works in stock Emacs and in Doom alike.
 
