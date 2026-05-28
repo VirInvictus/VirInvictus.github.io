@@ -55,7 +55,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 No symlink farm, no chezmoi, no stow. The home directory is the work tree; the bare repo lives one directory down where `git status` won't see it.
 
-The single funniest alias I have written is `zc`, which is `killall {{Z,z}oom,{D,d}iscord}`. A one-line meeting eject.
+The single funniest alias I have written is `zc`, which is `killall {% raw %}{{Z,z}oom,{D,d}iscord}{% endraw %}`. A one-line meeting eject.
 
 <p class="ornament ornament--fleuron">❦</p>
 
