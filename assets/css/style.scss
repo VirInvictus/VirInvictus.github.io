@@ -277,13 +277,20 @@ em {
 }
 
 /* ────────────── Codex plates (screenshots) ────────────── */
+/* min-width: 0 is load-bearing: .codex-body and the pair's imgs are grid
+   items, and the grid default of min-width:auto stops a track shrinking
+   below the image's intrinsic 1600px — blowing the entry out past the
+   720px codex column instead of scaling the image down. */
+.codex-body { min-width: 0; }
 .codex-plate {
   margin: 0 0 1.1em;
 }
 .codex-plate img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
+  min-width: 0;
   border: 1px solid var(--surface1);
   border-radius: 4px;
 }
