@@ -38,17 +38,17 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Thirteen projects. Native Linux desktop software at the centre, with game-design work and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
+Sixteen projects. Native Linux desktop software at the centre, with game-design work and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
   <div class="codex-body" markdown="1">
 ### Atrium
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.29.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.37.4</span></p>
 
-The native GNOME task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, in a fast GTK4 surface that never asks you to open Emacs. **Simple Mode** for *what am I doing right now* (six canonical lists, no defer dates, Things 3 calm); **Builder Mode** for the days the system has to do the work (Forecast, Agenda, Kanban, Calendar, Review with per-area cadences that cascade to the projects filed under an area, Perspectives, repeating and sequential projects, blocked-by task dependencies, a live Inspector). Same data, two surfaces, no migration: flipping modes is a UI re-render over an OmniFocus-superset schema that was there on day one.
+The native GNOME task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, in a fast GTK4 surface that never asks you to open Emacs. **Simple Mode** for *what am I doing right now* (six canonical lists, no defer dates, Things 3 calm); **Builder Mode** for the days the system has to do the work (Forecast, Agenda, Kanban, Calendar, Review with per-area cadences that cascade to the projects filed under an area, Perspectives, repeating and sequential projects, blocked-by task dependencies, time-based system reminders, a live Inspector). Same data, two surfaces, no migration: flipping modes is a UI re-render over an OmniFocus-superset schema that was there on day one.
 
-Local-first SQLite in WAL mode, single-writer worker, read-only connection pool. FTS5 search through a hand-written **Calibre-style expression grammar** (`tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match). A six-crate workspace; the extracted `atrium-inline` engine (`#tag`, `@today`, `!priority` with tab-completion) and the `atrium-org` round-trip layer are both tested headlessly, away from the UI. 991 tests and 16 migrations, with a 1K-fixture smoke and cold-start check gating every push. Org is the two-way mirror, and importers bring the rest across: Todoist CSV, Taskwarrior `task export` JSON, todo.txt, and iCalendar VTODO (import and export). A Flatpak manifest ships alongside the native build.
+Local-first SQLite in WAL mode, single-writer worker, read-only connection pool. FTS5 search through a hand-written **Calibre-style expression grammar** (`tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match). A six-crate workspace; the extracted `atrium-inline` engine (`#tag`, `@today`, `!priority` with tab-completion) and the `atrium-org` round-trip layer are both tested headlessly, away from the UI. 1,021 tests and 17 migrations, with a 1K-fixture smoke and cold-start check gating every push. Org is the two-way mirror, and importers bring the rest across: Todoist CSV, Taskwarrior `task export` JSON, todo.txt, and iCalendar VTODO (import and export). A Flatpak manifest ships alongside the native build.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Atrium">github.com/VirInvictus/Atrium →</a></p>
   </div>
@@ -88,7 +88,7 @@ Native support for Virtual Libraries and the full Calibre search-query language 
   <span class="codex-num">No. 004</span>
   <div class="codex-body" markdown="1">
 ### Lattice
-<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.6.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.8.1</span></p>
 
 A toolkit for music collectors who keep the filesystem as the source of truth. Library-tree visualization across artist / album / track / rating / genre. Parallel FLAC / MP3 / Opus / WAV / WMA integrity verification (shelling out to `flac -t` and `ffmpeg`), embedded cover-art extraction with format-priority ranking, an art-quality audit against a configurable resolution floor, and tag, bitrate, and duplicate audits. Smart `.m3u` generation from dynamic rules (`rating >= 4 and genre == 'Jazz'`), per-genre **wings** (one library file per genre, like Calibre virtual libraries for music), and a token-efficient `--ai-library` export sized to fit a 4,000-album collection inside an LLM context window. The directory layout is configurable, so the tools never fight you about your shelving. Bare `lattice` opens a full-screen curses TUI.
 
@@ -102,13 +102,13 @@ The package is read-only by design: it reads tags, decodes audio, writes reports
   <span class="codex-num">No. 005</span>
   <div class="codex-body" markdown="1">
 ### Framework
-<p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status">active · v0.69.0</span></p>
+<p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status">active · v0.76.0</span></p>
 
-A native GNOME document viewer for **PDF, DjVu, CBZ, CBR, XPS, EPUB, FB2, and MOBI**: the gap between feature-heavy clients (Okular) and bare MuPDF wrappers, a SumatraPDF-shaped experience for Linux. A three-tier cache (persistent thumbnails, parsed page handles, rendered Cairo surfaces) with bytes-aware eviction, parallel rendering across eight independent MuPDF instances, and a zero-copy MuPDF→Cairo pipeline that builds the pixmap *around* the Cairo surface buffer.
+A native GNOME document viewer for **PDF, DjVu, CBZ, CB7, CBT, CBR, XPS, EPUB, FB2, MOBI, AZW3, and Markdown**: the gap between feature-heavy clients (Okular) and bare MuPDF wrappers, a SumatraPDF-shaped experience for Linux. A three-tier cache (persistent thumbnails, parsed page handles, rendered Cairo surfaces) with bytes-aware eviction, parallel rendering across eight independent MuPDF instances, and a zero-copy MuPDF→Cairo pipeline that builds the pixmap *around* the Cairo surface buffer.
 
 A *velocity engine* throttles render dispatch by scroll speed so fast-scrolling never queues stale work, a thread-pool sort keeps the viewport ahead of the queue, and mid-render `fz_cookie` abort lets workers bail in milliseconds. Manga (RTL), Webtoon, and facing-pages comic layouts, all live-toggleable, with aspect-ratio and filename-based double-spread detection for scanlation rips. Async progressive search over cached structured text (332 ms cold → 48 ms warm on a 901-page textbook), reading-order-aware text selection, a magnifying loupe (F7), and `GFileMonitor` auto-reload that refreshes a recompiled LaTeX or Typst doc with scroll position preserved.
 
-EPUB / MOBI / FB2 get a Foliate-style reflow architecture (a `GListModel` of structurally-typed blocks, OPF spine walker, MOBI / KF7 / KF8 / AZW3 parser with HuffDic decompression). A process-scoped Linux **Landlock LSM** sandbox drops filesystem `EXECUTE` and `MAKE_*` rights at startup, so a malicious document exploiting MuPDF / DjVuLibre / libarchive into RCE cannot escalate to a shell. Strictly a viewer: no annotations, no library, no conversion. Every borrowed pattern (SumatraPDF, zathura, Sioyek, YACReader, Foliate, MComix, Komikku, Plato) is attributed in the README with upstream `file:line`. A Flatpak manifest ships alongside the native build.
+The ebook formats reflow natively through an embedded WebKitGTK view: each backend parses its format (an OPF spine walker for EPUB, a MOBI / KF7 / KF8 / AZW3 parser with HuffDic decompression ported from foliate-js, vendored md4c for Markdown) and emits one stitched HTML document, with images served over an internal `framework-img://` scheme and typography and reading themes pushed in live as CSS custom properties. A process-scoped Linux **Landlock LSM** sandbox drops filesystem `EXECUTE` and `MAKE_*` rights at startup, so a malicious document exploiting MuPDF / DjVuLibre / libarchive into RCE cannot escalate to a shell. Strictly a viewer: no annotations, no library, no conversion. Every borrowed pattern (SumatraPDF, zathura, Sioyek, YACReader, Foliate, MComix, Komikku, Plato) is attributed in the README with upstream `file:line`. A Flatpak manifest ships alongside the native build.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Framework">github.com/VirInvictus/Framework →</a></p>
   </div>
@@ -122,7 +122,7 @@ EPUB / MOBI / FB2 get a Foliate-style reflow architecture (a `GListModel` of str
 
 A CLI toolkit for power users of Calibre. Zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Its hand-written recursive-descent parser hits **100% parity with Calibre's internal search-expression syntax**, validated by a test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` mode (author / `vl:` / boolean / parens / `=`-prefix exact match).
 
-Author-grouped catalogs, with `--all-wings` emitting one per virtual library. Library statistics across format, rating, tag taxonomy, and top authors / tags. **Audit** modes for untagged, unrated, coverless, series-gap, duplicate, and low-resolution covers (parsing on-disk JPEGs with no external libraries); **analytics** modes for per-author breakdowns, added-per-month pace, hierarchical tag trees, and wing overlap. JSON / CSV / AI exports, custom-column extraction, and an automatic DB snapshot when Calibre holds a write lock. Installs as `cquarry`. Complete software, tested on Fedora 43 against Calibre 9.7.
+Author-grouped catalogs, with `--all-wings` emitting one per virtual library. Library statistics across format, rating, tag taxonomy, and top authors / tags. **Audit** modes for untagged, unrated, coverless, series-gap, duplicate, and low-resolution covers (parsing on-disk JPEGs with no external libraries); **analytics** modes for per-author breakdowns, added-per-month pace, hierarchical tag trees, and wing overlap. JSON / CSV / AI exports, custom-column extraction, and an automatic DB snapshot when Calibre holds a write lock. Installs as `cquarry`. Complete software, tested on Fedora 44 against Calibre 9.7.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/CalibreQuarry">github.com/VirInvictus/CalibreQuarry →</a></p>
   </div>
@@ -132,11 +132,11 @@ Author-grouped catalogs, with `--all-wings` emitting one per virtual library. Li
   <span class="codex-num">No. 007</span>
   <div class="codex-body" markdown="1">
 ### deadbeef-cui
-<p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.3.2</span></p>
+<p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.3.3</span></p>
 
 A faceted-browser plugin for the [DeaDBeeF](https://deadbeef.sourceforge.io/) music player, bringing foobar2000-style Columns UI / Facets to Linux. 1–5 dynamic filter columns with hierarchical narrowing, full title-formatting support, multi-select aggregation across genres and artists via Ctrl/Shift-click, an in-pane search bar (`Ctrl+Shift+F`), and a settings dialog with per-instance configuration so multiple Facet Browsers can coexist in one layout.
 
-The standard DeaDBeeF track context menu is wired in (Play Next / Play Later / Properties / Convert / Reload metadata alongside the facet-specific items), tracks drag out of facet rows onto playlist tabs via the same `DDB_PLAYITEM_POINTERLIST` payload the GTKUI medialib widget uses, and "Send to new playlist `<row name>`" names the destination after the right-clicked tag. Everything targets a dedicated "Library Viewer" playlist so the plugin never touches curated playlists. Built natively against `DB_mediasource_t`. Complete; fixes only from here.
+The standard DeaDBeeF track context menu is wired in (Play Next / Play Later / Properties / Convert / Reload metadata alongside the facet-specific items), tracks drag out of facet rows onto playlist tabs via the same `DDB_PLAYITEM_POINTERLIST` payload the GTKUI medialib widget uses, and "Send to new playlist `<row name>`" names the destination after the right-clicked tag. Everything targets a dedicated "Library Viewer" playlist so the plugin never touches curated playlists. Built natively against `DB_mediasource_t`, with an in-tree GTest suite driving the real engine against a mocked DeaDBeeF API, clean under ASan/UBSan. Complete; fixes only from here.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/deadbeef-cui">github.com/VirInvictus/deadbeef-cui →</a></p>
   </div>
@@ -160,9 +160,9 @@ The same single-writer SQLite worker that Viaduct and Atrium use feeds four conc
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### Conservatory
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--design">design · v0.0.1</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--design">design · v0.0.2</span></p>
 
-A native GNOME library manager that *owns and organizes* your music and podcasts on disk, presented through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs both media types from one queue. Designed as **Calibre for audio**.
+A native GNOME library manager that *owns and organizes* your music, podcasts, and audiobooks on disk, presented through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. Designed as **Calibre for audio**.
 
 It absorbs the Belfry podcast client, converging that engine and triage model with a massive faceted music browser. The database is truth; the on-disk tree is a rendered template; moving an album re-renders the filesystem. A Calibre-shaped search expression language, multi-select bulk actions, and embedded-tag write-back so files stay portable. The skeleton is bootstrapped and Phase 1 is underway, building concurrently with Atrium under hard phasing; Belfry retires only at podcast parity (Phase 6).
 
@@ -223,6 +223,46 @@ A faithful Emacs port of the Dragon variant from [kanagawa.nvim](https://github.
 An ERT test suite checks palette byte-for-byte parity against the upstream nvim theme and validates representative face attributes. The acceptance criterion is visual: `sample.java` in Doom at `treesit-font-lock-level 4` should match the same file in nvim with `:colorscheme kanagawa-dragon`.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/kanagawa-dragon-nvim-emacs">github.com/VirInvictus/kanagawa-dragon-nvim-emacs →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 014</span>
+  <div class="codex-body" markdown="1">
+### Bindery
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.4.0</span></p>
+
+A command-line surgeon for malformed EPUBs. The fixes are deliberately boring: self-close the void elements, convert named entities to numeric, sync the NCX `uid` with the OPF, put the `mimetype` entry first in the zip. Each one is deterministic, and each one lands only if [epubcheck](https://github.com/w3c/epubcheck) confirms the patient actually improved. epubcheck stays an external oracle, never a Python dependency; the package itself is stdlib only. Dry-run is the default mode, and `--apply` backs up before it touches anything.
+
+Built to operate inside a Calibre library without breaking it: a repair atomically replaces only the `.epub`, leaving `metadata.opf`, `cover.jpg`, and the database for Calibre's own Quality Check to re-sync. Sibling to oceanstrip; the two share the epubcheck no-regression gate.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/Bindery">github.com/VirInvictus/Bindery →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 015</span>
+  <div class="codex-body" markdown="1">
+### oceanstrip
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.1.0</span></p>
+
+Strips OceanofPDF.com watermarks out of EPUBs. The removal is balanced-element surgery rather than regex slicing: locate the injected markup, remove whole well-formed elements, leave the surrounding document untouched. Works on a single file or sweeps an entire library, always writing new copies (originals are never modified), and every output is epubcheck-clean. Stdlib only, like its sibling Bindery.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/Oceanstrip">github.com/VirInvictus/Oceanstrip →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 016</span>
+  <div class="codex-body" markdown="1">
+### AudiobookTools
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> <span class="status">active · v0.1.3</span></p>
+
+A declarative tag-and-folder normalizer for an audiobook shelf. One catalogue file is the source of truth: `retag` writes the embedded metadata from it, `reorg` renders the on-disk folder tree from it, and the files and the shelf cannot drift apart because both are projections of the same data. The engine is generic and the catalogue is data; the two never mix.
+
+The operational contract does the heavy lifting. Dry-run is the default for everything; every `--apply` writes a manifest that fully reverses it; a second dry-run after an apply must report zero changes. The tests enforce all three properties, which is what lets a bulk retag of irreplaceable audio feel routine instead of reckless.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/AudiobookTools">github.com/VirInvictus/AudiobookTools →</a></p>
   </div>
 </div>
 
