@@ -46,6 +46,11 @@ Sixteen projects. Native Linux desktop software at the centre, with game-design 
 ### Atrium
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.37.4</span></p>
 
+<div class="codex-plate codex-plate--pair">
+  <img src="{{ '/assets/img/atrium-today-simple.webp' | relative_url }}" alt="Atrium's Today view in Simple Mode: a calm two-pane list with areas, tags, and two tasks due today" loading="lazy">
+  <img src="{{ '/assets/img/atrium-today-builder.webp' | relative_url }}" alt="Atrium's Today view in Builder Mode: three panes with the live Inspector open on a task's schedule, project, tags, and notes" loading="lazy">
+</div>
+
 The native GNOME task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, in a fast GTK4 surface that never asks you to open Emacs. **Simple Mode** for *what am I doing right now* (six canonical lists, no defer dates, Things 3 calm); **Builder Mode** for the days the system has to do the work (Forecast, Agenda, Kanban, Calendar, Review with per-area cadences that cascade to the projects filed under an area, Perspectives, repeating and sequential projects, blocked-by task dependencies, time-based system reminders, a live Inspector). Same data, two surfaces, no migration: flipping modes is a UI re-render over an OmniFocus-superset schema that was there on day one.
 
 Local-first SQLite in WAL mode, single-writer worker, read-only connection pool. FTS5 search through a hand-written **Calibre-style expression grammar** (`tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match). A six-crate workspace; the extracted `atrium-inline` engine (`#tag`, `@today`, `!priority` with tab-completion) and the `atrium-org` round-trip layer are both tested headlessly, away from the UI. 1,021 tests and 17 migrations, with a 1K-fixture smoke and cold-start check gating every push. Org is the two-way mirror, and importers bring the rest across: Todoist CSV, Taskwarrior `task export` JSON, todo.txt, and iCalendar VTODO (import and export). A Flatpak manifest ships alongside the native build.
@@ -59,6 +64,10 @@ Local-first SQLite in WAL mode, single-writer worker, read-only connection pool.
   <div class="codex-body" markdown="1">
 ### Viaduct
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v2.8.1</span></p>
+
+<div class="codex-plate">
+  <img src="{{ '/assets/img/viaduct-main-adwaita.webp' | relative_url }}" alt="Viaduct's three-pane layout with the Adwaita article theme: feed sidebar with unread badges, timeline, and a rendered Daring Fireball article" loading="lazy">
+</div>
 
 A Linux port of Brent Simmons' [NetNewsWire](https://netnewswire.com/) RSS reader. A Cargo workspace split between a headless `viaduct-core` (database, network, parser, models) and a `viaduct` GTK binary, making the architectural boundary a *compile error* rather than a code-review rule. Idles at **100–300 MB** against ~600 MB for the closest Linux competitor on the same OPML, with a hard **500 MB** ceiling enforced by an in-tree `mem_check` harness.
 
@@ -75,6 +84,10 @@ The v2.x line built an original surface on top of the port: **Custom Smart Feeds
   <div class="codex-body" markdown="1">
 ### Hermitage
 <p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Libadwaita <span class="stack-sep">·</span> <span class="status">active · v0.15.0</span></p>
+
+<div class="codex-plate">
+  <img src="{{ '/assets/img/hermitage-gallery.webp' | relative_url }}" alt="Hermitage's cover-art grid filtered to a virtual library, with the Wing sidebar open and the search bar showing the active expression" loading="lazy">
+</div>
 
 A local-first, native gallery for Calibre libraries, for the single user who wants a modern desktop experience without Docker or a web auth layer. Reads `metadata.db` in `mode=ro` and turns a 4,000+ item library into a cinematic gallery: an edge-to-edge cover grid with median-cut colour quantization for per-book accent tinting, a sliding hero-banner detail sidebar (the *Codex*), and a recursive genre browser that unfolds dot-separated Calibre tags (`Fic.Fantasy.Grimdark`) into a navigable tree.
 
@@ -103,6 +116,10 @@ The package is read-only by design: it reads tags, decodes audio, writes reports
   <div class="codex-body" markdown="1">
 ### Framework
 <p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status">active · v0.76.0</span></p>
+
+<div class="codex-plate">
+  <img src="{{ '/assets/img/framework-viewer.webp' | relative_url }}" alt="Framework rendering a 168-page PDF with the table-of-contents sidebar open and two pages visible in the scroll" loading="lazy">
+</div>
 
 A native GNOME document viewer for **PDF, DjVu, CBZ, CB7, CBT, CBR, XPS, EPUB, FB2, MOBI, AZW3, and Markdown**: the gap between feature-heavy clients (Okular) and bare MuPDF wrappers, a SumatraPDF-shaped experience for Linux. A three-tier cache (persistent thumbnails, parsed page handles, rendered Cairo surfaces) with bytes-aware eviction, parallel rendering across eight independent MuPDF instances, and a zero-copy MuPDF→Cairo pipeline that builds the pixmap *around* the Cairo surface buffer.
 
@@ -133,6 +150,10 @@ Author-grouped catalogs, with `--all-wings` emitting one per virtual library. Li
   <div class="codex-body" markdown="1">
 ### deadbeef-cui
 <p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.3.3</span></p>
+
+<div class="codex-plate">
+  <img src="{{ '/assets/img/deadbeef-cui-facets.webp' | relative_url }}" alt="deadbeef-cui's three facet columns narrowing genre, album artist, and album above the playlist, with cover art and a waveform seekbar" loading="lazy">
+</div>
 
 A faceted-browser plugin for the [DeaDBeeF](https://deadbeef.sourceforge.io/) music player, bringing foobar2000-style Columns UI / Facets to Linux. 1–5 dynamic filter columns with hierarchical narrowing, full title-formatting support, multi-select aggregation across genres and artists via Ctrl/Shift-click, an in-pane search bar (`Ctrl+Shift+F`), and a settings dialog with per-instance configuration so multiple Facet Browsers can coexist in one layout.
 

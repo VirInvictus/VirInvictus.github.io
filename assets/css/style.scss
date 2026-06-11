@@ -276,6 +276,26 @@ em {
   .codex-num { padding-top: 0; }
 }
 
+/* ────────────── Codex plates (screenshots) ────────────── */
+.codex-plate {
+  margin: 0 0 1.1em;
+}
+.codex-plate img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--surface1);
+  border-radius: 4px;
+}
+.codex-plate--pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .codex-plate--pair { grid-template-columns: 1fr; }
+}
+
 /* ────────────── Ornaments + dividers ────────────── */
 .ornament {
   text-align: center;
