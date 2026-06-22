@@ -201,7 +201,7 @@ A design-stage CRPG and the data-driven engine that ships under it. The engineer
 
 Lethal *Cairn*-derived combat math: attacks hit automatically, HP is low, damage drains into real wounds via attribute damage. Combat as a positional puzzle, not a dice minigame.
 
-<p class="codex-link"><a href="https://github.com/VirInvictus/project-void">github.com/VirInvictus/project-void →</a></p>
+<p class="codex-link">private, in development</p>
   </div>
 </div>
 
@@ -215,7 +215,7 @@ Lethal *Cairn*-derived combat math: attacks hit automatically, HP is low, damage
 
 There is no win condition. The player declares an ambition (Michelin star, neighborhood institution, empire, or simply survival) and the simulation generates the matching challenge. Each new game procedurally generates a city with its own demographics, regulatory climate, and competitive landscape, where rival restaurants each run their own GM, poaching staff, collapsing, and retaliating. Data-driven on Godot 4 with Lua, Ink, and TOML, so event packs, trait packs, and city templates ship as drop-in content for modders. The former chef's project. Pre-development: skeleton and design docs, no engine code yet.
 
-<p class="codex-link"><a href="https://github.com/VirInvictus/project-yeschef">github.com/VirInvictus/project-yeschef →</a></p>
+<p class="codex-link">private, in development</p>
   </div>
 </div>
 
@@ -243,7 +243,7 @@ A faithful Emacs port of the Dragon variant from [kanagawa.nvim](https://github.
 
 An ERT test suite checks palette byte-for-byte parity against the upstream nvim theme and validates representative face attributes. The acceptance criterion is visual: `sample.java` in Doom at `treesit-font-lock-level 4` should match the same file in nvim with `:colorscheme kanagawa-dragon`.
 
-<p class="codex-link"><a href="https://github.com/VirInvictus/kanagawa-dragon-nvim-emacs">github.com/VirInvictus/kanagawa-dragon-nvim-emacs →</a></p>
+<p class="codex-link">not yet public</p>
   </div>
 </div>
 
