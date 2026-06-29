@@ -135,7 +135,7 @@ The ebook formats reflow natively through an embedded WebKitGTK view: each backe
   <span class="codex-num">No. 006</span>
   <div class="codex-body" markdown="1">
 ### CalibreQuarry
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.1.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.2.1</span></p>
 
 A CLI toolkit for power users of Calibre. Zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Its hand-written recursive-descent parser hits **100% parity with Calibre's internal search-expression syntax**, validated by a test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` mode (author / `vl:` / boolean / parens / `=`-prefix exact match).
 
@@ -167,11 +167,11 @@ The standard DeaDBeeF track context menu is wired in (Play Next / Play Later / P
   <span class="codex-num">No. 008</span>
   <div class="codex-body" markdown="1">
 ### Belfry
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--design">design · v0.0.2</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--retired">retired → Conservatory</span></p>
 
-A native GNOME 50 podcast client: Overcast's audio engine and Castro's triage model on a filesystem you can `ls`. Smart Speed and Voice Boost are ffmpeg filter chains (`silenceremove`, `acompressor`, `loudnorm`, `rubberband`) calibrated against Overcast; the Castro **Inbox → Queue → Played** flow is the daily metaphor. The library is filesystem-canonical, so a user with `find` and `mpv` can play their shows without Belfry running, and deleting the database triggers a rescan rather than data loss.
+A native GNOME 50 podcast client: Overcast's audio engine and Castro's triage model on a filesystem you can `ls`. Smart Speed and Voice Boost are ffmpeg filter chains (`silenceremove`, `acompressor`, `loudnorm`, `rubberband`) calibrated against Overcast; the Castro **Inbox → Queue → Played** flow was the daily metaphor. The same single-writer SQLite worker that Viaduct and Atrium use fed four concurrent producers here, with Calibre's library-as-database UX (filter grammar, sortable columns, bulk actions, saved Perspectives) layered over the triage states.
 
-The same single-writer SQLite worker that Viaduct and Atrium use feeds four concurrent producers here. A four-crate workspace, with Calibre's library-as-database UX (filter grammar, sortable columns, bulk actions, saved Perspectives, Wings-style collections) layered over the triage states, and per-show overrides so a four-hour history episode and a twenty-five-minute tech show keep independent playback rules. GPL-3, forced by librubberband. Phase 1 landed the SQLite worker, read pool, and fixtures; no UI yet. Slated for absorption into Conservatory, whose podcast subsystem retires Belfry at parity.
+Retired June 2026 and absorbed into Conservatory (No. 009). The podcast fetch/parse/triage subsystem, the libmpv Smart Speed / Voice Boost engine, and the sleep timer all moved across whole, joining a music and audiobook library on one unified queue; the one design change is that Conservatory owns and moves the files (database-canonical) rather than reading a filesystem-canonical tree. The repo is frozen and archived at the parity release, kept public as reference. Belfry got as far as the SQLite worker, read pool, and fixtures before the merge.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Belfry">github.com/VirInvictus/Belfry →</a></p>
   </div>
@@ -181,11 +181,11 @@ The same single-writer SQLite worker that Viaduct and Atrium use feeds four conc
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### Conservatory
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.0.28</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.0.71</span></p>
 
 A native GNOME library manager that *owns and organizes* your music, podcasts, and audiobooks on disk, presented through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. Designed as **Calibre for audio**.
 
-It absorbs the Belfry podcast client, converging that engine and triage model with a massive faceted music browser. The database is truth; the on-disk tree is a rendered template; moving an album re-renders the filesystem. A Calibre-shaped search expression language, multi-select bulk actions, and embedded-tag write-back so files stay portable. The headless manager already imports, resolves, and crash-safely moves files on disk with a full undo journal, and the first GTK Columns UI browse window has landed. Phases 1 through 3 are in, building concurrently with Atrium under hard phasing; Belfry retires only at podcast parity (Phase 6).
+It absorbed the Belfry podcast client (No. 008), converging that engine and triage model with a massive faceted music browser. The database is truth; the on-disk tree is a rendered template; moving an album re-renders the filesystem. A Calibre-shaped search expression language, multi-select bulk actions, and embedded-tag write-back so files stay portable. The headless manager imports, resolves, and crash-safely moves files with a full undo journal and roll-forward recovery; the GTK app stands up the deadbeef Columns UI faceted browse, a sortable track list, saved Perspectives, the unified play queue with drag-reorder, a libmpv player with ReplayGain and a Now-bar transport, and a Preferences window over a real config file. Phases 1 through 10 are in, building concurrently with Atrium under hard phasing; Belfry was retired at podcast parity (v0.0.52) and its subsystem now lives here whole.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Conservatory">github.com/VirInvictus/Conservatory →</a></p>
   </div>
@@ -265,7 +265,7 @@ Built to operate inside a Calibre library without breaking it: a repair atomical
   <span class="codex-num">No. 015</span>
   <div class="codex-body" markdown="1">
 ### oceanstrip
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.1.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.1.1</span></p>
 
 Strips OceanofPDF.com watermarks out of EPUBs. The removal is balanced-element surgery rather than regex slicing: locate the injected markup, remove whole well-formed elements, leave the surrounding document untouched. Works on a single file or sweeps an entire library, always writing new copies (originals are never modified), and every output is epubcheck-clean. Stdlib only, like its sibling Bindery.
 
