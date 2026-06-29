@@ -38,7 +38,7 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Sixteen projects. Native Linux desktop software at the centre, with game-design work and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
+Eighteen projects. Native Linux desktop software at the centre, with game-design work and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
@@ -181,7 +181,7 @@ Retired June 2026 and absorbed into Conservatory (No. 009). The podcast fetch/pa
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### Conservatory
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.0.71</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.0.72</span></p>
 
 A native GNOME library manager that *owns and organizes* your music, podcasts, and audiobooks on disk, presented through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. Designed as **Calibre for audio**.
 
@@ -284,6 +284,34 @@ A declarative tag-and-folder normalizer for an audiobook shelf. One catalogue fi
 The operational contract does the heavy lifting. Dry-run is the default for everything; every `--apply` writes a manifest that fully reverses it; a second dry-run after an apply must report zero changes. The tests enforce all three properties, which is what lets a bulk retag of irreplaceable audio feel routine instead of reckless.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/AudiobookTools">github.com/VirInvictus/AudiobookTools →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 017</span>
+  <div class="codex-body" markdown="1">
+### Hearth
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.4.4</span></p>
+
+A native, two-player, local-network, fully offline digital build of a worker-placement and polyomino-economy Eurogame, riding on a content-agnostic engine built to outlive any one theme. The board, the goods, and the cards are data; the engine keeps a pure `State` / `Rules` / `Scoring` / `Loader` split so the same binary could host a different game with a sheet and a turn order. The distinctive subsystems are the home-board polyomino puzzle and a pure effect vocabulary the cards reuse: every action is a non-mutating transform over game state, which keeps the rules testable away from the renderer.
+
+Hot-seat is the development default; the authoritative-host LAN layer lands late, once the economy and the full score are settled. The faithful ruleset is transcribed from the physical book, git-ignored, and never committed; the asset meant to ship is the engine plus an original-theme dataset, a deliberate post-1.0 extraction. Sibling in shape to Haveli.
+
+<p class="codex-link">private, in development</p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 018</span>
+  <div class="codex-body" markdown="1">
+### Haveli
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.9.1</span></p>
+
+A native, two-player, local-network, fully offline digital build of a fast set-collection card game on a content-agnostic, deterministic engine. Sibling in shape to Hearth, but where Hearth's puzzle is the board, Haveli's is hidden information and reproducible randomness. It is a shuffled-deck game, so determinism is foundational: an `rng_seed` plus a draw cursor make every shuffle and every market refill replayable from the state alone, which is what lets the network layer stay honest.
+
+Hidden hands force a host-authoritative, per-seat-**redacted** model: the host owns the truth, validates every move, and pushes each peer only the view its seat is allowed to see. There is no move relay, because relaying moves would leak the deck order. The engine keeps the same `State` / `Rules` / `Scoring` / `Loader` split, with moves as serializable dictionaries; the ENet transport is in and verified live across two machines, disconnect and reconnect included. The faithful dataset is git-ignored and never committed; the engine is the asset that ships.
+
+<p class="codex-link">private, in development</p>
   </div>
 </div>
 
