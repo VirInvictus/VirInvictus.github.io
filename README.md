@@ -38,13 +38,13 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Eighteen projects. Native Linux desktop software at the centre, with game-design work and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
+Twenty projects. Native Linux desktop software at the centre, with game-design work, KOReader companions, and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
   <div class="codex-body" markdown="1">
 ### Atrium
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.41.1</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.46.0</span></p>
 
 <div class="codex-plate codex-plate--pair">
   <img src="{{ '/assets/img/atrium-today-simple.webp' | relative_url }}" alt="Atrium's Today view in Simple Mode: a calm two-pane list with areas, tags, and two tasks due today" loading="lazy">
@@ -53,7 +53,7 @@ Eighteen projects. Native Linux desktop software at the centre, with game-design
 
 The native GNOME task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, in a fast GTK4 surface that never asks you to open Emacs. **Simple Mode** for *what am I doing right now* (six canonical lists, no defer dates, Things 3 calm); **Builder Mode** for the days the system has to do the work (Forecast, Agenda, Kanban, Calendar, Review with per-area cadences that cascade to the projects filed under an area, Perspectives, repeating and sequential projects, blocked-by task dependencies, time-based system reminders, a live Inspector). Same data, two surfaces, no migration: flipping modes is a UI re-render over an OmniFocus-superset schema that was there on day one.
 
-Local-first SQLite in WAL mode, single-writer worker, read-only connection pool. FTS5 search through a hand-written **Calibre-style expression grammar** (`tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match). A six-crate workspace; the extracted `atrium-inline` engine (`#tag`, `@today`, `!priority` with tab-completion) and the `atrium-org` round-trip layer are both tested headlessly, away from the UI. more than a thousand tests and 18 migrations, with a 1K-fixture smoke and cold-start check gating every push. Org is the two-way mirror, and importers bring the rest across: Todoist CSV, Taskwarrior `task export` JSON, todo.txt, and iCalendar VTODO (import and export). A Flatpak manifest ships alongside the native build.
+Local-first SQLite in WAL mode, single-writer worker, read-only connection pool. FTS5 search through a hand-written **Calibre-style expression grammar** (`tag:work AND is:overdue sort:-due`, `due:2026-05-01..2026-05-31`, `tag:?wrok` for fuzzy match). A seven-crate workspace; the extracted `atrium-inline` engine (`#tag`, `@today`, `!priority` with tab-completion) and the `atrium-org` round-trip layer are both tested headlessly, away from the UI. more than a thousand tests and 19 migrations, with a 1K-fixture smoke and cold-start check gating every push. Org is the two-way mirror, and importers bring the rest across: Todoist CSV, Taskwarrior `task export` JSON, todo.txt, and iCalendar VTODO (import and export). A Flatpak manifest ships alongside the native build.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Atrium">github.com/VirInvictus/Atrium →</a></p>
   </div>
@@ -101,7 +101,7 @@ Native support for Virtual Libraries and the full Calibre search-query language 
   <span class="codex-num">No. 004</span>
   <div class="codex-body" markdown="1">
 ### Lattice
-<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.8.1</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.10.1</span></p>
 
 A toolkit for music collectors who keep the filesystem as the source of truth. Library-tree visualization across artist / album / track / rating / genre. Parallel FLAC / MP3 / Opus / WAV / WMA integrity verification (shelling out to `flac -t` and `ffmpeg`), embedded cover-art extraction with format-priority ranking, an art-quality audit against a configurable resolution floor, and tag, bitrate, and duplicate audits. Smart `.m3u` generation from dynamic rules (`rating >= 4 and genre == 'Jazz'`), per-genre **wings** (one library file per genre, like Calibre virtual libraries for music), and a token-efficient `--ai-library` export sized to fit a 4,000-album collection inside an LLM context window. The directory layout is configurable, so the tools never fight you about your shelving. Bare `lattice` opens a full-screen curses TUI.
 
@@ -135,7 +135,7 @@ The ebook formats reflow natively through an embedded WebKitGTK view: each backe
   <span class="codex-num">No. 006</span>
   <div class="codex-body" markdown="1">
 ### CalibreQuarry
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.2.1</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.6.0</span></p>
 
 A CLI toolkit for power users of Calibre. Zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Its hand-written recursive-descent parser hits **100% parity with Calibre's internal search-expression syntax**, validated by a test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` mode (author / `vl:` / boolean / parens / `=`-prefix exact match).
 
@@ -181,11 +181,11 @@ Retired June 2026 and absorbed into Conservatory (No. 009). The podcast fetch/pa
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### Conservatory
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.0.72</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.1.22</span></p>
 
 A native GNOME library manager that *owns and organizes* your music, podcasts, and audiobooks on disk, presented through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. Designed as **Calibre for audio**.
 
-It absorbed the Belfry podcast client (No. 008), converging that engine and triage model with a massive faceted music browser. The database is truth; the on-disk tree is a rendered template; moving an album re-renders the filesystem. A Calibre-shaped search expression language, multi-select bulk actions, and embedded-tag write-back so files stay portable. The headless manager imports, resolves, and crash-safely moves files with a full undo journal and roll-forward recovery; the GTK app stands up the deadbeef Columns UI faceted browse, a sortable track list, saved Perspectives, the unified play queue with drag-reorder, a libmpv player with ReplayGain and a Now-bar transport, and a Preferences window over a real config file. Phases 1 through 10 are in, building concurrently with Atrium under hard phasing; Belfry was retired at podcast parity (v0.0.52) and its subsystem now lives here whole.
+It absorbed the Belfry podcast client (No. 008), converging that engine and triage model with a massive faceted music browser. The database is truth; the on-disk tree is a rendered template; moving an album re-renders the filesystem. A Calibre-shaped search expression language, multi-select bulk actions, and embedded-tag write-back so files stay portable. The headless manager imports, resolves, and crash-safely moves files with a full undo journal and roll-forward recovery; the GTK app stands up the deadbeef Columns UI faceted browse, a sortable track list, saved Perspectives, the unified play queue with drag-reorder, a libmpv player with ReplayGain and a Now-bar transport, and a Preferences window over a real config file. All three media types are in: music, podcasts, and audiobooks browse and play from the one queue, and it holds up as a daily driver, down to gapless album transitions (the next track is prefetched across mpv's decoder boundary so the seam never reaches the speakers). Built concurrently with Atrium under hard phasing; Belfry was retired at podcast parity (v0.0.52) and its subsystem now lives here whole.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Conservatory">github.com/VirInvictus/Conservatory →</a></p>
   </div>
@@ -251,7 +251,7 @@ An ERT test suite checks palette byte-for-byte parity against the upstream nvim 
   <span class="codex-num">No. 014</span>
   <div class="codex-body" markdown="1">
 ### Bindery
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.5.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.8.0</span></p>
 
 A command-line surgeon for malformed EPUBs. The fixes are deliberately boring: self-close the void elements, convert named entities to numeric, sync the NCX `uid` with the OPF, put the `mimetype` entry first in the zip. Each one is deterministic, and each one lands only if [epubcheck](https://github.com/w3c/epubcheck) confirms the patient actually improved. epubcheck stays an external oracle, never a Python dependency; the package itself is stdlib only. Dry-run is the default mode, and `--apply` backs up before it touches anything.
 
@@ -312,6 +312,32 @@ A native, two-player, local-network, fully offline digital build of a fast set-c
 Hidden hands force a host-authoritative, per-seat-**redacted** model: the host owns the truth, validates every move, and pushes each peer only the view its seat is allowed to see. There is no move relay, because relaying moves would leak the deck order. The engine keeps the same `State` / `Rules` / `Scoring` / `Loader` split, with moves as serializable dictionaries; the ENet transport is in and verified live across two machines, disconnect and reconnect included. The faithful dataset is git-ignored and never committed; the engine is the asset that ships.
 
 <p class="codex-link">private, in development</p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 019</span>
+  <div class="codex-body" markdown="1">
+### Colophon
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.5.0</span></p>
+
+A native GNOME statistics viewer for [KOReader](https://koreader.rocks/). KOReader tracks a surprising amount about how you read (per-page timing, session history, running totals), and every existing way to look at that data is a web dashboard or a self-hosted Docker service. Colophon is neither: a local desktop app that imports a *copy* of `statistics.sqlite3` (staged, validated, never opened in place) and turns it into the analytics nobody else ships. A reading-speed trend across the library with a per-book overlay; a weekday-by-hour *when do I read* heatmap; session-length histograms and starts-by-hour patterns; a per-page activity strip that answers *did it drag in the middle*; inferred read-through detection with per-completion cards; and the expected furniture (year heatmap, streaks, device-parity stat cards) done carefully.
+
+The spec pins a normative definition for every derived metric (what counts as a session, a streak, a page read) so the numbers reconcile with the device and with each other; progress is an interval union on the page axis, immune to re-reads and to pagination drift when font sizes change. A two-crate workspace splits the headless ingestion-and-metrics core from the GTK shell, the charts are hand-drawn cairo on `GtkDrawingArea` with Kanagawa ramps for light and dark (no charting crate, zero new dependencies), and the tests include a reconciliation run against the real device sample. A colophon is the note printers placed at the end of a book, the book's own record of its production; this is that idea turned toward the reading.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/Colophon">github.com/VirInvictus/Colophon →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 020</span>
+  <div class="codex-body" markdown="1">
+### Dead Reckoning
+<p class="codex-meta">Lua <span class="stack-sep">·</span> KOReader <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
+
+The smallest thing in the collection: a preset for the [Bookends](https://github.com/AndyHazz/bookends.koplugin) KOReader plugin, styled as a navigation cockpit for the book in progress. Session pace in pages per hour, a chapter ETA, a projected finish date reckoned from the current pace, and a tick on the progress bar at every chapter waypoint. The telemetry renders in a soft low-contrast grey so the instruments never compete with the page. One Lua file; drop it in the presets folder.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/dead-reckoning-bookend-preset">github.com/VirInvictus/dead-reckoning-bookend-preset →</a></p>
   </div>
 </div>
 
