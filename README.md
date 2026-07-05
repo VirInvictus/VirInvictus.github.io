@@ -38,7 +38,7 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Twenty projects. Native Linux desktop software at the centre, with game-design work, KOReader companions, and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
+Twenty-one projects. Native Linux desktop software at the centre, with game-design work, KOReader companions, and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
@@ -83,7 +83,7 @@ The v2.x line built an original surface on top of the port: **Custom Smart Feeds
   <span class="codex-num">No. 003</span>
   <div class="codex-body" markdown="1">
 ### Hermitage
-<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Libadwaita <span class="stack-sep">·</span> <span class="status">active · v0.15.0</span></p>
+<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Libadwaita <span class="stack-sep">·</span> <span class="status">active · v0.16.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/hermitage-gallery.webp' | relative_url }}" alt="Hermitage's cover-art grid filtered to a virtual library, with the Wing sidebar open and the search bar showing the active expression" loading="lazy">
@@ -91,7 +91,7 @@ The v2.x line built an original surface on top of the port: **Custom Smart Feeds
 
 A local-first, native gallery for Calibre libraries, for the single user who wants a modern desktop experience without Docker or a web auth layer. Reads `metadata.db` in `mode=ro` and turns a 4,000+ item library into a cinematic gallery: an edge-to-edge cover grid with median-cut colour quantization for per-book accent tinting, a sliding hero-banner detail sidebar (the *Codex*), and a recursive genre browser that unfolds dot-separated Calibre tags (`Fic.Fantasy.Grimdark`) into a navigable tree.
 
-Native support for Virtual Libraries and the full Calibre search-query language (`Ctrl+F`), with a 512-entry texture LRU and three-tier colour cache to keep scrolling smooth on integrated graphics. Ships `hermitage-verify`, a standalone CLI that audits integrity, cover presence, and format resolution. Zero telemetry, zero network calls, zero accounts. A GNOME 50 Flatpak ships alongside the native build: 8 MB, sandboxed, with arbitrary library paths reached through the file-chooser portal.
+Native support for Virtual Libraries and the full Calibre search-query language (`Ctrl+F`), with a 512-entry texture LRU and three-tier colour cache to keep scrolling smooth on integrated graphics. Ships `hermitage-verify`, a standalone CLI that audits integrity, cover presence, and format resolution; the v0.16.0 audit sweep added the project's first in-tree test suite and lint hygiene behind it. Zero telemetry, zero network calls, zero accounts. A GNOME 50 Flatpak ships alongside the native build: 8 MB, sandboxed, with arbitrary library paths reached through the file-chooser portal.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Hermitage">github.com/VirInvictus/Hermitage →</a></p>
   </div>
@@ -105,7 +105,7 @@ Native support for Virtual Libraries and the full Calibre search-query language 
 
 A toolkit for music collectors who keep the filesystem as the source of truth. Library-tree visualization across artist / album / track / rating / genre. Parallel FLAC / MP3 / Opus / WAV / WMA integrity verification (shelling out to `flac -t` and `ffmpeg`), embedded cover-art extraction with format-priority ranking, an art-quality audit against a configurable resolution floor, and tag, bitrate, and duplicate audits. Smart `.m3u` generation from dynamic rules (`rating >= 4 and genre == 'Jazz'`), per-genre **wings** (one library file per genre, like Calibre virtual libraries for music), and a token-efficient `--ai-library` export sized to fit a 4,000-album collection inside an LLM context window. The directory layout is configurable, so the tools never fight you about your shelving. Bare `lattice` opens a full-screen curses TUI.
 
-The package is read-only by design: it reads tags, decodes audio, writes reports. Two destructive companions live at the repo root, deliberately outside the package boundary so the read-only contract holds. `retag.py` is the universal genre rewriter, abstracting the ID3 / Vorbis / iTunes-atom multi-genre chaos for safe bulk retagging. `cleaner.py` consolidates fragmented album folders: it finds sibling directories whose names normalize to the same key (curly→straight quotes, dash variants→ASCII hyphen, NFKC, lowercase) and merges them via `shutil.move`, touching no audio bytes. Size-differing collisions keep both copies under a `.from-fragment` suffix; `--dry-run` previews every move and the operation is idempotent on re-run.
+The package is read-only by design: it reads tags, decodes audio, writes reports. Seven destructive companions live in `scripts/`, deliberately outside the package boundary so the read-only contract holds: `genre_tidy.py` applies a genre policy map library-wide, `rerate.py` reconciles MP3 POPM rating bytes with DeaDBeeF and foobar, `genre_foldermap.py` restructures the tree into Genre / Artist / Album, `replaygain.py` writes ReplayGain 2.0 tags through `rsgain`, and `apestrip.py` removes stray APEv2 tags. Two are worth spelling out. `retag.py` is the universal genre rewriter, abstracting the ID3 / Vorbis / iTunes-atom multi-genre chaos for safe bulk retagging. `cleaner.py` consolidates fragmented album folders: it finds sibling directories whose names normalize to the same key (curly→straight quotes, dash variants→ASCII hyphen, NFKC, lowercase) and merges them via `shutil.move`, touching no audio bytes. Size-differing collisions keep both copies under a `.from-fragment` suffix; `--dry-run` previews every move and the operation is idempotent on re-run.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Lattice">github.com/VirInvictus/Lattice →</a></p>
   </div>
@@ -140,6 +140,8 @@ The ebook formats reflow natively through an embedded WebKitGTK view: each backe
 A CLI toolkit for power users of Calibre. Zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Its hand-written recursive-descent parser hits **100% parity with Calibre's internal search-expression syntax**, validated by a test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` mode (author / `vl:` / boolean / parens / `=`-prefix exact match).
 
 Author-grouped catalogs, with `--all-wings` emitting one per virtual library. Library statistics across format, rating, tag taxonomy, and top authors / tags. **Audit** modes for untagged, unrated, coverless, series-gap, duplicate, and low-resolution covers (parsing on-disk JPEGs with no external libraries); **analytics** modes for per-author breakdowns, added-per-month pace, hierarchical tag trees, and wing overlap. JSON / CSV / AI exports, custom-column extraction, and an automatic DB snapshot when Calibre holds a write lock. Installs as `cquarry`. Complete software, tested on Fedora 44 against Calibre 9.7.
+
+Alongside the stdlib package sits a `scripts/` shelf of write-capable companions, deliberately outside the read-only contract: `audit_epub.py` reads the actual prose of every book to catch wrong-language editions and OCR damage that structural validators miss, `audit_drm.py` scans every format for encryption a metadata sweep would wave through, `reconcile_file_metadata.py` compares curated database values against the metadata embedded in each file (and can push the database back into the files), `validate_metadata.py` lints the `metadata.db` itself, `spot_check.py` samples random books for the corruption pattern sweeps miss, and `compress_pdf.py` shrinks the occasional 1 GB sourcebook through ghostscript.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/CalibreQuarry">github.com/VirInvictus/CalibreQuarry →</a></p>
   </div>
@@ -181,11 +183,11 @@ Retired June 2026 and absorbed into Conservatory (No. 009). The podcast fetch/pa
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### Conservatory
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.1.22</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.2.0</span></p>
 
 A native GNOME library manager that *owns and organizes* your music, podcasts, and audiobooks on disk, presented through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. Designed as **Calibre for audio**.
 
-It absorbed the Belfry podcast client (No. 008), converging that engine and triage model with a massive faceted music browser. The database is truth; the on-disk tree is a rendered template; moving an album re-renders the filesystem. A Calibre-shaped search expression language, multi-select bulk actions, and embedded-tag write-back so files stay portable. The headless manager imports, resolves, and crash-safely moves files with a full undo journal and roll-forward recovery; the GTK app stands up the deadbeef Columns UI faceted browse, a sortable track list, saved Perspectives, the unified play queue with drag-reorder, a libmpv player with ReplayGain and a Now-bar transport, and a Preferences window over a real config file. All three media types are in: music, podcasts, and audiobooks browse and play from the one queue, and it holds up as a daily driver, down to gapless album transitions (the next track is prefetched across mpv's decoder boundary so the seam never reaches the speakers). Built concurrently with Atrium under hard phasing; Belfry was retired at podcast parity (v0.0.52) and its subsystem now lives here whole.
+It absorbed the Belfry podcast client (No. 008), converging that engine and triage model with a massive faceted music browser. The database is truth; the on-disk tree is a rendered template; moving an album re-renders the filesystem. A Calibre-shaped search expression language, multi-select bulk actions, and embedded-tag write-back so files stay portable. The headless manager imports, resolves, and crash-safely moves files with a full undo journal and roll-forward recovery; the GTK app stands up the deadbeef Columns UI faceted browse (configurable columns and facet panes), a sortable track list, saved Perspectives, the unified play queue with drag-reorder, shuffle and repeat, and a libmpv player carrying ReplayGain, a 10-band graphic EQ, a DSP rack (compressor, limiter, leveler), a real-time spectrum visualizer, a Now-bar transport, and a Preferences window over a real config file. All three media types are in: music, podcasts, and audiobooks browse and play from the one queue, and it holds up as a daily driver, down to gapless album transitions (the next track is prefetched across mpv's decoder boundary so the seam never reaches the speakers). A CLI health suite audits integrity, duplicates, tags, and cover art, strips stray APE tags, and imports and exports `.m3u`. Built concurrently with Atrium under hard phasing; Belfry was retired at podcast parity (v0.0.52) and its subsystem now lives here whole. v0.2.0 is the first capability-milestone release, closing out accent-folding search and configurable browse columns on top of a player that was already a daily driver.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Conservatory">github.com/VirInvictus/Conservatory →</a></p>
   </div>
@@ -255,7 +257,7 @@ An ERT test suite checks palette byte-for-byte parity against the upstream nvim 
 
 A command-line surgeon for malformed EPUBs. The fixes are deliberately boring: self-close the void elements, convert named entities to numeric, sync the NCX `uid` with the OPF, put the `mimetype` entry first in the zip. Each one is deterministic, and each one lands only if [epubcheck](https://github.com/w3c/epubcheck) confirms the patient actually improved. epubcheck stays an external oracle, never a Python dependency; the package itself is stdlib only. Dry-run is the default mode, and `--apply` backs up before it touches anything.
 
-Built to operate inside a Calibre library without breaking it: a repair atomically replaces only the `.epub`, leaving `metadata.opf`, `cover.jpg`, and the database for Calibre's own Quality Check to re-sync. Sibling to oceanstrip; the two share the epubcheck no-regression gate.
+Built to operate inside a Calibre library without breaking it: a repair atomically replaces only the `.epub`, leaving `metadata.opf`, `cover.jpg`, and the database for Calibre's own Quality Check to re-sync. An opt-in lossy mode (`--strip-pagination`) goes further, removing the baked-in page-number furniture that PDF and OCR conversions leave behind, behind its own safety guards. Sibling to oceanstrip; the two share the epubcheck no-regression gate.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Bindery">github.com/VirInvictus/Bindery →</a></p>
   </div>
@@ -265,9 +267,9 @@ Built to operate inside a Calibre library without breaking it: a repair atomical
   <span class="codex-num">No. 015</span>
   <div class="codex-body" markdown="1">
 ### oceanstrip
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.1.1</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.3.0</span></p>
 
-Strips OceanofPDF.com watermarks out of EPUBs. The removal is balanced-element surgery rather than regex slicing: locate the injected markup, remove whole well-formed elements, leave the surrounding document untouched. Works on a single file or sweeps an entire library, always writing new copies (originals are never modified), and every output is epubcheck-clean. Stdlib only, like its sibling Bindery.
+Strips producer and redistributor watermarks out of EPUBs. What began as an OceanofPDF.com-only tool is now a small signature registry: OceanofPDF's injected link (and its stray marker file), and the ABC Amber LIT Converter stamp that old `.lit` conversions leave on nearly every page, each caught in both an anchored form (the stamp is a link) and an anchorless form (plain text, with no `<a>` to catch). Adding another producer is one table entry. The removal is balanced-element surgery rather than regex slicing: find the stamp, walk up to the outermost wrapper whose entire visible text is the watermark, and delete that whole well-formed element, so real prose that merely mentions the URL is never touched and a well-formed file stays well-formed. Works on a single file or sweeps an entire library, always writing new copies (originals are never modified), and every output is epubcheck-clean. Stdlib only, like its sibling Bindery.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Oceanstrip">github.com/VirInvictus/Oceanstrip →</a></p>
   </div>
@@ -319,11 +321,11 @@ Hidden hands force a host-authoritative, per-seat-**redacted** model: the host o
   <span class="codex-num">No. 019</span>
   <div class="codex-body" markdown="1">
 ### Colophon
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.5.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libadwaita <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.0.0</span></p>
 
-A native GNOME statistics viewer for [KOReader](https://koreader.rocks/). KOReader tracks a surprising amount about how you read (per-page timing, session history, running totals), and every existing way to look at that data is a web dashboard or a self-hosted Docker service. Colophon is neither: a local desktop app that imports a *copy* of `statistics.sqlite3` (staged, validated, never opened in place) and turns it into the analytics nobody else ships. A reading-speed trend across the library with a per-book overlay; a weekday-by-hour *when do I read* heatmap; session-length histograms and starts-by-hour patterns; a per-page activity strip that answers *did it drag in the middle*; inferred read-through detection with per-completion cards; and the expected furniture (year heatmap, streaks, device-parity stat cards) done carefully.
+A native GNOME statistics viewer for [KOReader](https://koreader.rocks/). KOReader tracks a surprising amount about how you read (per-page timing, session history, running totals), and every existing way to look at that data is a web dashboard or a self-hosted Docker service. Colophon is neither: a local desktop app that imports a *copy* of `statistics.sqlite3` (staged, validated, never opened in place) and turns it into the analytics nobody else ships. A reading-speed trend across the library with a per-book overlay; a weekday-by-hour *when do I read* heatmap; session-length histograms and starts-by-hour patterns; a per-page activity strip that answers *did it drag in the middle*; inferred read-through detection with per-completion cards; a reading-personality card that reads traits (chronotype, session style, weekly rhythm) off your own behaviour; and the expected furniture (year heatmap, streaks, device-parity stat cards) done carefully. Per-book `.sdr` sidecars are strictly opt-in and user-provided: hand it one and the device's own finished verdict becomes authoritative over the position-based guess and your highlights land at their true place on the activity strip, but nothing on the device is ever scanned.
 
-The spec pins a normative definition for every derived metric (what counts as a session, a streak, a page read) so the numbers reconcile with the device and with each other; progress is an interval union on the page axis, immune to re-reads and to pagination drift when font sizes change. A two-crate workspace splits the headless ingestion-and-metrics core from the GTK shell, the charts are hand-drawn cairo on `GtkDrawingArea` with Kanagawa ramps for light and dark (no charting crate, zero new dependencies), and the tests include a reconciliation run against the real device sample. A colophon is the note printers placed at the end of a book, the book's own record of its production; this is that idea turned toward the reading.
+The spec pins a normative definition for every derived metric (what counts as a session, a streak, a page read) so the numbers reconcile with the device and with each other; progress is an interval union on the page axis, immune to re-reads and to pagination drift when font sizes change. A two-crate workspace splits the headless ingestion-and-metrics core from the GTK shell, the charts are hand-drawn cairo on `GtkDrawingArea` across eight switchable themes (Kanagawa Dragon/Wave/Lotus, Gruvbox, Nord, Rosé Pine, Solarized) that drive both the window chrome and the graphs (no charting crate, zero new dependencies), and the tests include a reconciliation run against the real device sample. It reached 1.0 on 2026-07-05, feature-complete against the spec with Meson and Flatpak packaging shipped. A colophon is the note printers placed at the end of a book, the book's own record of its production; this is that idea turned toward the reading.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Colophon">github.com/VirInvictus/Colophon →</a></p>
   </div>
@@ -338,6 +340,18 @@ The spec pins a normative definition for every derived metric (what counts as a 
 The smallest thing in the collection: a preset for the [Bookends](https://github.com/AndyHazz/bookends.koplugin) KOReader plugin, styled as a navigation cockpit for the book in progress. Session pace in pages per hour, a chapter ETA, a projected finish date reckoned from the current pace, and a tick on the progress bar at every chapter waypoint. The telemetry renders in a soft low-contrast grey so the instruments never compete with the page. One Lua file; drop it in the presets folder.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/dead-reckoning-bookend-preset">github.com/VirInvictus/dead-reckoning-bookend-preset →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 021</span>
+  <div class="codex-body" markdown="1">
+### Kobo-style Sleepscreen Banner
+<p class="codex-meta">Lua <span class="stack-sep">·</span> KOReader <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
+
+A KOReader user patch that redraws the stock sleep screen as a Kobo-lockscreen-style floating card over your book cover: a serif title, a stats line, and a random highlight pulled from the last book you were reading, set as an italic pull-quote with an accent rule and a "saved on..." footer. The card carries a real visual identity, rounded corners over a hard offset drop shadow so it reads as a tag sitting above the cover, with per-element font control wired for the [ebook-fonts](https://github.com/nicoverbruggen/ebook-fonts) collection out of the box. It draws once on suspend, so there is no E Ink refresh cost while you read. Honest about its lineage: a prettified fork of zenixlabs' community patch (which designed the Kobo banner and the random-highlight feature), credited in the source header and README; this fork contributes the floating-card design and the font wiring. AGPL-3.0, matching KOReader. One Lua file; drop it in `koreader/patches/` and keep the `2-` prefix so it loads after KOReader's widget system. The third of the KOReader companions, alongside Colophon and Dead Reckoning.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/2-kobo-style-sleepscreen-banner-prettified">github.com/VirInvictus/2-kobo-style-sleepscreen-banner-prettified →</a></p>
   </div>
 </div>
 
