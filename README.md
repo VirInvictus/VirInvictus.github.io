@@ -38,7 +38,7 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Twenty-one projects. Native Linux desktop software at the centre, with game-design work, KOReader companions, and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
+Twenty-two projects. Native Linux desktop software at the centre, with game-design work, KOReader companions, and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
@@ -352,6 +352,18 @@ The smallest thing in the collection: a preset for the [Bookends](https://github
 A KOReader user patch that redraws the stock sleep screen as a Kobo-lockscreen-style floating card over your book cover: a serif title, a stats line, and a random highlight pulled from the last book you were reading, set as an italic pull-quote with an accent rule and a "saved on..." footer. The card carries a real visual identity, rounded corners over a hard offset drop shadow so it reads as a tag sitting above the cover, with per-element font control wired for the [ebook-fonts](https://github.com/nicoverbruggen/ebook-fonts) collection out of the box. It draws once on suspend, so there is no E Ink refresh cost while you read. Honest about its lineage: a prettified fork of zenixlabs' community patch (which designed the Kobo banner and the random-highlight feature), credited in the source header and README; this fork contributes the floating-card design and the font wiring. AGPL-3.0, matching KOReader. One Lua file; drop it in `koreader/patches/` and keep the `2-` prefix so it loads after KOReader's widget system. The third of the KOReader companions, alongside Colophon and Dead Reckoning.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/2-kobo-style-sleepscreen-banner-prettified">github.com/VirInvictus/2-kobo-style-sleepscreen-banner-prettified →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 022</span>
+  <div class="codex-body" markdown="1">
+### 1-timezone
+<p class="codex-meta">Lua <span class="stack-sep">·</span> KOReader <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
+
+The tiniest fix in the collection, born from a real annoyance: on a jailbroken Kindle that boots straight into KOReader, no framework hands the process a timezone, so the base system falls back to a bogus Local Mean Time offset and every clock in the app is wrong by an odd fraction of an hour. "Synchronize time" never helps, because it corrects the instant, not the offset. This patch sets a real POSIX `TZ` inside the process and calls `tzset()` early, before the first clock read, so the footer clock, time sync, and AutoWarmth all agree again, with daylight saving flipping on its own. It ships defaulting to Eastern Time; one labelled line retargets it to any zone. AGPL-3.0, matching KOReader. One Lua file; drop it in `koreader/patches/` and keep the `1-` prefix so it runs first. The fourth of the KOReader companions, alongside Colophon, Dead Reckoning, and the Sleepscreen Banner.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/1-timezone">github.com/VirInvictus/1-timezone →</a></p>
   </div>
 </div>
 
