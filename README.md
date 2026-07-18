@@ -38,7 +38,7 @@ The site is named *Vir Invictus*, *the unconquered*. It is a working motto, not 
 ## II. The Collection
 {: #the-collection}
 
-Twenty-four projects. Native Linux desktop software at the centre, with game-design work, KOReader companions, a calibre-web theme, and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
+Twenty-five projects. Native Linux desktop software at the centre, with game-design work, KOReader companions, a calibre-web theme, and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
@@ -392,6 +392,22 @@ Envelope budgeting over a plain-text [hledger](https://hledger.org/) journal: Ac
 A coffer is both a strongbox for valuables and the recessed panel in a coffered ceiling; finance and architecture in one word, the same dual reading as Atrium. Phase 0: the design dossier is committed, the spec is not yet locked, no code exists.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Coffer">github.com/VirInvictus/Coffer →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 025</span>
+  <div class="codex-body" markdown="1">
+### rd-cli
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.3.0</span></p>
+
+A dependency-free command-line client for the [Raindrop.io](https://raindrop.io/) bookmarking service, built the way the other stdlib tools here are: `urllib`, `json`, `argparse`, `tomllib`, and nothing from PyPI. It covers the REST API a single user actually touches: raindrops, collections, tags, and highlights, plus the account endpoints (user, stats, filters, import-dedup, export, backups). Every command speaks two languages, designed ANSI for a human at a terminal and `--json` for scripts and agents, so the one binary is both a daily driver and an automation surface.
+
+The whole client funnels through a single `_request` method: it attaches auth, applies a timeout, lowercases the boolean query params the API rejects otherwise, retries `429` and `5xx` with bounded backoff (honoring `Retry-After`), and maps every failure to a typed exception carrying the API's own message. The bulk verbs are grounded in an empirically verified quirk of Raindrop's batch endpoints, that they only touch raindrops actually in the path collection, so a naive id-based batch move silently no-ops; rd-cli loops the single-item endpoints for explicit id-lists and reserves the batch calls for `--from` collection scope, and a global `--dry-run` logs the method and payload of every write without making the call. A pytest suite drives the client against a fake `urllib` transport, so the tests need no network.
+
+Since v0.2.0 it speaks a second service too: a `PinboardClient` sibling and an `rd pinboard` command group, honest to [Pinboard](https://pinboard.in)'s flat model (bookmarks keyed by URL, no collections, `toread`/`shared` flags, notes) with a paced client for Pinboard's strict rate limit. v0.3.0 adds `rd sync`, a two-way additive Raindrop and Pinboard sync that matches on a normalized URL (its dedup key), never deletes, and bridges the model gap reversibly in tags, with direction and collection/tag scoping so it converges what you choose rather than unioning everything by force.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/rd-cli">github.com/VirInvictus/rd-cli →</a></p>
   </div>
 </div>
 
