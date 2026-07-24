@@ -370,14 +370,14 @@ The tiniest fix in the collection, born from a real annoyance: on a jailbroken K
 <div class="codex-entry">
   <span class="codex-num">No. 023</span>
   <div class="codex-body" markdown="1">
-### calibre-web-kanagawa
-<p class="codex-meta">CSS <span class="stack-sep">·</span> Python <span class="stack-sep">·</span> Flask <span class="stack-sep">·</span> <span class="status">active · v0.6.0</span></p>
+### Carrel
+<p class="codex-meta">CSS <span class="stack-sep">·</span> Python <span class="stack-sep">·</span> Flask <span class="stack-sep">·</span> <span class="status">active · v0.6.1</span></p>
 
 A Kanagawa Dragon theme and a curated, library-first configuration for [calibre-web](https://github.com/janeczku/calibre-web). The premise: a personal Calibre library deserves a web front-end that feels like a reading room, not a dashboard. Surfaces stay near-black and muted so the book covers are the most saturated thing on every page, and everything unused is gone: uploads, shelves, metadata editing, registration, sync, all disabled at the source.
 
-The project home holds the canonical stylesheet, the EPUB-reader theme, and the contract; the code rides in a companion fork, [calibre-web-smallscope](https://github.com/VirInvictus/calibre-web-smallscope), as commits on a branch cut from upstream 0.6.26. The fork adapts calibre-web to a curated library: read-only reading-status badges (To Read / Reading / Read / DNF) drawn from the library's own enumeration column, and **Wings**, Calibre virtual libraries surfaced as browse sections, their expressions evaluated through CalibreQuarry's stdlib port of Calibre's search grammar (No. 006). `metadata.db` is attached read-only at the connection level, so the web layer cannot write to the library even by accident.
+The project home holds the canonical stylesheet, the EPUB-reader theme, and the contract; the code rides in a companion fork, [Carrel-calibre-web](https://github.com/VirInvictus/Carrel-calibre-web), as commits on a branch cut from upstream 0.6.26. The fork adapts calibre-web to a curated library: read-only reading-status badges (To Read / Reading / Read / DNF) drawn from the library's own enumeration column, and **Wings**, Calibre virtual libraries surfaced as browse sections, their expressions evaluated through CalibreQuarry's stdlib port of Calibre's search grammar (No. 006). `metadata.db` is attached read-only at the connection level, so the web layer cannot write to the library even by accident.
 
-<p class="codex-link"><a href="https://github.com/VirInvictus/calibre-web-kanagawa">github.com/VirInvictus/calibre-web-kanagawa →</a></p>
+<p class="codex-link"><a href="https://github.com/VirInvictus/Carrel">github.com/VirInvictus/Carrel →</a></p>
   </div>
 </div>
 
