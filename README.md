@@ -371,11 +371,17 @@ The tiniest fix in the collection, born from a real annoyance: on a jailbroken K
   <span class="codex-num">No. 023</span>
   <div class="codex-body" markdown="1">
 ### Carrel
-<p class="codex-meta">CSS <span class="stack-sep">·</span> Python <span class="stack-sep">·</span> Flask <span class="stack-sep">·</span> <span class="status">active · v0.6.1</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> Flask <span class="stack-sep">·</span> CSS <span class="stack-sep">·</span> <span class="status">active · v0.9.0</span></p>
 
-A Kanagawa Dragon theme and a curated, library-first configuration for [calibre-web](https://github.com/janeczku/calibre-web). The premise: a personal Calibre library deserves a web front-end that feels like a reading room, not a dashboard. Surfaces stay near-black and muted so the book covers are the most saturated thing on every page, and everything unused is gone: uploads, shelves, metadata editing, registration, sync, all disabled at the source.
+A carrel is a private desk in a library, and that is the whole design brief: no accounts, no sharing, no dashboard. One reader, seven thousand books, and an interface that gets out of the way. Built on [calibre-web](https://github.com/janeczku/calibre-web), it has since become a different program.
 
-The project home holds the canonical stylesheet, the EPUB-reader theme, and the contract; the code rides in a companion fork, [Carrel-calibre-web](https://github.com/VirInvictus/Carrel-calibre-web), as commits on a branch cut from upstream 0.6.26. The fork adapts calibre-web to a curated library: read-only reading-status badges (To Read / Reading / Read / DNF) drawn from the library's own enumeration column, and **Wings**, Calibre virtual libraries surfaced as browse sections, their expressions evaluated through CalibreQuarry's stdlib port of Calibre's search grammar (No. 006). `metadata.db` is attached read-only at the connection level, so the web layer cannot write to the library even by accident.
+**There is no login.** Rather than strip out authentication and fight every future rebase, a thirty-line shim authenticates the owner on each request, so upstream's 154 `@login_required` decorators pass untouched and the credential routes simply answer 404. `metadata.db` is attached read-only at the connection level, so the web layer cannot write to the library even by accident.
+
+**The search bar speaks Calibre.** Upstream has no expression grammar at all: it lowercases the term and hands it to FTS5 as a phrase, so `author:"King"` searched for that literal string and returned nothing. Carrel evaluates through CalibreQuarry's stdlib port of Calibre's parser (No. 006), and the numbers invert: 0 to 55 for that query, 0 to 1368 for `tags:Fic.Fantasy`, 0 to 244 for a custom column. Field prefixes, boolean logic, hierarchical tags and virtual-library references all behave as they do in Calibre.
+
+**Wings** surface Calibre's virtual libraries as browse sections through that same engine, so the sidebar and a `vl:` search can never disagree. A **category browser** walks the library's dot taxonomy, synthesising the intermediate nodes because only leaves are assigned, and **Ctrl-K** fuzzy-jumps to any of 6,975 destinations, falling through to a search when what you typed is not one.
+
+The theme stopped being a theme. caliBlur is gone and the stylesheet is owned outright: ledger hairlines instead of cards, serif for prose and mono for every label and count. One measurement shaped the statistics surfaces more than any taste decision. Kanagawa fails as a categorical chart palette, measurably: the worst adjacent accent pair sits at ΔE 6.7 for normal vision, before colour blindness is considered. So magnitude rides a single sequential ramp and identity is carried by position and a label. The constraint pushed the design toward the ledger idiom it already wanted.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/Carrel">github.com/VirInvictus/Carrel →</a></p>
   </div>
