@@ -44,7 +44,7 @@ Twenty-five projects. Native Linux desktop software at the centre, with game-des
   <span class="codex-num">No. 001</span>
   <div class="codex-body" markdown="1">
 ### Atrium
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.65.1</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.66.0</span></p>
 
 <div class="codex-plate codex-plate--pair">
   <img src="{{ '/assets/img/atrium-today-simple.webp' | relative_url }}" alt="Atrium's Today view in Simple Mode: a calm two-pane list with areas, tags, and two tasks due today" loading="lazy">
@@ -63,7 +63,7 @@ Local-first SQLite in WAL mode, single-writer worker, read-only connection pool.
   <span class="codex-num">No. 002</span>
   <div class="codex-body" markdown="1">
 ### Viaduct
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.0.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.0.1</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/viaduct-main-adwaita.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread badges, timeline, and a rendered Daring Fireball article" loading="lazy">
@@ -135,7 +135,7 @@ The ebook formats reflow natively through an embedded WebKitGTK view: each backe
   <span class="codex-num">No. 006</span>
   <div class="codex-body" markdown="1">
 ### CalibreQuarry
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.6.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.8.0</span></p>
 
 Calibre power-user tooling with zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Its hand-written recursive-descent parser hits **100% parity with Calibre's internal search-expression syntax**, validated by a test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` mode (author / `vl:` / boolean / parens / `=`-prefix exact match).
 
@@ -183,7 +183,7 @@ Retired June 2026 and absorbed into Conservatory (No. 009). The podcast fetch/pa
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### Conservatory
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.9</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.10</span></p>
 
 Conservatory *owns and organizes* your music, podcasts, and audiobooks on disk, presenting them through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. Designed as **Calibre for audio**.
 
