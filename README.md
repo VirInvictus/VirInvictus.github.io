@@ -44,7 +44,7 @@ Twenty-five projects. Native Linux desktop software at the centre, with game-des
   <span class="codex-num">No. 001</span>
   <div class="codex-body" markdown="1">
 ### Atrium
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.67.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.68.0</span></p>
 
 <div class="codex-plate codex-plate--pair">
   <img src="{{ '/assets/img/atrium-today-simple.webp' | relative_url }}" alt="Atrium's Today view in Simple Mode: a calm two-pane list with areas, tags, and two tasks due today" loading="lazy">
@@ -63,7 +63,7 @@ Local-first SQLite in WAL mode, single-writer worker, read-only connection pool.
   <span class="codex-num">No. 002</span>
   <div class="codex-body" markdown="1">
 ### Viaduct
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.0.1</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.1.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/viaduct-main-adwaita.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread badges, timeline, and a rendered Daring Fireball article" loading="lazy">
@@ -183,7 +183,7 @@ Retired June 2026 and absorbed into Conservatory (No. 009). The podcast fetch/pa
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### Conservatory
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.10</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.11</span></p>
 
 Conservatory *owns and organizes* your music, podcasts, and audiobooks on disk, presenting them through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. Designed as **Calibre for audio**.
 
@@ -307,7 +307,7 @@ Hot-seat is the development default; the authoritative-host LAN layer lands late
   <span class="codex-num">No. 018</span>
   <div class="codex-body" markdown="1">
 ### Haveli
-<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.11.2</span></p>
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.11.3</span></p>
 
 Two players, one LAN, no internet at any point: a digital build of a fast set-collection card game on a content-agnostic, deterministic engine. Sibling in shape to Hearth, but where Hearth's puzzle is the board, Haveli's is hidden information and reproducible randomness. It is a shuffled-deck game, so determinism is foundational: an `rng_seed` plus a draw cursor make every shuffle and every market refill replayable from the state alone, which is what lets the network layer stay honest.
 
