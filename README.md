@@ -307,7 +307,7 @@ Hot-seat is the development default; the authoritative-host LAN layer lands late
   <span class="codex-num">No. 018</span>
   <div class="codex-body" markdown="1">
 ### Haveli
-<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.11.3</span></p>
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.0.0</span></p>
 
 Two players, one LAN, no internet at any point: a digital build of a fast set-collection card game on a content-agnostic, deterministic engine. Sibling in shape to Hearth, but where Hearth's puzzle is the board, Haveli's is hidden information and reproducible randomness. It is a shuffled-deck game, so determinism is foundational: an `rng_seed` plus a draw cursor make every shuffle and every market refill replayable from the state alone, which is what lets the network layer stay honest.
 
