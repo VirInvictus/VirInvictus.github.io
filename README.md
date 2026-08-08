@@ -38,7 +38,7 @@ The site is named *Vir Invictus*, *the unconquered*. I picked it a long time ago
 ## II. The Collection
 {: #the-collection}
 
-Twenty-five projects. Native Linux desktop software at the centre, with game-design work, KOReader companions, a calibre-web theme, and an Emacs theme at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
+Thirty projects. Native Linux desktop software at the centre, with games and game-design work, KOReader companions, a calibre-web theme, an Emacs theme, and a few small single-purpose tools at the edges. Local-first by default; the throughline is curation. Atrium is the largest piece and the one in motion; the rest sort by current state.
 
 <div class="codex-entry">
   <span class="codex-num">No. 001</span>
@@ -135,13 +135,15 @@ The ebook formats reflow natively through an embedded WebKitGTK view: each backe
   <span class="codex-num">No. 006</span>
   <div class="codex-body" markdown="1">
 ### CalibreQuarry
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.8.1</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.9.0</span></p>
 
 Calibre power-user tooling with zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Its hand-written recursive-descent parser hits **100% parity with Calibre's internal search-expression syntax**, validated by a test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` mode (author / `vl:` / boolean / parens / `=`-prefix exact match).
 
 Author-grouped catalogs, with `--all-wings` emitting one per virtual library. Library statistics across format, rating, tag taxonomy, and top authors / tags. **Audit** modes for untagged, unrated, coverless, series-gap, duplicate, and low-resolution covers (parsing on-disk JPEGs with no external libraries); **analytics** modes for per-author breakdowns, added-per-month pace, hierarchical tag trees, and wing overlap. JSON / CSV / AI exports, custom-column extraction, and an automatic DB snapshot when Calibre holds a write lock. Installs as `cquarry`. Complete software, tested on Fedora 44 against Calibre 9.7.
 
 Alongside the stdlib package sits a `scripts/` shelf of write-capable companions, deliberately outside the read-only contract: `audit_epub.py` reads the actual prose of every book to catch wrong-language editions and OCR damage that structural validators miss, `audit_drm.py` scans every format for encryption a metadata sweep would wave through, `reconcile_file_metadata.py` compares curated database values against the metadata embedded in each file (and can push the database back into the files), `validate_metadata.py` lints the `metadata.db` itself, `spot_check.py` samples random books for the corruption pattern sweeps miss, and `compress_pdf.py` shrinks the occasional 1 GB sourcebook through ghostscript.
+
+The newest of them, `audit_isbns.py`, asks a question nothing else in the Calibre ecosystem does: not *is this ISBN well-formed* but *does it identify this book*. Calibre downloads metadata and never re-examines what it stored, so a wrong identifier stays invisible behind a passing checksum. A four-source sweep of a validator-clean 6,786-ISBN library found 51 pointing at a different book, the dominant shape being a same-publisher sibling; *Programming Clojure* carried *tmux 2*'s number, and *A Book on C* carried `9782147483649`, the 2147483649 integer-overflow constant dressed as an ISBN. The script verifies against the ISBN each book prints on its own copyright page, reading body text only and never the embedded metadata, because `reconcile_file_metadata.py` writes the database's values into those blocks and comparing against them would confirm every error the tool exists to find. Most of the work is not crying wolf: a bibliography printing 49 other ISBNs is classified as a citing work, a bundle reports `AMBIGUOUS` for a human, and a print-versus-ebook variant sharing the registrant prefix reports `VARIANT` rather than `SUSPECT`. There is deliberately no `--apply` and there will not be one, because single-source verdicts proved wrong often enough that an auto-fixer would have "corrected" four books that were already right.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/CalibreQuarry">github.com/VirInvictus/CalibreQuarry →</a></p>
   </div>
@@ -239,7 +241,7 @@ The hard problem is the engine's embedded scripting language, a GPL bytecode VM 
   <span class="codex-num">No. 013</span>
   <div class="codex-body" markdown="1">
 ### kanagawa-dragon-nvim-emacs
-<p class="codex-meta">Emacs Lisp <span class="stack-sep">·</span> <span class="status status--wip">wip · v0.1.2</span></p>
+<p class="codex-meta">Emacs Lisp <span class="stack-sep">·</span> <span class="status status--wip">wip · v0.1.3</span></p>
 
 A faithful Emacs port of the Dragon variant from [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim). Not a repackaging of the existing `kanagawa-themes` package; that one has the palette right but covers too few faces to hold up in practice. This one maps the full set: every Emacs 29+ tree-sitter `font-lock-*` face, all Doom-specific surfaces (`doom-modeline-*`, `solaire-mode`, `doom-dashboard-*`), org-mode faces, magit, company, corfu, and the rest of the usual zoo. Implemented as a vanilla `deftheme` with no `doom-themes` macro dependency, so it works in stock Emacs and in Doom alike.
 
@@ -311,9 +313,11 @@ Hot-seat is the development default; the authoritative-host LAN layer lands late
 
 Two players, one LAN, no internet at any point: a digital build of a fast set-collection card game on a content-agnostic, deterministic engine. Sibling in shape to Hearth, but where Hearth's puzzle is the board, Haveli's is hidden information and reproducible randomness. It is a shuffled-deck game, so determinism is foundational: an `rng_seed` plus a draw cursor make every shuffle and every market refill replayable from the state alone, which is what lets the network layer stay honest.
 
-Hidden hands force a host-authoritative, per-seat-**redacted** model: the host owns the truth, validates every move, and pushes each peer only the view its seat is allowed to see. There is no move relay, because relaying moves would leak the deck order. The engine keeps the same `State` / `Rules` / `Scoring` / `Loader` split, with moves as serializable dictionaries; the ENet transport is in and verified live across two machines, disconnect and reconnect included. The faithful dataset is git-ignored and never committed; the engine is the asset that ships.
+Hidden hands force a host-authoritative, per-seat-**redacted** model: the host owns the truth, validates every move, and pushes each peer only the view its seat is allowed to see. There is no move relay, because relaying moves would leak the deck order. The client never applies a move itself, which makes desync structurally impossible rather than merely unlikely. The engine keeps the same `State` / `Rules` / `Scoring` / `Loader` split, with moves as serializable dictionaries; the ENet transport is in and verified live across two machines, disconnect and reconnect included.
 
-<p class="codex-link">private, in development</p>
+It reached **1.0.0 on 2026-08-08**, the repo's first tag, and the milestone is explicitly *the engine*: rules-complete, verified end to end across sixteen headless suites including a rules-to-engine fidelity matrix, a full setup-to-final-seal match, and a 24-seed determinism batch. The dataset was checked against the rulebook with zero discrepancies and the token values read off the physical components. The interface that ships with it is deliberately functional rather than final, accessible colour chips and glyphs and one button per legal move; a real graphics and presentation pass is the road to 2.0. The faithful dataset stays git-ignored and never committed, so the repo stays private; the publishable asset is the engine plus an original-theme dataset, a deliberate post-1.0 extraction.
+
+<p class="codex-link">private, shipped v1.0.0</p>
   </div>
 </div>
 
@@ -405,7 +409,7 @@ A coffer is both a strongbox for valuables and the recessed panel in a coffered 
   <span class="codex-num">No. 025</span>
   <div class="codex-body" markdown="1">
 ### rd-cli
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.3.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.0</span></p>
 
 Talks to the [Raindrop.io](https://raindrop.io/) bookmarking service with nothing from PyPI, built the way the other stdlib tools here are: `urllib`, `json`, `argparse`, `tomllib`. It covers the REST API a single user actually touches: raindrops, collections, tags, and highlights, plus the account endpoints (user, stats, filters, import-dedup, export, backups). Every command speaks two languages, designed ANSI for a human at a terminal and `--json` for scripts and agents, so the one binary is both a daily driver and an automation surface.
 
@@ -413,7 +417,85 @@ The whole client funnels through a single `_request` method: it attaches auth, a
 
 Since v0.2.0 it speaks a second service too: a `PinboardClient` sibling and an `rd pinboard` command group, honest to [Pinboard](https://pinboard.in)'s flat model (bookmarks keyed by URL, no collections, `toread`/`shared` flags, notes) with a paced client for Pinboard's strict rate limit. v0.3.0 adds `rd sync`, a two-way additive Raindrop and Pinboard sync that matches on a normalized URL (its dedup key), never deletes, and bridges the model gap reversibly in tags, with direction and collection/tag scoping so it converges what you choose rather than unioning everything by force.
 
+v0.4.0 fixed the one place the safety story was thin. `--dry-run` only helps if you remember to type it first, so destructive operations now confirm, gated on blast radius rather than on every write: scope mode on `rm`, `mv`, and `tag --clear`, where `--from` can match any number of raindrops and the prompt counts them before naming the number; and the irreversible verbs, `rm --permanent`, `empty-trash`, `tags rm`, and deleting a collection, which takes its contents with it. Removing a single id to Trash is recoverable and is not prompted, because a guard that fires on everything is a guard people learn to click through. `-y` and `RD_ASSUME_YES=1` are there for cron. The release also adds `rd open`, which will fetch the archived permanent copy instead of the live link by asking for the `307` with redirects suppressed and reading `Location` rather than following it, reporting a missing archive plainly instead of opening the wrong thing.
+
 <p class="codex-link"><a href="https://github.com/VirInvictus/rd-cli">github.com/VirInvictus/rd-cli →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 026</span>
+  <div class="codex-body" markdown="1">
+### Catagotchi
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v4.5.1</span></p>
+
+A cozy cat tamagotchi wrapped around a Cookie-Clicker-scale idle empire, and the largest thing here that is not a desktop app. The two halves are welded together rather than stacked: five needs average into a *mood multiplier* running ×0.5 to ×2.0 that scales **all** gold income, so a neglected cat is not a guilt mechanic, it is a halved economy. Above that sit eight generators with endless ×2 and ×5 upgrade ladders, three skill trees, fourteen adventures, five story dungeons plus an infinite Endless Depths on seeded floor modifiers, a globally deterministic commodity exchange, and two layers of prestige. Six daily puzzle games (sudoku, crossword, jigsaw, memory, rhythm, and a hidden-object mode) rotate on a four-hour seed that is the same for every player, so a daily is a shared board rather than a private roll.
+
+The engineering constraint is the interesting one: **everything on screen is generated in code.** Art, music, sound effects, and the procedurally painted story vignettes are all drawn or synthesized at runtime, and there are no asset files in the repo beyond a single icon. It targets the GL Compatibility renderer for the same reason, so the whole thing runs on an old integrated GPU. Verification is headless, because a tamagotchi is a bad thing to test by hand: a `CATAGOTCHI_SMOKE` suite runs the systems without a window, a `CATAGOTCHI_DRIVE` script runner drives the real UI from a text file and screenshots every screen it visits, and saves carry forward-compatible migrations so a save from an earlier phase still opens. Currently mid-way through two overlapping overhauls, a graphical pass and a gameplay pass aimed at a Steam-viable build.
+
+<p class="codex-link">private, in development</p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 027</span>
+  <div class="codex-body" markdown="1">
+### Hearthfall
+<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.1.1</span></p>
+
+A grimdark clan-survival game for the terminal: turn-based, season-timed, and fog-black. You start with a handful of villagers and a map you cannot see, send people out, and the world arrives tile by tile through scarcity, story, and violence. *A Dark Room* that grows a spine into *King of Dragon Pass*, rendered in glyphs. The design bet is that exploration and combat are the same loop rather than two: scouts reveal terrain **and** enemy composition, so a scout returning with *forty of them, mostly spears, no archers, holding the high ground* is worth more than a sword, and the game lives in assembling the counter-force rather than in the swing.
+
+Time is seasonal, four turns to a year, and each season splits a finite clan between foraging (which returns nothing at all in winter, because there is nothing out there to find), exploring, and tending the store against a rot that can be slowed and never stopped. Children eat and cannot work; everyone eats regardless.
+
+Three constraints are enforced by tests rather than by intention. `engine/` is stdlib-only pure logic with no I/O and no rendering that imports nothing from the frontend and nothing from PyPI, so a full game runs from a Python REPL with no terminal at all and the Textual skin is shed-able. Every random draw goes through one seeded, injectable RNG, so `--seed 42` replays a run exactly. And event effects are structured TOML tables (`food = -5`) rather than expression strings, so content can never smuggle in code. v0.1.1 added the season ledger: `turn.forecast` projects the food arithmetic for a set of orders while mutating nothing, and it deliberately stops at spoilage, because everything later in the tick consumes the RNG and a forecast that guessed at those would be lying about the one thing a forecast is for. The skin is forbidden from computing numbers; if a number is on screen, the engine produced it.
+
+<p class="codex-link"><a href="https://github.com/VirInvictus/Hearthfall">github.com/VirInvictus/Hearthfall →</a></p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 028</span>
+  <div class="codex-body" markdown="1">
+### Vestibule
+<p class="codex-meta">Ruby <span class="stack-sep">·</span> pandoc <span class="stack-sep">·</span> Emacs Lisp <span class="stack-sep">·</span> <span class="status status--wip">wip · v0.1.0</span></p>
+
+A one-directional converter that turns an Obsidian vault into org-mode files org-roam can index, then installs them into a live Doom setup. Not a sync tool, and that is not a future phase. Half experiment, half write-up: *can you move an Obsidian vault into org-roam* gets asked often and answered in the abstract, usually stopping at "the links and frontmatter are easy, Dataview is impossible."
+
+That answer is right about the first part and too pessimistic about the second, and the measurement is the point of the project. The vault it was designed against has **326 Dataview blocks**, which sounds disqualifying until you count distinct queries instead of instances: 85 are `LIST FROM [[]]`, which is org-roam's native backlinks buffer and gets deleted outright; roughly 200 are one templated `dataviewjs` block that a single org dynamic block replaces; about ten are real queries worth hand-porting. The most common Dataview query in the vault turned out to be a feature org-roam already ships for free. The replacement query layer runs on `org-roam.db`, the SQLite index org-roam maintains anyway, so nothing new gets installed; Dataview has to build that index itself.
+
+Everything structural is hand-rolled (frontmatter to property drawers, wikilinks to `id:` links, nested tags to generated tag-group declarations) and only body markup goes through pandoc, behind a mask-convert-unmask cycle so pandoc never sees the constructs it would mangle. Two passes are mandatory because forward references exist: a note dated January can link to one written in June. `convert` and `install` are deliberately never one command; `convert` writes only inside the repo, and `install` is dry-run by default and tars the target first, because `~/org` is deliberately outside version control for privacy and that snapshot is the only undo. The index layer is built and tested; the converter body is the current work.
+
+<p class="codex-link">private, in development</p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 029</span>
+  <div class="codex-body" markdown="1">
+### Foyer
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> ENet <span class="stack-sep">·</span> <span class="status status--wip">wip · v0.1.0</span></p>
+
+The shared front door to Hearth (No. 017) and Haveli (No. 018): a small launcher and networked LAN lobby. Pick a game, find the other player on the network, agree the setup, lock in, and Foyer relaunches each side with the right arguments and steps out of the way.
+
+What it is *not* is the design. It is not an engine and holds no game rules: each game keeps its own engine, its own ENet transport, and its own hidden-information handling, and Foyer coordinates only the choice and the handshake. That boundary buys something concrete. Hearth and Haveli are private because they carry a faithful transcription of a copyrighted board game; Foyer carries none of it, so it is original code that can stand on its own. It also keeps the registry of games it knows about (tracked) separate from where they live on your disk (untracked), so a checkout stays portable and nobody's home directory ends up in the repository. Phase 1 ships the launcher, which lists its games, greys out the ones it cannot locate, and starts either one locally; the networked half is Phase 2, and until then each game keeps its own in-app lobby.
+
+<p class="codex-link">in development</p>
+  </div>
+</div>
+
+<div class="codex-entry">
+  <span class="codex-num">No. 030</span>
+  <div class="codex-body" markdown="1">
+### dragon-themer
+<p class="codex-meta">Ruby (stdlib only) <span class="stack-sep">·</span> ERB <span class="stack-sep">·</span> <span class="status status--design">design</span></p>
+
+Retheming a tiling desktop means hand-editing the same eight hex values into thirty files and finding the two you missed a week later. dragon-themer makes it one command: one palette as the source of truth, rendered through pure ERB templates into every colour-bearing config on the machine, with each group (desktop, terminal, editor, apps) able to move independently, because a terminal and a desktop do not have to agree.
+
+The model is small enough to state in a sentence. A **theme** is fourteen named colour roles in a YAML file, a **target** declares where bytes go and how to check and reload them, and a **template** turns the palette into one tool's config syntax; the engine holds no knowledge of any specific tool, so hyprland and cava are data rather than code. Where a tool supports an include, dragon-themer owns only a small generated file and never touches the hand-written config, so switching themes leaves tracked dotfiles clean.
+
+The safety design is the reason it exists as a project rather than a script. Rendering is all-or-nothing: nothing is written until every target has rendered and passed a syntax check, so a broken template fails the run while the desktop is still untouched. Targets that can cost you a graphical session, the hypr family above all, sit in a `critical` tier that adds a verify-after-reload step and an automatic restore when the check fails, because on a machine with no fallback session a bad render does not degrade the desktop, it drops you to a TTY. Ten themes, muted and warm-leaning by house preference rather than by popularity, with upstream base16 attribution carried in the theme files. Ruby stdlib, no gems, ever. The spec and an eleven-phase roadmap are committed; no code yet.
+
+<p class="codex-link">in development</p>
   </div>
 </div>
 
