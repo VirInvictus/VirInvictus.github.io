@@ -2,6 +2,33 @@ theme: jekyll-theme-minimal
 title: Vir Invictus
 description: Brandon LaRocque. Programmer, curator, former chef. Native Linux desktop work in Rust and C, local-first by default.
 
+# Absolute base for canonical URLs, sitemap entries, and og: tags.
+# Change `url` here (and only here) if the site moves to an owned domain.
+url: https://virinvictus.github.io
+baseurl: ""
+lang: en
+
+author:
+  name: Brandon LaRocque
+
+social:
+  name: Brandon LaRocque
+  links:
+    - https://github.com/VirInvictus
+    - https://mastodon.social/@Bdkl
+    - https://www.linkedin.com/in/bdkl
+
+# Default link-preview image. Swap for a purpose-built 1200x630 card if one gets made.
+image: /assets/img/hyprland-desktop.webp
+
+# Both are GitHub Pages-supported but opt-in; neither runs unless listed here.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# jekyll-seo-tag defaults to "|"; the site uses the middot everywhere else.
+title_separator: "·"
+
 # Internal docs — not pages
 exclude:
   - CLAUDE.md

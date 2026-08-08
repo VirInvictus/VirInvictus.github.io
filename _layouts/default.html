@@ -4,8 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <title>{% if page.title and page.title != site.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  {%- comment -%}
+    jekyll-seo-tag emits <title>, description, canonical, og:*, twitter:*, and
+    the JSON-LD block. It reproduces the previous hand-rolled title logic
+    (page.title · site.title, bare site.title on the index) via title_separator
+    in _config.yml, so do not re-add a <title> here or it renders twice.
+  {%- endcomment -%}
+  {% seo %}
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap">
