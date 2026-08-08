@@ -6,12 +6,15 @@
   <meta name="color-scheme" content="dark">
 
   {%- comment -%}
-    jekyll-seo-tag emits <title>, description, canonical, og:*, twitter:*, and
-    the JSON-LD block. It reproduces the previous hand-rolled title logic
-    (page.title · site.title, bare site.title on the index) via title_separator
-    in _config.yml, so do not re-add a <title> here or it renders twice.
+    The title stays hand-rolled. jekyll-seo-tag hardcodes " | " as a Ruby
+    constant (TITLE_SEPARATOR) with no config hook, and on a page with no
+    front-matter title it appends the whole site description, which on the
+    index produced a 140-character title tag. `title=false` suppresses only
+    its <title>; description, canonical, og:*, twitter:*, and JSON-LD still
+    come from the plugin.
   {%- endcomment -%}
-  {% seo %}
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% seo title=false %}
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

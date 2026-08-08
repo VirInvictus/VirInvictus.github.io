@@ -26,9 +26,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# jekyll-seo-tag defaults to "|"; the site uses the middot everywhere else.
-title_separator: "·"
-
 # Internal docs — not pages
 exclude:
   - CLAUDE.md
