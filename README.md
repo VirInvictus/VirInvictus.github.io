@@ -76,7 +76,7 @@ A Linux port of Brent Simmons' [NetNewsWire](https://netnewswire.com/) RSS reade
   <span class="codex-num">No. 003</span>
   <div class="codex-body" markdown="1">
 ### [Hermitage]({{ '/codex/hermitage/' | relative_url }})
-<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">active · v0.18.0</span></p>
+<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">active · v0.18.1</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/hermitage-gallery.webp' | relative_url }}" alt="Hermitage's cover-art grid filtered to a virtual library, with the Wing sidebar open and the search bar showing the active expression" loading="lazy">
@@ -168,7 +168,7 @@ A native GNOME 50 podcast client: Overcast's audio engine and Castro's triage mo
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### [Conservatory]({{ '/codex/conservatory/' | relative_url }})
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.13</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.14</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/conservatory-library.webp' | relative_url }}" alt="Conservatory's music library: three Columns UI facet panes over genre, album artist, and album, above a rated track list and the player bar" loading="lazy">
@@ -232,7 +232,7 @@ A faithful Emacs port of the Dragon variant from [kanagawa.nvim](https://github.
   <span class="codex-num">No. 014</span>
   <div class="codex-body" markdown="1">
 ### [Bindery]({{ '/codex/bindery/' | relative_url }})
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.10.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.10.2</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/bindery-sweep.webp' | relative_url }}" alt="Bindery's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
@@ -248,7 +248,7 @@ A command-line surgeon for malformed EPUBs. The fixes are deliberately boring: s
   <span class="codex-num">No. 015</span>
   <div class="codex-body" markdown="1">
 ### [oceanstrip]({{ '/codex/oceanstrip/' | relative_url }})
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.1</span></p>
 
 Strips producer and redistributor watermarks out of EPUBs. What began as an OceanofPDF.com-only tool is now a small signature registry: OceanofPDF's injected link (and its stray marker file), and the ABC Amber LIT Converter stamp that old `.lit` conversions leave on nearly every page, each caught in both an anchored form (the stamp is a link) and an anchorless form (plain text, with no `<a>` to catch). Adding another producer is one table entry. The removal is balanced-element surgery rather than regex slicing: find the stamp, walk up to the outermost wrapper whose entire visible text is the watermark, and delete that whole well-formed element, so real prose that merely mentions the URL is never touched and a well-formed file stays well-formed. Works on a single file or sweeps an entire library, always writing new copies (originals are never modified), and every output is epubcheck-clean. Stdlib only, like its sibling Bindery.
 
@@ -272,7 +272,7 @@ One catalogue file is the source of truth for an entire audiobook shelf: `retag`
   <span class="codex-num">No. 017</span>
   <div class="codex-body" markdown="1">
 ### [Hearth]({{ '/codex/hearth/' | relative_url }})
-<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.12.1</span></p>
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.13.14</span></p>
 
 A native, two-player, local-network, fully offline digital build of a worker-placement and polyomino-economy Eurogame, riding on a content-agnostic engine built to outlive any one theme. The board, the goods, and the cards are data; the engine keeps a pure `State` / `Rules` / `Scoring` / `Loader` split so the same binary could host a different game with a sheet and a turn order. The distinctive subsystems are the home-board polyomino puzzle and a pure effect vocabulary the cards reuse: every action is a non-mutating transform over game state, which keeps the rules testable away from the renderer.
 
@@ -348,7 +348,7 @@ The tiniest fix in the collection, born from a real annoyance: on a jailbroken K
   <span class="codex-num">No. 023</span>
   <div class="codex-body" markdown="1">
 ### [Carrel]({{ '/codex/carrel/' | relative_url }})
-<p class="codex-meta">Python <span class="stack-sep">·</span> Flask <span class="stack-sep">·</span> CSS <span class="stack-sep">·</span> <span class="status">active · v0.9.1</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> Flask <span class="stack-sep">·</span> CSS <span class="stack-sep">·</span> <span class="status">active · v0.9.2</span></p>
 
 A carrel is a private desk in a library, and that is the whole design brief: no accounts, no sharing, no dashboard. One reader, seven thousand books, and an interface that gets out of the way. Built on [calibre-web](https://github.com/janeczku/calibre-web), it has since become a different program.
 
@@ -388,7 +388,7 @@ Talks to the [Raindrop.io](https://raindrop.io/) bookmarking service with nothin
   <span class="codex-num">No. 026</span>
   <div class="codex-body" markdown="1">
 ### [Catagotchi]({{ '/codex/catagotchi/' | relative_url }})
-<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v4.6.0</span></p>
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v4.6.1</span></p>
 
 A cozy cat tamagotchi wrapped around a Cookie-Clicker-scale idle empire, and the largest thing here that is not a desktop app. The two halves are welded together rather than stacked: five needs average into a *mood multiplier* running ×0.5 to ×2.0 that scales **all** gold income, so a neglected cat is not a guilt mechanic, it is a halved economy. Above that sit eight generators with endless ×2 and ×5 upgrade ladders, three skill trees, fourteen adventures, five story dungeons plus an infinite Endless Depths on seeded floor modifiers, a globally deterministic commodity exchange, and two layers of prestige. Six daily puzzle games (sudoku, crossword, jigsaw, memory, rhythm, and a hidden-object mode) rotate on a four-hour seed that is the same for every player, so a daily is a shared board rather than a private roll.
 
@@ -400,7 +400,7 @@ A cozy cat tamagotchi wrapped around a Cookie-Clicker-scale idle empire, and the
   <span class="codex-num">No. 027</span>
   <div class="codex-body" markdown="1">
 ### [Hearthfall]({{ '/codex/hearthfall/' | relative_url }})
-<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.1.1</span></p>
+<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.5.1</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/hearthfall-run.webp' | relative_url }}" alt="Hearthfall mid-run: the clan panel and fog-black map at left, the season log at right, and a story event offering two choices" loading="lazy">
