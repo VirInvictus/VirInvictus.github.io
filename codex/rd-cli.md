@@ -8,6 +8,10 @@ permalink: /codex/rd-cli/
 
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.0</span></p>
 
+<div class="codex-plate">
+  <img src="{{ '/assets/img/rd-cli-list.webp' | relative_url }}" alt="rd-cli listing a collection: bookmark ids, titles, and URLs in designed ANSI colour, followed by account stats" loading="lazy">
+</div>
+
 Talks to the [Raindrop.io](https://raindrop.io/) bookmarking service with nothing from PyPI, built the way the other stdlib tools here are: `urllib`, `json`, `argparse`, `tomllib`. It covers the REST API a single user actually touches: raindrops, collections, tags, and highlights, plus the account endpoints (user, stats, filters, import-dedup, export, backups). Every command speaks two languages, designed ANSI for a human at a terminal and `--json` for scripts and agents, so the one binary is both a daily driver and an automation surface.
 
 The whole client funnels through a single `_request` method: it attaches auth, applies a timeout, lowercases the boolean query params the API rejects otherwise, retries `429` and `5xx` with bounded backoff (honoring `Retry-After`), and maps every failure to a typed exception carrying the API's own message. The bulk verbs are grounded in an empirically verified quirk of Raindrop's batch endpoints, that they only touch raindrops actually in the path collection, so a naive id-based batch move silently no-ops; rd-cli loops the single-item endpoints for explicit id-lists and reserves the batch calls for `--from` collection scope, and a global `--dry-run` logs the method and payload of every write without making the call. A pytest suite drives the client against a fake `urllib` transport, so the tests need no network.

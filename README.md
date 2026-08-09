@@ -46,9 +46,8 @@ Thirty projects. Native Linux desktop software at the centre, with games and gam
 ### [Atrium]({{ '/codex/atrium/' | relative_url }})
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.69.0</span></p>
 
-<div class="codex-plate codex-plate--pair">
-  <img src="{{ '/assets/img/atrium-today-simple.webp' | relative_url }}" alt="Atrium's Today view in Simple Mode: a calm two-pane list with areas, tags, and two tasks due today" loading="lazy">
-  <img src="{{ '/assets/img/atrium-today-builder.webp' | relative_url }}" alt="Atrium's Today view in Builder Mode: three panes with the live Inspector open on a task's schedule, project, tags, and notes" loading="lazy">
+<div class="codex-plate">
+  <img src="{{ '/assets/img/atrium-today.webp' | relative_url }}" alt="Atrium's Today view: six canonical lists in the sidebar, coloured tag pills, and the Area › Project chip on each row" loading="lazy">
 </div>
 
 The native Linux task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, in a fast GTK4 surface that never asks you to open Emacs. **Simple Mode** for *what am I doing right now* (six canonical lists, no defer dates, Things 3 calm); **Builder Mode** for the days the system has to do the work (Forecast, Agenda, Kanban, Calendar, Review with per-area cadences that cascade to the projects filed under an area, Perspectives, repeating and sequential projects, blocked-by task dependencies, time-based system reminders, a live Inspector). Same data, two surfaces, no migration: flipping modes is a UI re-render over an OmniFocus-superset schema that was there on day one.
@@ -64,7 +63,7 @@ The native Linux task manager you grow into, not out of. An Org-mode app wearing
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.2.0</span></p>
 
 <div class="codex-plate">
-  <img src="{{ '/assets/img/viaduct-main-adwaita.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread badges, timeline, and a rendered Daring Fireball article" loading="lazy">
+  <img src="{{ '/assets/img/viaduct-main.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread counts, article timeline, and the reading pane on the v3.0 flat Kanagawa design" loading="lazy">
 </div>
 
 A Linux port of Brent Simmons' [NetNewsWire](https://netnewswire.com/) RSS reader. A Cargo workspace split between a headless `viaduct-core` (database, network, parser, models) and a `viaduct` GTK binary, making the architectural boundary a *compile error* rather than a code-review rule. Idles at **100–300 MB** against ~600 MB for the closest Linux competitor on the same OPML, with a hard **500 MB** ceiling enforced by an in-tree `mem_check` harness.
@@ -95,6 +94,10 @@ Built for the single user who wants a modern desktop experience over a Calibre l
 ### [Lattice]({{ '/codex/lattice/' | relative_url }})
 <p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.10.2</span></p>
 
+<div class="codex-plate">
+  <img src="{{ '/assets/img/lattice-tui.webp' | relative_url }}" alt="Lattice's curses TUI: a bordered menu grouped into Library, Integrity, Artwork, Metadata, and Settings sections" loading="lazy">
+</div>
+
 Tooling for music collectors who keep the filesystem as the source of truth. Library-tree visualization across artist / album / track / rating / genre. Parallel FLAC / MP3 / Opus / WAV / WMA integrity verification (shelling out to `flac -t` and `ffmpeg`), embedded cover-art extraction with format-priority ranking, an art-quality audit against a configurable resolution floor, and tag, bitrate, and duplicate audits. Smart `.m3u` generation from dynamic rules (`rating >= 4 and genre == 'Jazz'`), per-genre **wings** (one library file per genre, like Calibre virtual libraries for music), and a token-efficient `--ai-library` export sized to fit a 4,000-album collection inside an LLM context window. The directory layout is configurable, so the tools never fight you about your shelving. Bare `lattice` opens a full-screen curses TUI.
 
 <p class="codex-link"><a href="{{ '/codex/lattice/' | relative_url }}">Read the full entry →</a> <span class="stack-sep">·</span> <a href="https://github.com/VirInvictus/Lattice">github.com/VirInvictus/Lattice →</a></p>
@@ -122,6 +125,10 @@ A native Linux document viewer for **PDF, DjVu, CBZ, CB7, CBT, CBR, XPS, EPUB, F
   <div class="codex-body" markdown="1">
 ### [CalibreQuarry]({{ '/codex/calibrequarry/' | relative_url }})
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.9.0</span></p>
+
+<div class="codex-plate">
+  <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
+</div>
 
 Calibre power-user tooling with zero external dependencies: `sqlite3`, `argparse`, `curses`, and nothing else. Its hand-written recursive-descent parser hits **100% parity with Calibre's internal search-expression syntax**, validated by a test suite mapped against Calibre's own `SearchQueryParser`. The same engine resolves Virtual Library definitions out of the `preferences` table and powers the `--search` mode (author / `vl:` / boolean / parens / `=`-prefix exact match).
 
@@ -162,6 +169,10 @@ A native GNOME 50 podcast client: Overcast's audio engine and Castro's triage mo
   <div class="codex-body" markdown="1">
 ### [Conservatory]({{ '/codex/conservatory/' | relative_url }})
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.12</span></p>
+
+<div class="codex-plate">
+  <img src="{{ '/assets/img/conservatory-library.webp' | relative_url }}" alt="Conservatory's music library: three Columns UI facet panes over genre, album artist, and album, above a rated track list and the player bar" loading="lazy">
+</div>
 
 Conservatory *owns and organizes* your music, podcasts, and audiobooks on disk, presenting them through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. Designed as **Calibre for audio**.
 
@@ -223,6 +234,10 @@ A faithful Emacs port of the Dragon variant from [kanagawa.nvim](https://github.
 ### [Bindery]({{ '/codex/bindery/' | relative_url }})
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.10.0</span></p>
 
+<div class="codex-plate">
+  <img src="{{ '/assets/img/bindery-sweep.webp' | relative_url }}" alt="Bindery's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
+</div>
+
 A command-line surgeon for malformed EPUBs. The fixes are deliberately boring: self-close the void elements, convert named entities to numeric, sync the NCX `uid` with the OPF, put the `mimetype` entry first in the zip. Each one is deterministic, and each one lands only if [epubcheck](https://github.com/w3c/epubcheck) confirms the patient actually improved. epubcheck stays an external oracle, never a Python dependency; the package itself is stdlib only. Dry-run is the default mode, and `--apply` backs up before it touches anything.
 
 <p class="codex-link"><a href="{{ '/codex/bindery/' | relative_url }}">Read the full entry →</a> <span class="stack-sep">·</span> <a href="https://github.com/VirInvictus/Bindery">github.com/VirInvictus/Bindery →</a></p>
@@ -282,6 +297,10 @@ Two players, one LAN, no internet at any point: a digital build of a fast set-co
   <div class="codex-body" markdown="1">
 ### [Colophon]({{ '/codex/colophon/' | relative_url }})
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.1.0</span></p>
+
+<div class="codex-plate">
+  <img src="{{ '/assets/img/colophon-per-book.webp' | relative_url }}" alt="Colophon's per-book view: a reading-stats table above the pace-through-the-book and reading-speed charts, all drawn in Cairo" loading="lazy">
+</div>
 
 A native Linux statistics viewer for [KOReader](https://koreader.rocks/). KOReader tracks a surprising amount about how you read (per-page timing, session history, running totals), and every existing way to look at that data is a web dashboard or a self-hosted Docker service. Colophon is neither: a local desktop app that imports a *copy* of `statistics.sqlite3` (staged, validated, never opened in place) and turns it into the analytics nobody else ships. A reading-speed trend across the library with a per-book overlay; a weekday-by-hour *when do I read* heatmap; session-length histograms and starts-by-hour patterns; a per-page activity strip that answers *did it drag in the middle*; inferred read-through detection with per-completion cards; a reading-personality card that reads traits (chronotype, session style, weekly rhythm) off your own behaviour; and the expected furniture (year heatmap, streaks, device-parity stat cards) done carefully. Per-book `.sdr` sidecars are strictly opt-in and user-provided: hand it one and the device's own finished verdict becomes authoritative over the position-based guess and your highlights land at their true place on the activity strip, but nothing on the device is ever scanned.
 
@@ -355,6 +374,10 @@ Envelope budgeting over a plain-text [hledger](https://hledger.org/) journal: Ac
 ### [rd-cli]({{ '/codex/rd-cli/' | relative_url }})
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.0</span></p>
 
+<div class="codex-plate">
+  <img src="{{ '/assets/img/rd-cli-list.webp' | relative_url }}" alt="rd-cli listing a collection: bookmark ids, titles, and URLs in designed ANSI colour, followed by account stats" loading="lazy">
+</div>
+
 Talks to the [Raindrop.io](https://raindrop.io/) bookmarking service with nothing from PyPI, built the way the other stdlib tools here are: `urllib`, `json`, `argparse`, `tomllib`. It covers the REST API a single user actually touches: raindrops, collections, tags, and highlights, plus the account endpoints (user, stats, filters, import-dedup, export, backups). Every command speaks two languages, designed ANSI for a human at a terminal and `--json` for scripts and agents, so the one binary is both a daily driver and an automation surface.
 
 <p class="codex-link"><a href="{{ '/codex/rd-cli/' | relative_url }}">Read the full entry →</a> <span class="stack-sep">·</span> <a href="https://github.com/VirInvictus/rd-cli">github.com/VirInvictus/rd-cli →</a></p>
@@ -378,6 +401,10 @@ A cozy cat tamagotchi wrapped around a Cookie-Clicker-scale idle empire, and the
   <div class="codex-body" markdown="1">
 ### [Hearthfall]({{ '/codex/hearthfall/' | relative_url }})
 <p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.1.1</span></p>
+
+<div class="codex-plate">
+  <img src="{{ '/assets/img/hearthfall-run.webp' | relative_url }}" alt="Hearthfall mid-run: the clan panel and fog-black map at left, the season log at right, and a story event offering two choices" loading="lazy">
+</div>
 
 A grimdark clan-survival game for the terminal: turn-based, season-timed, and fog-black. You start with a handful of villagers and a map you cannot see, send people out, and the world arrives tile by tile through scarcity, story, and violence. *A Dark Room* that grows a spine into *King of Dragon Pass*, rendered in glyphs. The design bet is that exploration and combat are the same loop rather than two: scouts reveal terrain **and** enemy composition, so a scout returning with *forty of them, mostly spears, no archers, holding the high ground* is worth more than a sword, and the game lives in assembling the counter-force rather than in the swing.
 
