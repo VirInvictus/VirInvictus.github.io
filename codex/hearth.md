@@ -6,7 +6,7 @@ description: "A native, two-player, local-network, fully offline digital build o
 permalink: /codex/hearth/
 ---
 
-<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.12.1</span></p>
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v0.13.20</span></p>
 
 A native, two-player, local-network, fully offline digital build of a worker-placement and polyomino-economy Eurogame, riding on a content-agnostic engine built to outlive any one theme. The board, the goods, and the cards are data; the engine keeps a pure `State` / `Rules` / `Scoring` / `Loader` split so the same binary could host a different game with a sheet and a turn order. The distinctive subsystems are the home-board polyomino puzzle and a pure effect vocabulary the cards reuse: every action is a non-mutating transform over game state, which keeps the rules testable away from the renderer.
 
