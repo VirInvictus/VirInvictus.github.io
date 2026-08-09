@@ -60,7 +60,7 @@ The native Linux task manager you grow into, not out of. An Org-mode app wearing
   <span class="codex-num">No. 002</span>
   <div class="codex-body" markdown="1">
 ### [Viaduct]({{ '/codex/viaduct/' | relative_url }})
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.2.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.2.1</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/viaduct-main.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread counts, article timeline, and the reading pane on the v3.0 flat Kanagawa design" loading="lazy">
@@ -124,7 +124,7 @@ A native Linux document viewer for **PDF, DjVu, CBZ, CB7, CBT, CBR, XPS, EPUB, F
   <span class="codex-num">No. 006</span>
   <div class="codex-body" markdown="1">
 ### [CalibreQuarry]({{ '/codex/calibrequarry/' | relative_url }})
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.9.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.9.1</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
@@ -168,7 +168,7 @@ A native GNOME 50 podcast client: Overcast's audio engine and Castro's triage mo
   <span class="codex-num">No. 009</span>
   <div class="codex-body" markdown="1">
 ### [Conservatory]({{ '/codex/conservatory/' | relative_url }})
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.12</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.13</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/conservatory-library.webp' | relative_url }}" alt="Conservatory's music library: three Columns UI facet panes over genre, album artist, and album, above a rated track list and the player bar" loading="lazy">
@@ -372,7 +372,7 @@ Envelope budgeting over a plain-text [hledger](https://hledger.org/) journal: Ac
   <span class="codex-num">No. 025</span>
   <div class="codex-body" markdown="1">
 ### [rd-cli]({{ '/codex/rd-cli/' | relative_url }})
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.5.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/rd-cli-list.webp' | relative_url }}" alt="rd-cli listing a collection: bookmark ids, titles, and URLs in designed ANSI colour, followed by account stats" loading="lazy">
@@ -388,7 +388,7 @@ Talks to the [Raindrop.io](https://raindrop.io/) bookmarking service with nothin
   <span class="codex-num">No. 026</span>
   <div class="codex-body" markdown="1">
 ### [Catagotchi]({{ '/codex/catagotchi/' | relative_url }})
-<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v4.5.1</span></p>
+<p class="codex-meta">Godot 4.6 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v4.6.0</span></p>
 
 A cozy cat tamagotchi wrapped around a Cookie-Clicker-scale idle empire, and the largest thing here that is not a desktop app. The two halves are welded together rather than stacked: five needs average into a *mood multiplier* running ×0.5 to ×2.0 that scales **all** gold income, so a neglected cat is not a guilt mechanic, it is a halved economy. Above that sit eight generators with endless ×2 and ×5 upgrade ladders, three skill trees, fourteen adventures, five story dungeons plus an infinite Endless Depths on seeded floor modifiers, a globally deterministic commodity exchange, and two layers of prestige. Six daily puzzle games (sudoku, crossword, jigsaw, memory, rhythm, and a hidden-object mode) rotate on a four-hour seed that is the same for every player, so a daily is a shared board rather than a private roll.
 
