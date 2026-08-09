@@ -92,7 +92,7 @@ Built for the single user who wants a modern desktop experience over a Calibre l
   <span class="codex-num">No. 004</span>
   <div class="codex-body" markdown="1">
 ### [Lattice]({{ '/codex/lattice/' | relative_url }})
-<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.10.2</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.11.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/lattice-tui.webp' | relative_url }}" alt="Lattice's curses TUI: a bordered menu grouped into Library, Integrity, Artwork, Metadata, and Settings sections" loading="lazy">
