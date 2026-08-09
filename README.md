@@ -44,7 +44,7 @@ Thirty projects. Native Linux desktop software at the centre, with games and gam
   <span class="codex-num">No. 001</span>
   <div class="codex-body" markdown="1">
 ### [Atrium]({{ '/codex/atrium/' | relative_url }})
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.69.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.69.2</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/atrium-today.webp' | relative_url }}" alt="Atrium's Today view: six canonical lists in the sidebar, coloured tag pills, and the Area › Project chip on each row" loading="lazy">
