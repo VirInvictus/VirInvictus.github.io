@@ -232,7 +232,7 @@ A faithful Emacs port of the Dragon variant from [kanagawa.nvim](https://github.
   <span class="codex-num">No. 014</span>
   <div class="codex-body" markdown="1">
 ### [Bindery]({{ '/codex/bindery/' | relative_url }})
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.10.2</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.11.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/bindery-sweep.webp' | relative_url }}" alt="Bindery's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
@@ -502,3 +502,15 @@ If any of this is useful to you and you'd like to chip in:
   ```
   bc1qkge6zr45tzqfwfmvma2ylumt6mg7wlwmhr05yv
   ```
+
+<div class="codex-entry">
+  <span class="codex-num">No. 031</span>
+  <div class="codex-body" markdown="1">
+### [audit_epub]({{ '/codex/audit-epub/' | relative_url }})
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.1.0</span></p>
+
+A strictly read-only auditing tool for EPUBs, extracted from CalibreQuarry. It scans your library for formatting anomalies that typical validators like epubcheck miss: OCR junk, leaked HTML tags (like `</p>` rendering as raw text), empty text nodes, and baked-in pagination. It outputs actionable reports to stdout, which can then be fed into Bindery to be safely repaired. Stdlib only.
+
+<p class="codex-link"><a href="{{ '/codex/audit-epub/' | relative_url }}">Read the full entry →</a> <span class="stack-sep">·</span> <a href="https://github.com/VirInvictus/audit_epub">github.com/VirInvictus/audit_epub →</a></p>
+  </div>
+</div>
