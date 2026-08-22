@@ -190,6 +190,33 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <p class="card-desc">Native statistics viewer for KOReader. Imports a copy of <code>statistics.sqlite3</code>, draws its own Cairo charts, ships the reading analytics nobody else has.</p>
 <p class="card-link-container"><a href="{{ '/codex/colophon/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 012</span>
+<h3><a href="{{ '/codex/dead-reckoning/' | relative_url }}">Dead Reckoning</a></h3>
+<p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
+</div>
+<p class="card-desc">Navigation-cockpit preset for KOReader's bookends plugin: session pace, chapter ETA, projected finish date, and chapter ticks on the progress bar.</p>
+<p class="card-link-container"><a href="{{ '/codex/dead-reckoning/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 013</span>
+<h3><a href="{{ '/codex/kobo-style-sleepscreen-banner/' | relative_url }}">Sleepscreen Banner</a></h3>
+<p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
+</div>
+<p class="card-desc">KOReader user patch: redraws the sleep screen as a Kobo-style floating card over your cover, with a random highlight as a pull-quote. A prettified fork of zenixlabs' patch.</p>
+<p class="card-link-container"><a href="{{ '/codex/kobo-style-sleepscreen-banner/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 014</span>
+<h3><a href="{{ '/codex/1-timezone/' | relative_url }}">1-timezone</a></h3>
+<p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
+</div>
+<p class="card-desc">KOReader user patch: forces a correct POSIX timezone inside the process (<code>setenv</code> + <code>tzset</code>), fixing the clock, time sync, and autowarmth on framework-less installs where no <code>TZ</code> is set.</p>
+<p class="card-link-container"><a href="{{ '/codex/1-timezone/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
 </div>
 
 ### Games & Engines
@@ -197,7 +224,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 012</span>
+<span class="codex-num">No. 015</span>
 <h3><a href="{{ '/codex/hearthfall/' | relative_url }}">Hearthfall</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active</span></p>
 </div>
