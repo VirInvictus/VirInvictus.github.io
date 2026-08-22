@@ -92,7 +92,7 @@ Built for the single user who wants a modern desktop experience over a Calibre l
   <span class="codex-num">No. 004</span>
   <div class="codex-body" markdown="1">
 ### [Lattice]({{ '/codex/lattice/' | relative_url }})
-<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.11.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.14.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/lattice-tui.webp' | relative_url }}" alt="Lattice's curses TUI: a bordered menu grouped into Library, Integrity, Artwork, Metadata, and Settings sections" loading="lazy">
@@ -124,7 +124,7 @@ A native Linux document viewer for **PDF, DjVu, CBZ, CB7, CBT, CBR, XPS, EPUB, F
   <span class="codex-num">No. 006</span>
   <div class="codex-body" markdown="1">
 ### [CalibreQuarry]({{ '/codex/calibrequarry/' | relative_url }})
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.9.1</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.11.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
@@ -248,7 +248,7 @@ A command-line surgeon for malformed EPUBs. The fixes are deliberately boring: s
   <span class="codex-num">No. 015</span>
   <div class="codex-body" markdown="1">
 ### [oceanstrip]({{ '/codex/oceanstrip/' | relative_url }})
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.1</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.5.0</span></p>
 
 Strips producer and redistributor watermarks out of EPUBs. What began as an OceanofPDF.com-only tool is now a small signature registry: OceanofPDF's injected link (and its stray marker file), and the ABC Amber LIT Converter stamp that old `.lit` conversions leave on nearly every page, each caught in both an anchored form (the stamp is a link) and an anchorless form (plain text, with no `<a>` to catch). Adding another producer is one table entry. The removal is balanced-element surgery rather than regex slicing: find the stamp, walk up to the outermost wrapper whose entire visible text is the watermark, and delete that whole well-formed element, so real prose that merely mentions the URL is never touched and a well-formed file stays well-formed. Works on a single file or sweeps an entire library, always writing new copies (originals are never modified), and every output is epubcheck-clean. Stdlib only, like its sibling Bindery.
 
@@ -296,7 +296,7 @@ Two players, one LAN, no internet at any point: a digital build of a fast set-co
   <span class="codex-num">No. 019</span>
   <div class="codex-body" markdown="1">
 ### [Colophon]({{ '/codex/colophon/' | relative_url }})
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.1.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.1.1</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/colophon-per-book.webp' | relative_url }}" alt="Colophon's per-book view: a reading-stats table above the pace-through-the-book and reading-speed charts, all drawn in Cairo" loading="lazy">
