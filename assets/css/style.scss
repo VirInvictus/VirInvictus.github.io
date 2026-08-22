@@ -551,3 +551,95 @@ pre::-webkit-scrollbar-thumb:hover { background: var(--surface2); }
   h3 { font-size: 1.05rem; letter-spacing: 0.12em; }
   .post__header h1 { font-size: 1.4rem; }
 }
+
+/* ────────────── Grid Layout Redesign ────────────── */
+.codex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2em;
+  margin: 3em 0;
+}
+
+.codex-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface0);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1.5em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  /* hide the markdown p wrapper margins */
+}
+.codex-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.codex-card .card-header {
+  margin-bottom: 1em;
+}
+
+.codex-card .codex-num {
+  font-size: 0.75rem;
+  padding-top: 0;
+  display: block;
+  margin-bottom: 0.5em;
+  color: var(--peach);
+}
+
+.codex-card h3 {
+  margin: 0 0 0.2em 0;
+  font-size: 1.25rem;
+}
+
+.codex-card .codex-meta {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.codex-card .codex-plate {
+  margin: -1.5em -1.5em 1em -1.5em;
+  order: -1;
+  border-bottom: 1px solid var(--base);
+}
+.codex-card .codex-plate img {
+  border-radius: 8px 8px 0 0;
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.codex-card .card-desc {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  flex-grow: 1;
+}
+
+.codex-card .card-link-container {
+  margin: 0;
+  margin-top: auto;
+}
+
+.codex-card .card-link {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+  text-decoration: none;
+  font-weight: bold;
+}
+.codex-card .card-link:hover {
+  color: var(--teal);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .codex-grid {
+    grid-template-columns: 1fr;
+  }
+}
