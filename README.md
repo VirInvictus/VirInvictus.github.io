@@ -124,7 +124,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="card-header">
 <span class="codex-num">No. 007</span>
 <h3><a href="{{ '/codex/bindery/' | relative_url }}">Bindery</a></h3>
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.12.1</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.12.2</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/bindery-sweep.webp' | relative_url }}" alt="Bindery's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
