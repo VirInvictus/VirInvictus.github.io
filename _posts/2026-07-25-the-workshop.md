@@ -6,7 +6,7 @@ description: Ghostty, zsh, Doom, LazyVim, Helix, the modern coreutils replacemen
 ---
 
 <div markdown="1" class="dropcap">
-A *What I Use* tells you what is on the desk. It does not tell you how the desk gets used. The terminal is where I spend the most consecutive minutes of any working day, more than the browser and more than either editor; that hour budget is what justifies the time spent shaping it. This is a walk through the shape: the Ghostty config and the zsh that follows, the three editors and the deliberate split between them, the daily binaries that replaced their POSIX ancestors, and the small scripts in `~/.local/bin/` that take a great deal of pressure off the rest of the system.
+A *What I Use* post tells you what is on the desk, but it does not tell you how the desk gets used. The terminal is where I spend the most consecutive minutes of any working day, more than the browser and more than either editor. That hour budget is what justifies the time spent shaping it. This is a walk through the shape: the Ghostty config and the zsh that follows, the three editors and the deliberate split between them, the daily binaries that replaced their POSIX ancestors, and the small scripts in `~/.local/bin/` that take a great deal of pressure off the rest of the system.
 </div>
 
 ## I. The Terminal Itself
