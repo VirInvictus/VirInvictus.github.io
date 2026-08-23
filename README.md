@@ -52,7 +52,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-plate">
 <img src="{{ '/assets/img/atrium-today.webp' | relative_url }}" alt="Atrium's Today view: six canonical lists in the sidebar, coloured tag pills, and the Area › Project chip on each row" loading="lazy">
 </div>
-<p class="card-desc">The native Linux task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, in a fast GTK4 surface that never asks you to open Emacs.</p>
+<p class="card-desc">The native Linux task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise: UUIDs on every node, plain-text round-trip, deadlines and schedules and contexts as first-class data, in a fast GTK4 surface styled by vir-gtk that never asks you to open Emacs, with search powered by vir-search.</p>
 <p class="card-link-container"><a href="{{ '/codex/atrium/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -64,7 +64,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-plate">
 <img src="{{ '/assets/img/viaduct-main.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread counts, article timeline, and the reading pane on the v3.0 flat Kanagawa design" loading="lazy">
 </div>
-<p class="card-desc">A Linux port of Brent Simmons' <a href="https://netnewswire.com/">NetNewsWire</a> RSS reader.</p>
+<p class="card-desc">A Linux port of Brent Simmons\' <a href="https://netnewswire.com/">NetNewsWire</a> RSS reader. Styled by vir-gtk with search powered by vir-search.</p>
 <p class="card-link-container"><a href="{{ '/codex/viaduct/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -91,6 +91,15 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <p class="card-desc">Dependency-free CLI for raindrop.io and pinboard. Full REST API coverage over stdlib <code>urllib</code>; designed ANSI for humans and <code>--json</code> for scripts and agents, typed errors, rate-limit backoff, <code>--dry-run</code> on every write, blast-radius-gated confirmation prompts, and a two-way additive sync between the two services.</p>
 <p class="card-link-container"><a href="{{ '/codex/rd-cli/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 005</span>
+<h3><a href="{{ '/codex/vir-gtk/' | relative_url }}">vir-gtk</a></h3>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">active</span></p>
+</div>
+<p class="card-desc">A standalone Rust library extracting the shared GTK4 styling and D-Bus portal interaction layer for the VirInvictus desktop suite, providing the foundational visual identity without libadwaita.</p>
+<p class="card-link-container"><a href="{{ '/codex/vir-gtk/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
 </div>
 
 ### Books & Calibre
@@ -98,69 +107,67 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 005</span>
+<span class="codex-num">No. 006</span>
 <h3><a href="{{ '/codex/hermitage/' | relative_url }}">Hermitage</a></h3>
 <p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">active · v0.18.1</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/hermitage-gallery.webp' | relative_url }}" alt="Hermitage's cover-art grid filtered to a virtual library, with the Wing sidebar open and the search bar showing the active expression" loading="lazy">
 </div>
-<p class="card-desc">Built for the single user who wants a modern desktop experience over a Calibre library without Docker or a web auth layer in the way.</p>
+<p class="card-desc">Built for the single user who wants a modern desktop experience over a Calibre library without Docker or a web auth layer in the way, powered by cquarry.</p>
 <p class="card-link-container"><a href="{{ '/codex/hermitage/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 006</span>
+<span class="codex-num">No. 007</span>
 <h3><a href="{{ '/codex/calibrequarry/' | relative_url }}">CalibreQuarry</a></h3>
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v3.11.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
 </div>
-<p class="card-desc">Calibre power-user tooling with zero external dependencies: <code>sqlite3</code>, <code>argparse</code>, <code>curses</code>, and nothing else.</p>
+<p class="card-desc">Calibre power-user tooling built on cquarry with zero external dependencies: <code>sqlite3</code>, <code>argparse</code>, <code>curses</code>, and nothing else.</p>
 <p class="card-link-container"><a href="{{ '/codex/calibrequarry/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 007</span>
+<span class="codex-num">No. 008</span>
 <h3><a href="{{ '/codex/bindery/' | relative_url }}">Bindery</a></h3>
 <p class="codex-meta">Python (tqdm) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.14.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/bindery-sweep.webp' | relative_url }}" alt="Bindery's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
 </div>
-<p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes via a persistent Java daemon, repairing structural defects and safely unwrapping illegal HTML markup before seamlessly swapping the fixed formats natively into your Calibre database.</p>
+<p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes via a persistent Java daemon, repairing structural defects, unwrapping illegal HTML markup, and auditing for content damage (OCR, wrong-language tags) before seamlessly swapping the fixed formats natively into your Calibre database via cquarry.</p>
 <p class="card-link-container"><a href="{{ '/codex/bindery/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
-</div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 008</span>
-<h3><a href="{{ '/codex/audit_epub/' | relative_url }}">audit_epub</a></h3>
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.1.0</span></p>
+<span class="codex-num">No. 009</span>
+<h3><a href="{{ '/codex/cquarry/' | relative_url }}">cquarry</a></h3>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
-<p class="card-desc">A standard-library-only command-line tool that audits EPUB text for OCR damage, empty content, and wrong-language tags without a full decompression.</p>
-<p class="card-link-container"><a href="{{ '/codex/audit_epub/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+<p class="card-desc">A lightweight, canonical Python package providing read-only access to Calibre's <code>metadata.db</code> and a full parser for Calibre's native search expression grammar.</p>
+<p class="card-link-container"><a href="{{ '/codex/cquarry/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 </div>
-
 ### Music & Audio
 
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 009</span>
+<span class="codex-num">No. 010</span>
 <h3><a href="{{ '/codex/conservatory/' | relative_url }}">Conservatory</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.14</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/conservatory-library.webp' | relative_url }}" alt="Conservatory's music library: three Columns UI facet panes over genre, album artist, and album, above a rated track list and the player bar" loading="lazy">
 </div>
-<p class="card-desc">Conservatory <em>owns and organizes</em> your music, podcasts, and audiobooks on disk, presenting them through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue.</p>
+<p class="card-desc">Conservatory <em>owns and organizes</em> your music, podcasts, and audiobooks on disk, presenting them through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. UI styled by vir-gtk and search powered by vir-search.</p>
 <p class="card-link-container"><a href="{{ '/codex/conservatory/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 010</span>
+<span class="codex-num">No. 011</span>
 <h3><a href="{{ '/codex/lattice/' | relative_url }}">Lattice</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.14.0</span></p>
 </div>
@@ -172,7 +179,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 011</span>
+<span class="codex-num">No. 012</span>
 <h3><a href="{{ '/codex/deadbeef-cui/' | relative_url }}">deadbeef-cui</a></h3>
 <p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.3.3</span></p>
 </div>
@@ -189,7 +196,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 012</span>
+<span class="codex-num">No. 013</span>
 <h3><a href="{{ '/codex/colophon/' | relative_url }}">Colophon</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.1.1</span></p>
 </div>
@@ -201,7 +208,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 013</span>
+<span class="codex-num">No. 014</span>
 <h3><a href="{{ '/codex/dead-reckoning/' | relative_url }}">Dead Reckoning</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -210,7 +217,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 014</span>
+<span class="codex-num">No. 015</span>
 <h3><a href="{{ '/codex/kobo-style-sleepscreen-banner/' | relative_url }}">Sleepscreen Banner</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -219,7 +226,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 015</span>
+<span class="codex-num">No. 016</span>
 <h3><a href="{{ '/codex/1-timezone/' | relative_url }}">1-timezone</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -233,7 +240,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 016</span>
+<span class="codex-num">No. 017</span>
 <h3><a href="{{ '/codex/hearthfall/' | relative_url }}">Hearthfall</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active</span></p>
 </div>
