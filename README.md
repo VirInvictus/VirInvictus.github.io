@@ -124,12 +124,12 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="card-header">
 <span class="codex-num">No. 007</span>
 <h3><a href="{{ '/codex/bindery/' | relative_url }}">Bindery</a></h3>
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.12.2</span></p>
+<p class="codex-meta">Python (tqdm) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.14.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/bindery-sweep.webp' | relative_url }}" alt="Bindery's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
 </div>
-<p class="card-desc">A command-line surgeon for malformed EPUBs. The fixes are deliberately boring: self-close the void elements, convert named entities to numeric, sync the NCX <code>uid</code> with the OPF, put the <code>mimetype</code> entry first in the zip.</p>
+<p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes via a persistent Java daemon, repairing structural defects and safely unwrapping illegal HTML markup before seamlessly swapping the fixed formats natively into your Calibre database.</p>
 <p class="card-link-container"><a href="{{ '/codex/bindery/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 </div>
