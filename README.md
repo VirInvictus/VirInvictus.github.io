@@ -132,6 +132,15 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes via a persistent Java daemon, repairing structural defects and safely unwrapping illegal HTML markup before seamlessly swapping the fixed formats natively into your Calibre database.</p>
 <p class="card-link-container"><a href="{{ '/codex/bindery/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 008</span>
+<h3><a href="{{ '/codex/audit_epub/' | relative_url }}">audit_epub</a></h3>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.1.0</span></p>
+</div>
+<p class="card-desc">A standard-library-only command-line tool that audits EPUB text for OCR damage, empty content, and wrong-language tags without a full decompression.</p>
+<p class="card-link-container"><a href="{{ '/codex/audit_epub/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
 </div>
 
 ### Music & Audio
@@ -139,7 +148,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 008</span>
+<span class="codex-num">No. 009</span>
 <h3><a href="{{ '/codex/conservatory/' | relative_url }}">Conservatory</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.3.14</span></p>
 </div>
@@ -151,7 +160,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 009</span>
+<span class="codex-num">No. 010</span>
 <h3><a href="{{ '/codex/lattice/' | relative_url }}">Lattice</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.14.0</span></p>
 </div>
@@ -163,7 +172,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 010</span>
+<span class="codex-num">No. 011</span>
 <h3><a href="{{ '/codex/deadbeef-cui/' | relative_url }}">deadbeef-cui</a></h3>
 <p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.3.3</span></p>
 </div>
@@ -180,7 +189,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 011</span>
+<span class="codex-num">No. 012</span>
 <h3><a href="{{ '/codex/colophon/' | relative_url }}">Colophon</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.1.1</span></p>
 </div>
@@ -192,7 +201,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 012</span>
+<span class="codex-num">No. 013</span>
 <h3><a href="{{ '/codex/dead-reckoning/' | relative_url }}">Dead Reckoning</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -201,7 +210,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 013</span>
+<span class="codex-num">No. 014</span>
 <h3><a href="{{ '/codex/kobo-style-sleepscreen-banner/' | relative_url }}">Sleepscreen Banner</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -210,7 +219,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 014</span>
+<span class="codex-num">No. 015</span>
 <h3><a href="{{ '/codex/1-timezone/' | relative_url }}">1-timezone</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -224,7 +233,7 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 015</span>
+<span class="codex-num">No. 016</span>
 <h3><a href="{{ '/codex/hearthfall/' | relative_url }}">Hearthfall</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active</span></p>
 </div>
