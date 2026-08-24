@@ -2,7 +2,7 @@
 layout: codex
 title: "CalibreQuarry"
 codex_num: "No. 006"
-description: "Calibre power-user tooling built on [cquarry](/codex/cquarry/) with zero external dependencies: sqlite3, argparse, curses, and nothing else."
+description: "Calibre power-user tooling built on [cquarry](/codex/cquarry/) with zero external dependencies: sqlite3, argparse, vir-tui, and nothing else."
 permalink: /codex/calibrequarry/
 ---
 
