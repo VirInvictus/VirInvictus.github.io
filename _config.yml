@@ -29,6 +29,7 @@ plugins:
 # Internal docs — not pages
 exclude:
   - CLAUDE.md
+  - AGENTS.md  # symlink to CLAUDE.md for ZCode; Liquid breaks on its raw content
   - Gemfile
   - Gemfile.lock
   - vendor/
