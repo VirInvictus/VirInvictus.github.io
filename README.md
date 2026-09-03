@@ -82,14 +82,14 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-card">
 <div class="card-header">
 <span class="codex-num">No. 004</span>
-<h3><a href="{{ '/codex/rd-cli/' | relative_url }}">rd-cli</a></h3>
+<h3><a href="{{ '/codex/raindrop-cli/' | relative_url }}">raindrop-cli</a></h3>
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active</span></p>
 </div>
 <div class="codex-plate">
-<img src="{{ '/assets/img/rd-cli-list.webp' | relative_url }}" alt="rd-cli output showing bookmarked links" loading="lazy">
+<img src="{{ '/assets/img/raindrop-cli-list.webp' | relative_url }}" alt="raindrop-cli output showing bookmarked links" loading="lazy">
 </div>
 <p class="card-desc">Dependency-free CLI for raindrop.io and pinboard. Full REST API coverage over stdlib <code>urllib</code>; designed ANSI for humans and <code>--json</code> for scripts and agents, typed errors, rate-limit backoff, <code>--dry-run</code> on every write, blast-radius-gated confirmation prompts, and a two-way additive sync between the two services.</p>
-<p class="card-link-container"><a href="{{ '/codex/rd-cli/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+<p class="card-link-container"><a href="{{ '/codex/raindrop-cli/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
 <div class="card-header">
@@ -141,11 +141,11 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-card">
 <div class="card-header">
 <span class="codex-num">No. 009</span>
-<h3><a href="{{ '/codex/bindery/' | relative_url }}">Bindery</a></h3>
+<h3><a href="{{ '/codex/bindery/' | relative_url }}">bindery-cli</a></h3>
 <p class="codex-meta">Python (tqdm) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.14.0</span></p>
 </div>
 <div class="codex-plate">
-<img src="{{ '/assets/img/bindery-sweep.webp' | relative_url }}" alt="Bindery's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
+<img src="{{ '/assets/img/bindery-cli-sweep.webp' | relative_url }}" alt="bindery-cli's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
 </div>
 <p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes via a persistent Java daemon, repairing structural defects, unwrapping illegal HTML markup, and auditing for content damage (OCR, wrong-language tags) before seamlessly swapping the fixed formats natively into your Calibre database via cquarry.</p>
 <p class="card-link-container"><a href="{{ '/codex/bindery/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
@@ -178,11 +178,11 @@ Thirty projects in total. Native Linux desktop software sits at the centre, with
 <div class="codex-card">
 <div class="card-header">
 <span class="codex-num">No. 012</span>
-<h3><a href="{{ '/codex/lattice/' | relative_url }}">Lattice</a></h3>
+<h3><a href="{{ '/codex/lattice/' | relative_url }}">lattice-music</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.14.0</span></p>
 </div>
 <div class="codex-plate">
-<img src="{{ '/assets/img/lattice-tui.webp' | relative_url }}" alt="Lattice's curses TUI: a bordered menu grouped into Library, Integrity, Artwork, Metadata, and Settings sections" loading="lazy">
+<img src="{{ '/assets/img/lattice-music-tui.webp' | relative_url }}" alt="lattice-music's curses TUI: a bordered menu grouped into Library, Integrity, Artwork, Metadata, and Settings sections" loading="lazy">
 </div>
 <p class="card-desc">Tooling for music collectors who keep the filesystem as the source of truth. Library-tree visualization across artist / album / track / rating / genre.</p>
 <p class="card-link-container"><a href="{{ '/codex/lattice/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
