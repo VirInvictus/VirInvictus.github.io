@@ -6,7 +6,7 @@ description: "A native Linux statistics viewer for KOReader. KOReader tracks a s
 permalink: /codex/colophon/
 ---
 
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.1.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.2.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/colophon-per-book.webp' | relative_url }}" alt="Colophon's per-book view: a reading-stats table above the pace-through-the-book and reading-speed charts, all drawn in Cairo" loading="lazy">
