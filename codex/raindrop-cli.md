@@ -6,7 +6,7 @@ description: "Talks to the Raindrop.io bookmarking service with nothing from PyP
 permalink: /codex/raindrop-cli/
 ---
 
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.6.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/raindrop-cli-list.webp' | relative_url }}" alt="raindrop-cli listing a collection: bookmark ids, titles, and URLs in designed ANSI colour, followed by account stats" loading="lazy">

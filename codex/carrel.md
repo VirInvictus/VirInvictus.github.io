@@ -6,7 +6,7 @@ description: "A carrel is a private desk in a library, and that is the whole des
 permalink: /codex/carrel/
 ---
 
-<p class="codex-meta">Python <span class="stack-sep">·</span> Flask <span class="stack-sep">·</span> CSS <span class="stack-sep">·</span> <span class="status">active · v0.9.1</span></p>
+<p class="codex-meta">CSS <span class="stack-sep">·</span> docs <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.9.7</span></p>
 
 A carrel is a private desk in a library, and that is the whole design brief: no accounts, no sharing, no dashboard. One reader, seven thousand books, and an interface that gets out of the way. Built on [calibre-web](https://github.com/janeczku/calibre-web), it has since become a different program.
 
