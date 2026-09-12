@@ -6,7 +6,7 @@ description: "A grimdark clan-survival game for the terminal: turn-based, season
 permalink: /codex/hearthfall/
 ---
 
-<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.18.0</span></p>
+<p class="codex-meta">Python 3.14+ <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.26.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/hearthfall-run.webp' | relative_url }}" alt="Hearthfall mid-run: the clan panel and fog-black map at left, the season log at right, and a story event offering two choices" loading="lazy">

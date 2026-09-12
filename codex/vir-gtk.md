@@ -6,7 +6,7 @@ description: "A standalone Rust library extracting the shared GTK4 styling and D
 permalink: /codex/vir-gtk/
 ---
 
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> gio <span class="stack-sep">·</span> <span class="status">active · v1.0.3</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> gio <span class="stack-sep">·</span> <span class="status">active · v1.2.0</span></p>
 
 A standalone Rust library extracting the shared GTK4 styling and D-Bus portal interaction layer for the VirInvictus desktop suite.
 

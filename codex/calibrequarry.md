@@ -6,7 +6,7 @@ description: "Calibre power-user tooling built on [cquarry](/codex/cquarry/): ca
 permalink: /codex/calibrequarry/
 ---
 
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v3.27.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v3.39.2</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">

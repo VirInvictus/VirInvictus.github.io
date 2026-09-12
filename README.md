@@ -47,7 +47,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 001</span>
 <h3><a href="{{ '/codex/atrium/' | relative_url }}">Atrium</a></h3>
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.72.1</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.72.3</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/atrium-today.webp' | relative_url }}" alt="Atrium's Today view: six canonical lists in the sidebar, coloured tag pills, and the Area › Project chip on each row" loading="lazy">
@@ -59,7 +59,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 002</span>
 <h3><a href="{{ '/codex/viaduct/' | relative_url }}">Viaduct</a></h3>
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.7.3</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v3.7.5</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/viaduct-main.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread counts, article timeline, and the reading pane on the v3.0 flat Kanagawa design" loading="lazy">
@@ -95,7 +95,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 005</span>
 <h3><a href="{{ '/codex/vir-gtk/' | relative_url }}">vir-gtk</a></h3>
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">active · v1.0.3</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">active · v1.2.0</span></p>
 </div>
 <p class="card-desc">A standalone Rust library extracting the shared GTK4 styling and D-Bus portal interaction layer for the VirInvictus desktop suite, providing the foundational visual identity without libadwaita.</p>
 <p class="card-link-container"><a href="{{ '/codex/vir-gtk/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
@@ -104,7 +104,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 006</span>
 <h3><a href="{{ '/codex/vir-search/' | relative_url }}">vir-search</a></h3>
-<p class="codex-meta">Rust <span class="stack-sep">·</span> <span class="status">active · v1.4.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> <span class="status">active · v1.4.1</span></p>
 </div>
 <p class="card-desc">A domain-agnostic Rust library for parsing Calibre-style search expressions into a typed AST. It provides the lexer, generic recursive-descent parser, and date-range resolvers that underpin the VirInvictus ecosystem.</p>
 <p class="card-link-container"><a href="{{ '/codex/vir-search/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
@@ -118,7 +118,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 007</span>
 <h3><a href="{{ '/codex/hermitage/' | relative_url }}">Hermitage</a></h3>
-<p class="codex-meta">Python 3.13+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.8.0</span></p>
+<p class="codex-meta">Python 3.13+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.8.3</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/hermitage-gallery.webp' | relative_url }}" alt="Hermitage's cover-art grid filtered to a virtual library, with the Wing sidebar open and the search bar showing the active expression" loading="lazy">
@@ -130,7 +130,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 008</span>
 <h3><a href="{{ '/codex/calibrequarry/' | relative_url }}">CalibreQuarry</a></h3>
-<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.27.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.39.2</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
@@ -142,7 +142,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 009</span>
 <h3><a href="{{ '/codex/bindery/' | relative_url }}">bindery-cli</a></h3>
-<p class="codex-meta">Python (tqdm) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.28.0</span></p>
+<p class="codex-meta">Python (tqdm) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.39.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/bindery-cli-sweep.webp' | relative_url }}" alt="bindery-cli's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
@@ -154,7 +154,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 010</span>
 <h3><a href="{{ '/codex/cquarry/' | relative_url }}">cquarry</a></h3>
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.12.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.20.0</span></p>
 </div>
 <p class="card-desc">A lightweight, canonical Python package providing read-only access to Calibre's <code>metadata.db</code> and a full parser for Calibre's native search expression grammar; the opt-in <code>cquarry.write</code> module is the ecosystem's only sanctioned write path.</p>
 <p class="card-link-container"><a href="{{ '/codex/cquarry/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
@@ -167,7 +167,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 011</span>
 <h3><a href="{{ '/codex/conservatory/' | relative_url }}">Conservatory</a></h3>
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.4.3</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.4.5</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/conservatory-library.webp' | relative_url }}" alt="Conservatory's music library: three Columns UI facet panes over genre, album artist, and album, above a rated track list and the player bar" loading="lazy">
@@ -179,7 +179,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 012</span>
 <h3><a href="{{ '/codex/lattice/' | relative_url }}">lattice-music</a></h3>
-<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v4.17.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v5.3.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/lattice-music-tui.webp' | relative_url }}" alt="lattice-music's curses TUI: a bordered menu grouped into Library, Integrity, Artwork, Metadata, and Settings sections" loading="lazy">
@@ -208,7 +208,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 014</span>
 <h3><a href="{{ '/codex/colophon/' | relative_url }}">Colophon</a></h3>
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.2.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.4.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/colophon-per-book.webp' | relative_url }}" alt="Colophon rendering reading statistics with Cairo charts" loading="lazy">
@@ -252,7 +252,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 018</span>
 <h3><a href="{{ '/codex/hearthfall/' | relative_url }}">Hearthfall</a></h3>
-<p class="codex-meta">Python <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.18.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.26.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/hearthfall-run.webp' | relative_url }}" alt="Hearthfall's terminal UI showing a map and clan statistics" loading="lazy">

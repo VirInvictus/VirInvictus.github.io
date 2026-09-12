@@ -6,7 +6,7 @@ description: "A cozy cat tamagotchi wrapped around a Cookie-Clicker-scale idle e
 permalink: /codex/catagotchi/
 ---
 
-<p class="codex-meta">Godot 4.7.2 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v4.12.0</span></p>
+<p class="codex-meta">Godot 4.7.2 <span class="stack-sep">·</span> GDScript <span class="stack-sep">·</span> <span class="status">active · v4.37.0</span></p>
 
 A cozy cat tamagotchi wrapped around a Cookie-Clicker-scale idle empire, and the largest thing here that is not a desktop app. The two halves are welded together rather than stacked: five needs average into a *mood multiplier* running ×0.5 to ×2.0 that scales **all** gold income, so a neglected cat is not a guilt mechanic, it is a halved economy. Above that sit eight generators with endless ×2 and ×5 upgrade ladders, three skill trees, fourteen adventures, five story dungeons plus an infinite Endless Depths on seeded floor modifiers, a globally deterministic commodity exchange, and two layers of prestige. Six daily puzzle games (sudoku, crossword, jigsaw, memory, rhythm, and a hidden-object mode) rotate on a four-hour seed that is the same for every player, so a daily is a shared board rather than a private roll.
 
