@@ -202,3 +202,7 @@ The artifact I am most pleased by is a one-off test file: `echo "phase 13" > /tm
 None of this is really about the configs. There is a small, stable surface of tools and conventions here that I keep iterating against, and the iteration is where most of the value has been. My `.zshrc` gains about one alias a quarter and loses one a quarter, which feels like the right rate. `~/.local/bin/` has five scripts in it, and I would rather it never had fifty, because the day it does is the day I stop knowing what is in it.
 
 That is the workshop I am trying to keep: a small room with the right tools at hand.
+
+## Postscript (2026-09-13)
+
+Two lines here were overtaken by events. On 2026-09-03 the Claude Code client was retired from this machine, so the `claude update` stanza in `sys_maintain` now guards a binary that is not there (the updater rotation gained `update_zcode` in the same spirit), and the eight hundred and ninety-two `claude` invocations of §VIII measure a tool that is gone; the numbers stand for the window they measured, which is all a shell history ever promises. The `CLAUDE.md` map in §VI is still in place and still doing its job; the per-repo files now carry `AGENTS.md` symlinks so the new client loads the same contracts, and the global file moved with the rest of the kit to `~/.zcode/`.

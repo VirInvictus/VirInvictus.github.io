@@ -6,7 +6,7 @@ description: "Tooling for music collectors who keep the filesystem as the source
 permalink: /codex/lattice/
 ---
 
-<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v5.3.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status status--complete">complete · v5.4.0</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/lattice-music-tui.webp' | relative_url }}" alt="lattice-music's TUI: a bordered menu grouped into Library, Integrity, Artwork, Metadata, and Settings sections" loading="lazy">
