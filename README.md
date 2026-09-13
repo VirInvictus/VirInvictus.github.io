@@ -27,7 +27,7 @@ My work focuses on native Linux desktop software. I build with Rust and GTK4, C 
 
 Where a rule can be a compile error instead of a convention, I make it one. I would rather ship against a hard memory ceiling than an optional benchmark, and I will port a battle-tested architecture with attribution before I invent a new one.
 
-I came to this work late. I spent ten years in restaurants and mining camps before picking up *The C Programming Language*. I read it at night between shifts because the cover looked serious and I wanted to know what serious looked like. I am a Computer Engineering Technician student now with a CS bachelor's underway at Algoma; the paperwork is catching up to a decade of practice.
+I came to this work late. I spent nearly twenty years in restaurants and mining camps before picking up *The C Programming Language*. I read it at night between shifts because the cover looked serious and I wanted to know what serious looked like. I am a Computer Engineering Technician student now with a CS bachelor's underway at Algoma; the paperwork is catching up to two decades of practice.
 
 By temperament I am an archivist. I keep a private Calibre library that runs into the four figures, a music collection sorted by hand, and an RSS spool I read every morning. Friends have called the practice *shadow librarianship*. The catalogue is my own, kept on my own disks, and indexed by my own tools. Most of what I build is designed for people who treat their library as a resource worth maintaining.
 
