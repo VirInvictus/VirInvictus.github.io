@@ -6,7 +6,7 @@ description: "A domain-agnostic Rust library for parsing Calibre-style search ex
 permalink: /codex/vir-search/
 ---
 
-<p class="codex-meta">Rust <span class="stack-sep">·</span> <span class="status">active · v1.4.2</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> <span class="status">active · v1.4.3</span></p>
 
 A domain-agnostic Rust library for parsing Calibre-style search expressions into a typed Abstract Syntax Tree (AST).
 
