@@ -1,0 +1,41 @@
+VirInvictus.github.io: THE FINAL BLITZ complete.
+
+Completed: 2026-09-16 (work executed 2026-09-15/16; every push
+deployed green; final commit range 0b0295e..HEAD).
+
+What shipped:
+- codex/vir-tui.md onto the codex layout and rewritten in the site's
+  voice (the one machine-sounding, off-template page).
+- Truth residues: calibrequarry's stdlib claim and meta-description;
+  carrel's decorator counts corrected to the verified live facts
+  (42 login_required_if_no_ano across ten modules; 94 admin.py checks
+  on upstream wrappers) plus the Carrel-calibre-web code link;
+  hermitage's 1.x sentence (Brandon-approved verbatim); lattice-music
+  reclassified active; the what-i-use section-IX fix and a dated
+  postscript for the CalibreQuarry drift.
+- The full version sweep to the post-blitz release state (19 versions;
+  raindrop-cli, catagotchi, dragon-agents, opends verified current).
+- The slop pass leftovers (seamlessly, utilizing/comprehensive, the
+  atrium fragment and test count, four truncated front-matter
+  descriptions, the lazygit echo).
+- Gate answers executed: codex_num dropped; the eleven orphans given a
+  compact shelf line; status--wip/--retired kept as the reserved pair;
+  the dead .codex-entry/.codex-body/.marginalia CSS pruned; the
+  hand-rolled Atom feed (jekyll-feed declined); the theme line removed.
+- Static plumbing: themed 404, robots.txt with sitemap declaration,
+  hand-drawn favicon + theme-color, the 1200x630 og-card (wired via
+  page front matter after the site-config key proved inert), a tracked
+  .gitignore, and the post back-link anchor.
+- CLAUDE.md rewritten for the current architecture.
+
+Reopen conditions:
+- New codex pages must appear in the README shelf line or they are
+  orphans again.
+- jekyll-feed stays declined; revisit only if the hand-rolled feed
+  becomes a burden.
+- The theme line stays out; re-adding jekyll-theme-minimal is a
+  Brandon decision.
+- codex-plate--pair CSS is unused (noticed leftover, outside the
+  recorded gate); prune with the next stylesheet pass if still unused.
+- Atrium's empty VERSION file is an Atrium-lane item; the site reads
+  0.76.0 from Cargo.toml.
