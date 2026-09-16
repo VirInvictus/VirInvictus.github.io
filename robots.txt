@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://virinvictus.github.io/sitemap.xml

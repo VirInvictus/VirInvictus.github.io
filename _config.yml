@@ -18,8 +18,8 @@ social:
     - https://mastodon.social/@Bdkl
     - https://www.linkedin.com/in/bdkl
 
-# Default link-preview image. Swap for a purpose-built 1200x630 card if one gets made.
-image: /assets/img/hyprland-desktop.webp
+# Link-preview card (og:image), 1200x630, purpose-built from the masthead lockup.
+image: /assets/img/og-card.png
 
 # Both are GitHub Pages-supported but opt-in; neither runs unless listed here.
 plugins:
