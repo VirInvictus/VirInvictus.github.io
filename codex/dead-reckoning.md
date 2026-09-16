@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Dead Reckoning"
 description: "The smallest thing in the collection: a preset for the Bookends KOReader plugin, styled as a navigation cockpit for the book in progress."
 permalink: /codex/dead-reckoning/

@@ -1,5 +1,6 @@
 ---
 layout: default
+image: /assets/img/og-card.png
 title: Vir Invictus
 description: Brandon LaRocque. Programmer, curator, former chef. Native Linux desktop work in Rust and C, local-first by default.
 permalink: /

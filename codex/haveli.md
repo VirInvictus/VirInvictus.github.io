@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Haveli"
 description: "Two players, one LAN, no internet at any point: a digital build of a fast set-collection card game on a content-agnostic, deterministic engine."
 permalink: /codex/haveli/

@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Atrium"
 description: "The native Linux task manager you grow into, not out of. An Org-mode app wearing a Things 3 / OmniFocus disguise."
 permalink: /codex/atrium/

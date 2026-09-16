@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "1-timezone"
 description: "The tiniest fix in the collection, a KOReader patch that sets a real POSIX timezone on a jailbroken Kindle."
 permalink: /codex/1-timezone/

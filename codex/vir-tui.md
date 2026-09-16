@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "vir-tui"
 description: "The shared terminal-UI primitive library under CalibreQuarry, lattice-music, and bindery-cli: menus, pagers, prompts, and progress boxes that degrade to plain text."
 permalink: /codex/vir-tui/

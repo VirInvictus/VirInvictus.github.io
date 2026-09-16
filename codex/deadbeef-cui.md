@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "deadbeef-cui"
 description: "A faceted-browser plugin for the DeaDBeeF music player, bringing foobar2000-style Columns UI / Facets to Linux."
 permalink: /codex/deadbeef-cui/

@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Kobo-style Sleepscreen Banner"
 description: "A KOReader user patch that redraws the stock sleep screen as a Kobo-lockscreen-style floating card over your book cover."
 permalink: /codex/kobo-style-sleepscreen-banner/

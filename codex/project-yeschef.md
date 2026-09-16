@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "project-yeschef"
 description: "YES CHEF (working title): a single-player, character-driven grand-strategy restaurant simulation in the lineage of Crusader Kings 3 and Victoria 3"
 permalink: /codex/project-yeschef/

@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Conservatory"
 description: "Conservatory owns and organizes your music, podcasts, and audiobooks on disk"
 permalink: /codex/conservatory/

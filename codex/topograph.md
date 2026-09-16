@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Topograph"
 description: "A native Qt6/QML file system size explorer: fast, local-first, and styled with Kanagawa Dragon."
 permalink: /codex/topograph/

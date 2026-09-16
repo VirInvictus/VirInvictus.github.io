@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "dragon-agents"
 description: "A local ZCode plugin of six read-only research subagents: they gather and report, the main thread decides and edits."
 permalink: /codex/dragon-agents/

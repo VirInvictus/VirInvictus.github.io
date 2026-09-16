@@ -17,8 +17,9 @@ social:
     - https://mastodon.social/@Bdkl
     - https://www.linkedin.com/in/bdkl
 
-# Link-preview card (og:image), 1200x630, purpose-built from the masthead lockup.
-image: /assets/img/og-card.png
+# og:image comes from page front matter (`image: /assets/img/og-card.png`):
+# jekyll-seo-tag reads page.image and ignores a site-level image key.
+# The 1200x630 card itself lives at assets/img/og-card.png.
 
 # Both are GitHub Pages-supported but opt-in; neither runs unless listed here.
 plugins:

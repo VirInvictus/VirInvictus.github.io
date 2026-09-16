@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "project-void"
 description: "A design-stage CRPG and the data-driven engine that ships under it."
 permalink: /codex/project-void/

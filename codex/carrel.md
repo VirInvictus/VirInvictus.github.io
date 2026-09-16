@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Carrel"
 description: "A carrel is a private desk in a library, and that is the whole design brief: no accounts, no sharing, no dashboard."
 permalink: /codex/carrel/

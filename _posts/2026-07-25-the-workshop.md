@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /assets/img/og-card.png
 title: "The Workshop: A Day at the Terminal"
 date: 2026-07-25
 description: Ghostty, zsh, Doom, LazyVim, Helix, the modern coreutils replacements, and the small scripts that bind them together.

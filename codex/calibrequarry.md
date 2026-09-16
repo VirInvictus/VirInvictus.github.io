@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "CalibreQuarry"
 description: "Calibre power-user tooling built on cquarry: catalogs, statistics, integrity audits, and write-capable curation companions."
 permalink: /codex/calibrequarry/

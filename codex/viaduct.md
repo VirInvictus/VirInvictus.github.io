@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Viaduct"
 description: "A Linux port of Brent Simmons' NetNewsWire RSS reader. A Cargo workspace split between a headless core and a GTK4 front end."
 permalink: /codex/viaduct/

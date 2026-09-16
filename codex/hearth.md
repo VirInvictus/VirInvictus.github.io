@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Hearth"
 description: "A native, two-player, local-network, fully offline digital build of a worker-placement and polyomino-economy Eurogame"
 permalink: /codex/hearth/

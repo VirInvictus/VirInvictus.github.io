@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Hearthfall"
 description: "A grimdark clan-survival game for the terminal: turn-based, season-timed, and fog-black."
 permalink: /codex/hearthfall/

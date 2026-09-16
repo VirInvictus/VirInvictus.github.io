@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "cquarry"
 description: "A lightweight, canonical Python package providing read-only access to Calibre's metadata.db and a full parser for Calibre's native search expression grammar."
 permalink: /codex/cquarry/

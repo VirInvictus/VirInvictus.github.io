@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "vir-search"
 description: "A domain-agnostic Rust library for parsing Calibre-style search expressions into a typed AST."
 permalink: /codex/vir-search/

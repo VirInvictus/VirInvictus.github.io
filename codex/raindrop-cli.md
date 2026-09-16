@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "raindrop-cli"
 description: "Talks to the Raindrop.io bookmarking service with nothing from PyPI, built the way the other stdlib tools here are: urllib, json, argparse, tomllib."
 permalink: /codex/raindrop-cli/

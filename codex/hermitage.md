@@ -1,5 +1,6 @@
 ---
 layout: codex
+image: /assets/img/og-card.png
 title: "Hermitage"
 description: "Built for the single user who wants a modern desktop experience over a Calibre library without Docker or a web auth layer in the way."
 permalink: /codex/hermitage/
