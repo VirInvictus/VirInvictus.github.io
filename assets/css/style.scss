@@ -214,16 +214,6 @@ em {
 }
 
 /* ────────────── Codex entries ────────────── */
-.codex-entry {
-  display: grid;
-  grid-template-columns: 5em 1fr;
-  column-gap: 1.6em;
-  margin: 2em 0;
-  padding-bottom: 1.8em;
-  border-bottom: 1px solid var(--surface0);
-}
-.codex-entry:last-of-type { border-bottom: 0; }
-
 .codex-num {
   font-family: var(--mono);
   color: var(--peach);
@@ -257,9 +247,6 @@ em {
 .codex-meta .status--shipping    { color: var(--peach); }
 .codex-meta .status--retired     { color: var(--overlay1); }
 
-.codex-body p:first-of-type { margin-top: 0; }
-.codex-body p:last-of-type  { margin-bottom: 0; }
-
 .codex-link {
   margin: 0.8em 0 0;
   font-family: var(--mono);
@@ -269,20 +256,7 @@ em {
 .codex-link a { border-bottom: 0; }
 .codex-link a:hover { border-bottom: 1px solid var(--yellow); }
 
-@media (max-width: 600px) {
-  .codex-entry {
-    grid-template-columns: 1fr;
-    gap: 0.4em;
-  }
-  .codex-num { padding-top: 0; }
-}
-
 /* ────────────── Codex plates (screenshots) ────────────── */
-/* min-width: 0 is load-bearing: .codex-body and the pair's imgs are grid
-   items, and the grid default of min-width:auto stops a track shrinking
-   below the image's intrinsic 1600px — blowing the entry out past the
-   720px codex column instead of scaling the image down. */
-.codex-body { min-width: 0; }
 .codex-plate {
   margin: 0 0 1.1em;
 }
@@ -330,31 +304,6 @@ hr::after {
   font-size: 1.2rem;
   letter-spacing: 0.5em;
   background: transparent;
-}
-
-/* ────────────── Marginalia (interests) ────────────── */
-.marginalia {
-  display: grid;
-  grid-template-columns: 8em 1fr;
-  gap: 0.5em 1.4em;
-  margin: 1.2em 0;
-}
-.marginalia dt {
-  font-family: var(--mono);
-  font-size: 0.74rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--peach);
-  padding-top: 0.32em;
-}
-.marginalia dd { margin: 0; }
-
-@media (max-width: 600px) {
-  .marginalia {
-    grid-template-columns: 1fr;
-    gap: 0.1em;
-  }
-  .marginalia dt { padding-top: 0.6em; }
 }
 
 /* ────────────── Posts list ────────────── */
@@ -569,7 +518,6 @@ pre::-webkit-scrollbar-thumb:hover { background: var(--surface2); }
   padding: 1.5em;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   position: relative;
-  /* hide the markdown p wrapper margins */
 }
 .codex-card:hover {
   transform: translateY(-3px);
