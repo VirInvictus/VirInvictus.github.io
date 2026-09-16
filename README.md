@@ -147,7 +147,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-plate">
 <img src="{{ '/assets/img/bindery-cli-sweep.webp' | relative_url }}" alt="bindery-cli's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
 </div>
-<p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes, repairing structural defects, unwrapping illegal HTML markup, and auditing for content damage (OCR, wrong-language tags) before seamlessly swapping the fixed formats natively into your Calibre database via cquarry.</p>
+<p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes, repairing structural defects, unwrapping illegal HTML markup, and auditing for content damage (OCR, wrong-language tags) before swapping the fixed formats natively into your Calibre database via cquarry.</p>
 <p class="card-link-container"><a href="{{ '/codex/bindery/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">

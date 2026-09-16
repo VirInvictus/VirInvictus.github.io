@@ -64,7 +64,7 @@ The single funniest alias I have written is `zc`, which is `killall {% raw %}{{Z
 ## III. The Daily Binaries
 {: #the-daily-binaries}
 
-The household replacements: [**`eza`**](https://github.com/eza-community/eza) for `ls`, with `l`/`ll`/`lt` aliases for default, long, and modified-time sort; [**`bat`**](https://github.com/sharkdp/bat) for `cat`, themed `gruvbox-dark` (one day I'll port Kanagawa Dragon); [**`rg`**](https://github.com/BurntSushi/ripgrep) for `grep`, with `.gitignore` honoured by default (which is why I switched); [**`fd`**](https://github.com/sharkdp/fd) for `find`, with no `-exec` ceremony; [**`lazygit`**](https://github.com/jesseduffield/lazygit), the rare TUI I prefer to its underlying command; [**`delta`**](https://github.com/dandavison/delta) wired into the git pager so every diff arrives syntax-highlighted and side-by-side; [**`atuin`**](https://atuin.sh/), as above, carrying the history.
+The household replacements: [**`eza`**](https://github.com/eza-community/eza) for `ls`, with `l`/`ll`/`lt` aliases for default, long, and modified-time sort; [**`bat`**](https://github.com/sharkdp/bat) for `cat`, themed `gruvbox-dark` (one day I'll port Kanagawa Dragon); [**`rg`**](https://github.com/BurntSushi/ripgrep) for `grep`, with `.gitignore` honoured by default (which is why I switched); [**`fd`**](https://github.com/sharkdp/fd) for `find`, with no `-exec` ceremony; [**`lazygit`**](https://github.com/jesseduffield/lazygit), where most of my commits actually happen these days; [**`delta`**](https://github.com/dandavison/delta) wired into the git pager so every diff arrives syntax-highlighted and side-by-side; [**`atuin`**](https://atuin.sh/), as above, carrying the history.
 
 Less obvious:
 
