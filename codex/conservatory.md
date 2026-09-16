@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Conservatory"
-codex_num: "No. 009"
 description: "Conservatory owns and organizes your music, podcasts, and audiobooks on disk"
 permalink: /codex/conservatory/
 ---

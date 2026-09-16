@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "project-void"
-codex_num: "No. 010"
 description: "A design-stage CRPG and the data-driven engine that ships under it."
 permalink: /codex/project-void/
 ---

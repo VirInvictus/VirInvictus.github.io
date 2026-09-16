@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Haveli"
-codex_num: "No. 018"
 description: "Two players, one LAN, no internet at any point: a digital build of a fast set-collection card game on a content-agnostic, deterministic engine."
 permalink: /codex/haveli/
 ---

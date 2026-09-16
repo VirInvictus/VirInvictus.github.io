@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Viaduct"
-codex_num: "No. 002"
 description: "A Linux port of Brent Simmons' NetNewsWire RSS reader. A Cargo workspace split between a headless core and a GTK4 front end."
 permalink: /codex/viaduct/
 ---

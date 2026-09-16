@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Topograph"
-codex_num: "No. 032"
 description: "A native Qt6/QML file system size explorer: fast, local-first, and styled with Kanagawa Dragon."
 permalink: /codex/topograph/
 ---

@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "deadbeef-cui"
-codex_num: "No. 007"
 description: "A faceted-browser plugin for the DeaDBeeF music player, bringing foobar2000-style Columns UI / Facets to Linux."
 permalink: /codex/deadbeef-cui/
 ---

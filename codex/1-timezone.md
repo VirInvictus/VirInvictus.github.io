@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "1-timezone"
-codex_num: "No. 022"
 description: "The tiniest fix in the collection, a KOReader patch that sets a real POSIX timezone on a jailbroken Kindle."
 permalink: /codex/1-timezone/
 ---

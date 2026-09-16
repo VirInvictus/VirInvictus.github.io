@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Hermitage"
-codex_num: "No. 003"
 description: "Built for the single user who wants a modern desktop experience over a Calibre library without Docker or a web auth layer in the way."
 permalink: /codex/hermitage/
 ---

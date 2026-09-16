@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Catagotchi"
-codex_num: "No. 026"
 description: "A cozy cat tamagotchi wrapped around a Cookie-Clicker-scale idle empire, and the largest thing here that is not a desktop app."
 permalink: /codex/catagotchi/
 ---

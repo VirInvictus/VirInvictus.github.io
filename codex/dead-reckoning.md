@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Dead Reckoning"
-codex_num: "No. 020"
 description: "The smallest thing in the collection: a preset for the Bookends KOReader plugin, styled as a navigation cockpit for the book in progress."
 permalink: /codex/dead-reckoning/
 ---

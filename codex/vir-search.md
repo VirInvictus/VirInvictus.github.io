@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "vir-search"
-codex_num: "No. 031"
 description: "A domain-agnostic Rust library for parsing Calibre-style search expressions into a typed AST."
 permalink: /codex/vir-search/
 ---

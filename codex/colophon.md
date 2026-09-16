@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Colophon"
-codex_num: "No. 019"
 description: "A native Linux statistics viewer for KOReader. KOReader tracks a surprising amount about how you read (per-page timing, session history, running totals)"
 permalink: /codex/colophon/
 ---

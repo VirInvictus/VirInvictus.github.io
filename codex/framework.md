@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Framework"
-codex_num: "No. 005"
 description: "A native Linux document viewer for PDF, DjVu, CBZ, CB7, CBT, CBR, XPS, EPUB, FB2, MOBI, AZW3, TXT"
 permalink: /codex/framework/
 ---

@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Hearth"
-codex_num: "No. 017"
 description: "A native, two-player, local-network, fully offline digital build of a worker-placement and polyomino-economy Eurogame"
 permalink: /codex/hearth/
 ---

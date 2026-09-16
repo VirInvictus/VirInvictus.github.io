@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "bindery-cli"
-codex_num: "No. 014"
 description: "A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes via a persistent Java daemon, safely unwrapping illegal HTML and cleanly installing repairs natively into Calibre."
 permalink: /codex/bindery/
 ---

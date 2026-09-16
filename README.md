@@ -262,6 +262,10 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 </div>
 
+### The rest of the codex
+
+The collection keeps eleven more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Carrel]({{ '/codex/carrel/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), and [vir-tui]({{ '/codex/vir-tui/' | relative_url }}).
+
 <p class="ornament ornament--fleuron">❦</p>
 
 ## III. Dispatches

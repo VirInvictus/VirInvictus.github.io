@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "CalibreQuarry"
-codex_num: "No. 006"
 description: "Calibre power-user tooling built on cquarry: catalogs, statistics, integrity audits, and write-capable curation companions."
 permalink: /codex/calibrequarry/
 ---

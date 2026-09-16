@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "dragon-agents"
-codex_num: "No. 033"
 description: "A local ZCode plugin of six read-only research subagents: they gather and report, the main thread decides and edits."
 permalink: /codex/dragon-agents/
 ---

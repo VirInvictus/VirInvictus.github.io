@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Hearthfall"
-codex_num: "No. 027"
 description: "A grimdark clan-survival game for the terminal: turn-based, season-timed, and fog-black."
 permalink: /codex/hearthfall/
 ---

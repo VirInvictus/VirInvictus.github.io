@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "AudiobookTools"
-codex_num: "No. 016"
 description: "One catalogue file is the source of truth for an entire audiobook shelf: retag writes the embedded metadata from it"
 permalink: /codex/audiobooktools/
 ---

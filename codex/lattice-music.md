@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "lattice-music"
-codex_num: "No. 004"
 description: "Tooling for music collectors who keep the filesystem as the source of truth. Library-tree visualization across artist / album / track / rating / genre."
 permalink: /codex/lattice/
 ---

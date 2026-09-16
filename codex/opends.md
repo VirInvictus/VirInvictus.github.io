@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "opends"
-codex_num: "No. 012"
 description: "An open community toolkit and bugfix-patch project for SSI's Dark Sun CRPGs, Shattered Lands (1993) and Wake of the Ravager (1994)."
 permalink: /codex/opends/
 ---

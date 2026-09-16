@@ -1,7 +1,6 @@
 ---
 layout: codex
 title: "Carrel"
-codex_num: "No. 023"
 description: "A carrel is a private desk in a library, and that is the whole design brief: no accounts, no sharing, no dashboard."
 permalink: /codex/carrel/
 ---
