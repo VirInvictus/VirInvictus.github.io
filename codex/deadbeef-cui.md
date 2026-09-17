@@ -6,7 +6,7 @@ description: "A faceted-browser plugin for the DeaDBeeF music player, bringing f
 permalink: /codex/deadbeef-cui/
 ---
 
-<p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.3.5</span></p>
+<p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.3.7</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/deadbeef-cui-facets.webp' | relative_url }}" alt="deadbeef-cui's three facet columns narrowing genre, album artist, and album above the playlist, with cover art and a waveform seekbar" loading="lazy">

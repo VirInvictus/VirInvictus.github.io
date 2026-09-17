@@ -6,7 +6,7 @@ description: "A lightweight, canonical Python package providing read-only access
 permalink: /codex/cquarry/
 ---
 
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.23.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.23.2</span></p>
 
 A lightweight, canonical Python package providing read-only access to Calibre's `metadata.db` and a full parser for Calibre's search expression grammar.
 
