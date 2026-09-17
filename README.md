@@ -280,3 +280,5 @@ The collection keeps eleven more volumes on the shelf, each with its own page: [
   </li>
   {% endfor %}
 </ul>
+
+<p>If any of this saved you time, the tip jar lives at <a href="https://github.com/sponsors/VirInvictus">GitHub Sponsors</a>; Liberapay (<a href="https://liberapay.com/bdkl">liberapay.com/bdkl</a>) and bitcoin (<code>bc1qkge6zr45tzqfwfmvma2ylumt6mg7wlwmhr05yv</code>) ride along in the <a href="https://github.com/VirInvictus">profile's support section</a>.</p>
