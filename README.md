@@ -131,7 +131,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 008</span>
 <h3><a href="{{ '/codex/calibrequarry/' | relative_url }}">CalibreQuarry</a></h3>
-<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.48.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.49.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
