@@ -3,7 +3,7 @@ layout: post
 image: /assets/img/og-card.png
 title: "The Dig: Five Months of OpenDS"
 date: 2026-09-28
-description: A five-month audit of the OpenDS project: fourteen tools, two shipped darkfix patches, both Dark Sun games mined end to end, and a Godot spike that plays the opening of Shattered Lands.
+description: A five-month audit of the OpenDS toolkit, its two shipped darkfix patches, the fully mined game corpus, and the Godot spike that plays the opening of Shattered Lands.
 ---
 
 <div markdown="1" class="dropcap">
