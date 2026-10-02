@@ -207,3 +207,7 @@ That is the workshop I am trying to keep: a small room with the right tools at h
 ## Postscript (2026-09-13)
 
 Two lines here were overtaken by events. On 2026-09-03 the Claude Code client was retired from this machine, so the `claude update` stanza in `sys_maintain` now guards a binary that is not there (the updater rotation gained `update_zcode` in the same spirit), and the eight hundred and ninety-two `claude` invocations of §VIII measure a tool that is gone; the numbers stand for the window they measured, which is all a shell history ever promises. The `CLAUDE.md` map in §VI is still in place and still doing its job; the per-repo files now carry `AGENTS.md` symlinks so the new client loads the same contracts, and the global file moved with the rest of the kit to `~/.zcode/`.
+
+## Postscript (2026-10-02)
+
+§VI's anchor has doubled: the library read 8,286 books this morning, counted read-only off `metadata.db`, against the four thousand six hundred recorded here in July. The anchors hold; the count does not. The §V updater roster is unchanged, `update_gemini` included.

@@ -24,7 +24,7 @@ I want to be precise about what I am refusing, because it is almost none of it. 
 
 So, flatly and without apology: I have zero interest in profit. That sentence gets read as modesty, or as a phase a first real invoice will cure, so let me extend it. I am never going to be a salesman. Salesmanship is not a channel you bolt onto the work; it is a redesign of the worker. The moment a thing must sell, the curiosity starts deferring to the buyer: features chosen for the demo, corners softened for the market's comfort, the roadmap written by whoever is most likely to pay next quarter. I build opinionated tools for an opinionated library, and the entire point of each one is that it exists because it interested me, not because a segment was waiting for it. Monetize that and you have not found the workshop a business model; you have closed a workshop and opened a factory where it stood.
 
-I am thirty-nine. I am a former chef, a computer engineering student, the curator of a four-thousand-six-hundred-book library, and the proprietor of the workshop in question, whose roadmap has always been whatever interested me that week. I have exactly one career plan. I just want to build cool shit.
+I am thirty-nine. I am a former chef, a computer engineering student, the curator of an eight-thousand-three-hundred-book library, and the proprietor of the workshop in question, whose roadmap has always been whatever interested me that week. I have exactly one career plan. I just want to build cool shit.
 
 <p class="ornament ornament--fleuron">❦</p>
 
