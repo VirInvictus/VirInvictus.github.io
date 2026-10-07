@@ -96,7 +96,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 005</span>
 <h3><a href="{{ '/codex/vir-gtk/' | relative_url }}">vir-gtk</a></h3>
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">active · v1.4.2</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">active · v1.4.3</span></p>
 </div>
 <p class="card-desc">A standalone Rust library extracting the shared GTK4 styling and D-Bus portal interaction layer for the VirInvictus desktop suite, providing the foundational visual identity without libadwaita.</p>
 <p class="card-link-container"><a href="{{ '/codex/vir-gtk/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
@@ -131,7 +131,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 008</span>
 <h3><a href="{{ '/codex/calibrequarry/' | relative_url }}">CalibreQuarry</a></h3>
-<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.59.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.59.2</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
@@ -192,7 +192,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 013</span>
 <h3><a href="{{ '/codex/deadbeef-cui/' | relative_url }}">deadbeef-cui</a></h3>
-<p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v2.0.0</span></p>
+<p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v2.0.1</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/deadbeef-cui-facets.webp' | relative_url }}" alt="deadbeef-cui's three facet columns narrowing genre, album artist, and album above the playlist, with cover art and a waveform seekbar" loading="lazy">
@@ -221,7 +221,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 015</span>
 <h3><a href="{{ '/codex/dead-reckoning/' | relative_url }}">Dead Reckoning</a></h3>
-<p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
+<p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.0.0</span></p>
 </div>
 <p class="card-desc">Navigation-cockpit preset for KOReader's bookends plugin: session pace, chapter ETA, projected finish date, and chapter ticks on the progress bar.</p>
 <p class="card-link-container"><a href="{{ '/codex/dead-reckoning/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
@@ -265,7 +265,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 
 ### The rest of the codex
 
-The collection keeps eleven more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Carrel]({{ '/codex/carrel/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), and [vir-tui]({{ '/codex/vir-tui/' | relative_url }}).
+The collection keeps thirteen more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Carrel]({{ '/codex/carrel/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Quire]({{ '/codex/quire/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), and [vir-tui]({{ '/codex/vir-tui/' | relative_url }}).
 
 <p class="ornament ornament--fleuron">❦</p>
 
