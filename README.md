@@ -267,6 +267,8 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 
 The collection keeps fourteen more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Carrel]({{ '/codex/carrel/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Quire]({{ '/codex/quire/' | relative_url }}), [saforums]({{ '/codex/saforums/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), and [vir-tui]({{ '/codex/vir-tui/' | relative_url }}).
 
+The work behind the collection is logged too: every release across the codex lands in [the patchnotes]({{ '/patchnotes/' | relative_url }}), regenerated nightly from each repo's own log.
+
 <p class="ornament ornament--fleuron">❦</p>
 
 ## III. Dispatches
