@@ -6,7 +6,7 @@ description: "Read the Something Awful Forums on an e-ink reader: a KOReader plu
 permalink: /codex/saforums/
 ---
 
-<p class="codex-meta">Lua <span class="stack-sep">·</span> KOReader <span class="stack-sep">·</span> <span class="status">active · v0.2.0</span></p>
+<p class="codex-meta">Lua <span class="stack-sep">·</span> KOReader <span class="stack-sep">·</span> <span class="status">active · v0.3.0</span></p>
 
 Read the Something Awful Forums on an e-ink reader. A KOReader plugin built for the lurker's loop: log in once with persisted session cookies (or import a desktop browser's), browse the forum index and a bookmark shelf with unread counts, and continue any bookmarked thread at the first unseen post. Holding a bookmark marks the thread unread again. Posting stays on the phone by design; this is a reading client, and nothing it does clutters the reading history.
 
