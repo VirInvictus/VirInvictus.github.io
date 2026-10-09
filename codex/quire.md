@@ -10,7 +10,7 @@ permalink: /codex/quire/
   <img src="{{ '/assets/img/quire-welcome.webp' | relative_url }}" alt="Quire's welcome sheet: the tour with live answers in a right-hand column" loading="lazy">
 </div>
 
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">shipping · v1.5.2</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">shipping · v1.5.3</span></p>
 
 A Soulver-style notepad calculator for Linux: prose and math share one plain-text sheet, and every expression answers on its own line in a results column down the right edge. The sheet is the file. There is no project format underneath and nothing to save; the thing on screen is the thing on disk.
 

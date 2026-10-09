@@ -6,7 +6,7 @@ description: "The shared terminal-UI primitive library under CalibreQuarry, latt
 permalink: /codex/vir-tui/
 ---
 
-<p class="codex-meta">Python <span class="stack-sep">·</span> stdlib <span class="stack-sep">·</span> <span class="status">active · v2.5.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> stdlib <span class="stack-sep">·</span> <span class="status status--complete">complete · v2.5.0</span></p>
 
 Every CLI in the collection shares one set of terminal manners, and this is where they live. vir-tui is the primitive library under [CalibreQuarry](/codex/calibrequarry/), [lattice-music](/codex/lattice/), and [bindery-cli](/codex/bindery/): a curses-based interactive menu with type-to-filter and mouse support, a scrollable results pager, boxed input prompt lifecycles, ANSI styling that honours `NO_COLOR` and stays off when stdout is piped, and a session-aware progress box. CalibreQuarry and lattice-music run their full interactive sessions through it; bindery-cli takes the formatters and the `tqdm` re-export.
 
