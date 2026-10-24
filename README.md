@@ -253,6 +253,15 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-card">
 <div class="card-header">
 <span class="codex-num">No. 018</span>
+<h3><a href="{{ '/codex/saforums/' | relative_url }}">saforums</a></h3>
+<p class="codex-meta">Lua <span class="stack-sep">·</span> KOReader <span class="stack-sep">·</span> <span class="status">active · v0.5.0</span></p>
+</div>
+<p class="card-desc">Read the Something Awful Forums on your e-reader: login with persisted cookies, forum index and bookmark shelf with unread counts, and continue-at-unread, rendered as native koreader post cards. Screen-scraped by a written contract, tested against synthetic fixtures.</p>
+<p class="card-link-container"><a href="{{ '/codex/saforums/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 019</span>
 <h3><a href="{{ '/codex/dead-reckoning/' | relative_url }}">Dead Reckoning</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.0.0</span></p>
 </div>
@@ -261,7 +270,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 019</span>
+<span class="codex-num">No. 020</span>
 <h3><a href="{{ '/codex/kobo-style-sleepscreen-banner/' | relative_url }}">Sleepscreen Banner</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -270,7 +279,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 020</span>
+<span class="codex-num">No. 021</span>
 <h3><a href="{{ '/codex/1-timezone/' | relative_url }}">1-timezone</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -284,7 +293,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 021</span>
+<span class="codex-num">No. 022</span>
 <h3><a href="{{ '/codex/hearthfall/' | relative_url }}">Hearthfall</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.28.0</span></p>
 </div>
@@ -298,7 +307,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 
 ### The rest of the codex
 
-The collection keeps thirteen more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [saforums]({{ '/codex/saforums/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
+The collection keeps twelve more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
 
 The work behind the collection is logged too: every release across the codex lands in [the patchnotes]({{ '/patchnotes/' | relative_url }}), regenerated nightly from each repo's own log.
 
