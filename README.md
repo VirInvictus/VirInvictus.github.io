@@ -59,6 +59,18 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-card">
 <div class="card-header">
 <span class="codex-num">No. 002</span>
+<h3><a href="{{ '/codex/docket/' | relative_url }}">Docket</a></h3>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> GtkSourceView <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.0.0</span></p>
+</div>
+<div class="codex-plate">
+<img src="{{ '/assets/img/docket-dark.png' | relative_url }}" alt="Docket's start page: a working checklist, live searches, tags, and the sidebar" loading="lazy">
+</div>
+<p class="card-desc">A plain-text task editor, clean-room faithful to the TaskPaper format: projects end with a colon, tasks start with a dash, and the files stay plain text any editor can open. Folding, live queries, and the reference's structural commands in a GTK4 surface.</p>
+<p class="card-link-container"><a href="{{ '/codex/docket/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 003</span>
 <h3><a href="{{ '/codex/viaduct/' | relative_url }}">Viaduct</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v4.3.2</span></p>
 </div>
@@ -70,7 +82,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 003</span>
+<span class="codex-num">No. 004</span>
 <h3><a href="{{ '/codex/framework/' | relative_url }}">Framework</a></h3>
 <p class="codex-meta">C <span class="stack-sep">·</span> Meson <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> MuPDF <span class="stack-sep">·</span> DjVuLibre <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.0.2</span></p>
 </div>
@@ -82,7 +94,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 004</span>
+<span class="codex-num">No. 005</span>
 <h3><a href="{{ '/codex/raindrop-cli/' | relative_url }}">raindrop-cli</a></h3>
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status status--complete">complete · v0.7.0</span></p>
 </div>
@@ -94,7 +106,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 005</span>
+<span class="codex-num">No. 006</span>
 <h3><a href="{{ '/codex/vir-gtk/' | relative_url }}">vir-gtk</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.4.3</span></p>
 </div>
@@ -103,12 +115,24 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 006</span>
+<span class="codex-num">No. 007</span>
 <h3><a href="{{ '/codex/vir-search/' | relative_url }}">vir-search</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.4.3</span></p>
 </div>
 <p class="card-desc">A domain-agnostic Rust library for parsing Calibre-style search expressions into a typed AST. It provides the lexer, generic recursive-descent parser, and date-range resolvers that underpin the VirInvictus ecosystem.</p>
 <p class="card-link-container"><a href="{{ '/codex/vir-search/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 008</span>
+<h3><a href="{{ '/codex/quire/' | relative_url }}">Quire</a></h3>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> numbat <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.5.3</span></p>
+</div>
+<div class="codex-plate">
+<img src="{{ '/assets/img/quire-welcome.webp' | relative_url }}" alt="Quire's welcome sheet: the tour with live answers in a right-hand results column" loading="lazy">
+</div>
+<p class="card-desc">A soulver-style notepad calculator: prose and math share one plain-text sheet and every expression answers in a right-hand results column, with dimension-checked units, currency, and line references that renumber themselves.</p>
+<p class="card-link-container"><a href="{{ '/codex/quire/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 </div>
 
@@ -117,7 +141,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 007</span>
+<span class="codex-num">No. 009</span>
 <h3><a href="{{ '/codex/hermitage/' | relative_url }}">Hermitage</a></h3>
 <p class="codex-meta">Python 3.13+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.8.6</span></p>
 </div>
@@ -129,7 +153,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 008</span>
+<span class="codex-num">No. 010</span>
 <h3><a href="{{ '/codex/calibrequarry/' | relative_url }}">CalibreQuarry</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.74.0</span></p>
 </div>
@@ -141,7 +165,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 009</span>
+<span class="codex-num">No. 011</span>
 <h3><a href="{{ '/codex/bindery/' | relative_url }}">bindery-cli</a></h3>
 <p class="codex-meta">Python (tqdm) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.52.0</span></p>
 </div>
@@ -153,12 +177,21 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 010</span>
+<span class="codex-num">No. 012</span>
 <h3><a href="{{ '/codex/cquarry/' | relative_url }}">cquarry</a></h3>
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.28.1</span></p>
 </div>
 <p class="card-desc">A lightweight, canonical Python package providing read-only access to Calibre's <code>metadata.db</code> and a full parser for Calibre's native search expression grammar; the opt-in <code>cquarry.write</code> module is the ecosystem's only sanctioned write path.</p>
 <p class="card-link-container"><a href="{{ '/codex/cquarry/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 013</span>
+<h3><a href="{{ '/codex/carrel/' | relative_url }}">Carrel</a></h3>
+<p class="codex-meta">CSS <span class="stack-sep">·</span> docs <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.9.10</span></p>
+</div>
+<p class="card-desc">A single-user reading room for a curated calibre library: ok-lab accessible typography, no login, <code>metadata.db</code> attached read-only, and a search bar that speaks Calibre's own expression language. The code rides in the companion fork.</p>
+<p class="card-link-container"><a href="{{ '/codex/carrel/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 </div>
 ### Music & Audio
@@ -166,7 +199,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 011</span>
+<span class="codex-num">No. 014</span>
 <h3><a href="{{ '/codex/conservatory/' | relative_url }}">Conservatory</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> libmpv <span class="stack-sep">·</span> SQLite <span class="stack-sep">·</span> <span class="status">active · v0.9.1</span></p>
 </div>
@@ -178,7 +211,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 012</span>
+<span class="codex-num">No. 015</span>
 <h3><a href="{{ '/codex/lattice/' | relative_url }}">lattice-music</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> mutagen <span class="stack-sep">·</span> ffmpeg <span class="stack-sep">·</span> <span class="status">active · v6.4.1</span></p>
 </div>
@@ -190,7 +223,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 013</span>
+<span class="codex-num">No. 016</span>
 <h3><a href="{{ '/codex/deadbeef-cui/' | relative_url }}">deadbeef-cui</a></h3>
 <p class="codex-meta">C <span class="stack-sep">·</span> GTK3 <span class="stack-sep">·</span> <span class="status status--complete">complete · v2.2.1</span></p>
 </div>
@@ -207,7 +240,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 014</span>
+<span class="codex-num">No. 017</span>
 <h3><a href="{{ '/codex/colophon/' | relative_url }}">Colophon</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> Cairo <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v2.6.0</span></p>
 </div>
@@ -219,7 +252,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 015</span>
+<span class="codex-num">No. 018</span>
 <h3><a href="{{ '/codex/dead-reckoning/' | relative_url }}">Dead Reckoning</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.0.0</span></p>
 </div>
@@ -228,7 +261,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 016</span>
+<span class="codex-num">No. 019</span>
 <h3><a href="{{ '/codex/kobo-style-sleepscreen-banner/' | relative_url }}">Sleepscreen Banner</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -237,7 +270,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 017</span>
+<span class="codex-num">No. 020</span>
 <h3><a href="{{ '/codex/1-timezone/' | relative_url }}">1-timezone</a></h3>
 <p class="codex-meta">Lua <span class="stack-sep">·</span> <span class="status status--complete">complete</span></p>
 </div>
@@ -251,7 +284,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-grid">
 <div class="codex-card">
 <div class="card-header">
-<span class="codex-num">No. 018</span>
+<span class="codex-num">No. 021</span>
 <h3><a href="{{ '/codex/hearthfall/' | relative_url }}">Hearthfall</a></h3>
 <p class="codex-meta">Python <span class="stack-sep">·</span> Textual <span class="stack-sep">·</span> <span class="status">active · v0.28.0</span></p>
 </div>
@@ -265,7 +298,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 
 ### The rest of the codex
 
-The collection keeps sixteen more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Carrel]({{ '/codex/carrel/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [Docket]({{ '/codex/docket/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Quire]({{ '/codex/quire/' | relative_url }}), [saforums]({{ '/codex/saforums/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
+The collection keeps thirteen more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [saforums]({{ '/codex/saforums/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
 
 The work behind the collection is logged too: every release across the codex lands in [the patchnotes]({{ '/patchnotes/' | relative_url }}), regenerated nightly from each repo's own log.
 
