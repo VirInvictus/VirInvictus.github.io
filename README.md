@@ -254,7 +254,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 018</span>
 <h3><a href="{{ '/codex/saforums/' | relative_url }}">saforums</a></h3>
-<p class="codex-meta">Lua <span class="stack-sep">·</span> KOReader <span class="stack-sep">·</span> <span class="status">active · v0.5.3</span></p>
+<p class="codex-meta">Lua <span class="stack-sep">·</span> KOReader <span class="stack-sep">·</span> <span class="status">active · v0.5.4</span></p>
 </div>
 <p class="card-desc">Read the Something Awful Forums on your e-reader: login with persisted cookies, forum index and bookmark shelf with unread counts, and continue-at-unread, rendered as native koreader post cards. Screen-scraped by a written contract, tested against synthetic fixtures.</p>
 <p class="card-link-container"><a href="{{ '/codex/saforums/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
