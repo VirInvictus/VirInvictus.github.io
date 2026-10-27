@@ -19,6 +19,8 @@ permalink: /
   <span class="sigils__ornament">❦</span>
 </p>
 
+<p class="annals-topline"><a href="{{ '/patchnotes/' | relative_url }}">the annals · every release, logged nightly</a></p>
+
 ## I. On the Author
 {: #on-the-author}
 
