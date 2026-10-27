@@ -28,11 +28,15 @@ My work focuses on native Linux desktop software. I build with Rust and GTK4, C 
 
 Where a rule can be a compile error instead of a convention, I make it one. I would rather ship against a hard memory ceiling than an optional benchmark, and I will port a battle-tested architecture with attribution before I invent a new one.
 
+None of it is typed by hand. I drive an AI coding harness across the workspace, and I built the harness a staff: [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), twenty-three read-only research subagents that map repositories, audit releases, triage CI, and verify a claim before it gates any work. They gather and report; the architecture decides. Rust's borrow checker, stdlib-only walls, dry-run defaults, single-writer SQLite: a machine cannot argue its way past those, so nothing it drafts skips the gates a human patch would meet. I supply the architecture and the taste; the harness supplies the typing speed.
+
 I came to this work late. I spent nearly twenty years in restaurants and mining camps before picking up *The C Programming Language*. I read it at night between shifts because the cover looked serious and I wanted to know what serious looked like. I am a Computer Engineering Technician student now with a CS bachelor's underway at Algoma; the paperwork is catching up to two decades of practice.
 
 By temperament I am an archivist. I keep a private Calibre library that runs into the four figures, a music collection sorted by hand, and an RSS spool I read every morning. Friends have called the practice *shadow librarianship*. The catalogue is my own, kept on my own disks, and indexed by my own tools. Most of what I build is designed for people who treat their library as a resource worth maintaining.
 
 The site is named *Vir Invictus*, *the unconquered*. I picked it a long time ago and it stuck.
+
+I am open to work, and I come cheap when the problem is interesting; the interesting ones are why I got into this. Write to [larocque.brandon+outreach@gmail.com](mailto:larocque.brandon+outreach@gmail.com).
 
 <p class="ornament ornament--fleuron">❦</p>
 
@@ -305,11 +309,36 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 </div>
 </div>
 
+### The Foundry
+
+<div class="codex-grid">
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 023</span>
+<h3><a href="{{ '/codex/dragon-agents/' | relative_url }}">dragon-agents</a></h3>
+<p class="codex-meta">Markdown <span class="stack-sep">·</span> Python (stdlib) <span class="stack-sep">·</span> <span class="status">active · v0.6.0</span></p>
+</div>
+<p class="card-desc">Twenty-three read-only research subagents in a local ZCode plugin: release audits, CI triage, repo cartography, claim checks, markets and machine-health briefs. Nothing they read is ever written; the deciding and the editing stay with the main thread.</p>
+<p class="card-link-container"><a href="{{ '/codex/dragon-agents/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 024</span>
+<h3><a href="{{ '/codex/annals/' | relative_url }}">annals</a></h3>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.3.0</span></p>
+</div>
+<p class="card-desc">The codex's own bookkeeper: every release and commit across the collection, rendered nightly into one reproducible ledger. Its published output is the patchnotes page and the ledger line below.</p>
+<p class="card-link-container"><a href="{{ '/codex/annals/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
+</div>
+
 ### The rest of the codex
 
-The collection keeps twelve more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
+The collection keeps eleven more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
 
-The work behind the collection is logged too: every release across the codex lands in [the patchnotes]({{ '/patchnotes/' | relative_url }}), regenerated nightly from each repo's own log.
+<!-- The front-page ledger line: written nightly by the annals repo to
+_includes/ledger.md. Generator-owned; never hand-edit the include. -->
+{% include ledger.md %}
 
 <p class="ornament ornament--fleuron">❦</p>
 
