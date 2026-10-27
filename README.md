@@ -28,7 +28,9 @@ My work focuses on native Linux desktop software. I build with Rust and GTK4, C 
 
 Where a rule can be a compile error instead of a convention, I make it one. I would rather ship against a hard memory ceiling than an optional benchmark, and I will port a battle-tested architecture with attribution before I invent a new one.
 
-None of it is typed by hand. I drive an AI coding harness across the workspace, and I built the harness a staff: [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), twenty-three read-only research subagents that map repositories, audit releases, triage CI, and verify a claim before it gates any work. They gather and report; the architecture decides. Rust's borrow checker, stdlib-only walls, dry-run defaults, single-writer SQLite: a machine cannot argue its way past those, so nothing it drafts skips the gates a human patch would meet. I supply the architecture and the taste; the harness supplies the typing speed.
+I drive an AI coding harness across the workspace, and I built it a staff: [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), twenty-three read-only research subagents that map repositories, audit releases, triage CI, and verify a claim before it gates any work. The staff reads and reports; it never writes. The drafting happens at my direction in the main thread, and the deciding happens nowhere else.
+
+Compile-time invariants, test suites, dry-run defaults, single-writer SQLite: agent-drafted code meets the same gates any human patch would. A machine cannot argue its way past a borrow checker, and I wired my workflow so that I cannot either.
 
 I came to this work late. I spent nearly twenty years in restaurants and mining camps before picking up *The C Programming Language*. I read it at night between shifts because the cover looked serious and I wanted to know what serious looked like. I am a Computer Engineering Technician student now with a CS bachelor's underway at Algoma; the paperwork is catching up to two decades of practice.
 
