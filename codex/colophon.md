@@ -2,7 +2,7 @@
 layout: codex
 image: /assets/img/og-card.png
 title: "Colophon"
-description: "A native Linux statistics viewer for KOReader. KOReader tracks a surprising amount about how you read (per-page timing, session history, running totals)"
+description: "A native Linux statistics viewer for KOReader: imports a copy of the device's statistics database and draws its own Cairo charts, locally."
 permalink: /codex/colophon/
 ---
 

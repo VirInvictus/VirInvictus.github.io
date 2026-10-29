@@ -83,7 +83,7 @@ Less obvious:
 
 A small constellation of Python tools lives behind `uv tool`: [**`mitmproxy`**](https://mitmproxy.org/), [**`sqlmap`**](https://sqlmap.org/), [**`binwalk`**](https://github.com/ReFirmLabs/binwalk), [**`yt-dlp`**](https://github.com/yt-dlp/yt-dlp). The first three are for CTF and security study; the fourth is for the day a podcast feed quietly drops a back-catalogue episode and I want it on the disk. `pipx` was the previous answer; `uv tool` is the current one.
 
-Finally, [`hledger`](https://hledger.org/) and the `hb` / `hr` / `his` / `hbs` aliases. Plaintext double-entry bookkeeping in the shell is one of the quiet gifts of the Free Software era.
+Finally, [`hledger`](https://hledger.org/) and the `hb` / `hr` / `his` / `hbs` aliases. Plaintext double-entry bookkeeping in the shell is one of the unglamorous gifts of the Free Software era.
 
 <p class="ornament ornament--fleuron">❦</p>
 

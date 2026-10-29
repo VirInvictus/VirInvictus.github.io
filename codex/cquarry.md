@@ -14,6 +14,6 @@ This library powers **[CalibreQuarry](/codex/calibrequarry/)** (CLI/TUI), **[Her
 
 It implements a recursive-descent parser that matches Calibre's native search capabilities (exact matches, substring, boolean logic, date math, custom columns, identifiers, and nested virtual libraries), bypassing Calibre's heavy Python initialization overhead.
 
-The 1.24-1.26 parity program carried the write side to the same completeness: restore-from-trash verbs that rebuild rows from Calibre's own `.caltrash` sidecar OPFs, custom-column schema and metadata edits, a restricted tag browser, and the four shared helpers (ordered virtual-library names, tag rollups, `unpipe_author`, the canonical identifier table) that Hermitage and Carrel-calibre-web adopted in the same week, so every frontend inherits the audit's fixes at once.
+The 1.24-1.26 parity program carried the write side to the same completeness: restore-from-trash verbs that rebuild rows from Calibre's own `.caltrash` sidecar OPFs, custom-column schema and metadata edits, a restricted tag browser, and the four shared helpers (ordered virtual-library names, tag rollups, `unpipe_author`, the canonical identifier table) that Hermitage and Carrel-calibre-web adopted in the same week, so every frontend inherits the same fixes at once.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/cquarry">github.com/VirInvictus/cquarry →</a></p>

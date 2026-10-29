@@ -2,7 +2,7 @@
 layout: codex
 image: /assets/img/og-card.png
 title: "Framework"
-description: "A native Linux document viewer for PDF, DjVu, CBZ, CB7, CBT, CBR, XPS, EPUB, FB2, MOBI, AZW3, TXT"
+description: "A native Linux document viewer for PDF, DjVu, CBZ, CB7, CBT, CBR, XPS, EPUB, FB2, MOBI, AZW3, TXT, and Markdown"
 permalink: /codex/framework/
 ---
 

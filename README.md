@@ -85,7 +85,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-plate">
 <img src="{{ '/assets/img/viaduct-main.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread counts, article timeline, and the reading pane on the v3.0 flat Kanagawa design" loading="lazy">
 </div>
-<p class="card-desc">A Linux port of Brent Simmons\' <a href="https://netnewswire.com/">NetNewsWire</a> RSS reader. Styled by vir-gtk with search powered by vir-search.</p>
+<p class="card-desc">A Linux port of Brent Simmons\' <a href="https://netnewswire.com/">NetNewsWire</a> RSS reader: a headless core and a GTK4 front end styled by vir-gtk, smart feeds parsed by vir-search.</p>
 <p class="card-link-container"><a href="{{ '/codex/viaduct/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -118,7 +118,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <h3><a href="{{ '/codex/vir-gtk/' | relative_url }}">vir-gtk</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.4.3</span></p>
 </div>
-<p class="card-desc">A standalone Rust library extracting the shared GTK4 styling and D-Bus portal interaction layer for the VirInvictus desktop suite, providing the foundational visual identity without libadwaita.</p>
+<p class="card-desc">A standalone Rust library extracting the shared GTK4 styling and D-Bus portal interaction layer for the VirInvictus desktop suite: the Kanagawa stylesheet and portal plumbing behind its apps, libadwaita removed.</p>
 <p class="card-link-container"><a href="{{ '/codex/vir-gtk/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -127,7 +127,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <h3><a href="{{ '/codex/vir-search/' | relative_url }}">vir-search</a></h3>
 <p class="codex-meta">Rust <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.4.3</span></p>
 </div>
-<p class="card-desc">A domain-agnostic Rust library for parsing Calibre-style search expressions into a typed AST. It provides the lexer, generic recursive-descent parser, and date-range resolvers that underpin the VirInvictus ecosystem.</p>
+<p class="card-desc">A domain-agnostic Rust library for parsing Calibre-style search expressions into a typed AST. It provides the lexer, generic recursive-descent parser, and date-range resolvers shared by Atrium, Conservatory, and Viaduct.</p>
 <p class="card-link-container"><a href="{{ '/codex/vir-search/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -163,7 +163,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 010</span>
 <h3><a href="{{ '/codex/calibrequarry/' | relative_url }}">CalibreQuarry</a></h3>
-<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.74.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.75.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
@@ -175,7 +175,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 011</span>
 <h3><a href="{{ '/codex/bindery/' | relative_url }}">bindery-cli</a></h3>
-<p class="codex-meta">Python (tqdm) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.59.0</span></p>
+<p class="codex-meta">Python (tqdm, vir-tui) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status">active · v0.59.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/bindery-cli-sweep.webp' | relative_url }}" alt="bindery-cli's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
@@ -189,7 +189,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <h3><a href="{{ '/codex/cquarry/' | relative_url }}">cquarry</a></h3>
 <p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.28.1</span></p>
 </div>
-<p class="card-desc">A lightweight, canonical Python package providing read-only access to Calibre's <code>metadata.db</code> and a full parser for Calibre's native search expression grammar; the opt-in <code>cquarry.write</code> module is the ecosystem's only sanctioned write path.</p>
+<p class="card-desc">A canonical Python package providing read-only access to Calibre's <code>metadata.db</code> and a full parser for Calibre's native search expression grammar; the opt-in <code>cquarry.write</code> module is the collection's only sanctioned write path.</p>
 <p class="card-link-container"><a href="{{ '/codex/cquarry/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -214,7 +214,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-plate">
 <img src="{{ '/assets/img/conservatory-library.webp' | relative_url }}" alt="Conservatory's music library: three Columns UI facet panes over genre, album artist, and album, above a rated track list and the player bar" loading="lazy">
 </div>
-<p class="card-desc">Conservatory owns the music, podcast, and audiobook files on disk; the database is truth and the folder tree is a projection of it. Browsing is foobar2000-style facets; playback runs through libmpv from one queue. UI styled by vir-gtk and search powered by vir-search.</p>
+<p class="card-desc">Conservatory owns the music, podcast, and audiobook files on disk; the database is truth and the folder tree is a projection of it. Browsing is foobar2000-style facets; playback runs through libmpv from one queue. The surface is vir-gtk's flat Kanagawa on plain GTK4; vir-search drives the search expression grammar.</p>
 <p class="card-link-container"><a href="{{ '/codex/conservatory/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -255,7 +255,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-plate">
 <img src="{{ '/assets/img/colophon-per-book.webp' | relative_url }}" alt="Colophon rendering reading statistics with Cairo charts" loading="lazy">
 </div>
-<p class="card-desc">Native statistics viewer for KOReader. Imports a copy of <code>statistics.sqlite3</code>, draws its own Cairo charts, ships the reading analytics nobody else has.</p>
+<p class="card-desc">Native statistics viewer for KOReader. Imports a copy of <code>statistics.sqlite3</code>, draws its own Cairo charts, surfaces the analytics the reader itself never shows.</p>
 <p class="card-link-container"><a href="{{ '/codex/colophon/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
