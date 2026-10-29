@@ -8,10 +8,10 @@ permalink: /codex/vir-search/
 
 <p class="codex-meta">Rust <span class="stack-sep">·</span> <span class="status status--complete">complete · v1.4.3</span></p>
 
-A domain-agnostic Rust library for parsing Calibre-style search expressions into a typed Abstract Syntax Tree (AST).
+One search grammar serves three applications, and this is the library that parses it: Calibre-style search expressions in, a typed Abstract Syntax Tree (AST) out.
 
-Extracted from `atrium-search` and `conservatory-search`, `vir-search` provides the lexer, generic recursive-descent parser, ranking heuristics, and date-range resolvers that underpin the VirInvictus ecosystem. It directly powers **[Atrium](/codex/atrium/)**, **[Conservatory](/codex/conservatory/)**, and **[Viaduct](/codex/viaduct/)**.
+Extracted from `atrium-search` and `conservatory-search`, it carries the lexer, the generic recursive-descent parser, the ranking heuristics, and the date-range resolvers used by **[Atrium](/codex/atrium/)**, **[Conservatory](/codex/conservatory/)**, and **[Viaduct](/codex/viaduct/)**.
 
-By parameterizing the AST over the consumer's `Field`, `State`, and `SortKey` types, it avoids domain-coupling while maintaining a unified, powerful search grammar across the entire suite of desktop applications.
+The AST is parameterized over each consumer's `Field`, `State`, and `SortKey` types, so the grammar stays shared while every application compiles it against its own domain: one parser, no domain coupling, and no second grammar to keep in parity.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/vir-search">github.com/VirInvictus/vir-search →</a></p>

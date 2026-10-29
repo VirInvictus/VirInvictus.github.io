@@ -6,7 +6,7 @@ description: "The workspace work-record generator: every release and commit acro
 permalink: /codex/annals/
 ---
 
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.3.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.4.0</span></p>
 
 Every release line in the codex is a claim, so the claims get an auditor of their own. annals walks the codex, reads each owned repo's patchnotes and git history, and renders one reproducible record: the totals and a per-repo dashboard, a month-by-month activity table, a newest-first timeline of exactly dated entries, and a coverage appendix that says where every date came from. Approximate dates are marked with ≈, never silently placed; entries the sources cannot date are listed in file order, not scattered across guessed months.
 

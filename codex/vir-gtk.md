@@ -10,8 +10,8 @@ permalink: /codex/vir-gtk/
 
 A standalone Rust library extracting the shared GTK4 styling and D-Bus portal interaction layer for the VirInvictus desktop suite.
 
-`vir-gtk` provides the foundational visual identity for **[Atrium](/codex/atrium/)**, **[Conservatory](/codex/conservatory/)**, and **[Viaduct](/codex/viaduct/)**. It replaces `libadwaita` with a bespoke flat Kanagawa-themed framework.
+The collection's GTK4 apps share one visual identity, and this is the library that carries it: the shared Kanagawa Dragon stylesheet and desktop-portal plumbing behind **[Atrium](/codex/atrium/)**, **[Conservatory](/codex/conservatory/)**, **[Viaduct](/codex/viaduct/)**, and **[Quire](/codex/quire/)**, with `libadwaita` removed in favour of a flat Kanagawa theme the library itself owns.
 
-The library handles `org.freedesktop.portal.Settings` DBus resolution for system color schemes, providing dynamic dark mode integration. It also bakes in Kanagawa DRAGON and LOTUS hex palettes, injecting token-replacement CSS and GTK 4.16+ custom property blocks directly into consuming applications.
+Portal interaction is the other half: `vir-gtk` resolves `org.freedesktop.portal.Settings` over D-Bus so the system's dark/light preference follows the desktop, and it ships the Kanagawa Dragon and Lotus palettes as token-replacement CSS and GTK 4.16+ custom property blocks inside the applications that consume it.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/vir-gtk">github.com/VirInvictus/vir-gtk →</a></p>

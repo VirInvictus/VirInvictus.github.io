@@ -10,6 +10,6 @@ permalink: /codex/project-void/
 
 A design-stage CRPG and the data-driven engine that ships under it. The engineering commitment is the engine: rules expressed as universal TOML/Lua state machines, decoupled from the renderer, so the same binary could host *Cairn*, 5e, or any other system with a sheet and a turn order. The campaign is the demonstration. **The Reach** is a tight 15–20-hour run through a region of city-states, free companies, counting houses, an inquisition, and a ruined library-city.
 
-Lethal *Cairn*-derived combat math: attacks hit automatically, HP is low, damage drains into real wounds via attribute damage. Combat as a positional puzzle, not a dice minigame.
+Lethal *Cairn*-derived combat math: attacks hit automatically, HP is low, and damage drains into real wounds through the attributes. Combat as a positional puzzle, not a dice minigame.
 
-<p class="codex-link">private, in development</p>
+<p class="codex-link">private, in design</p>

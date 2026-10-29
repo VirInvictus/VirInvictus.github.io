@@ -40,7 +40,7 @@ By temperament I am an archivist. I keep a private Calibre library that runs int
 
 The site is named *Vir Invictus*, *the unconquered*. I picked it a long time ago and it stuck.
 
-I am open to work, and I come cheap when the problem is interesting; the interesting ones are why I got into this. Write to [larocque.brandon+outreach@gmail.com](mailto:larocque.brandon+outreach@gmail.com).
+I am open to work, and when the problem is cool enough the rate is a formality; the cool ones are why I got into this. Write to [larocque.brandon+outreach@gmail.com](mailto:larocque.brandon+outreach@gmail.com).
 
 <p class="ornament ornament--fleuron">❦</p>
 
@@ -168,7 +168,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-plate">
 <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
 </div>
-<p class="card-desc">Calibre power-user tooling built on cquarry: catalogs, statistics, integrity audits, and write-capable curation verbs behind <code>--apply</code>-shaped guards. Installs from PyPI as <code>calibrequarry</code>.</p>
+<p class="card-desc">Calibre power-user tooling built on cquarry: catalogues, statistics, integrity audits, and write-capable curation verbs behind <code>--apply</code>-shaped guards. Installs from PyPI as <code>calibrequarry</code>.</p>
 <p class="card-link-container"><a href="{{ '/codex/calibrequarry/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -214,7 +214,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-plate">
 <img src="{{ '/assets/img/conservatory-library.webp' | relative_url }}" alt="Conservatory's music library: three Columns UI facet panes over genre, album artist, and album, above a rated track list and the player bar" loading="lazy">
 </div>
-<p class="card-desc">Conservatory <em>owns and organizes</em> your music, podcasts, and audiobooks on disk, presenting them through a foobar2000 Columns UI browse surface and played through a libmpv daily-driver engine that runs all three media types from one queue. UI styled by vir-gtk and search powered by vir-search.</p>
+<p class="card-desc">Conservatory owns the music, podcast, and audiobook files on disk; the database is truth and the folder tree is a projection of it. Browsing is foobar2000-style facets; playback runs through libmpv from one queue. UI styled by vir-gtk and search powered by vir-search.</p>
 <p class="card-link-container"><a href="{{ '/codex/conservatory/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
@@ -226,7 +226,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="codex-plate">
 <img src="{{ '/assets/img/lattice-music-tui.webp' | relative_url }}" alt="lattice-music's curses TUI: a bordered menu grouped into Library, Integrity, Artwork, Metadata, and Settings sections" loading="lazy">
 </div>
-<p class="card-desc">Tooling for music collectors who keep the filesystem as the source of truth. Library-tree visualization across artist / album / track / rating / genre.</p>
+<p class="card-desc">Tooling for music collectors who keep the filesystem as the source of truth. Library-tree visualisation across artist / album / track / rating / genre.</p>
 <p class="card-link-container"><a href="{{ '/codex/lattice/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">

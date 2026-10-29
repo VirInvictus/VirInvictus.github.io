@@ -15,7 +15,7 @@ There is a question I am asked constantly and never ask myself. It arrives from 
 
 The pressure has a grammar, and the grammar is worth inspecting before I refuse it. A tool is a product opportunity. A repository is validated demand. A post about something you built is content, and the only question content can raise is what it funnels toward. The AI gold rush did not invent this grammar; it pressurized it. Every new capability is followed within the week by an industry explaining how to wrap it, price it, and scale it, and behind that industry a second one, selling courses about the first.
 
-I want to be precise about what I am refusing, because it is almost none of it. The previous post on this site documents five months of reverse engineering executed by AI agent fleets, four at a time, every claim cited to a file and line. I run the gold rush's own tools all day. I am in the river up to my elbows. What I have noticed is that the people reliably making money in a gold rush are selling maps, and that selling maps changes what a person is able to see when they look at the territory. Underneath all of it sits a single assumption, that the point of a tool is to become a price, and that assumption is the pressure.
+I want to be precise about what I am refusing, because it is almost none of it. [The previous post on this site](/2026/09/28/the-dig-five-months-of-opends.html) documents five months of reverse engineering executed by AI agent fleets, four at a time, every claim cited to a file and line. I run the gold rush's own tools all day. I am in the river up to my elbows. What I have noticed is that the people reliably making money in a gold rush are selling maps, and that selling maps changes what a person is able to see when they look at the territory. Underneath all of it sits a single assumption, that the point of a tool is to become a price, and that assumption is the pressure.
 
 <p class="ornament ornament--fleuron">❦</p>
 
@@ -24,7 +24,7 @@ I want to be precise about what I am refusing, because it is almost none of it. 
 
 So, flatly and without apology: I have zero interest in profit. That sentence gets read as modesty, or as a phase a first real invoice will cure, so let me extend it. I am never going to be a salesman. Salesmanship is not a channel you bolt onto the work; it is a redesign of the worker. The moment a thing must sell, the curiosity starts deferring to the buyer: features chosen for the demo, corners softened for the market's comfort, the roadmap written by whoever is most likely to pay next quarter. I build opinionated tools for an opinionated library, and the entire point of each one is that it exists because it interested me, not because a segment was waiting for it. Monetize that and you have not found the workshop a business model; you have closed a workshop and opened a factory where it stood.
 
-I am thirty-nine. I am a former chef, a computer engineering student, the curator of an eight-thousand-three-hundred-book library, and the proprietor of the workshop in question, whose roadmap has always been whatever interested me that week. I have exactly one career plan. I just want to build cool shit.
+I am thirty-nine. I am a former chef, a computer engineering student, the curator of an eight-thousand-three-hundred-book library, and the proprietor of [the workshop in question](/2026/07/25/the-workshop.html), whose roadmap has always been whatever interested me that week. I have exactly one career plan. I just want to build cool shit.
 
 <p class="ornament ornament--fleuron">❦</p>
 
@@ -40,7 +40,7 @@ And here is the part the monetization chorus cannot parse: the hard problem is n
 ## IV. The Arithmetic of Enough
 {: #the-arithmetic-of-enough}
 
-I scoff at six-figure programming jobs, and scoffing owes an argument, so here is mine. I keep double-entry books in plaintext, hledger, which means I know what my life costs to the dollar. In the small town where I live, the number is a quiet fifty thousand a year. That is the entire ambition, stated in full: a wage that covers the arithmetic and a workshop nobody invoices.
+The industry holds up the six-figure job as the finish line of this trade, and I scoff at that; scoffing owes an argument, so here is mine. I keep double-entry books in plaintext, hledger, which means I know what my life costs to the dollar. In the small town where I live, the number is a quiet fifty thousand a year. That is the entire ambition, stated in full: a wage that covers the arithmetic and a workshop nobody invoices.
 
 The gap between fifty and a hundred and fifty is denominated in what the paying jobs attach to the money: a roadmap written to someone else's quarter, standups at someone else's morning, a career pointed at someone else's product. Some people want that trade, and I hold nothing against them. The delta above enough is priced in evenings and attention, in a curiosity allowed to pick its own targets, which is the only wealth I have ever been ambitious about. I spent years in kitchens, a trade that monetizes passion by default and calls the result hospitality, and I watched what selling a craft does to the person carrying it. I liked the craft too much to load it onto a truck.
 

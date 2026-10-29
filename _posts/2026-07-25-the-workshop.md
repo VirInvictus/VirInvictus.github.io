@@ -7,7 +7,7 @@ description: Ghostty, zsh, Doom, LazyVim, Helix, the modern coreutils replacemen
 ---
 
 <div markdown="1" class="dropcap">
-A *What I Use* post tells you what is on the desk, but it does not tell you how the desk gets used. The terminal is where I spend the most consecutive minutes of any working day, more than the browser and more than either editor. That hour budget is what justifies the time spent shaping it. This is a walk through the shape: the Ghostty config and the zsh that follows, the three editors and the deliberate split between them, the daily binaries that replaced their POSIX ancestors, and the small scripts in `~/.local/bin/` that take a great deal of pressure off the rest of the system.
+A [*What I Use* post](/2026/07/23/what-i-use.html) tells you what is on the desk, but it does not tell you how the desk gets used. The terminal is where I spend the most consecutive minutes of any working day, more than the browser and more than either editor. That hour budget is what justifies the time spent shaping it. This is a walk through the shape: the Ghostty config and the zsh that follows, the three editors and the deliberate split between them, the daily binaries that replaced their POSIX ancestors, and the small scripts in `~/.local/bin/` that take a great deal of pressure off the rest of the system.
 </div>
 
 ## I. The Terminal Itself
@@ -22,7 +22,7 @@ background-blur = 40
 unfocused-split-opacity = 0.65
 ```
 
-The last line is the one that matters. When you have three panes open and one is an editor and the others are a build log and a `watchexec`, having the inactive panes physically dim is the single biggest cognitive-load reduction a multiplexer can offer. tmux has no equivalent. I have stopped reaching for it inside Ghostty entirely; splits and tabs live on `Ctrl+Shift` with vim navigation (`{h,j,k,l}`), and `Ctrl+Shift+Z` zooms a pane to fullscreen and back. That, plus `copy-on-select = true` and middle-click paste, is the multiplexer I needed.
+The last line is the one that matters. When you have three panes open and one is an editor and the others are a build log and a `watchexec`, having the inactive panes physically dim is the biggest cognitive-load reduction a multiplexer can offer. tmux has no equivalent. I have stopped reaching for it inside Ghostty entirely; splits and tabs live on `Ctrl+Shift` with vim navigation (`{h,j,k,l}`), and `Ctrl+Shift+Z` zooms a pane to fullscreen and back. That, plus `copy-on-select = true` and middle-click paste, is the multiplexer I needed.
 
 Font is **TX-02** at ten point, with **Symbols Nerd Font Mono** behind it for glyph fallback. Exactly two font features are on: `calt` for the programming ligatures and `ss01` for the slashed zero, which matters because TX-02's *default* zero is the dotted one.
 
@@ -65,7 +65,7 @@ The single funniest alias I have written is `zc`, which is `killall {% raw %}{{Z
 ## III. The Daily Binaries
 {: #the-daily-binaries}
 
-The household replacements: [**`eza`**](https://github.com/eza-community/eza) for `ls`, with `l`/`ll`/`lt` aliases for default, long, and modified-time sort; [**`bat`**](https://github.com/sharkdp/bat) for `cat`, themed `gruvbox-dark` (one day I'll port Kanagawa Dragon); [**`rg`**](https://github.com/BurntSushi/ripgrep) for `grep`, with `.gitignore` honoured by default (which is why I switched); [**`fd`**](https://github.com/sharkdp/fd) for `find`, with no `-exec` ceremony; [**`lazygit`**](https://github.com/jesseduffield/lazygit), where most of my commits actually happen these days; [**`delta`**](https://github.com/dandavison/delta) wired into the git pager so every diff arrives syntax-highlighted and side-by-side; [**`atuin`**](https://atuin.sh/), as above, carrying the history.
+The household replacements: [**`eza`**](https://github.com/eza-community/eza) for `ls`, with `l`/`ll`/`lt` aliases for default, long, and modified-time sort; [**`bat`**](https://github.com/sharkdp/bat) for `cat`, themed `gruvbox-dark` (one day I'll port Kanagawa Dragon); [**`rg`**](https://github.com/BurntSushi/ripgrep) for `grep`, with `.gitignore` honoured by default (the case for the switch, made two days earlier in [What I Use](/2026/07/23/what-i-use.html#the-terminal)); [**`fd`**](https://github.com/sharkdp/fd) for `find`, with no `-exec` ceremony; [**`lazygit`**](https://github.com/jesseduffield/lazygit), where most of my commits actually happen these days; [**`delta`**](https://github.com/dandavison/delta) wired into the git pager so every diff arrives syntax-highlighted and side-by-side; [**`atuin`**](https://atuin.sh/), as above, carrying the history.
 
 Less obvious:
 
@@ -83,7 +83,7 @@ Less obvious:
 
 A small constellation of Python tools lives behind `uv tool`: [**`mitmproxy`**](https://mitmproxy.org/), [**`sqlmap`**](https://sqlmap.org/), [**`binwalk`**](https://github.com/ReFirmLabs/binwalk), [**`yt-dlp`**](https://github.com/yt-dlp/yt-dlp). The first three are for CTF and security study; the fourth is for the day a podcast feed quietly drops a back-catalogue episode and I want it on the disk. `pipx` was the previous answer; `uv tool` is the current one.
 
-Finally, [`hledger`](https://hledger.org/) and the `hb` / `hr` / `his` / `hbs` aliases. Plaintext double-entry bookkeeping in the shell is one of the more underrated gifts of the Free Software era.
+Finally, [`hledger`](https://hledger.org/) and the `hb` / `hr` / `his` / `hbs` aliases. Plaintext double-entry bookkeeping in the shell is one of the quiet gifts of the Free Software era.
 
 <p class="ornament ornament--fleuron">❦</p>
 
@@ -148,7 +148,7 @@ The home directory is laid out the way the library is laid out. Each top-level i
 
 `~/org/` is *deliberately* not git-tracked. The finance files contain enough information about my actual life that the encryption phase is queued; until then, the privacy budget is *don't sync it, don't track it, let borgmatic carry the encrypted offsite copy*. Inside: `inbox.org`, the GTD project files, `roam/` for daily journals and concept notes, `courses/` for BCS flashcard decks, `finance/YYYY-MM.org` for per-month ledgers, and `reviews.org`.
 
-`~/Tasks/` is Atrium's Org-mode round-trip target. `atrium-cli export org ~/Tasks` writes the live SQLite store out to plain text with UUIDs, CLOCK drawers, and TODO state preserved; `atrium-cli import org ~/Tasks` reads it back. If the round-trip stops being identical, the round-trip is wrong; the script that proves it is two lines.
+`~/Tasks/` is [Atrium](/codex/atrium/)'s Org-mode round-trip target. `atrium-cli export org ~/Tasks` writes the live SQLite store out to plain text with UUIDs, CLOCK drawers, and TODO state preserved; `atrium-cli import org ~/Tasks` reads it back. If the round-trip stops being identical, the round-trip is wrong; the script that proves it is two lines.
 
 `~/.dotfiles/` is the bare repo described in §II. Cloning to a fresh machine is `git clone --bare repo ~/.dotfiles && config checkout`, and nothing else.
 
@@ -159,11 +159,11 @@ The home directory is laid out the way the library is laid out. Each top-level i
 
 In roughly the order it eats my week:
 
-**Rust.** Atrium, Viaduct, Conservatory, and Colophon are all Rust. The reasons are the boring ones: compile-time invariants beat code review, sum types beat status enums, `Result<T, E>` beats throwing, `cargo` beats every other build tool I have used. The reason that doesn't get said often enough is that Rust forces the architectural conversation to happen before the code does, and you cannot hide a lifetime bug behind a runtime cast. The single-writer SQLite worker, the read-only connection pool, the `Send + Sync` boundary on a tokio handler: these are not conventions, they are load-bearing types. I am not as fast in Rust as I am in Python yet, though I am closer than I was a year ago, and the compiler keeps catching a class of mistake Python would have let me ship.
+**Rust.** [Atrium](/codex/atrium/), [Viaduct](/codex/viaduct/), [Conservatory](/codex/conservatory/), and [Colophon](/codex/colophon/) are all Rust. The reasons are the boring ones: compile-time invariants beat code review, sum types beat status enums, `Result<T, E>` beats throwing, `cargo` beats every other build tool I have used. The reason that doesn't get said often enough is that Rust forces the architectural conversation to happen before the code does, and you cannot hide a lifetime bug behind a runtime cast. The single-writer SQLite worker, the read-only connection pool, the `Send + Sync` boundary on a tokio handler: these are not conventions, they are load-bearing types. I am not as fast in Rust as I am in Python yet, though I am closer than I was a year ago, and the compiler keeps catching a class of mistake Python would have let me ship.
 
-**C.** Framework is C, for the same reason `mupdf`, `cairo`, and `gtk4` are C: no FFI tax, no glue-language tax, the binding surface is the bare metal. K&R is the most important book I have read.
+**C.** [Framework](/codex/framework/) is C, for the same reason `mupdf`, `cairo`, and `gtk4` are C: no FFI tax, no glue-language tax, the binding surface is the bare metal. K&R is the most important book I have read.
 
-**Python.** Hermitage is Python because GTK4 via PyGObject is a perfectly serviceable native-desktop story. CalibreQuarry is Python, stdlib-only, because the constraint *forced* me to write a real recursive-descent parser instead of pulling in `lark` and waving. I love Python the way I would love a well-worn pair of work boots: type hints throughout, `from __future__ import annotations`, `dataclasses` over namedtuples, `pathlib` over string paths, `argparse` over `click` until `click` is justified. The standard library is enormous, and most people writing Python never finish reading it.
+**Python.** [Hermitage](/codex/hermitage/) is Python because GTK4 via PyGObject is a perfectly serviceable native-desktop story. [CalibreQuarry](/codex/calibrequarry/) is Python, stdlib-only, because the constraint *forced* me to write a real recursive-descent parser instead of pulling in `lark` and waving. I love Python the way I would love a well-worn pair of work boots: type hints throughout, `from __future__ import annotations`, `dataclasses` over namedtuples, `pathlib` over string paths, `argparse` over `click` until `click` is justified. The standard library is enormous, and I have never seen its far shore.
 
 **Ruby.** A language I keep trying to graduate from *liking* to *using*. `rbenv` is installed; 3.4.8 is the current version. Sandi Metz's *Practical Object-Oriented Design* is the book of hers I most often re-shelve at the front. I am still waiting for the project that wants to be Ruby: a small Sinatra service, a Thor CLI, a static-site engine.
 
@@ -188,7 +188,7 @@ None of these are on the list for hiring. They are on the list because the field
 
 Atuin keeps everything. Seventeen thousand two hundred and eight commands in the local index across three thousand six hundred and eighty-eight unique ones, ranked by recency, fully searchable. The interesting question a year of full history can answer, more usefully than a wishful inventory, is *which tools actually do the work?*
 
-Strip the navigation noise (`ls` at 4,197, `cd` at 2,571, `exit` at 2,259, `v` for `nvim` at 510) and the most-typed program on this machine is `claude`, at eight hundred and ninety-two invocations. That is not the answer I expected to publish. It is roughly one and a half times `cat` and more than double `rm`, and it means the single thing I reach for most in a working day is the assistant described in the previous post's §X. I have decided to report that rather than quietly omit it, because a *What I Use* that launders its own history is worth nothing.
+Strip the navigation noise (`ls` at 4,197, `cd` at 2,571, `exit` at 2,259, `v` for `nvim` at 510) and the most-typed program on this machine is `claude`, at eight hundred and ninety-two invocations. That is not the answer I expected to publish. It is roughly one and a half times `cat` and more than double `rm`, and it means the single thing I reach for most in a working day is the assistant described in [the previous post's §X](/2026/07/23/what-i-use.html#ai-layer). I have decided to report that rather than quietly omit it, because a *What I Use* that launders its own history is worth nothing.
 
 Behind those: `cat` at 583, `rm` at 389, then `nano` at 294. I am not, it turns out, the curated minimalist I sometimes pretend to be on the internet; I am a person who copies-and-deletes-and-cats a great deal of files.
 
@@ -206,8 +206,8 @@ That is the workshop I am trying to keep: a small room with the right tools at h
 
 ## Postscript (2026-09-13)
 
-Two lines here were overtaken by events. On 2026-09-03 the Claude Code client was retired from this machine, so the `claude update` stanza in `sys_maintain` now guards a binary that is not there (the updater rotation gained `update_zcode` in the same spirit), and the eight hundred and ninety-two `claude` invocations of §VIII measure a tool that is gone; the numbers stand for the window they measured, which is all a shell history ever promises. The `CLAUDE.md` map in §VI is still in place and still doing its job; the per-repo files now carry `AGENTS.md` symlinks so the new client loads the same contracts, and the global file moved with the rest of the kit to `~/.zcode/`.
+Two lines here were overtaken by events. On 2026-09-03 the Claude Code client was retired from this machine, so the `claude update` stanza in `sys_maintain` now guards a binary that is not there (the updater rotation gained `update_zcode` in the same spirit), and the eight hundred and ninety-two `claude` invocations of §VIII measure a tool that is gone; the numbers stand for the window they measured, which is all a shell history ever promises. The `CLAUDE.md` map in §VI is still in place and still doing its job; the per-repo files now carry `AGENTS.md` symlinks so the new client loads the same contracts (the migration's full telling is in [What I Use](/2026/07/23/what-i-use.html)'s postscript), and the global file moved with the rest of the kit to `~/.zcode/`.
 
 ## Postscript (2026-10-02)
 
-§VI's anchor has doubled: the library read 8,286 books this morning, counted read-only off `metadata.db`, against the four thousand six hundred recorded here in July. The anchors hold; the count does not. The §V updater roster is unchanged, `update_gemini` included.
+§VI's anchor has doubled since July: the library read 8,286 books this morning, counted read-only off `metadata.db`; [What I Use](/2026/07/23/what-i-use.html)'s postscript carries the same count. The anchors hold; the count does not. The §V updater roster is unchanged, `update_gemini` included.
