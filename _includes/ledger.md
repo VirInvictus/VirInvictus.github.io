@@ -1,1 +1,1 @@
-As of 2026-10-29 the ledger reads **43 repositories · 1,535 releases · 5,048 commits**; October 2026 added 186 releases across 20 of them. The whole record lands in [the patchnotes]({{ '/patchnotes/' | relative_url }}), regenerated nightly from each repo's own log.
+As of 2026-10-29 the ledger reads **43 repositories · 1,536 releases · 5,051 commits**; October 2026 added 187 releases across 20 of them. The newest entry is **annals 0.4.0** (10-29). The whole record lands in [the patchnotes]({{ '/patchnotes/' | relative_url }}), regenerated nightly from each repo's own log.

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Annals</title>
+  <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
+  <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
+  <generator>annals 0.4.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-29/annals/0.4.0</id>
+    <title>annals 0.4.0: The audited record and the feed: the record now checks its own completeness against git, publishes as Atom, and its headlines stopped quoting whole paragraphs.</title>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-28/bindery-cli/0.59.0</id>
+    <title>bindery-cli 0.59.0: Issue #23: the dangling NCX navPoint, pruned and re-sequenced in one gate</title>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-27/annals/0.3.0</id>
+    <title>annals 0.3.0: The front-page ledger: the workspace totals now surface on the site's front door, one paragraph above the fold, not only on the patchnotes page.</title>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-26/annals/0.2.0</id>
+    <title>annals 0.2.0: The parser repair and the public-page grounding: every entry now carries its source's headline, the dashboard says what each repo is, and the page stops handing scrapers the raw email.</title>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-26/bindery-cli/0.58.0</id>
+    <title>bindery-cli 0.58.0: Issues #18-#21: the structural dry run's four rejects, read to the root</title>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-25/CalibreQuarry/3.75.0</id>
+    <title>CalibreQuarry 3.75.0: reconcile: the embed's NCX scar is healed by a third pass and the scars it cannot heal are on the record (issue #37)</title>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-25/Viaduct/4.4.1</id>
+    <title>Viaduct 4.4.1: plain text renders as HTML</title>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-25/bindery-cli/0.57.1</id>
+    <title>bindery-cli 0.57.1: The prefixed dtb:uid sync: the issue #22 specimen's last finding</title>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-25/bindery-cli/0.57.0</id>
+    <title>bindery-cli 0.57.0: Issue #22: the embed scar's element half, and the end of the silent equal</title>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-25/bindery-cli/0.56.0</id>
+    <title>bindery-cli 0.56.0: The two boxed recipes, built: the OPF-030 wiring and the CSS-007 font half</title>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-25/bindery-cli/0.55.0</id>
+    <title>bindery-cli 0.55.0: The issue batch: the 2026-10-24 surgery's follow-ups, #11 through #16</title>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/Viaduct/4.4.0</id>
+    <title>Viaduct 4.4.0: the roadmap harvest</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/bindery-cli/0.54.0</id>
+    <title>bindery-cli 0.54.0: The error-code surgery fixes: the core pass stopped breaking valid books</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/bindery-cli/0.53.1</id>
+    <title>bindery-cli 0.53.1: The .observe artifact now carries its per-book census rows</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/bindery-cli/0.53.0</id>
+    <title>bindery-cli 0.53.0: `bindery observe`: the whole-library census, one artifact per run</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.4</id>
+    <title>saforums.koplugin 0.5.4: One fix from the first v0.5.3 device pass.</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.3</id>
+    <title>saforums.koplugin 0.5.3: Avatars fetch in the background; nothing blocks the reader anymore.</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.2</id>
+    <title>saforums.koplugin 0.5.2: One change over v0.5.1: the avatar pass can no longer freeze the reader.</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.1</id>
+    <title>saforums.koplugin 0.5.1: Two device fixes over v0.5.0; no new surfaces.</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-24/whisker-street/0.7.0</id>
+    <title>whisker-street 0.7.0: The debug console (roadmap Phase 3.5, Brandon's 2026-10-24 brief): the PoC now captures everything it does and thinks, always on and loud on purpose, because the PoC's product is information.</title>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-23/CalibreQuarry/3.74.0</id>
+    <title>CalibreQuarry 3.74.0: fetch_library_codes: fragment work queries, throttled responses never cached, --refresh bypasses the cache, append-only misses worklist (issue #36)</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-23/CalibreQuarry/3.73.0</id>
+    <title>CalibreQuarry 3.73.0: The cquarry 1.28.1 floor: text-family custom-column writes preserve non-breaking spaces like the 9.17 GUI (issue #35)</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-23/cquarry/1.28.1</id>
+    <title>cquarry 1.28.1: The Calibre 9.17 watch audit: NBSP preservation and an atomic extra-file write</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.6.2</id>
+    <title>whisker-street 0.6.2: Own-review fix payload (four agents over the whole tree, every finding re-verified in the main thread).</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.6.1</id>
+    <title>whisker-street 0.6.1: Two display fixes from a concurrent external review: portfolio P&amp;L shows an explicit plus sign on gains again (format_scratch never emits one), and /gains's no-data state checks the finalized-day count the service returns instead of reaching into market internals.</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.6.0</id>
+    <title>whisker-street 0.6.0: Pre-handoff quality pass, closing the parked block: trades are durable and race-free.</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.5.0</id>
+    <title>whisker-street 0.5.0: Phase 3, the test-server alpha: accelerated time is a command.</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.4.0</id>
+    <title>whisker-street 0.4.0: Phase 2, the Discord shell: the bot exists.</title>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/CalibreQuarry/3.72.0</id>
+    <title>CalibreQuarry 3.72.0: The cover-import batch: `run phase2` extracts the EPUB's own declared cover at import, so verb-door imports land `has_cover=1` like the GUI door's (issue #34)</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/Viaduct/4.3.2</id>
+    <title>Viaduct 4.3.2: MacRumors cleanup, magnet links</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/deadbeef-cui/2.2.1</id>
+    <title>deadbeef-cui 2.2.1: Templates no longer clobber Intake mode.</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/deadbeef-cui/2.2.0</id>
+    <title>deadbeef-cui 2.2.0: Facet modes: Play and Intake, with templates.</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/deadbeef-cui/2.1.0</id>
+    <title>deadbeef-cui 2.1.0: `%rating%` facets render as stars, with an Unrated bucket.</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.3.0</id>
+    <title>whisker-street 0.3.0: Phase 1, the engine core: the whole market as a headless, tick-driven library.</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.2.0</id>
+    <title>whisker-street 0.2.0: Pricing model redesign, spec-level: prices no longer track raw activity level.</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.1.2</id>
+    <title>whisker-street 0.1.2: Meoweconomy mining pass, docs only: the roadmap's standing context gains the telemetry dossier (message income gated by a database-timestamp cooldown, voice income paying a flat rate to muted and AFK members from an in-memory set with no mute/deafen/AFK handling, the two streams interfering through one shared cooldown timestamp, and no per-member time-series anywhere in 26 tables) with the feed-off verdict those facts force: its counters seed and cross-check our prices; they cannot replace the dedicated collector.</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.1.1</id>
+    <title>whisker-street 0.1.1: Research pass, docs only: every stock bot in the genre mined (SocialStocks and the Codeforces bot deep-read from `.study/`; Discord-Exchange, Stonkscord, MemberMarket, Channel Stonks, Whale Street, WabbitBot, Dank Memer, and Empire Avenue distilled into the roadmap's mined-corpus and literature sections).</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.1.0</id>
+    <title>whisker-street 0.1.0: Initial skeleton: package layout with the engine core stubs (market clock, tuning parameters) and their tests, the spec contract (activity index, IPO seeding, market-maker pools, brokerage invariants, the meoweconomy bridge gate), and a roadmap written as self-contained per-phase briefs so any agent can pick up a phase without conversation pretext.</title>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-21/CalibreQuarry/3.71.0</id>
+    <title>CalibreQuarry 3.71.0: The notation-and-initials batch: the duplicate screen reads a 10-form and its 13-form as the ONE edition they are, and a middle initial no longer splits one author in two (issue #33)</title>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-21/CalibreQuarry/3.70.0</id>
+    <title>CalibreQuarry 3.70.0: The staging-dir batch: phase 1's inventory walk skips a populated completed/ under the vetted root (issue #32)</title>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-21/bindery-cli/0.52.0</id>
+    <title>bindery-cli 0.52.0: The repairer's own prune could destroy the book it was repairing (issue #10)</title>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-17/CalibreQuarry/3.69.0</id>
+    <title>CalibreQuarry 3.69.0: The identifier residual batch: the reconcile diff collapses identifier whitespace on both sides, and the package-slot rewrite no longer skips uuid-typed slots (issue #31)</title>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-17/Carrel-calibre-web/0.6.45</id>
+    <title>Carrel-calibre-web 0.6.45: The Continue Reading row retires</title>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-17/bindery-cli/0.51.0</id>
+    <title>bindery-cli 0.51.0: The unbound-prefix repair: the Calibre embed scar comes off the OPF (issue #9)</title>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-15/CalibreQuarry/3.68.0</id>
+    <title>CalibreQuarry 3.68.0: The duplicate-triage batch: identifier bindings shape-gated, match evidence in every refusal detail, and the wave stamp driver as a tool (issues #28, #29, #30)</title>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-14/CalibreQuarry/3.67.0</id>
+    <title>CalibreQuarry 3.67.0: The triage batch: machine-format stdout hygiene for the ISBN audit, the fetch-apply seam pinned field-limited, and the provenance stamp proven live (issues #25, #26, #27)</title>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-14/CalibreQuarry/3.66.0</id>
+    <title>CalibreQuarry 3.66.0: The wave-lessons batch: the research extractor stops being hand-rolled, the PDF stamper heals bad xrefs and arbitrates blind read-backs, and bare-name provenance seeds Z-Lib (issues #21, #22, #23, #24)</title>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-14/CalibreQuarry/3.65.0</id>
+    <title>CalibreQuarry 3.65.0: The version-skew batch: the scripts self-identify their toolchain, reconcile floors its module, and the read-back arbiters a refused normalization (issue #20)</title>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-14/bindery-cli/0.50.0</id>
+    <title>bindery-cli 0.50.0: The contamination analyzer: fan-bundle cosmetics get reported (issue #8)</title>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-13/CalibreQuarry/3.64.0</id>
+    <title>CalibreQuarry 3.64.0: The evening-wave batch: edition-tag stripping, the refusal-split detail, and the preempted-consent record (issues #17, #18, #19)</title>
+    <updated>2026-10-13T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+</feed>
