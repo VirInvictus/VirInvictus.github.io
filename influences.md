@@ -2,16 +2,16 @@
 layout: default
 image: /assets/img/og-card.png
 title: "The Influences"
-description: "The people behind the canon: designers, programmers, cooks, and thinkers whose work and example shaped what gets built here."
+description: "The people behind the canon: writers, designers, programmers, cooks, and thinkers whose work and example shaped what gets built here."
 permalink: /influences/
 ---
 
 <h1>The Influences</h1>
 
-<p class="codex-meta">designers <span class="stack-sep" aria-hidden="true">·</span> programmers <span class="stack-sep" aria-hidden="true">·</span> cooks <span class="stack-sep" aria-hidden="true">·</span> thinkers</p>
+<p class="codex-meta">writers <span class="stack-sep" aria-hidden="true">·</span> designers <span class="stack-sep" aria-hidden="true">·</span> programmers <span class="stack-sep" aria-hidden="true">·</span> cooks <span class="stack-sep" aria-hidden="true">·</span> thinkers</p>
 
 <div markdown="1" class="dropcap">
-The canon mentions an influences list twice and lets the phrase do its own work. This is that list. It is a workshop ledger of people whose working habits I study and whose decisions I quote at my own projects. Admiring a way of working is not signing off on a person: the ledger keeps what was useful and leaves the rest. The canon already speaks for the books, the records, and the games. This page speaks for the hands that made them, and for the rooms the canon has no floor plan for.
+The canon mentions an influences list twice and lets the phrase do its own work. This is that list. It is a workshop ledger of people whose working habits I study and whose decisions I quote at my own projects. Admiring a way of working is not signing off on a person: the ledger keeps what was useful and leaves the rest. The canon already speaks for the books, the records, and the games; this page keeps their authors alongside their makers, and the rooms the canon has no floor plan for.
 </div>
 
 ## I. The Designers
@@ -48,19 +48,19 @@ I cooked for a living before any of this, and the kitchen people are where the s
 
 Charlie Munger is the reason I read outside the field: collect a model from every discipline you bother to learn, and judgment compounds like interest. Morgan Housel writes finance the way I want everything written: the numbers are the easy half, the people are the plot. Patrick Kindlon fronts two bands and says the true thing on stage whether or not it sells: the closest working model of my one filter, that genuine effort passes and performance fails. And Ka, the Brooklyn firefighter, treated verse as a trade practiced after shift and wrote like it: every bar signed and notarized.
 
-The rest of the list runs below, grouped the way my notes have always kept it, thinned only by the portraits above.
+The rest of the list runs below, grouped the way my notes have always kept them, carrying every name the canon profiles besides.
 
 <dl class="canon-ledger" aria-label="Influences archive by domain">
 <dt>Writers</dt>
-<dd>Steven Erikson, Glen Cook, Robin Hobb, Quinton "Quinns" Smith.</dd>
+<dd>Steven Erikson, Glen Cook, Robin Hobb, Quinton "Quinns" Smith, Joe Abercrombie, Terry Pratchett, George Orwell, William Gibson, Frank Herbert, Neal Stephenson, Gene Wolfe, George R. R. Martin, Stephen King, Brandon Sanderson, R. A. Salvatore, Richard Adams, Robert Cialdini.</dd>
 <dt>Artists</dt>
-<dd>Marilyn Manson, Eminem.</dd>
+<dd>Marilyn Manson, Eminem, Nas, 50 Cent, Vince Staples.</dd>
 <dt>Cooks</dt>
 <dd>Priya Krishna, Daniel Patterson, Danny Bowien, David McMillan, Frederic Morin, Daniel Humm.</dd>
 <dt>Business</dt>
 <dd>Steve Jobs.</dd>
 <dt>Designers</dt>
-<dd>Johan Nohr, Hiroyuki Ito, Josh Sawyer, Hironobu Sakaguchi, Yuji Horii, Robert Kurvitz, Yoko Taro, Tim Cain, Sid Meier, Soren Johnson, Leonard Boyarsky, Jason Anderson, Ray Muzyka, Greg Zeschuk, James Ohlen, Martin Anward, Henrik Fåhraeus, Alexander Oltner, Johan Andersson, Vincent Baker, Jonathan Blow, Lucas Pope, Nir Arbe.</dd>
+<dd>Johan Nohr, Hiroyuki Ito, Josh Sawyer, Hironobu Sakaguchi, Yuji Horii, Robert Kurvitz, Yoko Taro, Tim Cain, Sid Meier, Soren Johnson, Leonard Boyarsky, Jason Anderson, Ray Muzyka, Greg Zeschuk, James Ohlen, Martin Anward, Henrik Fåhraeus, Alexander Oltner, Johan Andersson, Vincent Baker, Jonathan Blow, Lucas Pope, Nir Arbe, Uwe Rosenberg, Martin Wallace, Antoine Bauza, Pelle Nilsson, Tim Hutchings.</dd>
 <dt>Programmers</dt>
 <dd>Justin M. Keyes, Folke Lemaitre, Henrik Lissner, Christophe Dumez, Dave Teare, Eugen Rochko, Dario Amodei, Daniela Amodei.</dd>
 <dt>Visual artists</dt>
