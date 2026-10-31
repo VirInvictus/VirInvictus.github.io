@@ -23,6 +23,8 @@ permalink: /
 
 <p class="influences-topline"><a href="{{ '/influences/' | relative_url }}">the influences · the hands behind the shelf</a></p>
 
+<p class="stacks-topline"><a href="{{ '/stacks/' | relative_url }}">the stacks · ten thousand books, counted</a></p>
+
 <p class="annals-topline"><a href="{{ '/patchnotes/' | relative_url }}">the annals · every release, logged nightly</a></p>
 
 ## I. On the Author
