@@ -19,20 +19,20 @@ The canon mentions an influences list twice and lets the phrase do its own work.
 
 Game designers anchor this page because games are where systems and authorship turn out to be the same discipline. Hidetaka Miyazaki builds worlds that decline to explain themselves; what I keep from him is the confidence that a reader who has to work will remember what they learn. Chris Avellone wrote Planescape, Knights of the Old Republic 2, and stretches of New Vegas, and his companions taught me to treat a character as a subsystem: entry points, failure modes, consequences attached. Swen Vincke's Larian carried the same CRPG line into the present, and Divinity: Original Sin 2 is the proof it still runs.
 
-The simulation people are the professional deformation. Tarn and Zach Adams have kept Dwarf Fortress alive since 2002 on one thesis: a simulation honestly simulated beats any scripted plot. Tynan Sylvester wrote the textbook on game design and then shipped the laboratory to test it in. Zach Barth builds puzzles that quietly teach real engineering; Opus Magnum is a compiler with an alchemy story stapled to it, and I have written worse makefiles.
+The simulation people are the professional deformation. [Tarn and Zach Adams](https://bay12games.com) have built Dwarf Fortress since 2002 on one thesis: a simulation honestly simulated beats any scripted plot. Tynan Sylvester wrote the textbook on game design and then shipped the laboratory to test it in. Zach Barth builds puzzles that quietly teach real engineering; Opus Magnum is a compiler with an alchemy story stapled to it, and I have written worse makefiles.
 
 Warren Spector learned the craft at Looking Glass beside Doug Church and Harvey Smith, then built Deus Ex on the idea: one city, and every problem answers to more than one tool. Build the sandbox, let the player's choices write the plot; that stance is the closest thing my own projects have to a philosophy.
 
-Then the obsessives, who each picked one thing and outlasted everybody: Kazunori Yamauchi has tuned one racing franchise since 1997 until the database inside it became the game; Toshihiro Nagoshi spent a decade insisting a crime epic should stop for dinner whenever it wants, and the insistence made the series; Eric Barone built Stardew Valley alone across four years, the existence proof I keep for every solo project; and Hideo Kojima walked out of a corporation with his own name and kept shipping, which is also a systems lesson if you squint.
+Then the obsessives, who each picked one thing and outlasted everybody: Kazunori Yamauchi has tuned one racing franchise since 1997 until the database inside it became the game; Toshihiro Nagoshi spent the better part of two decades insisting a crime epic should stop for dinner whenever it wants, and the insistence made the series; Eric Barone built Stardew Valley alone across four years, the existence proof I keep for every solo project; and Hideo Kojima walked out of a corporation with his own name and kept shipping, which is also a systems lesson if you squint.
 
 <p class="ornament ornament--fleuron" aria-hidden="true">❦</p>
 
 ## II. The Programmers
 {: #programmers}
 
-The programmers are why my dotfiles are a git repository and my scripts read the way they read. Brian Kernighan, Dennis Ritchie, and Ken Thompson built the basement: the C book, the pipe, tools that do one thing well. Rob Pike carried the creed forward and co-designed UTF-8, the quietest piece of world-engineering in the stack. Fabrice Bellard is the kind of outlier the field produces roughly one of per generation: FFmpeg, QEMU, TCC, projects that look like decades of work and arrive as weekends.
+The programmers are why my dotfiles are a git repository and my scripts read the way they read. Brian Kernighan, Dennis Ritchie, and Ken Thompson built the basement: the C book, the pipe, tools that do one thing well. Rob Pike carried the creed forward and co-designed UTF-8, the quietest piece of world-engineering in the stack. [Fabrice Bellard](https://bellard.org) is the kind of outlier the field produces roughly one per generation: FFmpeg, QEMU, TCC, projects that look like decades of work and arrive as weekends.
 
-John Carmack rewrote what a personal computer could be asked to do, one frame budget at a time. Linus Torvalds shipped early for thirty years and the world's infrastructure came along with the habit. Bram Moolenaar maintained Vim for three decades, charityware the whole way, the proceeds going to children's charities in Uganda. And DHH builds opinionated software on purpose, frameworks that argue. Every tool in the codex that has a stance is borrowing from that temperament.
+John Carmack rewrote what a personal computer could be asked to do, one frame budget at a time. Linus Torvalds shipped early for thirty years and the world's infrastructure came along with the habit. Bram Moolenaar maintained Vim for three decades, charityware the whole way, nudging its users toward donations for [children in Uganda](https://iccf-holland.org). And DHH builds opinionated software on purpose, frameworks that argue. Every tool in the codex that has a stance is borrowing from that temperament.
 
 <p class="ornament ornament--fleuron" aria-hidden="true">❦</p>
 
@@ -53,16 +53,18 @@ The rest of the list runs below, grouped the way my notes have always kept them,
 <dl class="canon-ledger" aria-label="Influences archive by domain">
 <dt>Writers</dt>
 <dd>Steven Erikson, Glen Cook, Robin Hobb, Quinton "Quinns" Smith, Joe Abercrombie, Terry Pratchett, George Orwell, William Gibson, Frank Herbert, Neal Stephenson, Gene Wolfe, George R. R. Martin, Stephen King, Brandon Sanderson, R. A. Salvatore, Richard Adams, Robert Cialdini.</dd>
-<dt>Artists</dt>
+<dt>Musicians</dt>
 <dd>Marilyn Manson, Eminem, Nas, 50 Cent, Vince Staples.</dd>
 <dt>Cooks</dt>
 <dd>Priya Krishna, Daniel Patterson, Danny Bowien, David McMillan, Frederic Morin, Daniel Humm.</dd>
 <dt>Business</dt>
 <dd>Steve Jobs.</dd>
 <dt>Designers</dt>
-<dd>Johan Nohr, Hiroyuki Ito, Josh Sawyer, Hironobu Sakaguchi, Yuji Horii, Robert Kurvitz, Yoko Taro, Tim Cain, Sid Meier, Soren Johnson, Leonard Boyarsky, Jason Anderson, Ray Muzyka, Greg Zeschuk, James Ohlen, Martin Anward, Henrik Fåhraeus, Alexander Oltner, Johan Andersson, Vincent Baker, Jonathan Blow, Lucas Pope, Nir Arbe, Uwe Rosenberg, Martin Wallace, Antoine Bauza, Pelle Nilsson, Tim Hutchings.</dd>
+<dd>Johan Nohr, Hiroyuki Ito, Josh Sawyer, Hironobu Sakaguchi, Yuji Horii, Robert Kurvitz, Yoko Taro, Tim Cain, Sid Meier, Soren Johnson, Leonard Boyarsky, Jason Anderson, Ray Muzyka, Greg Zeschuk, James Ohlen, Martin Anward, Henrik Fåhraeus, Alexander Oltner, Johan Andersson, Vincent Baker, Jonathan Blow, Lucas Pope, Nir Arbel, Uwe Rosenberg, Martin Wallace, Antoine Bauza, Pelle Nilsson, Tim Hutchings.</dd>
 <dt>Programmers</dt>
-<dd>Justin M. Keyes, Folke Lemaitre, Henrik Lissner, Christophe Dumez, Dave Teare, Eugen Rochko, Dario Amodei, Daniela Amodei.</dd>
+<dd>Justin M. Keyes, Folke Lemaitre, Henrik Lissner, Christophe Dumez, Dave Teare, Eugen Rochko.</dd>
+<dt>AI &amp; Industry</dt>
+<dd>Dario Amodei, Daniela Amodei, Tang Jie, Zhang Peng, Junyang Lin, Yang Zhilin.</dd>
 <dt>Visual artists</dt>
 <dd>Zdzisław Beksiński, Peter Hoffer.</dd>
 </dl>

@@ -71,9 +71,9 @@ The colony, factory, and map games are the professional deformation. I operate D
 
 The immersive sims hold the Looking Glass line: Deus Ex, Thief 2: The Metal Age, Dishonored, the two STALKERs, Gothic 2: Night of the Raven. Systems make the stories there, not scripts, and Warren Spector, who came up through Looking Glass and carried the idea to Deus Ex, is on [the influences list](/influences/) too.
 
-Then the narrative heavyweights: The Witcher 3, Kingdom Come: Deliverance and its sequel, Cyberpunk 2077, Subnautica, Hollow Knight, Stardew Valley, which Eric Barone built alone, NieR: Automata, Uncharted IV, The Last of Us, Titanfall 2, and Hideo Kojima across two platforms, Metal Gear Solid, The Phantom Pain, and Death Stranding.
+Then the narrative heavyweights: The Witcher 3, Kingdom Come: Deliverance and its sequel, Cyberpunk 2077, Subnautica, Hollow Knight, Stardew Valley, which Eric Barone built alone, NieR: Automata, Uncharted IV, The Last of Us, Titanfall 2, and Hideo Kojima across three PlayStation generations, Metal Gear Solid, The Phantom Pain, and Death Stranding.
 
-Underneath all of it runs the JRPG spine, Final Fantasy IV, VI, VII, VIII, IX, and X with Chrono Trigger beside it, and the Yakuza machine, Yakuza 0 through Like a Dragon: Infinite Wealth plus the Judgment pair, Toshihiro Nagoshi's soap opera of crime, the only open worlds I always finish because they are mostly about dinner.
+Underneath all of it runs the JRPG spine, Final Fantasy IV, VI, VII, VIII, IX, and X with Chrono Trigger beside it, and the Yakuza machine, Yakuza 0 and the Kiwami remakes, Yakuza 6, and Like a Dragon: Infinite Wealth plus the Judgment pair, Toshihiro Nagoshi's soap opera of crime, the only open worlds I always finish because they are mostly about dinner.
 
 <dl class="canon-ledger" aria-label="Games archive by platform">
 <dt>PS5</dt>
@@ -92,7 +92,7 @@ Underneath all of it runs the JRPG spine, Final Fantasy IV, VI, VII, VIII, IX, a
 <dd>Romance of the Three Kingdoms II.</dd>
 </dl>
 
-The board shelf runs the same nerve at table scale, nineteen games deep. Uwe Rosenberg's engines, Agricola, Caverna: Cave vs Cave, Patchwork, and A Feast for Odin, are Factorio for the kitchen table: feed the machine, tighten the machine, lose to the machine. Martin Wallace's Brass: Birmingham plays that loop in canal-era England. Antoine Bauza's 7 Wonders and 7 Wonders Duel, Pandemic and On the Brink, and Spirit Island take the dinner-table and co-op shifts. The card games fill the gaps: Jaipur, Sushi Go!, Ticket to Ride: New York, Wingspan, Railroad Ink Challenge, Exploding Kittens, and the accidentally horrifying Here, Kitty, Kitty! And two entries are barely board games at all: Mörk Borg, Pelle Nilsson and Johan Nohr's doom-metal RPG, Nohr sitting on [my influences list](/influences/) for exactly this art direction, and Thousand Year-Old Vampire, a solo journaling RPG about a vampire outliving every person it loves.
+The board shelf runs the same nerve at table scale, nineteen games deep. Uwe Rosenberg's engines, Agricola, Caverna: Cave vs Cave, Patchwork, and A Feast for Odin, are Factorio for the kitchen table: feed the machine, tighten the machine, lose to the machine. Martin Wallace's Brass: Birmingham plays that loop in canal-era England. Antoine Bauza's 7 Wonders and its Duel offshoot, the latter with Bruno Cathala, Matt Leacock's Pandemic and On the Brink, and R. Eric Reuss's Spirit Island take the dinner-table and co-op shifts. The card games fill the gaps: Jaipur, Sushi Go!, Ticket to Ride: New York, Wingspan, Railroad Ink Challenge, Exploding Kittens, and the accidentally horrifying Here, Kitty, Kitty! And two entries are barely board games at all: Mörk Borg, Pelle Nilsson and Johan Nohr's doom-metal RPG, Nohr sitting on [my influences list](/influences/) for exactly this art direction, and [Thousand Year Old Vampire](https://thousandyearoldvampire.com), a solo journaling RPG about a vampire outliving every person it loves.
 
 <p class="ornament ornament--asterism" aria-hidden="true">⁂</p>
 
