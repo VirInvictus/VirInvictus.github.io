@@ -3,10 +3,28 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.4.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-30/CalibreQuarry/3.78.0</id>
+    <title>CalibreQuarry 3.78.0: the printed-ISBN scan batch: bare numbers, typographic dashes, and the mid-book copyright page (issue #43)</title>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-30/dragon-agents/0.7.1</id>
+    <title>dragon-agents 0.7.1: Portability hardening of the two collection seats; roster unchanged at twenty-four.</title>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-30/dragon-agents/0.7.0</id>
+    <title>dragon-agents 0.7.0: Twenty-fourth agent: **music-archivist**, the librarian pattern applied to the music collection: lattice's read-only audit surface over /mnt/SharedData/Music in place of cquarry over metadata.db.</title>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-29/CalibreQuarry/3.77.0</id>
     <title>CalibreQuarry 3.77.0: the cquarry 1.28.2 floor: the format-row setters refuse extension-carrying names (issue #42)</title>
@@ -287,24 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-10-17/bindery-cli/0.51.0</id>
     <title>bindery-cli 0.51.0: The unbound-prefix repair: the Calibre embed scar comes off the OPF (issue #9)</title>
     <updated>2026-10-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-15/CalibreQuarry/3.68.0</id>
-    <title>CalibreQuarry 3.68.0: The duplicate-triage batch: identifier bindings shape-gated, match evidence in every refusal detail, and the wave stamp driver as a tool (issues #28, #29, #30)</title>
-    <updated>2026-10-15T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-14/CalibreQuarry/3.67.0</id>
-    <title>CalibreQuarry 3.67.0: The triage batch: machine-format stdout hygiene for the ISBN audit, the fetch-apply seam pinned field-limited, and the provenance stamp proven live (issues #25, #26, #27)</title>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-14/CalibreQuarry/3.66.0</id>
-    <title>CalibreQuarry 3.66.0: The wave-lessons batch: the research extractor stops being hand-rolled, the PDF stamper heals bad xrefs and arbitrates blind read-backs, and bare-name provenance seeds Z-Lib (issues #21, #22, #23, #24)</title>
-    <updated>2026-10-14T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
