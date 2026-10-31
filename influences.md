@@ -48,6 +48,8 @@ I cooked for a living before any of this, and the kitchen people are where the s
 
 Charlie Munger is the reason I read outside the field: collect a model from every discipline you bother to learn, and judgment compounds like interest. Morgan Housel writes finance the way I want everything written: the numbers are the easy half, the people are the plot. Patrick Kindlon fronts two bands and says the true thing on stage whether or not it sells: the closest working model of my one filter, that genuine effort passes and performance fails. And Ka, the Brooklyn firefighter, treated verse as a trade practiced after shift and wrote like it: every bar signed and notarized.
 
+The rest of the list runs below, grouped the way my notes have always kept it, thinned only by the portraits above.
+
 <dl class="canon-ledger" aria-label="Influences archive by domain">
 <dt>Writers</dt>
 <dd>Steven Erikson, Glen Cook, Robin Hobb, Quinton "Quinns" Smith.</dd>
@@ -58,13 +60,15 @@ Charlie Munger is the reason I read outside the field: collect a model from ever
 <dt>Business</dt>
 <dd>Steve Jobs.</dd>
 <dt>Designers</dt>
-<dd>Johan Nohr, Hiroyuki Ito, Josh Sawyer, Hironobu Sakaguchi, Yuji Horii, Robert Kurvitz, Yoko Taro, Tim Cain, Sid Meier, Soren Johnson, Leonard Boyarsky, Jason Anderson, Ray Muzyka, Greg Zeschuk, James Ohlen, Martin Anward, Henrik Fåhraeus, Alexander Oltner, Johan Andersson, Justin M. Keyes, Vincent Baker, Jonathan Blow, Lucas Pope, Folke Lemaitre, Henrik Lissner, Nir Arbe, Christophe Dumez, Dave Teare, Eugen Rochko, Dario Amodei, Daniela Amodei.</dd>
+<dd>Johan Nohr, Hiroyuki Ito, Josh Sawyer, Hironobu Sakaguchi, Yuji Horii, Robert Kurvitz, Yoko Taro, Tim Cain, Sid Meier, Soren Johnson, Leonard Boyarsky, Jason Anderson, Ray Muzyka, Greg Zeschuk, James Ohlen, Martin Anward, Henrik Fåhraeus, Alexander Oltner, Johan Andersson, Vincent Baker, Jonathan Blow, Lucas Pope, Nir Arbe.</dd>
+<dt>Programmers</dt>
+<dd>Justin M. Keyes, Folke Lemaitre, Henrik Lissner, Christophe Dumez, Dave Teare, Eugen Rochko, Dario Amodei, Daniela Amodei.</dd>
 <dt>Visual artists</dt>
 <dd>Zdzisław Beksiński, Peter Hoffer.</dd>
 </dl>
 
 <p class="ornament ornament--asterism" aria-hidden="true">⁂</p>
 
-The rest of the list runs below, grouped the way my notes have always kept it, thinned only by the portraits above. It changes as slowly as the canon does: a name earns its place by surviving contact with my own work. Most of what the codex builds is downstream of somebody on this page.
+It changes as slowly as the canon does: a name earns its place by surviving contact with my own work. Most of what the codex builds is downstream of somebody on this page.
 
 <p class="post__back"><a href="{{ '/canon/' | relative_url }}">← Return to the canon</a></p>
