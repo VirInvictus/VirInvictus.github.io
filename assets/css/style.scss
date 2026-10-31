@@ -136,6 +136,7 @@ body {
    line links /patchnotes/. Both mirror the sigils strip so the three lines
    read as one head, with the base peach link affordance. */
 .canon-topline,
+.influences-topline,
 .annals-topline {
   text-align: center;
   margin: 0 auto;
@@ -146,6 +147,7 @@ body {
   line-height: 2;
 }
 .canon-topline { margin-bottom: 0.4em; }
+.influences-topline { margin-bottom: 0.4em; }
 .annals-topline { margin-bottom: 3.2em; }
 
 /* ────────────── Canon games ledger ────────────── */

@@ -21,6 +21,8 @@ permalink: /
 
 <p class="canon-topline"><a href="{{ '/canon/' | relative_url }}">the canon · the shelf of what built me</a></p>
 
+<p class="influences-topline"><a href="{{ '/influences/' | relative_url }}">the influences · the hands behind the shelf</a></p>
+
 <p class="annals-topline"><a href="{{ '/patchnotes/' | relative_url }}">the annals · every release, logged nightly</a></p>
 
 ## I. On the Author
