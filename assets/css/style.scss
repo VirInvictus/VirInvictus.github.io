@@ -148,25 +148,37 @@ body {
 .canon-topline { margin-bottom: 0.4em; }
 .annals-topline { margin-bottom: 3.2em; }
 
-/* ────────────── Canon platform runs ────────────── */
-/* The games section of /canon/: a mono label per platform above a
-   comma-run paragraph of titles. The runs are set as catalogue
-   apparatus (mono, small, dim) so § IV's prose carries the voice and
-   the full 72-title inventory reads as a deliberate appendix. */
-.canon-platform {
+/* ────────────── Canon games ledger ────────────── */
+/* The games section of /canon/: a semantic description list set as
+   catalogue apparatus, so § IV's prose carries the voice and the full
+   72-title inventory reads as a deliberate appendix. */
+.canon-ledger {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 0.75rem 1.25rem;
+  align-items: baseline;
+  margin: 2em 0 0;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--surface1);
+}
+.canon-ledger dt {
   font-family: var(--mono);
   font-size: 0.74rem;
   color: var(--peach);
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  margin: 1.2em 0 0.15em;
+  margin: 0;
 }
-.canon-run {
+.canon-ledger dd {
   font-family: var(--mono);
   font-size: 0.8rem;
   line-height: 1.7;
   color: var(--subtext1);
-  margin: 0 0 0.9em;
+  margin: 0;
+}
+@media (max-width: 600px) {
+  .canon-ledger { grid-template-columns: 1fr; gap: 0.15rem 0; }
+  .canon-ledger dd { margin: 0 0 0.9em; }
 }
 
 /* ────────────── Headings ────────────── */
