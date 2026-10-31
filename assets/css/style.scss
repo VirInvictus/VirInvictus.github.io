@@ -150,7 +150,9 @@ body {
 
 /* ────────────── Canon platform runs ────────────── */
 /* The games section of /canon/: a mono label per platform above a
-   comma-run paragraph of titles. */
+   comma-run paragraph of titles. The runs are set as catalogue
+   apparatus (mono, small, dim) so § IV's prose carries the voice and
+   the full 72-title inventory reads as a deliberate appendix. */
 .canon-platform {
   font-family: var(--mono);
   font-size: 0.74rem;
@@ -159,7 +161,13 @@ body {
   text-transform: uppercase;
   margin: 1.2em 0 0.15em;
 }
-.canon-run { margin: 0 0 0.9em; }
+.canon-run {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: var(--subtext1);
+  margin: 0 0 0.9em;
+}
 
 /* ────────────── Headings ────────────── */
 h1, h2, h3, h4 {
