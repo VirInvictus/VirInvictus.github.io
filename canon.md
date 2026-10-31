@@ -39,6 +39,23 @@ The written lane: Eminem, flow as engineering. 50 Cent, economy of menace. Nas, 
 
 My music library is sorted and rated by hand. These ten survive every sort.
 
+The record shelf holds sixty-one pieces, and thirty-eight of them have Patrick Kindlon's name on them somewhere: Self Defense Family, End of a Year, Drug Church, and a fat row of splits. Converge stacks nine more, Jane Doe through The Dusk In Us, with a live DVD hiding among the wax. The rest of the shelf wanders: Godspeed You! Black Emperor, Jeff Buckley's Grace, Old Gray's an autobiography, a benefit compilation for an animal sanctuary, and, filed in the middle of the hardcore, two Taylor Swift records, 1989 and Midnights. Nobody said the filter only hears distortion.
+
+<dl class="canon-ledger" aria-label="Record archive by artist">
+<dt>Self Defense Family</dt>
+<dd>I'm Going Through Some Shit b/w All Fruit is Ripe, Self Immolation Family b/w World Virgins, Live from Krazy Fest 5/20/11, The Corrections Officer in Me, You Are Beneath Her, Indoor Wind Chimes b/w Cottaging, Duets, I Tried to Make Something You Would Enjoy, Try Me, Two Genuine Oddities From Our Distant Past, German Industrial Ballads, Heaven is Earth, Talia b/w Taxying, When The Barn Caves In b/w Alan (7-inch), When The Barn Caves In b/w Alan (cassette), Colicky, Superior, BBC Session, Bastard Form b/w Maybe you Could Explain it to me, Have You Considered Punk Music?, wounded masculinity.</dd>
+<dt>End of a Year</dt>
+<dd>We Understand Europeans are a Sexual People, End of a Year, End of a Year / Segwei, I Heard Crime Gets you Off b/w To Your Scattered Bodies go, You Are Beneath Me.</dd>
+<dt>Splits</dt>
+<dd>Least Violent Time in Human History (with Axis), 4-way Split (with Code Orange Kids, The World is a Beautiful Place &amp; I Am No Longer Afraid To Die, and Tigers Jaw), Self Defense Family / Goodtime Boys Split, Stalwart Sons / Self Defense Family Split, Creative Adult / Self Defense Split, Self Defense Family / Meredith Hunter Split, Self Love (with Touche Amore), We'll All Be Reunited Under the Ground (with Null).</dd>
+<dt>Drug Church</dt>
+<dd>Drug Church, Paul Walker, Hit Your Head, Swell.</dd>
+<dt>Converge</dt>
+<dd>Jane Doe, No Heroes, All We Love We Leave Behind, Unloved and Weeded Out, Petitioning Forever, Live at the BBC, Thousands of Miles Between Us, You Fail Me Redux, The Dusk In Us.</dd>
+<dt>The rest</dt>
+<dd>Slow Riot for New Zero Kanada EP, Heavier Than Heaven, Lonelier Than God, Grace, Wacky Past is Now, Dialogues: A Benefit Compilation For Chenoa Manor Animal Sanctuary, Good Vibes, an autobiography, Joyce Manor, Spread Out, 1989, Flex Your Hair, Asunder, Sweet and Other Distress, Tigers Jaw, Midnights.</dd>
+</dl>
+
 <p class="ornament ornament--fleuron" aria-hidden="true">❦</p>
 
 ## IV. Games
@@ -50,9 +67,9 @@ The old canon is all here, the CRPG lineage that crowd treats as scripture: Fall
 
 FromSoftware gets its own paragraph because the shelf is complete: Dark Souls 1, 2, and 3, the second one included without irony, Bloodborne, Elden Ring. Hidetaka Miyazaki builds games that refuse to care whether you finish them, and the refusal is the honesty I keep returning for.
 
-The colony, factory, and map games are the professional deformation. I operate Dwarf Fortress, RimWorld, Oxygen Not Included, Factorio, Satisfactory, and Opus Magnum more than I play them, and the people behind them, Tarn and Zach Adams, Tynan Sylvester, Zach Barth, sit on my influences list where other people keep athletes. Crusader Kings 3, Victoria 3, Anno 1800, Civilization VI, and Battle Brothers run the same nerve at map scale; Gran Turismo 7, Kazunori Yamauchi's database wearing a game's clothes, closes the set.
+The colony, factory, and map games are the professional deformation. I operate Dwarf Fortress, RimWorld, Oxygen Not Included, Factorio, Satisfactory, and Opus Magnum more than I play them, and the people behind them, Tarn and Zach Adams, Tynan Sylvester, Zach Barth, sit on [my influences list](/influences/) where other people keep athletes. Crusader Kings 3, Victoria 3, Anno 1800, Civilization VI, and Battle Brothers run the same nerve at map scale; Gran Turismo 7, Kazunori Yamauchi's database wearing a game's clothes, closes the set.
 
-The immersive sims hold the Looking Glass line: Deus Ex, Thief 2: The Metal Age, Dishonored, the two STALKERs, Gothic 2: Night of the Raven. Systems make the stories there, not scripts, and Warren Spector, who came up through Looking Glass and carried the idea to Deus Ex, is on the influences list too.
+The immersive sims hold the Looking Glass line: Deus Ex, Thief 2: The Metal Age, Dishonored, the two STALKERs, Gothic 2: Night of the Raven. Systems make the stories there, not scripts, and Warren Spector, who came up through Looking Glass and carried the idea to Deus Ex, is on [the influences list](/influences/) too.
 
 Then the narrative heavyweights: The Witcher 3, Kingdom Come: Deliverance and its sequel, Cyberpunk 2077, Subnautica, Hollow Knight, Stardew Valley, which Eric Barone built alone, NieR: Automata, Uncharted IV, The Last of Us, Titanfall 2, and Hideo Kojima across two platforms, Metal Gear Solid, The Phantom Pain, and Death Stranding.
 
@@ -74,6 +91,8 @@ Underneath all of it runs the JRPG spine, Final Fantasy IV, VI, VII, VIII, IX, a
 <dt>NES</dt>
 <dd>Romance of the Three Kingdoms II.</dd>
 </dl>
+
+The board shelf runs the same nerve at table scale, nineteen games deep. Uwe Rosenberg's engines, Agricola, Caverna: Cave vs Cave, Patchwork, and A Feast for Odin, are Factorio for the kitchen table: feed the machine, tighten the machine, lose to the machine. Martin Wallace's Brass: Birmingham plays that loop in canal-era England. Antoine Bauza's 7 Wonders and 7 Wonders Duel, Pandemic and On the Brink, and Spirit Island take the dinner-table and co-op shifts. The card games fill the gaps: Jaipur, Sushi Go!, Ticket to Ride: New York, Wingspan, Railroad Ink Challenge, Exploding Kittens, and the accidentally horrifying Here, Kitty, Kitty! And two entries are barely board games at all: Mörk Borg, Pelle Nilsson and Johan Nohr's doom-metal RPG, Nohr sitting on [my influences list](/influences/) for exactly this art direction, and Thousand Year-Old Vampire, a solo journaling RPG about a vampire outliving every person it loves.
 
 <p class="ornament ornament--asterism" aria-hidden="true">⁂</p>
 
