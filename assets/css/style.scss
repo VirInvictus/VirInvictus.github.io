@@ -152,13 +152,15 @@ body {
 /* The apparatus ledgers of /canon/ (games by platform, records by artist)
    and /influences/ (archive by domain): semantic description lists set as
    catalogue apparatus, so the prose carries the voice and the full
-   inventory reads as a deliberate appendix. The key track floats between
-   its 4.5rem floor and an 8rem cap so short keys (PS5) keep the original
-   geometry while long ones (PROGRAMMERS, SELF DEFENSE FAMILY) widen the
-   column or wrap instead of painting into the names. */
+   inventory reads as a deliberate appendix. The key track auto-sizes to its
+   longest key, floored at 4.5rem and capped at 8rem via the dt's own
+   min/max-width (NOT minmax()+fit-content(): Chromium rejects fit-content()
+   as a minmax max, which voids the whole declaration), so short keys (PS5)
+   keep the original geometry while long ones (PROGRAMMERS, SELF DEFENSE
+   FAMILY) widen the column or wrap instead of painting into the names. */
 .canon-ledger {
   display: grid;
-  grid-template-columns: minmax(4.5rem, fit-content(8rem)) 1fr;
+  grid-template-columns: auto 1fr;
   gap: 0.75rem 1.25rem;
   align-items: baseline;
   margin: 2em 0 0;
@@ -172,6 +174,8 @@ body {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   margin: 0;
+  min-width: 4.5rem;
+  max-width: 8rem;
 }
 .canon-ledger dd {
   font-family: var(--mono);
