@@ -131,18 +131,35 @@ body {
   margin: 0 0.4em;
 }
 
-/* ────────────── Annals topline ────────────── */
-/* The front door's link to /patchnotes/; mirrors the sigils strip so the
-   two lines read as one running head, with the base peach link affordance. */
+/* ────────────── Toplines ────────────── */
+/* The front door's running head: the canon line links /canon/, the annals
+   line links /patchnotes/. Both mirror the sigils strip so the three lines
+   read as one head, with the base peach link affordance. */
+.canon-topline,
 .annals-topline {
   text-align: center;
-  margin: 0 auto 3.2em;
+  margin: 0 auto;
   font-family: var(--mono);
   font-size: 0.74rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   line-height: 2;
 }
+.canon-topline { margin-bottom: 0.4em; }
+.annals-topline { margin-bottom: 3.2em; }
+
+/* ────────────── Canon platform runs ────────────── */
+/* The games section of /canon/: a mono label per platform above a
+   comma-run paragraph of titles. */
+.canon-platform {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--peach);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 1.2em 0 0.15em;
+}
+.canon-run { margin: 0 0 0.9em; }
 
 /* ────────────── Headings ────────────── */
 h1, h2, h3, h4 {
