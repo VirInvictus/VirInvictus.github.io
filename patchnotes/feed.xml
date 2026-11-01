@@ -6,7 +6,19 @@
   <updated>2026-10-31T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
-  <generator>annals 0.4.0</generator>
+  <generator>annals 0.5.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-31/CalibreQuarry/3.79.0</id>
+    <title>CalibreQuarry 3.79.0: stamp_pdf self-heals the refused-predictor write class (issue #44)</title>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-10-31/annals/0.5.0</id>
+    <title>annals 0.5.0: The Stacks rides the publish: athenaeum's library page joins the daily loop.</title>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-30/CalibreQuarry/3.78.0</id>
     <title>CalibreQuarry 3.78.0: the printed-ISBN scan batch: bare numbers, typographic dashes, and the mid-book copyright page (issue #43)</title>
@@ -292,18 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-17/CalibreQuarry/3.69.0</id>
     <title>CalibreQuarry 3.69.0: The identifier residual batch: the reconcile diff collapses identifier whitespace on both sides, and the package-slot rewrite no longer skips uuid-typed slots (issue #31)</title>
-    <updated>2026-10-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-17/Carrel-calibre-web/0.6.45</id>
-    <title>Carrel-calibre-web 0.6.45: The Continue Reading row retires</title>
-    <updated>2026-10-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-17/bindery-cli/0.51.0</id>
-    <title>bindery-cli 0.51.0: The unbound-prefix repair: the Calibre embed scar comes off the OPF (issue #9)</title>
     <updated>2026-10-17T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
