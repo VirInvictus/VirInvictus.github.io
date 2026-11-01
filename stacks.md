@@ -125,7 +125,7 @@ The shelf spans twenty centuries: the oldest book was written in 116 CE, and the
 ## VIII. Errata
 {: #errata}
 
-Every archive has holes; this one admits its own. 10,090 books, 99 percent, carry no rating, which is the shelf's way of saying the reading outpaces the judging. 1,013 have no ISBN on file. The catalogue answers to the census, not the reverse.
+Every archive has holes; this one admits its own. Of 10,243 books on the shelf, 10,090 carry no rating: 99 percent, which is the shelf's way of saying the reading outpaces the judging. Another 1,013 have no ISBN on file. The catalogue answers to the census, not the reverse.
 
 <p class="ornament ornament--asterism" aria-hidden="true">⁂</p>
 
