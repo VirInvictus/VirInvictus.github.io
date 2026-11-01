@@ -3,10 +3,46 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-10-31T00:00:00Z</updated>
+  <updated>2026-11-01T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.5.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/CalibreQuarry/3.81.0</id>
+    <title>CalibreQuarry 3.81.0: The cquarry 1.28.3 floor: covers are cover.jpg-only (issue #46)</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/CalibreQuarry/3.80.0</id>
+    <title>CalibreQuarry 3.80.0: `run cover-source`: the coverless-import pipeline as a verb (issue #45)</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/Carrel-calibre-web/0.6.46</id>
+    <title>Carrel-calibre-web 0.6.46: The cquarry 1.28.3 cover.jpg-only adoption</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/Hermitage/1.8.8</id>
+    <title>Hermitage 1.8.8: The Flatpak carries the 1.28.3 contract: the compat sync landed</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/Hermitage/1.8.7</id>
+    <title>Hermitage 1.8.7: The cquarry 1.28.3 cover contract: docs truth for the jpg-only reads</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/cquarry/1.28.3</id>
+    <title>cquarry 1.28.3: The cover.jpg-only fix (issue #10)</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-31/CalibreQuarry/3.79.0</id>
     <title>CalibreQuarry 3.79.0: stamp_pdf self-heals the refused-predictor write class (issue #44)</title>
@@ -269,42 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.1.2</id>
     <title>whisker-street 0.1.2: Meoweconomy mining pass, docs only: the roadmap's standing context gains the telemetry dossier (message income gated by a database-timestamp cooldown, voice income paying a flat rate to muted and AFK members from an in-memory set with no mute/deafen/AFK handling, the two streams interfering through one shared cooldown timestamp, and no per-member time-series anywhere in 26 tables) with the feed-off verdict those facts force: its counters seed and cross-check our prices; they cannot replace the dedicated collector.</title>
     <updated>2026-10-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.1.1</id>
-    <title>whisker-street 0.1.1: Research pass, docs only: every stock bot in the genre mined (SocialStocks and the Codeforces bot deep-read from `.study/`; Discord-Exchange, Stonkscord, MemberMarket, Channel Stonks, Whale Street, WabbitBot, Dank Memer, and Empire Avenue distilled into the roadmap's mined-corpus and literature sections).</title>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.1.0</id>
-    <title>whisker-street 0.1.0: Initial skeleton: package layout with the engine core stubs (market clock, tuning parameters) and their tests, the spec contract (activity index, IPO seeding, market-maker pools, brokerage invariants, the meoweconomy bridge gate), and a roadmap written as self-contained per-phase briefs so any agent can pick up a phase without conversation pretext.</title>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-21/CalibreQuarry/3.71.0</id>
-    <title>CalibreQuarry 3.71.0: The notation-and-initials batch: the duplicate screen reads a 10-form and its 13-form as the ONE edition they are, and a middle initial no longer splits one author in two (issue #33)</title>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-21/CalibreQuarry/3.70.0</id>
-    <title>CalibreQuarry 3.70.0: The staging-dir batch: phase 1's inventory walk skips a populated completed/ under the vetted root (issue #32)</title>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-21/bindery-cli/0.52.0</id>
-    <title>bindery-cli 0.52.0: The repairer's own prune could destroy the book it was repairing (issue #10)</title>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-17/CalibreQuarry/3.69.0</id>
-    <title>CalibreQuarry 3.69.0: The identifier residual batch: the reconcile diff collapses identifier whitespace on both sides, and the package-slot rewrite no longer skips uuid-typed slots (issue #31)</title>
-    <updated>2026-10-17T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
