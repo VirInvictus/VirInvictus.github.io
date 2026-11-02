@@ -8,6 +8,12 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.5.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/bindery-cli/0.60.0</id>
+    <title>bindery-cli 0.60.0: Issue #24: the oracle budget also scales on archive entry count</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-01/CalibreQuarry/3.81.0</id>
     <title>CalibreQuarry 3.81.0: The cquarry 1.28.3 floor: covers are cover.jpg-only (issue #46)</title>
     <updated>2026-11-01T00:00:00Z</updated>

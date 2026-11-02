@@ -29,7 +29,7 @@ remain canonical; this file is a projection, reproducible with
 | Catagotchi | Cozy cat tamagotchi wrapped around an idle empire; everything on screen is generated in code (Godot). | 104 | 4.51.0 | 2026-09-18 | 166 | 2026-07-10 |
 | Hearth | Two-player LAN digital build of A Feast for Odin on the same engine shape (private: the faithful dataset is git-ignored). | 101 | 0.13.68 | 2026-09-15 | 129 | 2026-06-14 |
 | [Framework](https://github.com/VirInvictus/Framework) | Native GTK4 document viewer for PDF, DjVu, comics, and EPUB-class ebooks, on twin render pipelines. | 97 | 1.0.2 | 2026-09-16 | 170 | 2026-04-06 |
-| [bindery-cli](https://github.com/VirInvictus/bindery-cli) | CLI that repairs broken EPUBs with deterministic, epubcheck-gated fixes, atomically and in place inside a Calibre library. | 83 | 0.59.0 | 2026-10-28 | 287 | 2026-06-09 |
+| [bindery-cli](https://github.com/VirInvictus/bindery-cli) | CLI that repairs broken EPUBs with deterministic, epubcheck-gated fixes, atomically and in place inside a Calibre library. | 84 | 0.60.0 | 2026-11-01 | 287 | 2026-06-09 |
 | [cquarry](https://github.com/VirInvictus/cquarry) | Canonical read-only Calibre database layer with a faithful port of Calibre's search grammar; the opt-in write module is the one sanctioned mutation path. | 46 | 1.28.3 | 2026-11-01 | 274 | 2026-08-23 |
 | [Hermitage](https://github.com/VirInvictus/Hermitage) | Visually immersive GTK4 gallery browser for Calibre libraries, reading metadata.db read-only; ships a Flatpak. | 45 | 1.8.8 | 2026-11-01 | 121 | 2026-04-10 |
 | [deadbeef-cui](https://github.com/VirInvictus/deadbeef-cui) | Faceted library-browser plugin for DeaDBeeF in the Columns UI style, on medialib and scriptable presets. | 43 | 2.2.1 | 2026-10-22 | 198 | 2026-04-09 |
@@ -116,6 +116,7 @@ Code lines measured by `tokei` over each tracked repo's tree: reference clones a
 
 #### November 2026
 
+- **11-01 · bindery-cli 0.60.0** · Issue #24: the oracle budget also scales on archive entry count
 - **11-01 · CalibreQuarry 3.81.0** · The cquarry 1.28.3 floor: covers are cover.jpg-only (issue #46)
 - **11-01 · CalibreQuarry 3.80.0** · `run cover-source`: the coverless-import pipeline as a verb (issue #45)
 - **11-01 · Carrel-calibre-web 0.6.46** · The cquarry 1.28.3 cover.jpg-only adoption
