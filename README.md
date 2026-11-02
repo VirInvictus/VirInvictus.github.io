@@ -36,7 +36,7 @@ My work focuses on native Linux desktop software. I build with Rust and GTK4, C 
 
 Where a rule can be a compile error instead of a convention, I make it one. I would rather ship against a hard memory ceiling than an optional benchmark, and I will port a battle-tested architecture with attribution before I invent a new one.
 
-I drive an AI coding harness across the workspace, and I built it a staff: [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), twenty-three read-only research subagents that map repositories, audit releases, triage CI, and verify a claim before it gates any work. The staff reads and reports; it never writes. The drafting happens at my direction in the main thread, and the deciding happens nowhere else.
+I drive an AI coding harness across the workspace, and I built it a staff: [dragon-agents]({{ '/codex/dragon-agents/' | relative_url }}), twenty-four read-only research subagents that map repositories, audit releases, triage CI, and verify a claim before it gates any work. The staff reads and reports; it never writes. The drafting happens at my direction in the main thread, and the deciding happens nowhere else.
 
 Compile-time invariants, test suites, dry-run defaults, single-writer SQLite: agent-drafted code meets the same gates any human patch would. A machine cannot argue its way past a borrow checker, and I wired my workflow so that I cannot either.
 
@@ -86,7 +86,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 003</span>
 <h3><a href="{{ '/codex/viaduct/' | relative_url }}">Viaduct</a></h3>
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v4.4.0</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> tokio <span class="stack-sep">·</span> WebKit <span class="stack-sep">·</span> <span class="status">active · v4.4.1</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/viaduct-main.webp' | relative_url }}" alt="Viaduct's three-pane layout: feed sidebar with unread counts, article timeline, and the reading pane on the v3.0 flat Kanagawa design" loading="lazy">
@@ -157,7 +157,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 009</span>
 <h3><a href="{{ '/codex/hermitage/' | relative_url }}">Hermitage</a></h3>
-<p class="codex-meta">Python 3.13+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.8.6</span></p>
+<p class="codex-meta">Python 3.13+ <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.8.8</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/hermitage-gallery.webp' | relative_url }}" alt="Hermitage's cover-art grid filtered to a virtual library, with the Wing sidebar open and the search bar showing the active expression" loading="lazy">
@@ -169,7 +169,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 010</span>
 <h3><a href="{{ '/codex/calibrequarry/' | relative_url }}">CalibreQuarry</a></h3>
-<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.81.0</span></p>
+<p class="codex-meta">Python <span class="stack-sep">·</span> cquarry <span class="stack-sep">·</span> vir-tui <span class="stack-sep">·</span> <span class="status">active · v3.82.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/calibrequarry-stats.webp' | relative_url }}" alt="CalibreQuarry's --stats output: hierarchical dot-taxonomy tag counts, series with book totals, publishers, languages, and recent additions" loading="lazy">
@@ -193,7 +193,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 012</span>
 <h3><a href="{{ '/codex/cquarry/' | relative_url }}">cquarry</a></h3>
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.28.1</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v1.28.3</span></p>
 </div>
 <p class="card-desc">A canonical Python package providing read-only access to Calibre's <code>metadata.db</code> and a full parser for Calibre's native search expression grammar; the opt-in <code>cquarry.write</code> module is the collection's only sanctioned write path.</p>
 <p class="card-link-container"><a href="{{ '/codex/cquarry/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
@@ -326,16 +326,16 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 023</span>
 <h3><a href="{{ '/codex/dragon-agents/' | relative_url }}">dragon-agents</a></h3>
-<p class="codex-meta">Markdown <span class="stack-sep">·</span> Python (stdlib) <span class="stack-sep">·</span> <span class="status">active · v0.6.0</span></p>
+<p class="codex-meta">Markdown <span class="stack-sep">·</span> Python (stdlib) <span class="stack-sep">·</span> <span class="status">active · v0.7.1</span></p>
 </div>
-<p class="card-desc">Twenty-three read-only research subagents in a local ZCode plugin: release audits, CI triage, repo cartography, claim checks, markets and machine-health briefs. Nothing they read is ever written; the deciding and the editing stay with the main thread.</p>
+<p class="card-desc">Twenty-four read-only research subagents in a local ZCode plugin: release audits, CI triage, repo cartography, claim checks, markets and machine-health briefs. Nothing they read is ever written; the deciding and the editing stay with the main thread.</p>
 <p class="card-link-container"><a href="{{ '/codex/dragon-agents/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
 <div class="card-header">
 <span class="codex-num">No. 024</span>
 <h3><a href="{{ '/codex/annals/' | relative_url }}">annals</a></h3>
-<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.3.0</span></p>
+<p class="codex-meta">Python (stdlib only) <span class="stack-sep">·</span> <span class="status">active · v0.1.3</span></p>
 </div>
 <p class="card-desc">The codex's own bookkeeper: every release and commit across the collection, rendered nightly into one reproducible ledger. Its published output is the patchnotes page and the ledger line below.</p>
 <p class="card-link-container"><a href="{{ '/codex/annals/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
