@@ -3,13 +3,13 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-01T00:00:00Z</updated>
+  <updated>2026-11-02T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.5.0</generator>
   <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/bindery-cli/0.60.0</id>
-    <title>bindery-cli 0.60.0: Issue #24: the oracle budget also scales on archive entry count</title>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/CalibreQuarry/3.82.0</id>
+    <title>CalibreQuarry 3.82.0: The audit's corroboration reads the ebook block (issue #47)</title>
     <updated>2026-11-01T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
@@ -44,8 +44,26 @@
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/bindery-cli/0.60.0</id>
+    <title>bindery-cli 0.60.0: Issue #24: the oracle budget also scales on archive entry count</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-01/cquarry/1.28.3</id>
     <title>cquarry 1.28.3: The cover.jpg-only fix (issue #10)</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/opends/0.1.0</id>
+    <title>opends ovr-carve 0.1.0: `ovr-carve` v0.1.0</title>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-01/opends/0.4.0</id>
+    <title>opends ovr-map 0.4.0: `ovr-map` v0.4.0</title>
     <updated>2026-11-01T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
@@ -286,30 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-22/deadbeef-cui/2.2.0</id>
     <title>deadbeef-cui 2.2.0: Facet modes: Play and Intake, with templates.</title>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-22/deadbeef-cui/2.1.0</id>
-    <title>deadbeef-cui 2.1.0: `%rating%` facets render as stars, with an Unrated bucket.</title>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.3.0</id>
-    <title>whisker-street 0.3.0: Phase 1, the engine core: the whole market as a headless, tick-driven library.</title>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.2.0</id>
-    <title>whisker-street 0.2.0: Pricing model redesign, spec-level: prices no longer track raw activity level.</title>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-22/whisker-street/0.1.2</id>
-    <title>whisker-street 0.1.2: Meoweconomy mining pass, docs only: the roadmap's standing context gains the telemetry dossier (message income gated by a database-timestamp cooldown, voice income paying a flat rate to muted and AFK members from an in-memory set with no mute/deafen/AFK handling, the two streams interfering through one shared cooldown timestamp, and no per-member time-series anywhere in 26 tables) with the feed-off verdict those facts force: its counters seed and cross-check our prices; they cannot replace the dedicated collector.</title>
     <updated>2026-10-22T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
