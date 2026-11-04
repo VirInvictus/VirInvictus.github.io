@@ -3,10 +3,22 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-02T00:00:00Z</updated>
+  <updated>2026-11-03T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.5.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-03/bindery-cli/0.62.0</id>
+    <title>bindery-cli 0.62.0: The observatory batch: three predicate repairs and four new flags</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-03/bindery-cli/0.61.1</id>
+    <title>bindery-cli 0.61.1: The hex-ref href crash, and the sweep that survives it</title>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-02/CalibreQuarry/3.83.0</id>
     <title>CalibreQuarry 3.83.0: The duplicate screen judges new editions instead of passing silently (issue #48)</title>
@@ -293,18 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.4.0</id>
     <title>whisker-street 0.4.0: Phase 2, the Discord shell: the bot exists.</title>
     <updated>2026-10-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-22/CalibreQuarry/3.72.0</id>
-    <title>CalibreQuarry 3.72.0: The cover-import batch: `run phase2` extracts the EPUB's own declared cover at import, so verb-door imports land `has_cover=1` like the GUI door's (issue #34)</title>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-22/Viaduct/4.3.2</id>
-    <title>Viaduct 4.3.2: MacRumors cleanup, magnet links</title>
-    <updated>2026-10-22T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
