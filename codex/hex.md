@@ -14,4 +14,4 @@ So the semantics are borrowed and the code is new. The Quow query builder reprod
 
 It is named for the computer in Unseen University, and it obeys the same rule the game does: Hex renders, looks up, and tracks; it never sends a thing to the MUD that the player did not ask for.
 
-<p class="codex-link">local to the workshop until a remote is cut</p>
+<p class="codex-link"><a href="https://github.com/VirInvictus/hex">github.com/VirInvictus/hex &rarr;</a></p>
