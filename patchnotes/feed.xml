@@ -3,10 +3,52 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-03T00:00:00Z</updated>
+  <updated>2026-11-05T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
-  <generator>annals 0.5.0</generator>
+  <generator>annals 0.6.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.1.0</id>
+    <title>hex 0.1.0: First milestone: M1 core + Quow.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-04/Carrel-calibre-web/0.6.47</id>
+    <title>Carrel-calibre-web 0.6.47: The stale-while-revalidate cache and the cover pipeline fixes</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-04/annals/0.6.0</id>
+    <title>annals 0.6.0: Going public: the tool is config-driven end to end, and `annals init` writes the config for you.</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.63.1</id>
+    <title>bindery-cli 0.63.1: Two single-flag live-verification catches</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.63.0</id>
+    <title>bindery-cli 0.63.0: The harvest census: two new flags, the id scope, and the shell detector</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.62.2</id>
+    <title>bindery-cli 0.62.2: The review batch: the insert-branch fix and the inventories, closed</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.62.1</id>
+    <title>bindery-cli 0.62.1: --fix-double-colon-tags: the pseudo-tag escape, and the last fatal's repair</title>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-03/bindery-cli/0.62.0</id>
     <title>bindery-cli 0.62.0: The observatory batch: three predicate repairs and four new flags</title>
@@ -262,48 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-23/CalibreQuarry/3.74.0</id>
     <title>CalibreQuarry 3.74.0: fetch_library_codes: fragment work queries, throttled responses never cached, --refresh bypasses the cache, append-only misses worklist (issue #36)</title>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-23/CalibreQuarry/3.73.0</id>
-    <title>CalibreQuarry 3.73.0: The cquarry 1.28.1 floor: text-family custom-column writes preserve non-breaking spaces like the 9.17 GUI (issue #35)</title>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-23/cquarry/1.28.1</id>
-    <title>cquarry 1.28.1: The Calibre 9.17 watch audit: NBSP preservation and an atomic extra-file write</title>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.6.2</id>
-    <title>whisker-street 0.6.2: Own-review fix payload (four agents over the whole tree, every finding re-verified in the main thread).</title>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.6.1</id>
-    <title>whisker-street 0.6.1: Two display fixes from a concurrent external review: portfolio P&amp;L shows an explicit plus sign on gains again (format_scratch never emits one), and /gains's no-data state checks the finalized-day count the service returns instead of reaching into market internals.</title>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.6.0</id>
-    <title>whisker-street 0.6.0: Pre-handoff quality pass, closing the parked block: trades are durable and race-free.</title>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.5.0</id>
-    <title>whisker-street 0.5.0: Phase 3, the test-server alpha: accelerated time is a command.</title>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-23/whisker-street/0.4.0</id>
-    <title>whisker-street 0.4.0: Phase 2, the Discord shell: the bot exists.</title>
     <updated>2026-10-23T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
