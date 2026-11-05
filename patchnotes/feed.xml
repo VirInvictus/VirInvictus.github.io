@@ -20,6 +20,24 @@
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.4.0</id>
+    <title>hex 0.4.0: Phase 3, missions lane: cooldowns and quota for the working character. (Skills and stats wait for tonight's capture session: their parsers are wire-gated.)</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.3.0</id>
+    <title>hex 0.3.0: Phase 2 complete: find your way.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.2.0</id>
+    <title>hex 0.2.0: The 1.x hotfix lane completes: setup, user gags, and Hex's own data.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.1.0</id>
     <title>hex 0.1.0: First milestone: M1 core + Quow.</title>
     <updated>2026-11-05T00:00:00Z</updated>
@@ -286,24 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.4</id>
     <title>saforums.koplugin 0.5.4: One fix from the first v0.5.3 device pass.</title>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.3</id>
-    <title>saforums.koplugin 0.5.3: Avatars fetch in the background; nothing blocks the reader anymore.</title>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.2</id>
-    <title>saforums.koplugin 0.5.2: One change over v0.5.1: the avatar pass can no longer freeze the reader.</title>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.1</id>
-    <title>saforums.koplugin 0.5.1: Two device fixes over v0.5.0; no new surfaces.</title>
     <updated>2026-10-24T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
