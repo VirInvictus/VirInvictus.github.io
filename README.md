@@ -344,7 +344,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 
 ### The rest of the codex
 
-The collection keeps eleven more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
+The collection keeps twelve more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [hex]({{ '/codex/hex/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
 
 <!-- The front-page ledger line: written nightly by the annals repo to
 _includes/ledger.md. Generator-owned; never hand-edit the include. -->
