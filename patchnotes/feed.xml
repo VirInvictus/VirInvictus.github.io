@@ -8,6 +8,18 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/bindery-cli/1.0.0</id>
+    <title>bindery-cli 1.0.0: 1.0: the contract is the promise</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/bindery-cli/0.64.0</id>
+    <title>bindery-cli 0.64.0: --prune-dead-spine: the shell repair</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.1.0</id>
     <title>hex 0.1.0: First milestone: M1 core + Quow.</title>
     <updated>2026-11-05T00:00:00Z</updated>
@@ -293,18 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.1</id>
     <title>saforums.koplugin 0.5.1: Two device fixes over v0.5.0; no new surfaces.</title>
     <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/whisker-street/0.7.0</id>
-    <title>whisker-street 0.7.0: The debug console (roadmap Phase 3.5, Brandon's 2026-10-24 brief): the PoC now captures everything it does and thinks, always on and loud on purpose, because the PoC's product is information.</title>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-23/CalibreQuarry/3.74.0</id>
-    <title>CalibreQuarry 3.74.0: fetch_library_codes: fragment work queries, throttled responses never cached, --refresh bypasses the cache, append-only misses worklist (issue #36)</title>
-    <updated>2026-10-23T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
