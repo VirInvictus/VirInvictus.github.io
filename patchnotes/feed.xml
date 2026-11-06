@@ -8,6 +8,12 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.12.1-dbg</id>
+    <title>hex 0.12.1-dbg: A debug release in the v0.5.2-dbg tradition: the capture lane comes back for one specific verification pass (the combat-monitor parse has never seen a real wire line), and `/doctor` ships as the new permanent fixture.</title>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.12.0</id>
     <title>hex 0.12.0: The golden engine's fourth layer: route goldens, committed at last now that the licensing call is settled (rooms.db derives from tt_dw's public-domain map, so the fixtures are clean to commit; Brandon confirmed).</title>
     <updated>2026-11-06T00:00:00Z</updated>
@@ -298,12 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-29/CalibreQuarry/3.76.0</id>
     <title>CalibreQuarry 3.76.0: screen + evidence extractor: the parenthetical series annotation joins the strip list, and the copyright page's tail reaches the evidence row (issues #40, #41)</title>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-29/annals/0.4.0</id>
-    <title>annals 0.4.0: The audited record and the feed: the record now checks its own completeness against git, publishes as Atom, and its headlines stopped quoting whole paragraphs.</title>
     <updated>2026-10-29T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
