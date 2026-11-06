@@ -3,10 +3,16 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-05T00:00:00Z</updated>
+  <updated>2026-11-06T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-06/cquarry/1.29.0</id>
+    <title>cquarry 1.29.0: The Calibre 9.18 date-search vocabulary</title>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-05/bindery-cli/1.0.0</id>
     <title>bindery-cli 1.0.0: 1.0: the contract is the promise</title>
@@ -16,6 +22,60 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-05/bindery-cli/0.64.0</id>
     <title>bindery-cli 0.64.0: --prune-dead-spine: the shell repair</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.9.0</id>
+    <title>hex 0.9.0: Phase 8's first slice: continuous integration, cut before anything else ships.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.8.1</id>
+    <title>hex 0.8.1: The Phase 8 shim arrives early, exactly as the first live session demanded. Plus the live-session hotfixes from v0.8.0's first run on a real character.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.8.0</id>
+    <title>hex 0.8.0: Phase 7's comfort core: theme, a real options engine, and sound, all defaults-preserving and notify-driven (sound triggers are explicitly legal per concepts/automation).</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.7.0</id>
+    <title>hex 0.7.0: Phase 5's exploration core: the pieces that make leaving pumpkin village navigable.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.6.0</id>
+    <title>hex 0.6.0: The wire-verification release: everything here is grounded in the capture transcript from `~/.local/share/hex/captures/` (v0.5.2-dbg's debug lane did its job and is gone, as planned).</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.5.2-dbg</id>
+    <title>hex 0.5.2-dbg: DEBUG RELEASE. This lane ships one purpose-built debug command and is slated for removal in v0.6.0, which will cut it out entirely; do not build on it.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.5.1</id>
+    <title>hex 0.5.1: Phase 4's data lane: the spell dataset and the TM tooling. The trackers (TPA, charm, broom, stat items) stay wire-gated on capture session #2.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.5.0</id>
+    <title>hex 0.5.0: Phase 6: the social layer. Chat shapes and the monitor strings stay wire-checkable for tonight's capture; everything else is tt_dw-faithful port.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.4.1</id>
+    <title>hex 0.4.1: Phase 3's skills lane. Stats parsing stays wire-gated (its layout question needs tonight's capture); bonus math runs on the documented all-13 baseline until then.</title>
     <updated>2026-11-05T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
@@ -245,66 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-10-25/CalibreQuarry/3.75.0</id>
     <title>CalibreQuarry 3.75.0: reconcile: the embed's NCX scar is healed by a third pass and the scars it cannot heal are on the record (issue #37)</title>
     <updated>2026-10-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-25/Viaduct/4.4.1</id>
-    <title>Viaduct 4.4.1: plain text renders as HTML</title>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-25/bindery-cli/0.57.1</id>
-    <title>bindery-cli 0.57.1: The prefixed dtb:uid sync: the issue #22 specimen's last finding</title>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-25/bindery-cli/0.57.0</id>
-    <title>bindery-cli 0.57.0: Issue #22: the embed scar's element half, and the end of the silent equal</title>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-25/bindery-cli/0.56.0</id>
-    <title>bindery-cli 0.56.0: The two boxed recipes, built: the OPF-030 wiring and the CSS-007 font half</title>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-25/bindery-cli/0.55.0</id>
-    <title>bindery-cli 0.55.0: The issue batch: the 2026-10-24 surgery's follow-ups, #11 through #16</title>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/Viaduct/4.4.0</id>
-    <title>Viaduct 4.4.0: the roadmap harvest</title>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/bindery-cli/0.54.0</id>
-    <title>bindery-cli 0.54.0: The error-code surgery fixes: the core pass stopped breaking valid books</title>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/bindery-cli/0.53.1</id>
-    <title>bindery-cli 0.53.1: The .observe artifact now carries its per-book census rows</title>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/bindery-cli/0.53.0</id>
-    <title>bindery-cli 0.53.0: `bindery observe`: the whole-library census, one artifact per run</title>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-24/saforums.koplugin/0.5.4</id>
-    <title>saforums.koplugin 0.5.4: One fix from the first v0.5.3 device pass.</title>
-    <updated>2026-10-24T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
