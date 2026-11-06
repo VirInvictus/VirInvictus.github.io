@@ -8,6 +8,18 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.13.0</id>
+    <title>hex 0.13.0: Phase 8's core engineering piece: the fake-GMCP harness. The dead-vitals bug class is now a red CI run instead of a dead status bar at login.</title>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.12.2-dbg</id>
+    <title>hex 0.12.2-dbg: The debug lane's mobile phase: Brandon is out in the real world, so the verification commands grow legs.</title>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.12.1-dbg</id>
     <title>hex 0.12.1-dbg: A debug release in the v0.5.2-dbg tradition: the capture lane comes back for one specific verification pass (the combat-monitor parse has never seen a real wire line), and `/doctor` ships as the new permanent fixture.</title>
     <updated>2026-11-06T00:00:00Z</updated>
@@ -293,18 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-10-30/dragon-agents/0.7.0</id>
     <title>dragon-agents 0.7.0: Twenty-fourth agent: **music-archivist**, the librarian pattern applied to the music collection: lattice's read-only audit surface over /mnt/SharedData/Music in place of cquarry over metadata.db.</title>
     <updated>2026-10-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-29/CalibreQuarry/3.77.0</id>
-    <title>CalibreQuarry 3.77.0: the cquarry 1.28.2 floor: the format-row setters refuse extension-carrying names (issue #42)</title>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-29/CalibreQuarry/3.76.0</id>
-    <title>CalibreQuarry 3.76.0: screen + evidence extractor: the parenthetical series annotation joins the strip list, and the copyright page's tail reaches the evidence row (issues #40, #41)</title>
-    <updated>2026-10-29T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
