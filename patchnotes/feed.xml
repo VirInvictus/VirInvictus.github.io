@@ -8,9 +8,27 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-06/cquarry/1.29.0</id>
-    <title>cquarry 1.29.0: The Calibre 9.18 date-search vocabulary</title>
+    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.12.0</id>
+    <title>hex 0.12.0: The golden engine's fourth layer: route goldens, committed at last now that the licensing call is settled (rooms.db derives from tt_dw's public-domain map, so the fixtures are clean to commit; Brandon confirmed).</title>
     <updated>2026-11-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/CalibreQuarry/3.84.1</id>
+    <title>CalibreQuarry 3.84.1: the real-instrument screen test runs again (tests only; no behavior changes)</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/CalibreQuarry/3.84.0</id>
+    <title>CalibreQuarry 3.84.0: the cquarry 1.29.0 floor: the Calibre 9.18 date-search vocabulary (issue #49)</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/Carrel-calibre-web/0.6.48</id>
+    <title>Carrel-calibre-web 0.6.48: The Python 3.15 venv rebuild</title>
+    <updated>2026-11-05T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
   <entry>
@@ -22,6 +40,24 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-05/bindery-cli/0.64.0</id>
     <title>bindery-cli 0.64.0: --prune-dead-spine: the shell repair</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/cquarry/1.29.0</id>
+    <title>cquarry 1.29.0: The Calibre 9.18 date-search vocabulary</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.11.0</id>
+    <title>hex 0.11.0: Phase 8's golden-test engine lands, and pays for itself in its first hour: the synthetic layer caught two real shipped bugs in the Quow query builders before it even left the workshop.</title>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.10.0</id>
+    <title>hex 0.10.0: Phase 5 slice 2 opens: the written-map people tracker (MDT), the first consumer of GMCP `room.writtenmap`.</title>
     <updated>2026-11-05T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
@@ -269,42 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-10-29/annals/0.4.0</id>
     <title>annals 0.4.0: The audited record and the feed: the record now checks its own completeness against git, publishes as Atom, and its headlines stopped quoting whole paragraphs.</title>
     <updated>2026-10-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-29/cquarry/1.28.2</id>
-    <title>cquarry 1.28.2: The set_format extension-name guard (issue #9)</title>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-28/bindery-cli/0.59.0</id>
-    <title>bindery-cli 0.59.0: Issue #23: the dangling NCX navPoint, pruned and re-sequenced in one gate</title>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-27/annals/0.3.0</id>
-    <title>annals 0.3.0: The front-page ledger: the workspace totals now surface on the site's front door, one paragraph above the fold, not only on the patchnotes page.</title>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-26/annals/0.2.0</id>
-    <title>annals 0.2.0: The parser repair and the public-page grounding: every entry now carries its source's headline, the dashboard says what each repo is, and the page stops handing scrapers the raw email.</title>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-26/bindery-cli/0.58.0</id>
-    <title>bindery-cli 0.58.0: Issues #18-#21: the structural dry run's four rejects, read to the root</title>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-25/CalibreQuarry/3.75.0</id>
-    <title>CalibreQuarry 3.75.0: reconcile: the embed's NCX scar is healed by a third pass and the scars it cannot heal are on the record (issue #37)</title>
-    <updated>2026-10-25T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
