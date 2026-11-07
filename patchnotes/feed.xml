@@ -8,6 +8,12 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.13.1</id>
+    <title>hex 0.13.1: A live-found fix from Brandon's first walk in Ankh-Morpork: `/near market` from God Street listed five unreachable strangers in Genua and Ephebe while AM's own Job Market rooms never appeared.</title>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.13.0</id>
     <title>hex 0.13.0: Phase 8's core engineering piece: the fake-GMCP harness. The dead-vitals bug class is now a red CI run instead of a dead status bar at login.</title>
     <updated>2026-11-06T00:00:00Z</updated>
@@ -298,12 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-10-30/dragon-agents/0.7.1</id>
     <title>dragon-agents 0.7.1: Portability hardening of the two collection seats; roster unchanged at twenty-four.</title>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-30/dragon-agents/0.7.0</id>
-    <title>dragon-agents 0.7.0: Twenty-fourth agent: **music-archivist**, the librarian pattern applied to the music collection: lattice's read-only audit surface over /mnt/SharedData/Music in place of cquarry over metadata.db.</title>
     <updated>2026-10-30T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
