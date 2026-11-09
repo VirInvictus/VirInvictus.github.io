@@ -3,10 +3,64 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-07T00:00:00Z</updated>
+  <updated>2026-11-08T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/Viaduct/4.4.2</id>
+    <title>Viaduct 4.4.2: link-looking titles can't forge feeds</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.17.2</id>
+    <title>hex 0.17.2: The night-walk fix, for real this time: dark rooms push room.info WITHOUT the identifier field (you cannot identify a room you cannot see), and the walker was ignoring exactly those pushes, so a 38-step walk through dark countryside counted &quot;step 0/38&quot; the entire way while successfully moving Brandon every step.</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.17.1</id>
+    <title>hex 0.17.1: Two small fixes from live use of the item commands:</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.17.0</id>
+    <title>hex 0.17.0: Found live, twice in one night: `/goto` happily routes through climb-window shortcuts (the guild dorm wings connect to the ground floor over the rooftops), and an untrained level-4 student who follows one at spindlewinter night ends up stranded on a ledge with `[none]` exits, a burnt torch, and a full queue of &quot;What?&quot;.</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.16.1</id>
+    <title>hex 0.16.1: Two walker bugs from the first live night walk (a 32-step route over the guild rooftops, in the dark, on spindlewinter night; Brandon's Hex life is hard):</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.16.0</id>
+    <title>hex 0.16.0: The chat capture finally met a real talker: Brandon joined the Conlegium Sicariorum and its wooden bracelet started chattering.</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.15.0</id>
+    <title>hex 0.15.0: Brandon joined the Assassins' Guild on the wire (the captured sequence: application form from the black box in the foyer, south to the secretary, `say apply`), and the score-verbose clause confirmed it: &quot;you are level 3 in the Assassins' Guild&quot;.</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.14.1</id>
+    <title>hex 0.14.1: Hotfix, same evening: `/goto #1` crashed with &quot;attempt to index a nil value (global 'deps')&quot;.</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.14.0</id>
+    <title>hex 0.14.0: The big one, found the moment Brandon first stood somewhere real and typed `/goto foyer`: **`/goto` had never actually worked.** Every route call received the current room's 40-hex identifier (straight from GMCP via `need_start`), and the pathfinder indexed its graph by vnum only, so the Dijkstra never started, `/goto` printed its candidate list with every entry &quot;unreachable&quot;, and no walk ever launched.</title>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.13.1</id>
     <title>hex 0.13.1: A live-found fix from Brandon's first walk in Ankh-Morpork: `/near market` from God Street listed five unreachable strangers in Genua and Ephebe while AM's own Job Market rooms never appeared.</title>
@@ -251,60 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-11-01/Hermitage/1.8.8</id>
     <title>Hermitage 1.8.8: The Flatpak carries the 1.28.3 contract: the compat sync landed</title>
     <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/Hermitage/1.8.7</id>
-    <title>Hermitage 1.8.7: The cquarry 1.28.3 cover contract: docs truth for the jpg-only reads</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/bindery-cli/0.60.0</id>
-    <title>bindery-cli 0.60.0: Issue #24: the oracle budget also scales on archive entry count</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/cquarry/1.28.3</id>
-    <title>cquarry 1.28.3: The cover.jpg-only fix (issue #10)</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/opends/0.1.0</id>
-    <title>opends ovr-carve 0.1.0: `ovr-carve` v0.1.0</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/opends/0.4.0</id>
-    <title>opends ovr-map 0.4.0: `ovr-map` v0.4.0</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-31/CalibreQuarry/3.79.0</id>
-    <title>CalibreQuarry 3.79.0: stamp_pdf self-heals the refused-predictor write class (issue #44)</title>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-31/annals/0.5.0</id>
-    <title>annals 0.5.0: The Stacks rides the publish: athenaeum's library page joins the daily loop.</title>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-30/CalibreQuarry/3.78.0</id>
-    <title>CalibreQuarry 3.78.0: the printed-ISBN scan batch: bare numbers, typographic dashes, and the mid-book copyright page (issue #43)</title>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-10-30/dragon-agents/0.7.1</id>
-    <title>dragon-agents 0.7.1: Portability hardening of the two collection seats; roster unchanged at twenty-four.</title>
-    <updated>2026-10-30T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
