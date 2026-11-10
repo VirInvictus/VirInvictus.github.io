@@ -3,10 +3,76 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-08T00:00:00Z</updated>
+  <updated>2026-11-09T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/CalibreQuarry/3.86.0</id>
+    <title>CalibreQuarry 3.86.0: The cquarry 1.29.1 floor: author_sort flip assembly reaches the import path (issue #52)</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/CalibreQuarry/3.85.0</id>
+    <title>CalibreQuarry 3.85.0: The duplicate screen judges the placeholder pair instead of refusing it (issue #50)</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/bindery-cli/1.1.0</id>
+    <title>bindery-cli 1.1.0: The delimiter-damage repair (issue #26)</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/cquarry/1.29.1</id>
+    <title>cquarry 1.29.1: The author_sort flip assembly (issue #11)</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.23.0</id>
+    <title>hex 0.23.0: The money kit, from the economy-doc mining: the currency tables pinned verbatim, the purse line parsed, and the documented money commands one alias away.</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.22.0</id>
+    <title>hex 0.22.0: Phase 5's offline remainder: the travel annotations, in the shape the data actually supports.</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.21.0</id>
+    <title>hex 0.21.0: Phase 4's offline remainder plus the safety kit the combat-doc mining earned: every line shape in this release is pinned verbatim in the doc mirror, so it all works today, and every send stays behind a user alias.</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.20.0</id>
+    <title>hex 0.20.0: The Phase 1 and Phase 2 finishers: the last unticked box of the 1.x lane and two of Phase 2's leftovers, all offline work the pinned docs and the existing graph already supported.</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.19.0</id>
+    <title>hex 0.19.0: The hunt-and-death awareness release, built straight out of Brandon's own logs: the sweep that mined his session transcripts found the death we thought was uncapturable, the first two consider shapes, the whole corpse family, and one crash that had never been hit yet.</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.18.1</id>
+    <title>hex 0.18.1: A one-line crash fix, found in Brandon's own session logs by the utilization sweep: the MDT people tracker crashed mid-walk on a writtenmap naming a nationality'd carriage driver.</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.18.0</id>
+    <title>hex 0.18.0: The situational-awareness release: a new family of read-only investigation commands (`hex_scry`) built from the week's actual failure modes: night walks, locked gates, dark rooms, disconnected parcel destinations, and the corpse walk.</title>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-08/Viaduct/4.4.2</id>
     <title>Viaduct 4.4.2: link-looking titles can't forge feeds</title>
@@ -239,72 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.63.0</id>
     <title>bindery-cli 0.63.0: The harvest census: two new flags, the id scope, and the shell detector</title>
     <updated>2026-11-04T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.62.2</id>
-    <title>bindery-cli 0.62.2: The review batch: the insert-branch fix and the inventories, closed</title>
-    <updated>2026-11-04T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.62.1</id>
-    <title>bindery-cli 0.62.1: --fix-double-colon-tags: the pseudo-tag escape, and the last fatal's repair</title>
-    <updated>2026-11-04T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-03/bindery-cli/0.62.0</id>
-    <title>bindery-cli 0.62.0: The observatory batch: three predicate repairs and four new flags</title>
-    <updated>2026-11-03T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-03/bindery-cli/0.61.1</id>
-    <title>bindery-cli 0.61.1: The hex-ref href crash, and the sweep that survives it</title>
-    <updated>2026-11-03T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-02/CalibreQuarry/3.83.0</id>
-    <title>CalibreQuarry 3.83.0: The duplicate screen judges new editions instead of passing silently (issue #48)</title>
-    <updated>2026-11-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-02/bindery-cli/0.61.0</id>
-    <title>bindery-cli 0.61.0: Issue #25: fix-empty-body injects `&lt;p&gt;&amp;#160;&lt;/p&gt;`, not bare `&amp;nbsp;`</title>
-    <updated>2026-11-02T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/CalibreQuarry/3.82.0</id>
-    <title>CalibreQuarry 3.82.0: The audit's corroboration reads the ebook block (issue #47)</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/CalibreQuarry/3.81.0</id>
-    <title>CalibreQuarry 3.81.0: The cquarry 1.28.3 floor: covers are cover.jpg-only (issue #46)</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/CalibreQuarry/3.80.0</id>
-    <title>CalibreQuarry 3.80.0: `run cover-source`: the coverless-import pipeline as a verb (issue #45)</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/Carrel-calibre-web/0.6.46</id>
-    <title>Carrel-calibre-web 0.6.46: The cquarry 1.28.3 cover.jpg-only adoption</title>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-01/Hermitage/1.8.8</id>
-    <title>Hermitage 1.8.8: The Flatpak carries the 1.28.3 contract: the compat sync landed</title>
-    <updated>2026-11-01T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
