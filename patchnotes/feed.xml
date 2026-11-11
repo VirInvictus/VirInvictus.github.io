@@ -8,6 +8,24 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/1.1.0</id>
+    <title>dragon-agents 1.1.0: Twenty-ninth agent: **imprint**, the GitHub-metadata seat (Brandon's request).</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/1.0.0</id>
+    <title>dragon-agents 1.0.0: The first drop of purpose-built write agents (Brandon's request; the web-researcher watch-list condition fired): two new write seats under purpose-built fences, roster twenty-eight.</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/0.9.0</id>
+    <title>dragon-agents 0.9.0: The second founding-rule amendment (Brandon's write-forward pass): five audit-and-fix seats gain chartered write lanes under the fence model.</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/0.8.2</id>
     <title>dragon-agents 0.8.2: workspace-sentinel learns the release-census check: pushed tags with no GitHub Release now rank as findings, alongside entry-without-tag.</title>
     <updated>2026-11-11T00:00:00Z</updated>
@@ -287,24 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.3.0</id>
     <title>hex 0.3.0: Phase 2 complete: find your way.</title>
     <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.2.0</id>
-    <title>hex 0.2.0: The 1.x hotfix lane completes: setup, user gags, and Hex's own data.</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.1.0</id>
-    <title>hex 0.1.0: First milestone: M1 core + Quow.</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-04/Carrel-calibre-web/0.6.47</id>
-    <title>Carrel-calibre-web 0.6.47: The stale-while-revalidate cache and the cover pipeline fixes</title>
-    <updated>2026-11-04T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
