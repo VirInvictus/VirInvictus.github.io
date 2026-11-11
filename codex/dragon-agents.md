@@ -2,13 +2,13 @@
 layout: codex
 image: /assets/img/og-card.png
 title: "dragon-agents"
-description: "A local ZCode plugin of twenty-four read-only research subagents: they gather and report, the main thread decides and edits."
+description: "A local ZCode plugin of twenty-nine research subagents: twenty read-only, nine carrying chartered write lanes under structural fences. The main thread still decides; now some of the fixing scales."
 permalink: /codex/dragon-agents/
 ---
 
-<p class="codex-meta">Markdown <span class="stack-sep">·</span> Python (stdlib) <span class="stack-sep">·</span> <span class="status">active · v0.7.1</span></p>
+<p class="codex-meta">Markdown <span class="stack-sep">·</span> Python (stdlib) <span class="stack-sep">·</span> <span class="status">active · v1.1.0</span></p>
 
-The research half of the agent workflow, packaged. dragon-agents is a local plugin for the ZCode agent client: twenty-four subagents, each restricted to Read and Bash, each forbidden from writing files, committing, or spawning subagents of its own. They gather and report; the main thread decides and edits. The point is keeping the writing where it can be watched while the reading scales.
+The research half of the agent workflow, packaged. dragon-agents is a local plugin for the ZCode agent client: twenty-nine subagents. Twenty are read-only: restricted to Read and Bash, forbidden from committing or spawning subagents of their own; they gather and report. Nine carry chartered write lanes, and every lane runs inside a structural fence: a named scope, a clean-tree precondition, a re-verification step, and never a commit. The point is unchanged, only sharper: writes are safe exactly where the gate is structural, so the fences let the fixing scale without the deciding moving an inch.
 
 - **repo-cartographer**: a structured repo map (layout, stack, conventions, tests, risk areas) before planning sessions.
 - **doc-drift-auditor**: standard-layout docs versus code reality: VERSION sync, roadmap boxes, spec claims, patchnotes hygiene.
@@ -23,6 +23,8 @@ The waves since pushed past repo walls and grew the roster to twenty-three: **st
 
 v0.7.0 reworked **librarian** into the books-core research lane (cquarry's read modes, bindery's audit battery of doctor/audit/observe, the library's own validator, and read-only duckdb joins) and added **music-archivist**: music-collection research over [lattice-music](/codex/lattice/)'s read-only audit surface (health digest, genre hygiene against the tree's own taxonomy, duplicates, codec coverage, listening candidates), every lattice write mode fenced. v0.7.1 hardened both for portability.
 
-A stdlib-only structure validator (both manifests plus every agent charter: frontmatter fields, `tools: [Read, Bash]` only, the read-only and no-subagent charter lines, and the twenty-four-agent roster) runs in CI on every push, and the repo documents the proven plugin refresh procedure end to end. Built for personal use; installed through a directory marketplace.
+v0.8.0 through v1.1.0 amended the founding rule, deliberately and in the open. **claw** (v0.8.0) executes the Calibre acquisition pipeline's import phases behind the pipeline's own structural gates, with **shadow** as its read-only phase gate. v0.9.0 chartered five audit-and-fix seats that apply the mechanical fixes their own audits find, each verified by re-running the audit: **charter-architect** (its own approved release kits), **ci-posture-auditor** (the hardened CI shape, tightening only), **doc-drift-auditor** (version carriers, roadmap ticks, patchnotes hygiene), **debt-census** (dispatch-named removals), and **test-gap-analyst** (the named missing tests, written and run, production code untouched). v1.0.0 added the purpose-built writers: **latro** (deep web research delivered as one new cited markdown report per dispatch; no Edit tool, overwrite refused, keyless sources only) and **assay** (whole-repo report cards on five metrics whose goals append to roadmap.md only, re-verified zero-deletion, plus read-only grading of new ideas). v1.1.0 added **imprint**, which tends a repository's GitHub description and topics through two gh verbs, propose-first, read-back verified: the roster's first writes that publish instantly. The same releases upgraded **slop-reader** with second-order detection: the compensation patterns of prose hiding its slop, and the evasion artifacts of prose hiding the hiding, calibrated so the workspace's own no-em-dash house style is never mistaken for a tell.
+
+A stdlib-only structure validator (both manifests plus every agent charter: frontmatter fields, per-class tool sets, the read-only line for readers, the fence literals each write class must carry, the no-subagent line everywhere, and the twenty-nine-agent roster) runs in CI on every push, and the repo documents the proven plugin refresh procedure end to end. Built for personal use; installed through a directory marketplace.
 
 <p class="codex-link"><a href="https://github.com/VirInvictus/dragon-agents">github.com/VirInvictus/dragon-agents →</a></p>
