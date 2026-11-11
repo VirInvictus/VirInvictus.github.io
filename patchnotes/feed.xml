@@ -3,10 +3,28 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-09T00:00:00Z</updated>
+  <updated>2026-11-11T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/0.8.2</id>
+    <title>dragon-agents 0.8.2: workspace-sentinel learns the release-census check: pushed tags with no GitHub Release now rank as findings, alongside entry-without-tag.</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-10/dragon-agents/0.8.1</id>
+    <title>dragon-agents 0.8.1: Charter hardening before activation (Brandon's pre-install check), both acquisition-pipeline agents.</title>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-10/dragon-agents/0.8.0</id>
+    <title>dragon-agents 0.8.0: Twenty-fifth and twenty-sixth agents: **claw**, the roster's first gated execution seat (import runner), and **shadow**, its read-only phase gate (import auditor).</title>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-09/CalibreQuarry/3.86.0</id>
     <title>CalibreQuarry 3.86.0: The cquarry 1.29.1 floor: author_sort flip assembly reaches the import path (issue #52)</title>
@@ -286,24 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-04/Carrel-calibre-web/0.6.47</id>
     <title>Carrel-calibre-web 0.6.47: The stale-while-revalidate cache and the cover pipeline fixes</title>
-    <updated>2026-11-04T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-04/annals/0.6.0</id>
-    <title>annals 0.6.0: Going public: the tool is config-driven end to end, and `annals init` writes the config for you.</title>
-    <updated>2026-11-04T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.63.1</id>
-    <title>bindery-cli 0.63.1: Two single-flag live-verification catches</title>
-    <updated>2026-11-04T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-04/bindery-cli/0.63.0</id>
-    <title>bindery-cli 0.63.0: The harvest census: two new flags, the id scope, and the shell detector</title>
     <updated>2026-11-04T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
