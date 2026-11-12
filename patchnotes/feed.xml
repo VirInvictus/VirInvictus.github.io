@@ -8,6 +8,18 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/1.3.0</id>
+    <title>dragon-agents 1.3.0: Every agent now closes every dispatch with a structured debug report, and the dispatcher files actionable findings as GitHub issues in this repo.</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/1.2.0</id>
+    <title>dragon-agents 1.2.0: Thirtieth agent: **schedule-analyst**, the school-and-schedule lane, promoted from the watch list by the suite-completion gap survey.</title>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/1.1.0</id>
     <title>dragon-agents 1.1.0: Twenty-ninth agent: **imprint**, the GitHub-metadata seat (Brandon's request).</title>
     <updated>2026-11-11T00:00:00Z</updated>
@@ -292,18 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.4.1</id>
     <title>hex 0.4.1: Phase 3's skills lane. Stats parsing stays wire-gated (its layout question needs tonight's capture); bonus math runs on the documented all-13 baseline until then.</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.4.0</id>
-    <title>hex 0.4.0: Phase 3, missions lane: cooldowns and quota for the working character. (Skills and stats wait for tonight's capture session: their parsers are wire-gated.)</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.3.0</id>
-    <title>hex 0.3.0: Phase 2 complete: find your way.</title>
     <updated>2026-11-05T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
