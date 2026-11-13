@@ -181,12 +181,12 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 011</span>
 <h3><a href="{{ '/codex/bindery/' | relative_url }}">bindery-cli</a></h3>
-<p class="codex-meta">Python (tqdm, vir-tui) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.0.0</span></p>
+<p class="codex-meta">Python (tqdm, vir-tui) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.1.0</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/bindery-cli-sweep.webp' | relative_url }}" alt="bindery-cli's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
 </div>
-<p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes, repairing structural defects, unwrapping illegal HTML markup, and auditing for content damage (OCR, wrong-language tags) before swapping the fixed formats natively into your Calibre database via cquarry.</p>
+<p class="card-desc">A command-line surgeon for malformed EPUBs. Evaluates thousands of books in minutes, repairing structural defects, unwrapping illegal HTML markup, and auditing for content damage (OCR, wrong-language tags) before swapping the fixed formats natively into your Calibre database via cquarry. The <code>bindery observe</code> census validates the whole library in one warm-JVM pass and writes a versioned artifact for downstream audits.</p>
 <p class="card-link-container"><a href="{{ '/codex/bindery/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
 <div class="codex-card">
