@@ -211,3 +211,7 @@ Two lines here were overtaken by events. On 2026-09-03 the Claude Code client wa
 ## Postscript (2026-10-02)
 
 §VI's anchor has doubled since July: the library read 8,286 books this morning, counted read-only off `metadata.db`; [What I Use](/2026/07/23/what-i-use.html)'s postscript carries the same count. The anchors hold; the count does not. The §V updater roster is unchanged, `update_gemini` included.
+
+## Postscript (2026-11-12)
+
+§IV is down to two editors. Doom Emacs retired from this machine; the package was verified uninstalled on 2026-11-06, and the config.org walkthrough above describes a museum piece that grew past three thousand lines before the retirement and stays on disk untouched, kept the way this workspace keeps everything it stopped running. Neovim carries the code editor's whole weight now, Helix keeps the quick cuts, and the second brain moved to Obsidian with the task list in Todoist behind the `td` CLI; [What I Use](/2026/07/23/what-i-use.html)'s postscript of the same day carries the full list of removals in favor of. §VI's `~/org/` line and §VII's Doom Java layer describe the same retired host, and §VIII's counts stand for the windows they measured, which is all a shell history ever promises.

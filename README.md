@@ -46,7 +46,7 @@ By temperament I am an archivist. I keep a private Calibre library that runs int
 
 The site is named *Vir Invictus*, *the unconquered*. I picked it a long time ago and it stuck.
 
-I am open to work, and when the problem is cool enough the rate is a formality; the cool ones are why I got into this. Write to [larocque.brandon+outreach@gmail.com](mailto:larocque.brandon+outreach@gmail.com).
+I am open to work, and when the problem is cool enough the rate is a formality; the cool ones are why I got into this. Most of the best problems are not cool at all: I like hard, unglamorous systems maintenance, and reliable tools for other people's data are most of what this collection is. Write to [larocque.brandon+outreach@gmail.com](mailto:larocque.brandon+outreach@gmail.com).
 
 <p class="ornament ornament--fleuron">❦</p>
 
