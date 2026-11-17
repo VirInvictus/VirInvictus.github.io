@@ -6,7 +6,7 @@ description: "A Soulver-style notepad calculator for Linux: prose and math share
 permalink: /codex/quire/
 ---
 
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">shipping · v1.5.3</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status">shipping · v1.5.6</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/quire-welcome.webp' | relative_url }}" alt="Quire's welcome sheet: the tour with live answers in a right-hand column" loading="lazy">
