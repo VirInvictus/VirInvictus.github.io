@@ -8,6 +8,126 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/CalibreQuarry/3.92.0</id>
+    <title>CalibreQuarry 3.92.0: The duplicate screen learns print-shop junk seeds (issue #68)</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/CalibreQuarry/3.91.0</id>
+    <title>CalibreQuarry 3.91.0: The cover ladder grows a DJVU rung and a page-2 arm (issues #67 and #69)</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/Commonplace/0.3.0</id>
+    <title>Commonplace 0.3.0: The write path and the tag/link layer, Phases 4-5 of the roadmap: the engine now writes notes with nvALT's file rules and carries the tag and link graph, still dependency-free and headless.</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/Commonplace/0.2.0</id>
+    <title>Commonplace 0.2.0: The engine arc, Phases 1-3 of the roadmap: `commonplace-core` now loads a notes folder the way nvALT reads one and powers the find-as-you-type search headlessly.</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/Commonplace/0.1.0</id>
+    <title>Commonplace 0.1.0: Initial skeleton: three-crate workspace (the `commonplace-core` engine, the `commonplace` GTK4 shell, `commonplace-cli`), CI shaped from Docket's hardened workflow, the committed research notes under `research/`, and the port roadmap in `roadmap.md`.</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/bindery-cli/1.2.2</id>
+    <title>bindery-cli 1.2.2: The half-spine veto (issue #35): the shell census read the wrong layout</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/dragon-agents/1.3.3</id>
+    <title>dragon-agents 1.3.3: Two latro charter patches from the standing debug-report duty, batched under the charter-patch policy.</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.2.0-beta.4</id>
+    <title>opends darkfix-ds1 0.2.0-beta.4: `darkfix-ds1` v0.2.0-beta.4</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.2.0-beta.3</id>
+    <title>opends darkfix-ds1 0.2.0-beta.3: `darkfix-ds1` v0.2.0-beta.3</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.2.0-beta.2</id>
+    <title>opends darkfix-ds1 0.2.0-beta.2: `darkfix-ds1` v0.2.0-beta.2</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.10.0</id>
+    <title>opends gpl-asm 0.10.0: `gpl-asm` v0.10.0</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.0</id>
+    <title>opends region-render 0.9.0: `region-render` v0.9.0</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.1</id>
+    <title>opends gpl-disasm 0.9.1: / gpl-asm v0.10.1 / gpl-text v0.1.0</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.1.0</id>
+    <title>opends font-extract 0.1.0: `font-extract` v0.1.0</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.0</id>
+    <title>opends gpl-disasm 0.9.0: `gpl-disasm` v0.9.0</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.5.1</id>
+    <title>opends image-extract 0.5.1: `image-extract` v0.5.1</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.3</id>
+    <title>opends gpl-asm 0.9.3: `gpl-asm` v0.9.3</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.1.1</id>
+    <title>opends ovr-carve 0.1.1: `ovr-carve` v0.1.1</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.7</id>
+    <title>opends save-inspect 0.9.7: `save-inspect` v0.9.7</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.1.1</id>
+    <title>opends audio-extract 0.1.1: `audio-extract` v0.1.1</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.90.0</id>
     <title>CalibreQuarry 3.90.0: Adopt cquarry 1.29.2: the audit-fix wave (issue #66)</title>
     <updated>2026-11-16T00:00:00Z</updated>
@@ -185,126 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/0.8.2</id>
     <title>dragon-agents 0.8.2: workspace-sentinel learns the release-census check: pushed tags with no GitHub Release now rank as findings, alongside entry-without-tag.</title>
     <updated>2026-11-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-10/dragon-agents/0.8.1</id>
-    <title>dragon-agents 0.8.1: Charter hardening before activation (Brandon's pre-install check), both acquisition-pipeline agents.</title>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-10/dragon-agents/0.8.0</id>
-    <title>dragon-agents 0.8.0: Twenty-fifth and twenty-sixth agents: **claw**, the roster's first gated execution seat (import runner), and **shadow**, its read-only phase gate (import auditor).</title>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/CalibreQuarry/3.86.0</id>
-    <title>CalibreQuarry 3.86.0: The cquarry 1.29.1 floor: author_sort flip assembly reaches the import path (issue #52)</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/CalibreQuarry/3.85.0</id>
-    <title>CalibreQuarry 3.85.0: The duplicate screen judges the placeholder pair instead of refusing it (issue #50)</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/bindery-cli/1.1.0</id>
-    <title>bindery-cli 1.1.0: The delimiter-damage repair (issue #26)</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/cquarry/1.29.1</id>
-    <title>cquarry 1.29.1: The author_sort flip assembly (issue #11)</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.23.0</id>
-    <title>hex 0.23.0: The money kit, from the economy-doc mining: the currency tables pinned verbatim, the purse line parsed, and the documented money commands one alias away.</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.22.0</id>
-    <title>hex 0.22.0: Phase 5's offline remainder: the travel annotations, in the shape the data actually supports.</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.21.0</id>
-    <title>hex 0.21.0: Phase 4's offline remainder plus the safety kit the combat-doc mining earned: every line shape in this release is pinned verbatim in the doc mirror, so it all works today, and every send stays behind a user alias.</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.20.0</id>
-    <title>hex 0.20.0: The Phase 1 and Phase 2 finishers: the last unticked box of the 1.x lane and two of Phase 2's leftovers, all offline work the pinned docs and the existing graph already supported.</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.19.0</id>
-    <title>hex 0.19.0: The hunt-and-death awareness release, built straight out of Brandon's own logs: the sweep that mined his session transcripts found the death we thought was uncapturable, the first two consider shapes, the whole corpse family, and one crash that had never been hit yet.</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.18.1</id>
-    <title>hex 0.18.1: A one-line crash fix, found in Brandon's own session logs by the utilization sweep: the MDT people tracker crashed mid-walk on a writtenmap naming a nationality'd carriage driver.</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-09/hex/0.18.0</id>
-    <title>hex 0.18.0: The situational-awareness release: a new family of read-only investigation commands (`hex_scry`) built from the week's actual failure modes: night walks, locked gates, dark rooms, disconnected parcel destinations, and the corpse walk.</title>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/Viaduct/4.4.2</id>
-    <title>Viaduct 4.4.2: link-looking titles can't forge feeds</title>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.17.2</id>
-    <title>hex 0.17.2: The night-walk fix, for real this time: dark rooms push room.info WITHOUT the identifier field (you cannot identify a room you cannot see), and the walker was ignoring exactly those pushes, so a 38-step walk through dark countryside counted &quot;step 0/38&quot; the entire way while successfully moving Brandon every step.</title>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.17.1</id>
-    <title>hex 0.17.1: Two small fixes from live use of the item commands:</title>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.17.0</id>
-    <title>hex 0.17.0: Found live, twice in one night: `/goto` happily routes through climb-window shortcuts (the guild dorm wings connect to the ground floor over the rooftops), and an untrained level-4 student who follows one at spindlewinter night ends up stranded on a ledge with `[none]` exits, a burnt torch, and a full queue of &quot;What?&quot;.</title>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.16.1</id>
-    <title>hex 0.16.1: Two walker bugs from the first live night walk (a 32-step route over the guild rooftops, in the dark, on spindlewinter night; Brandon's Hex life is hard):</title>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.16.0</id>
-    <title>hex 0.16.0: The chat capture finally met a real talker: Brandon joined the Conlegium Sicariorum and its wooden bracelet started chattering.</title>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.15.0</id>
-    <title>hex 0.15.0: Brandon joined the Assassins' Guild on the wire (the captured sequence: application form from the black box in the foyer, south to the secretary, `say apply`), and the score-verbose clause confirmed it: &quot;you are level 3 in the Assassins' Guild&quot;.</title>
-    <updated>2026-11-08T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
