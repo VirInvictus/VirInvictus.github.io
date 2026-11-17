@@ -3,10 +3,118 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-15T00:00:00Z</updated>
+  <updated>2026-11-16T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.90.0</id>
+    <title>CalibreQuarry 3.90.0: Adopt cquarry 1.29.2: the audit-fix wave (issue #66)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.89.1</id>
+    <title>CalibreQuarry 3.89.1: Tests only: the tty-conditional phase-3 pin runs everywhere (issue #64)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.89.0</id>
+    <title>CalibreQuarry 3.89.0: The CLI-surface batch (issues #57, #58, #59)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.88.1</id>
+    <title>CalibreQuarry 3.88.1: The correctness batch (issues #56, #63, #65)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.88.0</id>
+    <title>CalibreQuarry 3.88.0: The pipeline-flow batch (issues #60, #61, #62)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/Docket/1.1.2</id>
+    <title>Docket 1.1.2: The query engine's item-path semantics now match the spec's own pinned reading, three defects deep in the evaluator: step slices bind per context node, so `project/task[0]` yields each project's first task instead of one task overall (the spec's own example, `project *//not @done[0]`, behaves as written); an over-indented line is a child of its nearest shallower item on both the parent and child axes, which previously disagreed; and top-level items are siblings under the document root, so `following-sibling` and `preceding-sibling` stop coming up empty at the outline's top.</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/Docket/1.1.1</id>
+    <title>Docket 1.1.1: The issue-triage repair pass: seven traced defects; the four engine-level ones are pinned by new tests, and the editor's three were fixed at the exact lines the traces named (the app crate carries smoke tests only).</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/Quire/1.5.6</id>
+    <title>Quire 1.5.6: Fixed: a `total` that overflows (`9..9` at 308 digits, twice) no longer crashes the whole app.</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/Quire/1.5.5</id>
+    <title>Quire 1.5.5: Fixed: the conversion arrow `-&gt;` no longer corrupts the tokenizer.</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/Quire/1.5.4</id>
+    <title>Quire 1.5.4: Fixed: three bugs in the line-reference re-pass machinery, found by a deep engine audit.</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/bindery-cli/1.2.1</id>
+    <title>bindery-cli 1.2.1: The latent-lookbehind cleanup (issue #34)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/bindery-cli/1.2.0</id>
+    <title>bindery-cli 1.2.0: The CSS dead-font drop (issue #27)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/bindery-cli/1.1.1</id>
+    <title>bindery-cli 1.1.1: The audit batch (issues #28-#33)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/cquarry/1.29.2</id>
+    <title>cquarry 1.29.2: The audit-fix wave (issues #12-#15)</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/dragon-agents/1.3.2</id>
+    <title>dragon-agents 1.3.2: Two charter patches from dispatch Debug Reports, batched under the charter-patch policy.</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/lattice-music/6.5.0</id>
+    <title>lattice-music 6.5.0: The report discipline: every report mode prints to stdout by default</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/lattice-music/6.4.3</id>
+    <title>lattice-music 6.4.3: Four analysis-correctness fixes</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-16/lattice-music/6.4.2</id>
+    <title>lattice-music 6.4.2: Five machine-surface contract violations, closed</title>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-13/CalibreQuarry/3.87.0</id>
     <title>CalibreQuarry 3.87.0: The phase-1 battery reads the file it is looking at (issues #53, #54, #55)</title>
@@ -197,114 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.15.0</id>
     <title>hex 0.15.0: Brandon joined the Assassins' Guild on the wire (the captured sequence: application form from the black box in the foyer, south to the secretary, `say apply`), and the score-verbose clause confirmed it: &quot;you are level 3 in the Assassins' Guild&quot;.</title>
     <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.14.1</id>
-    <title>hex 0.14.1: Hotfix, same evening: `/goto #1` crashed with &quot;attempt to index a nil value (global 'deps')&quot;.</title>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-08/hex/0.14.0</id>
-    <title>hex 0.14.0: The big one, found the moment Brandon first stood somewhere real and typed `/goto foyer`: **`/goto` had never actually worked.** Every route call received the current room's 40-hex identifier (straight from GMCP via `need_start`), and the pathfinder indexed its graph by vnum only, so the Dijkstra never started, `/goto` printed its candidate list with every entry &quot;unreachable&quot;, and no walk ever launched.</title>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.13.1</id>
-    <title>hex 0.13.1: A live-found fix from Brandon's first walk in Ankh-Morpork: `/near market` from God Street listed five unreachable strangers in Genua and Ephebe while AM's own Job Market rooms never appeared.</title>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.13.0</id>
-    <title>hex 0.13.0: Phase 8's core engineering piece: the fake-GMCP harness. The dead-vitals bug class is now a red CI run instead of a dead status bar at login.</title>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.12.2-dbg</id>
-    <title>hex 0.12.2-dbg: The debug lane's mobile phase: Brandon is out in the real world, so the verification commands grow legs.</title>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.12.1-dbg</id>
-    <title>hex 0.12.1-dbg: A debug release in the v0.5.2-dbg tradition: the capture lane comes back for one specific verification pass (the combat-monitor parse has never seen a real wire line), and `/doctor` ships as the new permanent fixture.</title>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-06/hex/0.12.0</id>
-    <title>hex 0.12.0: The golden engine's fourth layer: route goldens, committed at last now that the licensing call is settled (rooms.db derives from tt_dw's public-domain map, so the fixtures are clean to commit; Brandon confirmed).</title>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/CalibreQuarry/3.84.1</id>
-    <title>CalibreQuarry 3.84.1: the real-instrument screen test runs again (tests only; no behavior changes)</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/CalibreQuarry/3.84.0</id>
-    <title>CalibreQuarry 3.84.0: the cquarry 1.29.0 floor: the Calibre 9.18 date-search vocabulary (issue #49)</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/Carrel-calibre-web/0.6.48</id>
-    <title>Carrel-calibre-web 0.6.48: The Python 3.15 venv rebuild</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/bindery-cli/1.0.0</id>
-    <title>bindery-cli 1.0.0: 1.0: the contract is the promise</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/bindery-cli/0.64.0</id>
-    <title>bindery-cli 0.64.0: --prune-dead-spine: the shell repair</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/cquarry/1.29.0</id>
-    <title>cquarry 1.29.0: The Calibre 9.18 date-search vocabulary</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.11.0</id>
-    <title>hex 0.11.0: Phase 8's golden-test engine lands, and pays for itself in its first hour: the synthetic layer caught two real shipped bugs in the Quow query builders before it even left the workshop.</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.10.0</id>
-    <title>hex 0.10.0: Phase 5 slice 2 opens: the written-map people tracker (MDT), the first consumer of GMCP `room.writtenmap`.</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.9.0</id>
-    <title>hex 0.9.0: Phase 8's first slice: continuous integration, cut before anything else ships.</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.8.1</id>
-    <title>hex 0.8.1: The Phase 8 shim arrives early, exactly as the first live session demanded. Plus the live-session hotfixes from v0.8.0's first run on a real character.</title>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-05/hex/0.8.0</id>
-    <title>hex 0.8.0: Phase 7's comfort core: theme, a real options engine, and sound, all defaults-preserving and notify-driven (sound triggers are explicitly legal per concepts/automation).</title>
-    <updated>2026-11-05T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
