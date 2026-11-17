@@ -6,7 +6,7 @@ description: "A command-line surgeon for malformed EPUBs: deterministic fixes co
 permalink: /codex/bindery/
 ---
 
-<p class="codex-meta">Python (tqdm, vir-tui) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.0.0</span></p>
+<p class="codex-meta">Python (tqdm, vir-tui) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.2.1</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/bindery-cli-sweep.webp' | relative_url }}" alt="bindery-cli's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">

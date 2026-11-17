@@ -6,7 +6,7 @@ description: "A Discworld MUD plugin suite for Blightmud: GMCP vitals, Quow data
 permalink: /codex/hex/
 ---
 
-<p class="codex-meta">Lua 5.4 <span class="stack-sep">·</span> stdlib Python <span class="stack-sep">·</span> <span class="status">active · pre-release</span></p>
+<p class="codex-meta">Lua 5.4 <span class="stack-sep">·</span> stdlib Python <span class="stack-sep">·</span> <span class="status">active · v0.23.0</span></p>
 
 Discworld MUD has twenty-five years of player tooling, and nearly all of it orbits two artifacts: Quow's database, the community's index of seventeen thousand rooms and ten thousand items, and tt_dw, the TinTin++ suite that carries that data to the terminal. Blightmud, the Rust terminal client, had neither. Hex is the port: it was the first Discworld plugin suite the client ever had, because when I checked in November 2026 there was nothing there at all.
 
