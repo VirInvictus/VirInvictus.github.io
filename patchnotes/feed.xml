@@ -8,6 +8,12 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.6.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-17/CalibreQuarry/3.93.0</id>
+    <title>CalibreQuarry 3.93.0: The evidence extractor widens past a late copyright leaf (issue #70)</title>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-17/CalibreQuarry/3.92.0</id>
     <title>CalibreQuarry 3.92.0: The duplicate screen learns print-shop junk seeds (issue #68)</title>
     <updated>2026-11-17T00:00:00Z</updated>
@@ -298,12 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/0.9.0</id>
     <title>dragon-agents 0.9.0: The second founding-rule amendment (Brandon's write-forward pass): five audit-and-fix seats gain chartered write lanes under the fence model.</title>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-11/dragon-agents/0.8.2</id>
-    <title>dragon-agents 0.8.2: workspace-sentinel learns the release-census check: pushed tags with no GitHub Release now rank as findings, alongside entry-without-tag.</title>
     <updated>2026-11-11T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
