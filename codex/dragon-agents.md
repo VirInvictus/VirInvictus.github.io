@@ -6,7 +6,7 @@ description: "A local ZCode plugin of thirty research subagents: twenty-one read
 permalink: /codex/dragon-agents/
 ---
 
-<p class="codex-meta">Markdown <span class="stack-sep">·</span> Python (stdlib) <span class="stack-sep">·</span> <span class="status">active · v1.4.0</span></p>
+<p class="codex-meta">Markdown <span class="stack-sep">·</span> Python (stdlib) <span class="stack-sep">·</span> <span class="status">active · v1.5.0</span></p>
 
 The research half of the agent workflow, packaged. dragon-agents is a local plugin for the ZCode agent client: thirty subagents. Twenty-one are read-only: restricted to Read and Bash, forbidden from committing or spawning subagents of their own; they gather and report. Nine carry chartered write lanes, and every lane runs inside a structural fence: a named scope, a clean-tree precondition, a re-verification step, and never a commit. The point is unchanged, only sharper: writes are safe exactly where the gate is structural, so the fences let the fixing scale without the deciding moving an inch.
 
