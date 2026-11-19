@@ -6,7 +6,13 @@
   <updated>2026-11-18T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
-  <generator>annals 0.6.0</generator>
+  <generator>annals 0.7.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-18/annals/0.7.0</id>
+    <title>annals 0.7.0: The Adoption section: package download totals in the record, so the work log shows reach alongside the work.</title>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-18/dragon-agents/1.6.0</id>
     <title>dragon-agents 1.6.0: The comparative-design and marketing wave: one new read-only seat, the fleet's first in-repo authored skill, four charter patches from the comparative seat-design report, the evals convention, and a README rebuilt for readability.</title>
@@ -298,12 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-16/bindery-cli/1.2.0</id>
     <title>bindery-cli 1.2.0: The CSS dead-font drop (issue #27)</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/bindery-cli/1.1.1</id>
-    <title>bindery-cli 1.1.1: The audit batch (issues #28-#33)</title>
     <updated>2026-11-16T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
