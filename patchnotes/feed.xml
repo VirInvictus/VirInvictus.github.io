@@ -3,10 +3,76 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-19T00:00:00Z</updated>
+  <updated>2026-11-20T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.7.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/Commonplace/0.6.1</id>
+    <title>Commonplace 0.6.1: vir-gtk 1.5.0 adoption: the app-tier quiet-toggle shim is gone; the upstream default now does what it was fighting for.</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/Commonplace/0.6.0</id>
+    <title>Commonplace 0.6.0: The app rises, Phases 10-11 of the roadmap: the first GTK4 window, the live list, and the search-field state machine that is the whole reason the port exists.</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/Commonplace/0.5.0</id>
+    <title>Commonplace 0.5.0: The CLI arc, Phases 8-9 of the roadmap: the first runnable artifact.</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/Commonplace/0.4.0</id>
+    <title>Commonplace 0.4.0: The render boundary and export core, Phases 6-7 of the roadmap: with this release the engine is feature-complete (it loads, searches, sorts, filters, writes, tags, links, renders, and exports a notes folder, all headless), and the CLI and GUI arcs are next.</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/Docket/1.1.3</id>
+    <title>Docket 1.1.3: vir-gtk lock moved 1.4.3 → 1.5.0 (`d37ef6e`): the shared base sheet's checked/active default went quiet (upstream issue #1; state display stops spending the accent).</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/Greyfall/0.1.0</id>
+    <title>Greyfall 0.1.0: Project Seeded</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/bindery-cli/1.2.4</id>
+    <title>bindery-cli 1.2.4: The cover analyzer resolves hrefs against the OPF (issue #36)</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/bindery-cli/1.2.3</id>
+    <title>bindery-cli 1.2.3: The census cap fix: observe against epubcheck 5.4.0</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/dragon-agents/1.6.2</id>
+    <title>dragon-agents 1.6.2: One charter patch from the standing debug-report duty (issue #12): the pixel-judge Bash allowlist gains `magick` (`convert` as the ImageMagick 6 name) so a dispatch can crop a capture region and print channel statistics instead of eyeballing a low-amplitude artifact (recorded live on a phase-10 window acceptance, where the seat could not quantify a faint ghost region because only full-file `identify` was allowlisted).</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/dragon-agents/1.6.1</id>
+    <title>dragon-agents 1.6.1: Four charter patches from the standing debug-report duty, batched under the 2026-11-13 policy.</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/vir-gtk/1.5.0</id>
+    <title>vir-gtk 1.5.0: The base sheet's checked default goes quiet: state display stops spending the accent (issue #1).</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-18/annals/0.7.0</id>
     <title>annals 0.7.0: The Adoption section: package download totals in the record, so the work log shows reach alongside the work.</title>
@@ -238,72 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.90.0</id>
     <title>CalibreQuarry 3.90.0: Adopt cquarry 1.29.2: the audit-fix wave (issue #66)</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.89.1</id>
-    <title>CalibreQuarry 3.89.1: Tests only: the tty-conditional phase-3 pin runs everywhere (issue #64)</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.89.0</id>
-    <title>CalibreQuarry 3.89.0: The CLI-surface batch (issues #57, #58, #59)</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.88.1</id>
-    <title>CalibreQuarry 3.88.1: The correctness batch (issues #56, #63, #65)</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.88.0</id>
-    <title>CalibreQuarry 3.88.0: The pipeline-flow batch (issues #60, #61, #62)</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/Docket/1.1.2</id>
-    <title>Docket 1.1.2: The query engine's item-path semantics now match the spec's own pinned reading, three defects deep in the evaluator: step slices bind per context node, so `project/task[0]` yields each project's first task instead of one task overall (the spec's own example, `project *//not @done[0]`, behaves as written); an over-indented line is a child of its nearest shallower item on both the parent and child axes, which previously disagreed; and top-level items are siblings under the document root, so `following-sibling` and `preceding-sibling` stop coming up empty at the outline's top.</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/Docket/1.1.1</id>
-    <title>Docket 1.1.1: The issue-triage repair pass: seven traced defects; the four engine-level ones are pinned by new tests, and the editor's three were fixed at the exact lines the traces named (the app crate carries smoke tests only).</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/Quire/1.5.6</id>
-    <title>Quire 1.5.6: Fixed: a `total` that overflows (`9..9` at 308 digits, twice) no longer crashes the whole app.</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/Quire/1.5.5</id>
-    <title>Quire 1.5.5: Fixed: the conversion arrow `-&gt;` no longer corrupts the tokenizer.</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/Quire/1.5.4</id>
-    <title>Quire 1.5.4: Fixed: three bugs in the line-reference re-pass machinery, found by a deep engine audit.</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/bindery-cli/1.2.1</id>
-    <title>bindery-cli 1.2.1: The latent-lookbehind cleanup (issue #34)</title>
-    <updated>2026-11-16T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/bindery-cli/1.2.0</id>
-    <title>bindery-cli 1.2.0: The CSS dead-font drop (issue #27)</title>
     <updated>2026-11-16T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
