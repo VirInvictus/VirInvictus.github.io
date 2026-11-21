@@ -3,10 +3,22 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-20T00:00:00Z</updated>
+  <updated>2026-11-21T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.7.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-21/bindery-cli/1.2.6</id>
+    <title>bindery-cli 1.2.6: The strip never takes a document's own numbering (issue #38: Don Juan lost 62 stanza numbers)</title>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-21/bindery-cli/1.2.5</id>
+    <title>bindery-cli 1.2.5: The pagination strip refuses layout it does not own (the All About Cake cookbook)</title>
+    <updated>2026-11-21T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-20/Commonplace/0.6.1</id>
     <title>Commonplace 0.6.1: vir-gtk 1.5.0 adoption: the app-tier quiet-toggle shim is gone; the upstream default now does what it was fighting for.</title>
@@ -292,18 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.1.1</id>
     <title>opends ovr-carve 0.1.1: `ovr-carve` v0.1.1</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.7</id>
-    <title>opends save-inspect 0.9.7: `save-inspect` v0.9.7</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.1.1</id>
-    <title>opends audio-extract 0.1.1: `audio-extract` v0.1.1</title>
     <updated>2026-11-17T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
