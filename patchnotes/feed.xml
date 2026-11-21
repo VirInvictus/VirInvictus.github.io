@@ -44,6 +44,12 @@
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-20/Quire/1.5.7</id>
+    <title>Quire 1.5.7: vir-gtk lock moved 1.4.3 → 1.5.0 (`d37ef6e`): the shared base sheet's checked/active default went quiet (upstream issue #1; state display stops spending the accent).</title>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-20/bindery-cli/1.2.4</id>
     <title>bindery-cli 1.2.4: The cover analyzer resolves hrefs against the OPF (issue #36)</title>
     <updated>2026-11-20T00:00:00Z</updated>
@@ -299,12 +305,6 @@
     <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.1.1</id>
     <title>opends audio-extract 0.1.1: `audio-extract` v0.1.1</title>
     <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-16/CalibreQuarry/3.90.0</id>
-    <title>CalibreQuarry 3.90.0: Adopt cquarry 1.29.2: the audit-fix wave (issue #66)</title>
-    <updated>2026-11-16T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
 </feed>
