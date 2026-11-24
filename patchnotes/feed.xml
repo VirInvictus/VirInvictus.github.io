@@ -8,6 +8,12 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.7.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.96.2</id>
+    <title>CalibreQuarry 3.96.2: The documentation audit pass: the role-split reorg, the drift fixes, and the quarry-wall logo</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.96.1</id>
     <title>CalibreQuarry 3.96.1: Re-tag at green: the v3.96.0 tag carried a red-CI lint miss</title>
     <updated>2026-11-24T00:00:00Z</updated>
@@ -44,6 +50,12 @@
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/bindery-cli/1.2.9</id>
+    <title>bindery-cli 1.2.9: The docs pass: one flag reference, a spec without history, a README that is the manual</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-24/bindery-cli/1.2.8</id>
     <title>bindery-cli 1.2.8: The stub drop's existence set reaches the prune: links into dropped stubs read as absent (the Goldfinger ten)</title>
     <updated>2026-11-24T00:00:00Z</updated>
@@ -64,6 +76,18 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-24/cquarry-plugins/0.5.0</id>
     <title>cquarry-plugins 0.5.0: The quality_check port lands (Phase 3): the battery as a multi-file package riding host 3.96.0's package loader (api_version 3, floor calibrequarry &gt;= 3.96.1).</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/dragon-agents/1.6.4</id>
+    <title>dragon-agents 1.6.4: Two charter patches from the standing debug-report duty, batched under the 2026-11-13 policy.</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/lattice-music/3656af906283</id>
+    <title>lattice-music: no version bump: the docs pass</title>
     <updated>2026-11-24T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
@@ -280,30 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-17/CalibreQuarry/3.93.0</id>
     <title>CalibreQuarry 3.93.0: The evidence extractor widens past a late copyright leaf (issue #70)</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/CalibreQuarry/3.92.0</id>
-    <title>CalibreQuarry 3.92.0: The duplicate screen learns print-shop junk seeds (issue #68)</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/CalibreQuarry/3.91.0</id>
-    <title>CalibreQuarry 3.91.0: The cover ladder grows a DJVU rung and a page-2 arm (issues #67 and #69)</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Catagotchi/4.51.2</id>
-    <title>Catagotchi 4.51.2: The Releases Page Gets the Real Notes</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Catagotchi/4.51.1</id>
-    <title>Catagotchi 4.51.1: The Docs Tell the Truth</title>
     <updated>2026-11-17T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
