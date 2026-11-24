@@ -190,7 +190,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <div class="card-header">
 <span class="codex-num">No. 011</span>
 <h3><a href="{{ '/codex/bindery/' | relative_url }}">bindery-cli</a></h3>
-<p class="codex-meta">Python (tqdm, vir-tui) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.2.8</span></p>
+<p class="codex-meta">Python (tqdm, vir-tui) <span class="stack-sep">·</span> epubcheck <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.2.9</span></p>
 </div>
 <div class="codex-plate">
 <img src="{{ '/assets/img/bindery-cli-sweep.webp' | relative_url }}" alt="bindery-cli's dry-run library sweep: per-book epubcheck results above a summary table ending in 'no files written'" loading="lazy">
