@@ -148,6 +148,15 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 <p class="card-desc">A soulver-style notepad calculator: prose and math share one plain-text sheet and every expression answers in a right-hand results column, with dimension-checked units, currency, and line references that renumber themselves.</p>
 <p class="card-link-container"><a href="{{ '/codex/quire/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
 </div>
+<div class="codex-card">
+<div class="card-header">
+<span class="codex-num">No. 025</span>
+<h3><a href="{{ '/codex/commonplace/' | relative_url }}">Commonplace</a></h3>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v0.6.1</span></p>
+</div>
+<p class="card-desc">The notational velocity line, ported to linux: one search field finds notes and becomes them when nothing matches, over a plain folder of files. The engine speaks nvALT's exact query semantics with no inverted index by design, the cli drives it with twelve verbs, and the gtk4 shell carries the search field, the live list, and the file watching.</p>
+<p class="card-link-container"><a href="{{ '/codex/commonplace/' | relative_url }}" class="card-link">View Details &rarr;</a></p>
+</div>
 </div>
 
 ### Books & Calibre
@@ -344,7 +353,7 @@ Native Linux desktop software sits at the centre, with games, KOReader companion
 
 ### The rest of the codex
 
-The collection keeps twelve more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [hex]({{ '/codex/hex/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}).
+The collection keeps twelve more volumes on the shelf, each with its own page: [AudiobookTools]({{ '/codex/audiobooktools/' | relative_url }}), [Catagotchi]({{ '/codex/catagotchi/' | relative_url }}), [crash-course]({{ '/codex/crash-course/' | relative_url }}), [Haveli]({{ '/codex/haveli/' | relative_url }}), [Hearth]({{ '/codex/hearth/' | relative_url }}), [hex]({{ '/codex/hex/' | relative_url }}), [opends]({{ '/codex/opends/' | relative_url }}), [project-void]({{ '/codex/project-void/' | relative_url }}), [project-yeschef]({{ '/codex/project-yeschef/' | relative_url }}), [Topograph]({{ '/codex/topograph/' | relative_url }}), [vir-tui]({{ '/codex/vir-tui/' | relative_url }}), and [whisker-street]({{ '/codex/whisker-street/' | relative_url }}). The [cquarry-plugins](https://github.com/VirInvictus/cquarry-plugins) monorepo, the GPL-3 ports feeding [CalibreQuarry]({{ '/codex/calibrequarry/' | relative_url }})'s new plugin system, rides without a page of its own until its first plugin ships.
 
 <!-- The front-page ledger line: written nightly by the annals repo to
 _includes/ledger.md. Generator-owned; never hand-edit the include. -->
