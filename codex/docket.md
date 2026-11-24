@@ -6,7 +6,7 @@ description: "Plain-text task lists for Linux: a native GTK4 editor, clean-room 
 permalink: /codex/docket/
 ---
 
-<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> GtkSourceView <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.1.2</span></p>
+<p class="codex-meta">Rust <span class="stack-sep">·</span> GTK4 <span class="stack-sep">·</span> GtkSourceView <span class="stack-sep">·</span> <span class="status status--shipping">shipping · v1.1.3</span></p>
 
 <div class="codex-plate">
   <img src="{{ '/assets/img/docket-dark.png' | relative_url }}" alt="Docket's start page: a working checklist, live searches, tags, and the sidebar" loading="lazy">
