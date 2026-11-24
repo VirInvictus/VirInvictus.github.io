@@ -3,10 +3,112 @@
   <title>The Annals</title>
   <subtitle>Every release entry from the Vir Invictus workspace's patchnotes, newest first.</subtitle>
   <id>tag:virinvictus.github.io,2026:/patchnotes/</id>
-  <updated>2026-11-22T00:00:00Z</updated>
+  <updated>2026-11-24T00:00:00Z</updated>
   <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.7.0</generator>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.95.3</id>
+    <title>CalibreQuarry 3.95.3: The WriteGate carries the merge-field seams the actions half needs</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.95.2</id>
+    <title>CalibreQuarry 3.95.2: Contract 3: the plan seam -- dry runs may build label/action pairs</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.95.1</id>
+    <title>CalibreQuarry 3.95.1: The WriteGate grows the action seams: formats, entity renames, book removal</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.95.0</id>
+    <title>CalibreQuarry 3.95.0: The plugin API contract grows to 2: the per-plugin config seam</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/bindery-cli/1.2.8</id>
+    <title>bindery-cli 1.2.8: The stub drop's existence set reaches the prune: links into dropped stubs read as absent (the Goldfinger ten)</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/CalibreQuarry/3.94.2</id>
+    <title>CalibreQuarry 3.94.2: `plugin run`'s verb tail passes verbatim (REMAINDER), host flags first</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/CalibreQuarry/3.94.1</id>
+    <title>CalibreQuarry 3.94.1: The WriteGate's plan output carries the label pairs run_write_batch consumes</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/CalibreQuarry/3.94.0</id>
+    <title>CalibreQuarry 3.94.0: The plugin system host (Phase 21): git-sourced plugins over a registry</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/Viaduct/4.4.4</id>
+    <title>Viaduct 4.4.4: Reddit feeds stop getting fetched</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/bindery-cli/1.2.7</id>
+    <title>bindery-cli 1.2.7: The EPUB2 fixes read a prefixed package, image carriers keep their placeholder text, and every prune drops the guide references it orphans (the Morimoto cookbook)</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/cquarry-plugins/0.4.2</id>
+    <title>cquarry-plugins 0.4.2: CARRIERS: v0.4.1 shipped with the root VERSION still reading 0.4.0 (the bump script updated pyproject and patchnotes but missed the VERSION file and pyproject), and the actions suite's version pin still asserted 0.4.0 -- the version-sync gate caught both, and the release went out anyway, which is exactly the failure mode the gate exists to prevent.</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/cquarry-plugins/0.4.1</id>
+    <title>cquarry-plugins 0.4.1: ERRATUM for v0.4.0, whose CI ran red after the tag: the merge verb's fill/union fields plan through seven WriteGate methods (plan_set_authors, plan_add_tags, plan_set_languages, plan_set_rating, plan_set_pubdate, plan_set_publisher, plan_set_comments) that were written but left UNCOMMITTED in the host repo when v0.4.0 shipped, so every merge test failed on the released host (`plan_set_authors` missing).</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/cquarry-plugins/0.4.0</id>
+    <title>cquarry-plugins 0.4.0: The find_duplicates actions land (Phase 2's actions half, contract 3): `merge --keeper ID --ids ID,ID [--fields ...]` carries calibre's merge behind the gates -- formats copied into the keeper's directory and registered (a format the keeper already carries stays), the chosen fields fill/union into the keeper (a conflicting identifier is reviewer-visible and never overwritten), and the absorbed rows are removed in the same one-batch transaction; the plan prints in BOTH modes (the plan is the record under --apply too, so a CONFLICT line is never invisible), and the file copies happen outside the batch.</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/cquarry-plugins/0.3.0</id>
+    <title>cquarry-plugins 0.3.0: The find_duplicates port lands (Phase 2, the read half): the matcher ladder carried verbatim (identical / similar with the automerge strip / soundex with the adjustable per-field lengths / fuzzy with its aggressive reductions, the author reversal hashes, the ignore-word lists; the recorded tags-soundex length correction noted for the variations half), the three search types (title/author with the reversed-author hash, binary compare over the two-pass size-then-sha walk with an mtime-keyed sha cache in the plugin config, identifier exact-equality), the grouping pipeline with upstream's exemption partition (the don't-repartition subtlety ported with its comment), per-library exemptions stored in the plugin config under contract 2 (`exempt --books/--authors/--list/ --remove/--clear`; upstream's library-database prefs is the recorded storage substitution, keyed by the absolute library path), the cross-library mode (`search --against PATH`, report-only, no exemptions), and the group report as text or `--format json` in upstream's export shape (the recorded replacement for the GUI's marked-book highlighting).</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/cquarry-plugins/0.2.0</id>
+    <title>cquarry-plugins 0.2.0: The extract_isbn port lands (Phase 1): the scanner (upstream's regex, strip passes, -10/-13 prefix handling, same-digit rejection, and validation order; the checksum formulas ported from calibre's check_isbn), the EPUB spine windows (stdlib zip + container.xml + OPF parsing under the EPUB_FILE_SCANS table), the PDF page windows (pdftotext + pdfinfo; the 100-byte near-empty extraction is the recorded encrypted/image-only decline), and the scan verb with upstream's failure classes carried: the dry run reports found / same / CONFLICT / none-found / no-format per book (a stored different ISBN is reviewer-visible, never auto-overwritten; the changed-ids line is pipe-ready) and the host's --apply writes through the WriteGate.</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/opends/0.4.1</id>
+    <title>opends ovr-map 0.4.1: `ovr-map` v0.4.1</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/opends/da37d713de74</id>
+    <title>opends: Documentation audit and the daaki85 worklist</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-22/lattice-music/6.6.0</id>
     <title>lattice-music 6.6.0: --exportDb: the library hierarchy as a SQLite database</title>
@@ -202,108 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-17/Conservatory/0.10.1</id>
     <title>Conservatory 0.10.1: the Release mint reads the tag object</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Conservatory/0.10.0</id>
-    <title>Conservatory 0.10.0: the master-store browse</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Conservatory/0.9.2</id>
-    <title>Conservatory 0.9.2: the gate-defect wave</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Framework/1.0.3</id>
-    <title>Framework 1.0.3: The tracker-reconciliation release: the one genuinely open defect from the 2026-11-13 ring audit's move of the 2026-09-12 wave-4 findings to GitHub (issue #3) is fixed, with a regression test that fails without the guard.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Hearth/0.13.70</id>
-    <title>Hearth 0.13.70: The move-catalog sync test: the drift class both tracker issues exemplified can no longer ride a release.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Hearth/0.13.69</id>
-    <title>Hearth 0.13.69: The tracker-close release: issues #1 and #2 re-verified against the tree, their live residuals fixed, and the docs brought to the post-blitz truth.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/bindery-cli/1.2.2</id>
-    <title>bindery-cli 1.2.2: The half-spine veto (issue #35): the shell census read the wrong layout</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/dragon-agents/1.3.3</id>
-    <title>dragon-agents 1.3.3: Two latro charter patches from the standing debug-report duty, batched under the charter-patch policy.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.2.0-beta.4</id>
-    <title>opends darkfix-ds1 0.2.0-beta.4: `darkfix-ds1` v0.2.0-beta.4</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.2.0-beta.3</id>
-    <title>opends darkfix-ds1 0.2.0-beta.3: `darkfix-ds1` v0.2.0-beta.3</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.2.0-beta.2</id>
-    <title>opends darkfix-ds1 0.2.0-beta.2: `darkfix-ds1` v0.2.0-beta.2</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.10.0</id>
-    <title>opends gpl-asm 0.10.0: `gpl-asm` v0.10.0</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.0</id>
-    <title>opends region-render 0.9.0: `region-render` v0.9.0</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.1</id>
-    <title>opends gpl-disasm 0.9.1: / gpl-asm v0.10.1 / gpl-text v0.1.0</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.1.0</id>
-    <title>opends font-extract 0.1.0: `font-extract` v0.1.0</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.0</id>
-    <title>opends gpl-disasm 0.9.0: `gpl-disasm` v0.9.0</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.5.1</id>
-    <title>opends image-extract 0.5.1: `image-extract` v0.5.1</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/opends/0.9.3</id>
-    <title>opends gpl-asm 0.9.3: `gpl-asm` v0.9.3</title>
     <updated>2026-11-17T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
