@@ -23,7 +23,7 @@ remain canonical; this file is a projection, reproducible with
 |---|---|---:|---|---|---:|---|
 | [Atrium](https://github.com/VirInvictus/Atrium) | Native Linux task manager: Org-mode internals, Things 3 / OmniFocus surface, local-first SQLite. | 173 | 0.77.0 | 2026-11-17 | 366 | 2026-05-05 |
 | [Conservatory](https://github.com/VirInvictus/Conservatory) | Calibre for audio: a native library manager that owns and moves music, podcasts, and audiobooks on disk, with a libmpv player. | 163 | 0.10.1 | 2026-11-17 | 302 | 2026-05-27 |
-| [CalibreQuarry](https://github.com/VirInvictus/CalibreQuarry) | CLI toolkit over Calibre's metadata.db: catalogs, stats, audits, parity search, and a pre-import curation screen. | 147 | 3.96.1 | 2026-11-24 | 447 | 2026-03-27 |
+| [CalibreQuarry](https://github.com/VirInvictus/CalibreQuarry) | CLI toolkit over Calibre's metadata.db: catalogs, stats, audits, parity search, and a pre-import curation screen. | 148 | 3.96.2 | 2026-11-24 | 448 | 2026-03-27 |
 | [Viaduct](https://github.com/VirInvictus/Viaduct) | Linux port of NetNewsWire: local-first RSS reader, single-writer SQLite, FTS5 search, Inoreader sync. | 132 | 4.4.4 | 2026-11-23 | 264 | 2026-04-19 |
 | [lattice-music](https://github.com/VirInvictus/lattice-music) | CLI/TUI for music collections: ~30 read-only audit and visualization modes with the filesystem as source of truth; writes are explicit and opt-in. | 111 | 6.6.0 | 2026-11-22 | 348 | 2025-08-10 |
 | Catagotchi | Cozy cat tamagotchi wrapped around an idle empire; everything on screen is generated in code (Godot). | 106 | 4.51.2 | 2026-11-17 | 169 | 2026-07-10 |
@@ -136,6 +136,7 @@ Package downloads from PyPI and crates.io, without mirrors, as of 2026-11-23. Th
 
 #### November 2026
 
+- **11-24 · CalibreQuarry 3.96.2** · The docs audit pass: the role-split reorg, the drift fixes, and the quarry-wall logo
 - **11-24 · CalibreQuarry 3.96.1** · Re-tag at green: the v3.96.0 tag carried a red-CI lint miss
 - **11-24 · CalibreQuarry 3.96.0** · Multi-file plugins: the loader's package half
 - **11-24 · CalibreQuarry 3.95.3** · The WriteGate carries the merge-field seams the actions half needs
