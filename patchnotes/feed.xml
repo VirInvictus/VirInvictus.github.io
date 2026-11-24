@@ -8,6 +8,18 @@
   <link rel="self" href="https://virinvictus.github.io/patchnotes/feed.xml"/>
   <generator>annals 0.7.0</generator>
   <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.96.1</id>
+    <title>CalibreQuarry 3.96.1: Re-tag at green: the v3.96.0 tag carried a red-CI lint miss</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.96.0</id>
+    <title>CalibreQuarry 3.96.0: Multi-file plugins: the loader's package half</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-24/CalibreQuarry/3.95.3</id>
     <title>CalibreQuarry 3.95.3: The WriteGate carries the merge-field seams the actions half needs</title>
     <updated>2026-11-24T00:00:00Z</updated>
@@ -34,6 +46,24 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-24/bindery-cli/1.2.8</id>
     <title>bindery-cli 1.2.8: The stub drop's existence set reaches the prune: links into dropped stubs read as absent (the Goldfinger ten)</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/cquarry-plugins/0.5.2</id>
+    <title>cquarry-plugins 0.5.2: TESTS: the quality_check suite's own `_load_plugin` helper never registered the loaded module in sys.modules before exec_module -- the harness's loader does exactly that, and a multi-file package's relative imports resolve their parent THROUGH sys.modules, so the suite failed to import wherever the harness's registration hadn't already primed the name.</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/cquarry-plugins/0.5.1</id>
+    <title>cquarry-plugins 0.5.1: ERRATUM for v0.5.0, found by the dogfood drill the moment the package loaded outside its repository root: the package's imports were ABSOLUTE (`from quality_check import ...`), which only resolve when the repo root happens to be on sys.path -- everywhere else the battery died with ModuleNotFoundError before the first check ran.</title>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-24/cquarry-plugins/0.5.0</id>
+    <title>cquarry-plugins 0.5.0: The quality_check port lands (Phase 3): the battery as a multi-file package riding host 3.96.0's package loader (api_version 3, floor calibrequarry &gt;= 3.96.1).</title>
     <updated>2026-11-24T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
@@ -94,6 +124,12 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-23/cquarry-plugins/0.2.0</id>
     <title>cquarry-plugins 0.2.0: The extract_isbn port lands (Phase 1): the scanner (upstream's regex, strip passes, -10/-13 prefix handling, same-digit rejection, and validation order; the checksum formulas ported from calibre's check_isbn), the EPUB spine windows (stdlib zip + container.xml + OPF parsing under the EPUB_FILE_SCANS table), the PDF page windows (pdftotext + pdfinfo; the 100-byte near-empty extraction is the recorded encrypted/image-only decline), and the scan verb with upstream's failure classes carried: the dry run reports found / same / CONFLICT / none-found / no-format per book (a stored different ISBN is reviewer-visible, never auto-overwritten; the changed-ids line is pipe-ready) and the host's --apply writes through the WriteGate.</title>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
+  </entry>
+  <entry>
+    <id>tag:virinvictus.github.io,2026:2026-11-23/dragon-agents/1.6.3</id>
+    <title>dragon-agents 1.6.3: Two charter patches from the standing debug-report duty, batched under the 2026-11-13 policy.</title>
     <updated>2026-11-23T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
@@ -268,42 +304,6 @@
   <entry>
     <id>tag:virinvictus.github.io,2026:2026-11-17/Catagotchi/4.51.1</id>
     <title>Catagotchi 4.51.1: The Docs Tell the Truth</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Colophon/2.6.2</id>
-    <title>Colophon 2.6.2: A release-engineering fix, cutting its own proof: nothing in the app changes, and no number moves.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Colophon/2.6.1</id>
-    <title>Colophon 2.6.1: A maintenance release from the CI-repair lane: nothing you see moves, and none of your numbers change.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Commonplace/0.3.0</id>
-    <title>Commonplace 0.3.0: The write path and the tag/link layer, Phases 4-5 of the roadmap: the engine now writes notes with nvALT's file rules and carries the tag and link graph, still dependency-free and headless.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Commonplace/0.2.0</id>
-    <title>Commonplace 0.2.0: The engine arc, Phases 1-3 of the roadmap: `commonplace-core` now loads a notes folder the way nvALT reads one and powers the find-as-you-type search headlessly.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Commonplace/0.1.0</id>
-    <title>Commonplace 0.1.0: Initial skeleton: three-crate workspace (the `commonplace-core` engine, the `commonplace` GTK4 shell, `commonplace-cli`), CI shaped from Docket's hardened workflow, the committed research notes under `research/`, and the port roadmap in `roadmap.md`.</title>
-    <updated>2026-11-17T00:00:00Z</updated>
-    <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
-  </entry>
-  <entry>
-    <id>tag:virinvictus.github.io,2026:2026-11-17/Conservatory/0.10.1</id>
-    <title>Conservatory 0.10.1: the Release mint reads the tag object</title>
     <updated>2026-11-17T00:00:00Z</updated>
     <link rel="alternate" href="https://virinvictus.github.io/patchnotes/"/>
   </entry>
